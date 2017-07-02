@@ -25,10 +25,10 @@ for t = 1:sampleSize
     quaternion(t,:) = AHRS.Quaternion;
     
     % To get the directions to match up on the plots, the new angles need
-    % to be multiplied by -1. I don't know why this isn't done somewhere in
-    % the filter.
-    ...euler(t,:) = quatern2euler(quaternion(t,:));
-    euler(t,:) = -1*quatern2euler(quaternion(t,:));
+    % to be multiplied by -1. I don't know why this isn't done in the
+    % library.
+    euler(t,:) = quatern2euler(quaternion(t,:));
+    ...euler(t,:) = -1*quatern2euler(quaternion(t,:));
 end
 
 % AccRotated = Acc*rotm^-1
