@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="verify-v1" content="BXkOWcTHpEIHsaiI4T8cQwVghsgXd7NlIg+083NTZNI=">
+  <meta name="DCSext.language_option" content="en" />
+  <meta name="DCSext.en_ti" content="Welcome to NXP Semiconductors" />
+  <meta name="DCSext.page_template" content="Main_Homepage" />
+  <meta name="baidu-site-verification" content="K9kPMSVOyB" />
+  <meta name="msvalidate.01" content="7A3A441EEF38540BD996CCEE9E0EB1F2" />
+  <link rel="icon" href="//www.nxp.com/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/resources/css/nxp-web.min.css"> 
+<link rel="stylesheet" href="/resources/css/nxp-legacy.min.css">
+  <script>
+var conflict = false; 
+if(typeof $ != "undefined") 
+	conflict = true;
+</script>
+
+<script type="text/javascript" src="/resources/scripts/jquery.min3.1.js" ></script>
+<script type="text/javascript" src="/resources/scripts/bootstrap.min.3.3.7.js" ></script>
+<script type="text/javascript" src="/resources/scripts/jquery.mmenu.all.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/nxp-cms/global-nav.js"></script>
+
+<script type="text/javascript">
+var jQuery_1_9_1 = jQuery;
+if(conflict) 
+	jQuery_1_9_1 = jQuery.noConflict(true);
+</script>
+<script type="text/javascript" src="/search/javascript/gsa_suggestions.js"></script>
+<title>Package Search</title>
+   	 		
+   		<script>
+var LANG_CD_LIST = "zh-Hans,ja,ko";
+var URL_DOMAIN = "www.nxp.com";
+var URL_MAJOR_DOMAIN = "nxp.com";
+var CACHE_URL_DOMAINS = ["cache.nxp.com", "style.nxp.com", "image.nxp.com"];
+</script>
+<script type="text/javascript" src="http://style.nxp.com/v1.54/shared/js/js.cookie.js"></script>
+<script type="text/javascript" src="http://style.nxp.com/v1.54/shared/js/webanalytics.js"></script>
+<script type="text/javascript" src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js"></script></head>
+ 
+  <body>
+  <input id="secureUrl" type="hidden" name="mobileUrl" value="https://www.nxp.com"/>
+  <input type="hidden" id="sechighlight" name="sechighlight" value="noHighlight" />
+    <div id="nxp-wrapper">
+      <header class="loadnav">
+      <div id="header" class="nxp-nav">
+    <div  class="container">
+        <div class="row" id="top">
+            <div class="col-xs-4">
+                <div id="site-logo">
+                    <a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'"
+                            alt="NXP logo"></a>
+                </div>
+            </div>
+            <div class="col-xs-8 pull-right">
+                <ul class="list-inline pull-right" id="top-nav">
+                    <li>
+                        <div class="dropdown" id="login-block">
+                            <a class="dtmHeaderLogin" href="/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-user nxp-orange-text"></span>Account</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown" id="languages"><a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                            <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                                <li role="presentation" class="select-lang">Select language</li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-en selected" href="#"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-zh" href="#"><span class="flag flag-zh pull-left"></span>ä¸­æ</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-ja" href="#"><span class="flag flag-ja pull-left"></span>æ¥æ¬èª</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-ko" href="#"><span class="flag flag-ko pull-left"></span>íêµ­ì´</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="shopping-cart" class="shoppingCartNav"><a href="/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-8 pull-right" id="search-block">
+                <div class="input-group pull-right" id="search-input">
+                    <form id="search" class="search-form" name="gs" method="GET" action="/search" onsubmit="return validateSubmitQuery(this);"
+                        _lpchecked="1">
+                        <div class="sf-row">
+                            <div class="input-group-btn zIndex5" id="search-all"><button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown"
+                                    tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                                <ul id="search-choices" class="dropdown-menu" role="menu">
+                                    <li id="All" name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                                    <li id="Products" name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                                    <li id="Documents" name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                                    <li id="SoftwareTools" name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                                    <li id="Support" name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                                    <li id="Applications" name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                                    <li id="Videos" name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                                    <li id="Trainings" name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                                    <li id="Community" name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                                    <li id="Blogs" name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                                    <li id="Partners" name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                                    <li id="CrossReference" name="CrossReference"><a><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                                    <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                                    <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                                    <li id="ProductSelector" name="ProductSelector"><a><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                                </ul>
+                            </div><input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q"
+                                placeholder="Search..." class="form-control">
+                            <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                            <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button>
+                                <input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site"
+                                    name="site" value="nxp__en" type="hidden"><input id="proxystylesheet" name="proxystylesheet"
+                                    value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1"
+                                    type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie"
+                                    value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output"
+                                    name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps"
+                                    value="1" type="hidden">
+                                <input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd"
+                                    value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden">
+                                <input
+                                    id="getfields" name="getfields" value="*" type="hidden">
+                                    <input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden"
+                                        name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1">
+                                    <input
+                                        type="hidden" name="rc" value="1">
+                                        <input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default megamenu">
+        <div class="navbar-header">
+            <a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-fsl"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a>
+        </div>
+        <div class="container">
+            <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+                <div class="navbar-center">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown megamenu-fw productsmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/products:PCPRODCAT">PRODUCTS</a>
+                           
+                        </li>
+                        <li class="dropdown megamenu-fw applicationsmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                           
+                        </li>
+                        <li class="dropdown megamenu-fw trainingmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                            
+                        </li>
+                        <li class="dropdown megamenu-fw aboutmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+	</div>
+      </header>
+      <nav id="nxp-mobile-nav"></nav>
+      <div class="clearfix"></div>
+    </div>
+       
+      <div class="container">
+	<div class="row">
+		<div class="iw_columns col-lg-12">
+		<div class="bc-container clearfix">
+			<ul class="bc">
+	
+				<li><a href="http://www.nxp.com">NXP</a></li>
+								
+		      	<li>
+						Package</li>
+					<li>
+					Search</li></ul>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+   	var s_vt_id = getCookieForSiteCatalyst("freescale_visitor_id");
+	var s_site_platform = "normal";
+	var s_normal_site = "normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}
+
+	var s_do_pagecall = true;
+	
+	var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+	
+	var s_searchFilter = "";
+	
+	
+	if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+
+	var s_currentUrl = document.URL;
+
+	var searchLabel = null;
+	var code = null;	
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+	var partNumber1 = null;
+	var packageId = null;
+	var orderablePartNum = null;
+	var yid = null;
+	var pageLoadRule = "";
+	var summaryPageType = "";
+	var pageCategory = "";
+	var sourceId = "";
+	var sourceType = "";
+
+	
+	summaryPageType = "Package Search";
+	
+	pageCategory = "PACKAGE SEARCH";
+	
+	pageLoadRule = "Keyword+Search";
+	pageLoadRule = pageLoadRule.replace("+", " ");
+	
+		pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;
+
+	
+		
+	
+	
+	s_currentUrl = getCleanPageURL();
+	if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+	if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;	
+	if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+	if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+	if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+	if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;	
+
+	var eventPathing = "";
+	var pageName = "Package Search";
+	var formReference = "";
+	var eVar57 = "";
+		
+	
+		eventPathing = "D=pageName";
+        if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+        	eventPathing = eVar57;
+        }
+	
+	
+	var digitalData={};
+	digitalData.pageInfo = {};
+	digitalData.pageInfo.pageLoadRule = pageLoadRule; 
+	digitalData.pageInfo.pageName = pageName;
+	digitalData.pageInfo.pageURLClean = s_currentUrl;			
+	digitalData.pageInfo.pageType = "Package Search";		
+	digitalData.pageInfo.siteSection1 = "Search";
+	digitalData.pageInfo.siteSection2 = "";
+	digitalData.pageInfo.siteSection3 = "";
+	digitalData.pageInfo.siteSection4 = "";
+	digitalData.pageInfo.siteSection5 = "";
+	digitalData.pageInfo.siteSection6 = "";
+	digitalData.pageInfo.siteSection7 = "";
+	digitalData.pageInfo.pageEventPathing = eventPathing;
+	
+	digitalData.pageInfo.pageTab = "";
+	digitalData.pageInfo.nodeID = "";	
+	digitalData.pageInfo.assetID = "";
+	digitalData.pageInfo.localTitle = "";
+
+	digitalData.pageInfo.pageCodeID = "";
+	if ((pageName != null && pageName != "") && (pageName.indexOf("Shopping Cart:Distributors | ")!= -1 || 
+		    pageName.indexOf("General: More Info | ")!= -1 || pageName.indexOf("General: Reliability Report | ")!= -1 || 
+			pageName.indexOf("General: Parts Piece Detail | ")!= -1)){
+			digitalData.pageInfo.pageCodeID = "D=pageName";		 
+	}	
+
+	digitalData.pageInfo.summaryPageType = summaryPageType;
+	digitalData.pageInfo.pageCategory = pageCategory;
+	digitalData.pageInfo.sourceId = sourceId;
+	digitalData.pageInfo.sourceType = "";
+	if(pageCategory == "PSP" && sourceId != "")
+		digitalData.pageInfo.sourceType = sourceType;
+
+
+	var s_contentFinder = getContentFinding(document.referrer, document.URL);
+	digitalData.pageInfo.contentFinding = s_contentFinder;
+	
+				
+
+	digitalData.userInfo = {};
+	digitalData.userInfo.fslVisitorID = s_vt_id;
+
+	digitalData.siteInfo = {};
+	digitalData.siteInfo.sitePlatform = s_site_platform;
+	digitalData.siteInfo.lang = "en";
+
+	
+	digitalData.searchInfo = {};
+	digitalData.searchInfo.searchkeyword = s_searchQryTxt;
+	digitalData.searchInfo.resultCount = s_searchResultCnt;
+	digitalData.searchInfo.searchFilterList = s_searchFilter;
+	</script>
+<script type="text/javascript">
+ if (typeof jQuery != 'undefined') { 
+	  jQuery(document).ready(function() {  
+			$('a.thickbox').click(function(event){
+				var blkImgpath=$(this).find('img', this).attr("src"); 	    
+				if(blkImgpath.indexOf('/files/graphic/block_diagram') > -1){
+					var blkTitle = $(this).find('img', this).attr("alt");			
+					if(blkImgpath.indexOf("http") < 0) {
+						blkImgpath = window.location.protocol+"//"+window.location.host + blkImgpath;
+					}
+					blkImgpath=blkImgpath.replace("cache.nxp.com","www.nxp.com");
+					blkImgpath=blkImgpath.replace("cache-uat.freescale.com","uat.freescale.com");	
+					trackAnalyticsBlockDiagram(blkImgpath, blkTitle);
+				}
+			});							 
+		});  
+	}
+ </script>
+
+<div class="container">
+			<div id="mncnt" class="iframe">
+				<div class="clearfix"></div>
+				<div class="fsl-sp">
+					<div class="row">
+						<div class="col-sm-12 content">
+							<noindex>
+       						
+							</noindex>
+							<h1>Package Search</h1>
+							<br/>
+							
+							<style>
+.cl-4{font-size:60px;color:#F9B500}
+</style>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="media">
+				<div class="media-left">
+					<span class="col-xs-1 icon-key-keyboard cl-4"></span>
+				</div>
+				<div class="media-body">
+					<p>Find outline drawings, related products, soldering information and thermal considerations. Search package name, part number or marking code.</p>
+					<p class="nxp-orange-text bold">Note:Newly acquired NXP package and package data not included</p>
+				</div>
+			</div>
+		</div>
+		<form id="packageSearch" name="packageSearch" method="post" onsubmit="return determineAction();">
+			<div class="search_box_container">
+				<div class="input-group bottom20">
+					<input type="text" placeholder="Search package name, part number or marking code" maxlength="256" class="form-control" id="search" name="search">
+					<span class="input-group-btn">
+						<input type="button" onclick="javascript: determineAction()" class="btn btn-orange" name="btnG" value="Search Package">
+					</span>
+				</div>
+				<div class="padme5"></div>
+				<input type="radio" name="packages" id="package" value="0"> Packages&nbsp;&nbsp;&nbsp;
+				<br class="visible-xs">
+				<input type="radio" name="packages" id="typeNumToPackages" value="1"> Type number to package&nbsp;&nbsp;&nbsp;
+				<br class="visible-xs">
+				<input type="radio" name="packages" id="markingToTypeNum" value="2"> Marking to type number
+			</div>
+		</form>
+	</div>
+</div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- </div> -->
+			
+	<script src="http://style.nxp.com/v1.54/shared/js/dhtmlwindow.js"type="text/javascript"></script>
+  	<script src="/files/js/html5shiv.js"></script>
+ 	 <script src="/files/js/placeholders.min.js"></script>
+<!-- <script src="/shared/js/jquery/jquery-latest.js" type="text/javascript"></script>  -->
+  	<script src="/crosscheck/js/jquery.autocomplete.js"></script>
+  	<script type="text/javascript" src="http://style.nxp.com/v1.54/shared/js/public_common.js"></script>
+	<script  type="text/javascript">
+
+	$(document).ready(function($){	
+		$('input:radio[name=packages]')[0].checked = true;
+
+		$(".package_search").keypress(function(e) {
+		    if(e.which == 13) {
+		    	 var keyword = document.forms["packageSearch"]["search"].value;
+		    	 var typeValue =  $('input[name=packages]:checked',packageSearch).val();
+		    				    	 
+		    	 if((keyword == null || keyword=='') && typeValue != '0')
+		 		{
+		    		 var message = 'Enter some Keyword to search';
+		 			alert(message);
+		 			return false;
+		 		}
+		    	 else{
+		    		determineAction();
+		     		return false;
+		    	 }
+	        
+		    }
+		});
+		
+	});
+	
+		function determineAction(){
+
+			var searchText = (document.forms["packageSearch"]["search"].value).trim();
+				//var typeValue = document.forms["packageSearch"]["packages"].value;
+				var typeValue =  $('input[name=packages]:checked',packageSearch).val();
+				document.getElementById('packageSearch').value=typeValue;
+				var typeNum;
+				if(typeValue=='package')
+				{	typeNum=0;}
+				if(typeValue=='typeNumToPackages')
+				{typeNum=1;}
+				if(typeValue=='markingToTypeNum')
+				{typeNum=2;}
+				//document.getElementById('packageSearch').action = '/webapp/packageSearch.sp/?q='+searchText+'&type='+typeNum;
+				 if((searchText == null || searchText=='') && typeValue != '0')
+		 		{
+					 var message = 'Enter some Keyword to search';
+		 			alert(message);
+		 			return false;
+		 		}
+		    	 else{
+					var langCd="en";
+					if("en"==langCd || "" == langCd || langCd == null || " " == langCd)
+						document.getElementById('packageSearch').action = '/packages/search?q='+encodeURI(searchText)+'&type='+typeValue;
+					else
+						document.getElementById('packageSearch').action = '/'+langCd+'/packages/search?q='+encodeURI(searchText)+'&type='+typeValue;
+					document.getElementById('packageSearch').submit();
+		    	 }
+		}
+</script>
+<script type="text/javascript" src="http://style.nxp.com/files/js/elqNow/elqwebanalytics.js"></script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript" src="http://style.nxp.com/files/abstract/misc/blueconic.js"></script><footer class="loadnav">
+            <!-- // /* FOOTER CONTENT GOES HERE */ -->
+      </footer>
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1066477406;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- /data/devs_git_repositories/b56858/ebiz/projects/ebiz/WebContent/NewCoSectionalNavRules.json -->
+<script type="text/javascript" src="/resources/scripts/nxp-cms/global-web-common.js"></script>
+
+<script>
+$(document).ready(function() {
+	var url = window.location.href;
+
+		/* if (url.indexOf("?")>-1){
+			url = url.substr(0,url.indexOf("?"));
+		} */
+		var jsonFileUrl=""+"/resources/scripts/nxp-cms/NewCoSectionalNavRules.json";
+		
+		var secNodeValue= $('#sechighlight').val();
+		if(secNodeValue == 'noHighlight'){
+		   $.getJSON(jsonFileUrl, function(data) {
+			   $.each(data, function(index, element) {
+	        	   if(url.match("^"+index) || url.indexOf(index)!=-1){
+	            	   $('.'+element[0].Nodeid).css("background-color", "#ffffff");
+	        		   $('.'+element[0].Nodeid+' > a ').css("color", "#777777");
+	        		   return false;
+	        	   }
+	    	    }); 
+	       });
+	}
+});
+
+</script></body>
+</html>

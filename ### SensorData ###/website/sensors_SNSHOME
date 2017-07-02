@@ -1,0 +1,1710 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sensors|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="Sensors Design Resources - Home Page" />
+	<meta name="Keywords" content="FTF2011AmericasIndustrial, FTF2011AmericasAutomotive, FTF2011AmericasMobile, mechatronics, robot, mechatronics robot, tower system, acceleration sensors, Xtrinsic," />
+	<meta name="ModifiedDate" content="2016-10-04 22:47:46" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="http://www.nxp.com/pages/:SNSHOME" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="homepage" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Enabled">
+<meta name="template" content="Tmp-HLP-Dynamic">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/web-plugins/clock-positioning.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/web-plugins/clock.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/products/sensors:SNSHOME"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "HOMEPAGE";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="Family:Sensors | SNSHOME";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="Family";
+	digitalData.pageInfo.siteSection1 = "Products";
+	digitalData.pageInfo.siteSection2 = "Sensors";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "011269";	
+digitalData.pageInfo.assetID = "M939346251269";
+digitalData.pageInfo.localTitle="Sensors";
+digitalData.pageInfo.pageCodeID = "SNSHOME"
+digitalData.pageInfo.pageTemplateType = "Homepage";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "en";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="011269"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="M939346251269"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="productsmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionit1h61aw"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61ax"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ay"> 
+   <div class="iw_component" id="iw_comp1473770942743">
+     <header>
+<!-- default header -->
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">Select language</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en selected"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/high-level-pages/products/mcus-and-mpus/KINETIS.page?submit=true&amp;componentID=1473770942743" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                           <li id="CrossReference" name="CrossReference"><a ><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a ><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="Search..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_en" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/products/products:PCPRODCAT">PRODUCTS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>&reg;</sup>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex&reg;-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX Applications Processors</a></li>
+                                 <li><a href="//www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM-based SoCs</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>&reg;</sup><br/>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/more-processors:MORE-PROCESSORS">MORE PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/zidentification-and-security-beta:MC_53420 ">IDENTIFICATION & SECURITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/interfaces:WIRED-CONNECTIVITY">INTERFACE<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">MEDIA AND AUDIO PROCESSING<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/power-management:POWER-MANAGEMENT">POWER MANAGEMENT<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/rf:RF_HOME">RF<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/sensors:SNSHOME">SENSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/automotive-products:MC_50802">AUTOMOTIVE PRODUCTS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">Automotive Radar</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">Car Access & Immobilizers</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">In-Vehicle Network</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">Multi Standard Digital Radio</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCUs/MPUs</a></li>
+                                 <!--li><a href="//www.nxp.com/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV Microcontroller</a></li><li><a href="//www.nxp.com/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCUs/MPUs</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>REFERENCE DESIGN LIBRARY<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/tools/embedded-software-and-tools:DEVELOPER_HOME">DEVELOPMENT TOOLS<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">SOFTWARE CENTER<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>MORE PRODUCT INFORMATION</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/products/products:PCPRODCAT ">All Products</a></li>
+                                    <li><a href="//www.nxp.com/webapp/crosscheck/competitorXRef.sp">Competitor Cross Reference Tool</a></li>
+                                    <li><a href="//www.nxp.com/packages ">Packages</a></li>
+                                    <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity Program</a></li>
+                                    <li><a href="//www.nxp.com/webapp/parametricSelector.sp?">Product Selector</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">NXP COMMUNITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior Development Tools</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX Community (SoCs and PMIC Support)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis Microcontrollers</a></li>
+                                 <li><a href="https://www.lpcware.com/forum" target="_blank">LPC Forums</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ Processors</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV Microcontrollers</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">Wireless Connectivity</a></li>
+                                 <li><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">View All</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/online-academy:ON_DEMAND_TRNG">ONLINE TRAINING ACADEMY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">TRAINING<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">NXP FTF Tech Forum</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">NXP FTF Connects</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">NXP Technology Days</a></li>
+                                 <li><a href="//www.nxp.com/training/classroom-training-events/industry-events:EVENTS_HOME">Industry Events</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">Global Smarter World Tours&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/training/university-programs:UNIVPROGRAM_HOME_CAT">UNIVERSITY PROGRAMS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/video/vault/?searchLabel=renderHomepage">VIDEO VAULT<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT RESOURCES<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/pages/documentation:DOCUMENTATION">Documentation Library</a></li>
+                                 <li><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">Sales and Support</a></li>
+                                 <li><a href="//www.nxp.com/pages/nxp-professional-services:PROFESSIONAL-SERVICES">Professional Engineering Services</a></li>
+                                 <li><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">Software Center</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT NXP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations:GLOBAL_SITES">NXP Worldwide</a></li>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">Distributor Network</a></li>
+                                 <li><a href="http://media.nxp.com">Media Center</a></li>
+                                 <li><a href="http://investors.nxp.com">Investor Relations</a></li>
+                                 <li><a href="//www.nxp.com/about/careers-at-nxp:CAREERS">Careers</a></li>
+                                 <li><a href="//www.nxp.com/about/our-customers:ABOUT_CUSTOMERS">Customers</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">Blogs</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/corporate-responsibility:CORP_SOCIAL_RESP">CORPORATE RESPONSIBILITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">Environmental Compliance Office</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/ethics:ETHICS">Ethics</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/employees:EMPLOYEES">Employees</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">TECHNOLOGY LEADERSHIP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/quality:QUALITY_HOME">Quality</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END --> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b8"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b9"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ba"> 
+   <div class="row iw_row" id="rowit1h61bc"> 
+    <div class="iw_columns col-lg-3" id="colit1h61bd"> 
+     <div class="iw_component" id="iw_comp1473770942755">
+       <!--ls:begin[component-1473770942755]--><ul class="leftnav dtmLeftNav MMenu-products"><li><a href="/products/microcontrollers-and-processors:MICROCONTROLLERS-AND-PROCESSORS">Microcontrollers and Processors</a><li><a href="/products/identification-and-security:MC_53420">Identification and Security</a><li><a href="/products/interfaces:WIRED-CONNECTIVITY">Interfaces</a><li><a href="/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">Media and Audio Processing</a><li><a href="/products/power-management:POWER-MANAGEMENT">Power Management</a><li><a href="/products/rf:RF_HOME">RF</a><li class="selected"><a href="/products/sensors:SNSHOME">Sensors</a><ul><li class=><a href="/products/sensors/sensor-toolbox-sensor-development-ecosystem:SENSOR-TOOLBOX"><span class="icon-stop2"></span>Sensor Toolbox: Sensor Development Ecosystem</a></li><li class=><a href="/products/sensors/intelligent-sensors-and-sensor-hubs:SNSNGPLTFRM"><span class="icon-stop2"></span>Intelligent Sensors and Sensor Hubs</a></li><li class=><a href="/products/sensors/intelligent-sensing-framework:INTELLIGENT-SENSING-FRAMEWORK"><span class="icon-stop2"></span>Intelligent Sensing Framework</a></li><li class=><a href="/products/sensors/temperature-sensors:MC_16784"><span class="icon-stop2"></span>Temperature sensors</a></li><li class=><a href="/products/sensors/magnetometers:MGNTCSNS"><span class="icon-stop2"></span>Magnetometers</a></li><li class=><a href="/products/sensors/capacitive-sensors:MC_71481"><span class="icon-stop2"></span>Capacitive Sensors</a></li><li class=><a href="/products/sensors/gyroscopes:GYROSCOPE"><span class="icon-stop2"></span>Gyroscopes</a></li><li class=><a href="/products/sensors/touch-sensors:SNSPROXIMITY"><span class="icon-stop2"></span>Touch Sensors</a></li><li class=><a href="/products/sensors/rotational-sensors:MC_16761"><span class="icon-stop2"></span>Rotational sensors</a></li><li class=><a href="/products/sensors/6-axis-sensors:6-AXIS"><span class="icon-stop2"></span>6-Axis Sensors</a></li><li class=><a href="/products/sensors/pressure-sensors:DRSNSPRSSR"><span class="icon-stop2"></span>Pressure Sensors</a></li><li class=><a href="/products/sensors/ic-temperature-voltage-monitors:MC_31128"><span class="icon-stop2"></span>I<sup>2</sup>C Temperature/Voltage Monitors</a></li><li class=><a href="/products/sensors/accelerometers:DRSNSAXLRTN"><span class="icon-stop2"></span>Accelerometers</a></li><li class=><a href="/products/sensors/sensors-technology:SENSORS-TECH"><span class="icon-stop2"></span>Sensors Technology</a></li><li class=><a href="/products/sensors/angular-sensors:MC_16771"><span class="icon-stop2"></span>Angular Sensors</a></li></ul></li><li><a href="/products/signal-chain-and-memory:INTERFACE-SYSTEM-MANAGEMENT">Signal Chain and Memory</a><li><a href="/products/wireless-connectivity:WIRELESS-CONNECTIVITY">Wireless Connectivity</a><li><a href="/products/single-chip-modules:SINGLE-CHIP-MODULE">Single Chip Modules</a><li><a href="/products/automotive-products:MC_50802">Automotive Products</a><li><a href="/products/reference-designs:REFDSGNHOME">Reference Designs</a><li><a href="/products/software-and-tools:DEVELOPER_HOME">Software and Tools</a></ul><!--ls:end[component-1473770942755]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1476893855586">
+       <!--ls:begin[component-1476893855586]--><div class="leftSecAbs dtmGenAbstract" data-dtmname="Sectional Navigation Abstract">
+<h3>PRODUCT SELECTOR</h3>
+<p>
+Easily locate your ideal product based on technical specifications. <br><a href="/webapp/parametricSelector.sp?" id="ProdSelLink" bccta="search_parametric">Try Now &gt;</a>
+</p>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		if($('input#shortname').length > 0){
+			if($('input#shortname').val().replace(/_/g,"")!=""){
+				var shortname=$('input#shortname').val();
+				var MCUMPU=$('input#shortname').val().substr(0,4)=="c731";
+				var n=shortname.lastIndexOf('_');
+				if(n==-1||!MCUMPU){
+					if(document.getElementById("lang").value == "ko")
+						$('a#ProdSelLink').attr("href","/ko/webapp/parametricSelector.sp#/&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+					else
+						$('a#ProdSelLink').attr("href","/webapp/parametricSelector.sp#/&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+				}else{					
+					var p_shortname=shortname.substring(0,n);
+					if(document.getElementById("lang").value == "ko")
+						$('a#ProdSelLink').attr("href","/ko/webapp/parametricSelector.sp#/&amp;c="+p_shortname+"&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+					else
+						$('a#ProdSelLink').attr("href","/webapp/parametricSelector.sp#/&amp;c="+p_shortname+"&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+				}
+			}
+		}else{
+			if(document.getElementById("lang").value == "ko")
+				$('a#ProdSelLink').attr("href","/ko/webapp/parametricSelector.sp?");
+			else
+				$('a#ProdSelLink').attr("href","/webapp/parametricSelector.sp?");
+		}
+	});
+</script><!--ls:end[component-1476893855586]--> 
+     </div> 
+    </div> 
+    <div class="iw_columns col-lg-9" id="colit1h61be"> 
+     <div class="iw_component" id="iw_comp1474458748437">
+       <!--ls:begin[component-1474458748437]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com"><span>NXP</span></a></li> <li><span>Sensors</span></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="Share via Email"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="facebook18x" title="Share on Facebook"><span class="icon-facebook"></span> Facebook</a></li>
+            <li><a id="twitter18x" title="Share on Twitter"><span class="icon-twitter2"></span> Twitter</a></li>
+            <li><a id="google18x" title="Share on Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="Share on LinkedIn"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="Printer"><span class="icon-print"></span> Printer</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1474458748437]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942779">
+       <!--ls:begin[component-1473770942779]--><h1>Sensors</h1><!--ls:end[component-1473770942779]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942780">
+       <!--ls:begin[component-1473770942780]--><div class="dtmGenDiv" data-dtmSection="Overview Section"><div class="product-circle" id="Sensors"><canvas id="canvas" style="position: relative;" width="754" height="500"></canvas><div id="features-0" class="circle-products mousemove">
+            <p>Expanding on its more than 30 year sensing history, NXP<sup>&#174;</sup> has unveiled a new era of sensing with the Sensing Solutions portfolio. This new brand of sensors is designed with the right combination of intelligent integration, logic and customizable software on the platform to deliver smarter, more differentiated applications. </p>
+        </div><div class="product-container"><div id="intelligent" class="circle-products text-right product-offerings"><button class="feature-toggle" type="button" data-target="#features-12" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/intelligent-sensors-and-sensor-hubs:SNSNGPLTFRM" data-dtmname="Intelligent Sensors">Intelligent Sensors</a></h3>
+            <p>MMA955xL, MMA9553L, MMA9555L, FXLC95000CL</p>
+        </div><div id="features-12" class="circle-products mousemove collapse">
+             <strong class="features-title">Accelerometers</strong>
+            <ul class="boxes">
+                <li>Best in class power performance</li>
+                <li>Complete sensor fusion enablement suite</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/intelligent-sensors-and-sensor-hubs:SNSNGPLTFRM">More Information</a></div></div><div class="product-container"><div id="gyroscopes" class="circle-products product-offerings"><button class="feature-toggle" type="button" data-target="#features-1" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/gyroscopes:GYROSCOPE" data-dtmname="Gyroscopes">Gyroscopes</a></h3>
+            <p>FXAS21002C</p>
+        </div><div id="features-1" class="circle-products mousemove collapse">
+            <strong class="features-title">Pressure Sensors</strong>
+            <ul class="boxes">
+                <li>Wide variety of pressure ranges, diverse packaging and porting options.</li>
+                <li>TPMS, engine management, medical equipment, breathing apparatus, and industrial applications</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/gyroscopes:GYROSCOPE">More Information</a></div></div><div class="product-container"><div id="axis" class="circle-products product-offerings"><button class="feature-toggle" type="button" data-target="#features-2" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/6-axis-sensors:6-AXIS" data-dtmname="6-Axis Sensors">6-Axis Sensors</a></h3>
+            <p>FXOS8700CQ 3D Accelerometer</p>
+        </div><div id="features-2" class="circle-products mousemove collapse">
+            <strong class="features-title">Gyroscopes</strong>
+            <ul class="boxes">
+                <li>Best in class power performance</li>
+                <li>Complete sensor fusion enablement suite</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/6-axis-sensors:6-AXIS">More Information</a></div></div><div class="product-container"><div id="touch" class="circle-products product-offerings"><button class="feature-toggle" type="button" data-target="#features-3" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/touch-sensors:SNSPROXIMITY" data-dtmname="Touch Sensors">Touch Sensors</a></h3>
+            <p>CRTOUCH MCF5227x, i.MX233, i.MX255, i.MX257, i.MX258</p>
+        </div><div id="features-3" class="circle-products mousemove collapse">
+            <strong class="features-title">6-Axis Sensors</strong>
+            <ul class="boxes">
+                <li>High accuracy accelerometer with magnetometer</li>
+                <li>Downloadable eCompass software</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/touch-sensors:SNSPROXIMITY">More Information</a></div></div><div class="product-container"><div id="magnetometers" class="circle-products product-offerings"><button class="feature-toggle" type="button" data-target="#features-4" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/magnetometers:MGNTCSNS" data-dtmname="Magnetometers">Magnetometers</a></h3>
+            <p>MAG3110 family</p>
+        </div><div id="features-4" class="circle-products mousemove collapse">
+            <strong class="features-title">Touch Sensing</strong>
+            <ul class="boxes">
+                <li>Enables autonomous high-precision sensing solutions</li>
+                <li>MEMS with integrated 32-bit MCU for intelligent motion, sensor hub and sensor data management</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/magnetometers:MGNTCSNS">More Information</a></div></div><div class="product-container"><div id="accelerometers" class="circle-products text-right product-offerings"><button class="feature-toggle" type="button" data-target="#features-5" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/accelerometers:DRSNSAXLRTN" data-dtmname="Accelerometers">Accelerometers</a></h3>
+            <p>MMAxxxx family</p>
+        </div><div id="features-5" class="circle-products mousemove collapse">
+            <strong class="features-title">Magnetometers</strong>
+            <ul class="boxes">
+                <li>High accuracy accelerometer with magnetometer</li>
+                <li>Downloadable eCompass software</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/accelerometers:DRSNSAXLRTN">More Information</a></div></div><div class="product-container"><div id="pressure" class="circle-products product-offerings"><button class="feature-toggle" type="button" data-target="#features-6" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/automotive-products/sensors/pressure-sensors:DRSNSPRSSR" data-dtmname="Pressure Sensors">Pressure Sensors</a></h3>
+            <p>FXTH87, MPXH6101Axx, MPXH6400Axx, MPL3115A2, MPXx5004</p>
+        </div><div id="features-6" class="circle-products mousemove collapse">
+			<strong class="features-title">Capacitive Sensors</strong>
+            <ul class="boxes">
+                <li>Detects capacitance changes on a remote sensing plate</li>
+                <li>Proximity operation possible, no contact required</li>
+                <li>Changes in the static capacitance are automatically compensated through continuous auto-calibration</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/automotive-products/sensors/pressure-sensors:DRSNSPRSSR">More Information</a></div></div><div class="product-container"><div id="angular" class="circle-products text-right product-offerings"><button class="feature-toggle" type="button" data-target="#features-7" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/angular-sensors:MC_16771" data-dtmname="Angular Sensors">Angular Sensors</a></h3>
+            <p>KMA2xx/KMZxx families</p>
+        </div><div id="features-7" class="circle-products mousemove collapse">
+			<strong class="features-title">Intelligent Sensors</strong>
+            <ul class="boxes">
+                <li>Enables autonomous high-precision sensing solutions</li>
+                <li>MEMS with integrated 32-bit MCU for intelligent motion, sensor hub and sensor data management</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/angular-sensors:MC_16771">More Information</a></div></div><div class="product-container"><div id="temperature" class="circle-products text-right product-offerings"><button class="feature-toggle" type="button" data-target="#features-8" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/temperature-sensors:MC_16784" data-dtmname="Temperature Sensors">Temperature Sensors</a></h3>
+            <p>KTY8x/PCT2xxx families</p>
+        </div><div id="features-8" class="circle-products mousemove collapse">
+            <strong class="features-title">Angular Sensors</strong>
+            <ul class="boxes">
+                <li>Extended temperature range</li>
+                <li>Accurate and reliable</li>
+                <li>Mechanical robustness, contactless principle</li>
+                <li>Wear-free operation</li>
+                <li>Accuracy independent of mechanical tolerances, magnetic drift with temperature or during life time</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/temperature-sensors:MC_16784">More Information</a></div></div><div class="product-container"><div id="i2c" class="circle-products text-right product-offerings"><button class="feature-toggle" type="button" data-target="#features-9" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors:MC_31128" data-dtmname="I²C Temperature / Voltage Monitors">I²C Temperature /<br>Voltage Monitors</a></h3>
+            <p>I²C Fast-mode Plus</p>
+        </div><div id="features-9" class="circle-products mousemove collapse">
+            <strong class="features-title">Temperature Sensors</strong>
+            <ul class="boxes">
+                <li>Accurate and reliable</li>
+                <li>Long term stability</li>
+                <li>Positive temperature coefficient</li>
+                <li>Fail-safe behaviour</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors:MC_31128">More Information</a></div></div><div class="product-container"><div id="rotational" class="circle-products text-right product-offerings"><button class="feature-toggle" type="button" data-target="#features-10" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/rotational-sensors:MC_16761" data-dtmname="Rotational Sensors">Rotational Sensors</a></h3>
+            <p>KMI16 and KMI17</p>
+        </div><div id="features-10" class="circle-products mousemove collapse">
+            <strong class="features-title">I²C Temperature / Voltage Monitors</strong>
+            <ul class="boxes">
+                <li>High accuracy accelerometer with magnetometer</li>
+                <li>Downloadable eCompass software</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/rotational-sensors:MC_16761">More Information</a></div></div><div class="product-container"><div id="capacitive" class="circle-products product-offerings"><button class="feature-toggle" type="button" data-target="#features-11" data-toggle="collapse"><span class="icon-arrow-right3">&nbsp;</span></button>
+            <h3><a href="/products/sensors/capacitive-sensors:MC_71481" data-dtmname="Capacitive Sensors">Capacitive Sensors</a></h3>
+            <p>PCA8885TS, PCA8886TS, PCF8883, PCF8885</p>
+        </div><div id="features-11" class="circle-products mousemove collapse">
+            <strong class="features-title">Rotational Sensors</strong>
+            <ul class="boxes">
+                <li>Zero speed capability</li>
+                <li>Wide air gap between sensor and target</li>
+                <li>Large measuring distance / air gap up to 2.9mm</li>
+                <li>Speed detection capability down to 0 Hz</li>
+                <li>High-frequency: 25 kHz</li>
+                <li>Wide frequency range</li>
+            </ul>
+        <a class="btn btn-sm btn-view-product" href="/products/sensors/capacitive-sensors:MC_71481">More Information</a></div></div></div></div><!--ls:end[component-1473770942780]--> 
+     </div> 
+     <div class="row iw_row" id="rowit1h61by"> 
+      <div class="iw_columns col-lg-6" id="colit1h61bz"> 
+       <div class="iw_component" id="iw_comp1473770942781">
+         <!--ls:begin[component-1473770942781]--><div class="dtmGenDiv" data-dtmsection="Tree Menu">
+   <h2>Sensors</h2>
+   <ul class="treeview">
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Intelligent Sensors and Sensor Hubs" href="/products/sensors/intelligent-sensors-and-sensor-hubs:SNSNGPLTFRM">Intelligent Sensors and Sensor Hubs</a><ul>
+               <li class="last"><a data-dtmname="FXLC95000CL" href="/products/sensors/intelligent-sensors-and-sensor-hubs/intelligent-motion-sensing-platform:FXLC95000CL">FXLC95000CL</a>: Intelligent Motion-Sensing Platform
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="MMA9553L" href="/products/sensors/intelligent-sensors-and-sensor-hubs/intelligent-pedometer-sensor:MMA9553L">MMA9553L</a>: Intelligent Pedometer Sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="MMA9555L" href="/products/sensors/intelligent-sensors-and-sensor-hubs/motion-sensing-pedometer-platform:MMA9555L">MMA9555L</a>: Motion Sensing Pedometer Platform
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="MMA955xL" href="/products/sensors/intelligent-sensors-and-sensor-hubs/motion-sensing-platform:MMA955xL">MMA955xL</a>: Motion Sensing Platform
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Angular Sensors" href="/products/sensors/angular-sensors:MC_16771">Angular Sensors</a><ul>
+               <li class="last"><a data-dtmname="KMA199" href="/products/sensors/angular-sensors/programmable-angle-sensor:KMA199">KMA199</a>: Programmable angle sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMA199E" href="/products/sensors/angular-sensors/programmable-angle-sensor:KMA199E">KMA199E</a>: Programmable angle sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMA200" href="/products/sensors/angular-sensors/programmable-angle-sensor:KMA200">KMA200</a>: Programmable angle sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMA210" href="/products/sensors/angular-sensors/programmable-angle-sensor:KMA210">KMA210</a>: Programmable angle sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMA215" href="/products/sensors/angular-sensors/programmable-angle-sensor-with-sae-j2716-sent:KMA215">KMA215</a>: Programmable angle sensor with SAE J2716 SENT
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMA220" href="/products/sensors/angular-sensors/dual-channel-programmable-angle-sensor:KMA220">KMA220</a>: Dual channel programmable angle sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMA221" href="/products/sensors/angular-sensors/programmable-angle-sensor:KMA221">KMA221</a>: Programmable angle sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMZ41" href="/products/sensors/angular-sensors/magnetic-field-sensor:KMZ41">KMZ41</a>: Magnetic field sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMZ49" href="/products/sensors/angular-sensors/magnetic-field-sensor:KMZ49">KMZ49</a>: Magnetic field sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMZ60" href="/products/sensors/angular-sensors/angle-sensor-with-integrated-amplifier:KMZ60">KMZ60</a>: Angle sensor with integrated amplifier
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="X3G-OH047" href="/products/sensors/angular-sensors/magnetic-field-sensor:X3G-OH047">X3G-OH047</a>: Magnetic field sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="X3G-OH048" href="/products/sensors/angular-sensors/magnetic-field-sensor:X3G-OH048">X3G-OH048</a>: Magnetic field sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="X3G_T_OH047_048" href="/products/sensors/angular-sensors/magnetic-field-sensor:X3G_T_OH047_048">X3G_T_OH047_048</a>: Magnetic field sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="X3T-OH047" href="/products/sensors/angular-sensors/magnetic-field-sensor:X3T-OH047">X3T-OH047</a>: Magnetic field sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="X3T-OH048" href="/products/sensors/angular-sensors/magnetic-field-sensor:X3T-OH048">X3T-OH048</a>: Magnetic field sensor
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Pressure Sensors" href="/products/automotive-products/sensors/pressure-sensors:DRSNSPRSSR">Pressure Sensors</a><ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Barometric Pressure 15 to 115 kPa" href="/products/automotive-products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa:BAROMETRIC_15-115KPA">Barometric Pressure 15 to 115 kPa</a><ul>
+                     <li class="last"><a data-dtmname="MPL115A" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/50-to-115kpa-absolute-digital-pressure-sensor:MPL115A">MPL115A</a>: 50 to 115kPa, Absolute Digital Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPL3115A2" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/20-to-110kpa-absolute-digital-pressure-sensor:MPL3115A2">MPL3115A2</a>: 20 to 110kPa, Absolute Digital Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX4101" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/15-to-105kpa-absolute-integrated-pressure-sensor:MPX4101">MPX4101</a>: 15 to 105kPa, Absolute, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX4200" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/20-to-200kpa-absolute-integrated-pressure-sensor:MPX4200">MPX4200</a>: 20 to 200kPa, Absolute, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXHZ6116" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/absolute-integrated-pressure-sensor-20-to-115kpa:MPXHZ6116">MPXHZ6116</a>: Absolute, Integrated Pressure Sensor (20 to 115kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXHZ6130A" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/absolute-integrated-pressure-sensor-15-to-130kpa:MPXHZ6130A">MPXHZ6130A</a>: Absolute, Integrated Pressure Sensor (15 to 130kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx4100" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/20-to-105kpa-absolute-integrated-pressure-sensor:MPXx4100">MPXx4100</a>: 20 to 105kPa, Absolute, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx6115" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/-115-to-115kpa-gauge-and-absolute-pressure-sensor:MPXx6115">MPXx6115</a>: -115 to 115kPa, Gauge and Absolute Pressure Sensor
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Differential/Gauge up to 10 kPa" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa:DG_10KPA">Differential/Gauge up to 10 kPa</a><ul>
+                     <li class="last"><a data-dtmname="MPXC201xDT1" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/differential-compensated-pressure-sensor-0-to-10kpa:MPXC201xDT1">MPXC201xDT1</a>: Differential, Compensated Pressure Sensor (0 to 10kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx10" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/differential-and-gauge-uncompensated-pressure-sensor-0-to-10kpa:MPXx10">MPXx10</a>: Differential and Gauge, Uncompensated Pressure Sensor (0 to 10kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx12" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/differential-and-gauge-uncompensated-pressure-sensor-0-to-10kpa:MPXx12">MPXx12</a>: Differential and Gauge, Uncompensated Pressure Sensor (0 to 10kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2010" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/0-to-10kpa-differential-and-gauge-compensated-pressure-sensor:MPXx2010">MPXx2010</a>: 0 to 10kPa, Differential and Gauge, Compensated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx4006" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/0-to-6kpa-differential-and-gauge-integrated-pressure-sensor:MPXx4006">MPXx4006</a>: 0 to 6kPa, Differential and Gauge, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx5004" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/0-to-3.92kpa-differential-and-gauge-integrated-pressure-sensor:MPXx5004">MPXx5004</a>: 0 to 3.92kPa, Differential and Gauge, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx5010" href="/products/sensors/pressure-sensors/differential-gauge-up-to-10-kpa/0-to-10kpa-differential-and-gauge-integrated-pressure-sensor:MPXx5010">MPXx5010</a>: 0 to 10kPa, Differential and Gauge, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Differential/Gauge up to 1000 kPa" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa:DG_1000KPA">Differential/Gauge up to 1000 kPa</a><ul>
+                     <li class="last"><a data-dtmname="MPX4250" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/0-to-250kpa-differential-gauge-and-absolute-integrated-pressure-sensor:MPX4250">MPX4250</a>: 0 to 250kPa, Differential, Gauge and Absolute Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX5500" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/0-to-500kpa-differential-integrated-pressure-sensor:MPX5500">MPX5500</a>: 0 to 500kPa, Differential Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX5700" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/0-to-700kpa-differential-gauge-and-absolute-integrated-pressure-sensor:MPX5700">MPX5700</a>: 0 to 700kPa, Differential, Gauge and Absolute Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX5999" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/0-to-1000kpa-differential-integrated-pressure-sensor:MPX5999">MPX5999</a>: 0 to 1000kPa, Differential Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXZ5150" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/0-to-150kpa-integrated-pressure-sensor:MPXZ5150">MPXZ5150</a>: 0 to 150kPa, Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2200" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/differential-gauge-and-absolute-pressure-sensor-0-to-200kpa:MPXx2200">MPXx2200</a>: Differential, Gauge and Absolute Pressure Sensor (0 to 200kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2202" href="/products/sensors/pressure-sensors/differential-gauge-up-to-1000-kpa/differential-gauge-and-absolute-pressure-sensor-0-to-200kpa:MPXx2202">MPXx2202</a>: Differential, Gauge and Absolute Pressure Sensor (0 to 200kPa)
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Differential/Gauge up to 115 kPa" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa:DG_115KPA">Differential/Gauge up to 115 kPa</a><ul>
+                     <li class="last"><a data-dtmname="MP3V5100" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/0-to-100-kpa-3.0v-gauge-silicon-pressure-sensor:MP3V5100">MP3V5100</a>: 0 to 100 kPa, 3.0v, Gauge Silicon Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX230xDT1" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-compensated-pressure-sensor-0-to-40kpa:MPX230xDT1">MPX230xDT1</a>: Differential, Compensated Pressure Sensor (0 to 40kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX4080" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-integrated-pressure-sensor-0-to-80kpa:MPX4080">MPX4080</a>: Differential, Integrated Pressure Sensor (0 to 80kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPX5100" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/0-to-100kpa-differential-gauge-and-absolute-integrated-pressure-sensor:MPX5100">MPX5100</a>: 0 to 100kPa, Differential, Gauge and Absolute Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXV5100" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-gauge-and-absolute-integrated-pressure-sensor-0-to-115kpa:MPXV5100">MPXV5100</a>: Differential, Gauge and Absolute Integrated Pressure Sensor (0 to 115kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2050" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-and-gauge-compensated-pressure-sensor-0-to-50kpa:MPXx2050">MPXx2050</a>: Differential and Gauge Compensated Pressure Sensor (0 to 50kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2051" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/gauge-compensated-pressure-sensor-0-to-50kpa:MPXx2051">MPXx2051</a>: Gauge Compensated Pressure Sensor (0 to 50kPa) 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2053" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-and-gauge-compensated-pressure-sensor-0-to-50kpa:MPXx2053">MPXx2053</a>: Differential and Gauge Compensated Pressure Sensor (0 to 50kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2100" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-gauge-and-absolute-compensated-pressure-sensor-0-to-100kpa:MPXx2100">MPXx2100</a>: Differential, Gauge and Absolute Compensated Pressure Sensor (0 to 100kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx2102" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-gauge-and-absolute-compensated-pressure-sensor-0-to-100kpa:MPXx2102">MPXx2102</a>:  Differential, Gauge and Absolute Compensated Pressure Sensor (0 to 100kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx5050" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/-50-to-50kpa-differential-and-gauge-pressure-sensor:MPXx5050">MPXx5050</a>: -50 to 50kPa, Differential and Gauge Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx53" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/differential-and-gauge-uncompensated-pressure-sensor-0-to-50kpa:MPXx53">MPXx53</a>: Differential and Gauge Uncompensated Pressure Sensor (0 to 50kPa)
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="LPG and CNG Gas 15 to 400 kPa" href="/products/sensors/pressure-sensors/lpg-and-cng-gas-15-to-400-kpa:LPG_CNG_GAS_15-400KPA">LPG and CNG Gas 15 to 400 kPa</a><ul>
+                     <li class="last"><a data-dtmname="MPXH6300A" href="/products/sensors/pressure-sensors/lpg-and-cng-gas-15-to-400-kpa/absolute-integrated-pressure-sensor-20-to-300kpa:MPXH6300A">MPXH6300A</a>: Absolute, Integrated Pressure Sensor (20 to 300kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx6250" href="/products/sensors/pressure-sensors/lpg-and-cng-gas-15-to-400-kpa/absolute-integrated-pressure-sensor-15-to-250kpa:MPXx6250">MPXx6250</a>: Absolute, Integrated Pressure Sensor (15 to 250kPa)
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx6400" href="/products/sensors/pressure-sensors/lpg-and-cng-gas-15-to-400-kpa/absolute-integrated-pressure-sensor-15-to-400kpa:MPXx6400">MPXx6400</a>: Absolute, Integrated Pressure Sensor (15 to 400kPa)
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Tire Pressure Monitoring Sensors" href="/products/sensors/pressure-sensors/tire-pressure-monitoring-sensors:TPMS">Tire Pressure Monitoring Sensors</a><ul>
+                     <li class="last"><a data-dtmname="FXTH87" href="/products/sensors/pressure-sensors/tire-pressure-monitoring-sensors/fxth87-tire-pressure-monitor-sensor-family:FXTH87">FXTH87</a>: FXTH87 Tire Pressure Monitor Sensor Family
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="FXTH8715" href="/products/sensors/pressure-sensors/tire-pressure-monitoring-sensors/high-pressure-tire-pressure-monitoring-sensor-tpms-family:FXTH8715">FXTH8715</a>: High-Pressure Tire Pressure Monitoring Sensor (TPMS) Family
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx8xxx" href="/products/sensors/pressure-sensors/tire-pressure-monitoring-sensors/nxp-mpxx85-86xxd-tire-pressure-monitor-sensor:MPXx8xxx">MPXx8xxx</a>: NXP<sup>&#174;</sup> MPXx85/86xxD Tire Pressure Monitor Sensor
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Vacuum Sensors -50 to -115 kPa" href="/products/automotive-products/sensors/pressure-sensors/vacuum-sensors-50-to-115-kpa:VACUUM_-50-115KPA">Vacuum Sensors -50 to -115 kPa</a><ul>
+                     <li class="last"><a data-dtmname="MPXV7002" href="/products/sensors/pressure-sensors/vacuum-sensors-50-to-115-kpa/-2-to-2kpa-vacuum-pressure-sensor:MPXV7002">MPXV7002</a>: -2 to 2kPa, Vacuum Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXV7007DP" href="/products/sensors/pressure-sensors/vacuum-sensors-50-to-115-kpa/-7-to-7kpa-differential-and-gauge-pressure-sensor:MPXV7007DP">MPXV7007DP</a>: -7 to 7kPa, Differential and Gauge Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXV7025DP" href="/products/sensors/pressure-sensors/vacuum-sensors-50-to-115-kpa/-25-to-25kpa-differential-and-gauge-pressure-sensor:MPXV7025DP">MPXV7025DP</a>: -25 to 25kPa, Differential and Gauge Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx4115" href="/products/sensors/pressure-sensors/vacuum-sensors-50-to-115-kpa/-115-to-115kpa-vacuum-integrated-pressure-sensor:MPXx4115">MPXx4115</a>: -115 to 115kPa Vacuum Integrated Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx5050" href="/products/sensors/pressure-sensors/differential-gauge-up-to-115-kpa/-50-to-50kpa-differential-and-gauge-pressure-sensor:MPXx5050">MPXx5050</a>: -50 to 50kPa, Differential and Gauge Pressure Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MPXx6115" href="/products/sensors/pressure-sensors/barometric-pressure-15-to-115-kpa/-115-to-115kpa-gauge-and-absolute-pressure-sensor:MPXx6115">MPXx6115</a>: -115 to 115kPa, Gauge and Absolute Pressure Sensor
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Capacitive  Sensors" href="/products/sensors/capacitive-sensors:MC_71481">Capacitive  Sensors</a><ul>
+               <li class="last"><a data-dtmname="PCA8885TS" href="/products/sensors/capacitive-sensors/capacitive-8-channel-touch-and-proximity-sensor-with-auto-calibration-and-very-low-power-consumption:PCA8885TS">PCA8885TS</a>: Capacitive 8-channel touch and proximity sensor with auto-calibration and very low power consumption
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA8886TS" href="/products/sensors/capacitive-sensors/dual-channel-capacitive-proximity-switch-with-auto-calibration-and-large-voltage-operating-range:PCA8886TS">PCA8886TS</a>: Dual channel capacitive proximity switch with auto-calibration and large voltage operating range
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF8883" href="/products/sensors/capacitive-sensors/capacitive-proximity-switch-with-auto-calibration-large-voltage-operating-range-and-very-low-power-consumption:PCF8883">PCF8883</a>: Capacitive proximity switch with auto-calibration, large voltage operating range and very low power consumption
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF8883T" href="/products/sensors/capacitive-sensors/capacitive-proximity-switch-with-auto-calibration-large-voltage-operating-range-and-very-low-power-consumption:PCF8883T">PCF8883T</a>: Capacitive proximity switch with auto-calibration, large voltage operating range and very low power consumption
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF8883US" href="/products/sensors/capacitive-sensors/capacitive-proximity-switch-with-auto-calibration-large-voltage-operating-range-and-very-low-power-consumption:PCF8883US">PCF8883US</a>: Capacitive proximity switch with auto-calibration, large voltage operating range and very low power consumption
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF8885" href="/products/sensors/capacitive-sensors/capacitive-8-channel-touch-and-proximity-sensor-with-auto-calibration-and-very-low-power-consumption:PCF8885">PCF8885</a>: Capacitive 8-channel touch and proximity sensor with auto-calibration and very low power consumption
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF8885T" href="/products/sensors/capacitive-sensors/capacitive-8-channel-touch-and-proximity-sensor-with-auto-calibration-and-very-low-power-consumption:PCF8885T">PCF8885T</a>: Capacitive 8-channel touch and proximity sensor with auto-calibration and very low power consumption
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF8885TS" href="/products/sensors/capacitive-sensors/capacitive-8-channel-touch-and-proximity-sensor-with-auto-calibration-and-very-low-power-consumption:PCF8885TS">PCF8885TS</a>: Capacitive 8-channel touch and proximity sensor with auto-calibration and very low power consumption
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Touch Sensors" href="/products/sensors/touch-sensors:SNSPROXIMITY">Touch Sensors</a><ul>
+               <li class="last"><a data-dtmname="CRTOUCH" href="/products/sensors/touch-sensors/nxp-touch-sensing-platform-a-ready-play-solution:CRTOUCH">CRTOUCH</a>: NXP<sup>&#174;</sup> Touch-Sensing Platform, a Ready Play<sup>&#174;</sup> Solution
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="TSSMCU" href="/products/sensors/touch-sensors/touch-sensing-for-mcus:TSSMCU">TSSMCU</a>: Touch-Sensing for MCUs
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Magnetometers" href="/products/sensors/sample-data-sets-for-inertial-and-magnetic-sensors/inertial-measurement-unit:SENSORDATA_IMU">Magnetometers</a><ul>
+               <li class="last"><a data-dtmname="MAG3110" href="/products/sensors/magnetometers/high-accuracy-3d-magnetometer:MAG3110">MAG3110</a>: High Accuracy, 3D Magnetometer 
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Rotational Sensors" href="/products/sensors/rotational-sensors:MC_16761">Rotational Sensors</a><ul>
+               <li class="last"><a data-dtmname="KMI16" href="/products/sensors/rotational-sensors/integrated-rotational-speed-sensor:KMI16">KMI16</a>: Integrated rotational speed sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMI16_KMI17" href="/products/automotive-products/sensors/rotational-sensors/rotational-speed-sensor:KMI16_KMI17">KMI16_KMI17</a>: Rotational speed sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMI17" href="/products/sensors/rotational-sensors/rotational-speed-sensor:KMI17">KMI17</a>: Rotational speed sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMI18" href="/products/sensors/rotational-sensors/integrated-rotational-speed-sensor:KMI18">KMI18</a>: Integrated rotational speed sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMI23" href="/products/sensors/rotational-sensors/high-performance-rotational-speed-sensor:KMI23">KMI23</a>: High performance rotational speed sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMI23_KMI25" href="/products/automotive-products/sensors/rotational-sensors/high-performance-rotational-speed-sensor:KMI23_KMI25">KMI23_KMI25</a>: High performance rotational speed sensor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KMI25" href="/products/sensors/rotational-sensors/high-performance-rotational-speed-sensor:KMI25">KMI25</a>: High performance rotational speed sensor
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="I&amp;sup2;C Temperature/Voltage Monitors" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors:MC_31128">I&sup2;C Temperature/Voltage Monitors</a><ul>
+               <li class="last"><a data-dtmname="LM75A" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75A">LM75A</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75AD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75AD">LM75AD</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75ADP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75ADP">LM75ADP</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75B" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75B">LM75B</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75BD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75BD">LM75BD</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75BDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75BDP">LM75BDP</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75BGD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75BGD">LM75BGD</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="LM75BTP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/digital-temperature-sensor-and-thermal-watchdog:LM75BTP">LM75BTP</a>: Digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NE1617ADS" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/temperature-monitor-for-microprocessor-systems:NE1617ADS">NE1617ADS</a>: Temperature monitor for microprocessor systems
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NE1619DS" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/heceta4-temperature-and-voltage-monitor:NE1619DS">NE1619DS</a>: HECETA4 Temperature and voltage monitor
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075">PCT2075</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075D" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075D">PCT2075D</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075DP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075DP">PCT2075DP</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075GV" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075GV">PCT2075GV</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075TP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075TP">PCT2075TP</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004AD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004AD">SA56004AD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004ADP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004ADP">SA56004ADP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004ATK" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004ATK">SA56004ATK</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004BD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004BD">SA56004BD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004BDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004BDP">SA56004BDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004CD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004CD">SA56004CD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004CDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004CDP">SA56004CDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004DD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004DD">SA56004DD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004DDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004DDP">SA56004DDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004ED" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004ED">SA56004ED</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004EDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004EDP">SA56004EDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004FD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004FD">SA56004FD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004FDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004FDP">SA56004FDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004GD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004GD">SA56004GD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004GDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004GDP">SA56004GDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004HD" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004HD">SA56004HD</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004HDP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004HDP">SA56004HDP</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SA56004X" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/smbus-compatible-8-pin-remote-local-digital-temperature-sensor-with-overtemperature-alarms:SA56004X">SA56004X</a>: SMBus-compatible, 8-pin, remote/local digital temperature sensor with overtemperature alarms
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE95" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ultra-high-accuracy-digital-temperature-sensor-and-thermal-watchdog:SE95">SE95</a>: Ultra high accuracy digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE95D" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ultra-high-accuracy-digital-temperature-sensor-and-thermal-watchdog:SE95D">SE95D</a>: Ultra high accuracy digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE95DP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ultra-high-accuracy-digital-temperature-sensor-and-thermal-watchdog:SE95DP">SE95DP</a>: Ultra high accuracy digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE95U" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ultra-high-accuracy-digital-temperature-sensor-and-thermal-watchdog:SE95U">SE95U</a>: Ultra high accuracy digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE97BTP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ddr-memory-module-temp-sensor-with-integrated-spd:SE97BTP">SE97BTP</a>: DDR memory module temp sensor with integrated SPD
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE97PW" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ddr-memory-module-temp-sensor-with-integrated-spd-3.3-v:SE97PW">SE97PW</a>: DDR memory module temp sensor with integrated SPD, 3.3 V
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE97TP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ddr-memory-module-temp-sensor-with-integrated-spd-3.3-v:SE97TP">SE97TP</a>: DDR memory module temp sensor with integrated SPD, 3.3 V
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE98A" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ddr-memory-module-temp-sensor-1.7-v-to-3.6-v:SE98A">SE98A</a>: DDR memory module temp sensor, 1.7 V to 3.6 V
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE98APW" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ddr-memory-module-temp-sensor-1.7-v-to-3.6-v:SE98APW">SE98APW</a>: DDR memory module temp sensor, 1.7 V to 3.6 V
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SE98ATP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ddr-memory-module-temp-sensor-1.7-v-to-3.6-v:SE98ATP">SE98ATP</a>: DDR memory module temp sensor, 1.7 V to 3.6 V
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Gyroscopes" href="/products/sensors/gyroscopes:GYROSCOPE">Gyroscopes</a><ul>
+               <li class="last"><a data-dtmname="FXAS21002C" href="/products/sensors/gyroscopes/3-axis-digital-gyroscope:FXAS21002C">FXAS21002C</a>: 3-Axis Digital Gyroscope
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Temperature Sensors" href="/products/sensors/temperature-sensors:MC_16784">Temperature Sensors</a><ul>
+               <li class="last"><a data-dtmname="KTY81" href="/products/sensors/temperature-sensors/silicon-temperature-sensors:KTY81">KTY81</a>: Silicon temperature sensors
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KTY82" href="/products/sensors/temperature-sensors/silicon-temperature-sensors:KTY82">KTY82</a>: Silicon temperature sensors
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KTY83" href="/products/sensors/temperature-sensors/silicon-temperature-sensors:KTY83">KTY83</a>: Silicon temperature sensors
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KTY84" href="/products/sensors/temperature-sensors/silicon-temperature-sensors:KTY84">KTY84</a>: Silicon temperature sensors
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="KTY8X" href="/products/automotive-products/sensors/temperature-sensors/silicon-temperature-sensors:KTY8X">KTY8X</a>: Silicon temperature sensors
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075D" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075D">PCT2075D</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075DP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075DP">PCT2075DP</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075GV" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075GV">PCT2075GV</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2075TP" href="/products/interfaces/ic-bus-portfolio/ic-temperature-voltage-monitors/ic-bus-fm-plus-1-degree-c-accuracy-digital-temperature-sensor-and-thermal-watchdog:PCT2075TP">PCT2075TP</a>: I&#178;C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCT2202UK" href="/products/sensors/temperature-sensors/ultra-low-power-1.8-v-1-deg.-c-accuracy-digital-temperature-sensor-with-i2c-bus-interface:PCT2202UK">PCT2202UK</a>: Ultra low power, 1.8 V, 1 deg. C accuracy, digital temperature sensor with I2C-bus interface
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="6-Axis Sensors" href="/products/sensors/6-axis-sensors:6-AXIS">6-Axis Sensors</a><ul>
+               <li class="last"><a data-dtmname="FXOS8700CQ" href="/products/sensors/6-axis-sensors/digital-sensor-3d-accelerometer-2g-4g-8g-plus-3d-magnetometer:FXOS8700CQ">FXOS8700CQ</a>: Digital Sensor - 3D Accelerometer (&#177;2g/&#177;4g/&#177;8g) + 3D Magnetometer
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Accelerometers" href="/products/sensors/accelerometers:DRSNSAXLRTN">Accelerometers</a><ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="3-Axis Accelerometers" href="/products/sensors/accelerometers/3-axis-accelerometers:3-AXIS">3-Axis Accelerometers</a><ul>
+                     <li class="last"><a data-dtmname="FXLN83xxQ" href="/products/sensors/accelerometers/3-axis-accelerometers/nxp-analog-accelerometers:FXLN83xxQ">FXLN83xxQ</a>: NXP<sup>&#174;</sup> Analog Accelerometers 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="FXLS8471Q" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-14-bit-digital-accelerometer:FXLS8471Q">FXLS8471Q</a>: &#177;2g/&#177;4g/&#177;8g, Low g, 14-Bit Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA745xL" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-digital-accelerometer:MMA745xL">MMA745xL</a>: &#177;2g/&#177;4g/&#177;8g, Low g, Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA7660FC" href="/products/sensors/accelerometers/3-axis-accelerometers/1.5g-low-g-digital-accelerometer:MMA7660FC">MMA7660FC</a>: &#177;1.5g, Low g, Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8450Q" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-digital-accelerometer:MMA8450Q">MMA8450Q</a>: &#177;2g/&#177;4g/&#177;8g, Low g, Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8451Q" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-14-bit-digital-accelerometer:MMA8451Q">MMA8451Q</a>: &#177;2g/&#177;4g/&#177;8g, Low g, 14-bit Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8452Q" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-12-bit-digital-accelerometer:MMA8452Q">MMA8452Q</a>: &#177;2g/&#177;4g/&#177;8g, Low g, 12-bit Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8453Q" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8453Q">MMA8453Q</a>: &#177;2g/&#177;4g/&#177;8g, Low g, 10-bit Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8491Q" href="/products/sensors/accelerometers/3-axis-accelerometers/8g-low-g-digital-nxp-accelerometer:MMA8491Q">MMA8491Q</a>: &#177;8g, Low g, Digital NXP<sup>&#174;</sup> Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8652FC" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-12-bit-digital-accelerometer:MMA8652FC">MMA8652FC</a>: &#177;2g/&#177;4g/&#177;8g, Low g, 12-Bit Digital Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8653FC" href="/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC">MMA8653FC</a>: &#177;2g/&#177;4g/&#177;8g, Low g, 10-Bit Digital Accelerometer
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="2-Axis Accelerometers" href="/products/automotive-products/sensors/accelerometers/2-axis-accelerometers:2-AXIS">2-Axis Accelerometers</a><ul>
+                     <li class="last"><a data-dtmname="MMA3201" href="/products/sensors/accelerometers/2-axis-accelerometers/40g-medium-g-analog-accelerometer:MMA3201">MMA3201</a>: &#177;40g, Medium-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA3202" href="/products/sensors/accelerometers/2-axis-accelerometers/100g-50g-medium-g-analog-accelerometer:MMA3202">MMA3202</a>: &#177;100g, &#177;50g, Medium-g, Analog Accelerometer 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA3204" href="/products/sensors/accelerometers/2-axis-accelerometers/100g-30g-medium-g-analog-accelerometer:MMA3204">MMA3204</a>: &#177;100g, &#177;30g, Medium g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA3221" href="/products/sensors/accelerometers/2-axis-accelerometers/20g-50g-medium-g-analog-surface-mount-accelerometer:MMA3221">MMA3221</a>: &#177;20g/&#177;50g, Medium-g, Analog Surface Mount Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA62xx" href="/products/sensors/accelerometers/2-axis-accelerometers/spi-20-20g-50-50g-100-100g-medium-g-digital-or-analog-accelerometer:MMA62xx">MMA62xx</a>: SPI &#177;20/20g, &#177;50/50g, &#177;100/100g, Medium-g, Digital or Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA65xx" href="/products/sensors/accelerometers/2-axis-accelerometers/spi-80g-to-120g-xy-axis-medium-g-digital-inertial-sensor:MMA65xx">MMA65xx</a>: SPI &#177;80g to &#177;120g XY-Axis, Medium-g, Digital Inertial Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA68xxKW" href="/products/sensors/accelerometers/2-axis-accelerometers/spi-20g-to-120g-xy-axis-medium-g-digital-inertial-sensor:MMA68xxKW">MMA68xxKW</a>: SPI &#177;20g to &#177;120g XY-Axis, Medium-g, Digital Inertial Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA69xxKQ" href="/products/sensors/accelerometers/2-axis-accelerometers/spi-3.5g-or-5.0g-xy-axis-low-g-digital-inertial-sensor:MMA69xxKQ">MMA69xxKQ</a>: SPI &#177;3.5g or &#177;5.0g XY-Axis, Low-g, Digital Inertial Sensor
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="1-Axis Accelerometers" href="/products/sensors/accelerometers/1-axis-accelerometers:1-AXIS">1-Axis Accelerometers</a><ul>
+                     <li class="last"><a data-dtmname="MMA1200" href="/products/sensors/accelerometers/1-axis-accelerometers/250g-high-g-analog-accelerometer:MMA1200">MMA1200</a>: &#177;250g, High-g, Analog Accelerometer 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1210" href="/products/sensors/accelerometers/1-axis-accelerometers/100g-medium-g-analog-accelerometer:MMA1210">MMA1210</a>: &#177;100g, Medium-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1211" href="/products/sensors/accelerometers/1-axis-accelerometers/150g-high-g-analog-accelerometer:MMA1211">MMA1211</a>: &#177;150g, High-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1220" href="/products/sensors/accelerometers/1-axis-accelerometers/8g-low-g-analog-accelerometer:MMA1220">MMA1220</a>: &#177;8g, Low-g, Analog Accelerometer 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1250KEG" href="/products/sensors/accelerometers/1-axis-accelerometers/5g-low-g-analog-accelerometer:MMA1250KEG">MMA1250KEG</a>: &#177;5g, Low-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1251" href="/products/sensors/accelerometers/1-axis-accelerometers/5g-low-g-analog-accelerometer:MMA1251">MMA1251</a>: &#177;5g, Low-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1254EG" href="/products/sensors/accelerometers/1-axis-accelerometers/5g-low-g-analog-accelerometer:MMA1254EG">MMA1254EG</a>: &#177;5g, Low-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA1270KEG" href="/products/sensors/accelerometers/1-axis-accelerometers/2.5g-low-g-analog-accelerometer:MMA1270KEG">MMA1270KEG</a>: &#177;2.5g, Low-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA16xx" href="/products/sensors/accelerometers/1-axis-accelerometers/dsi2.5-50g-to-312.5g-z-axis-medium-or-high-g-digital-inertial-sensor:MMA16xx">MMA16xx</a>: DSI2.5 &#177;50g to &#177;312.5g, Z-Axis, Medium- or High-g Digital Inertial Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2201" href="/products/sensors/accelerometers/1-axis-accelerometers/40g-medium-g-analog-accelerometer:MMA2201">MMA2201</a>: &#177;40g, Medium-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2202" href="/products/sensors/accelerometers/1-axis-accelerometers/50g-medium-g-analog-accelerometer:MMA2202">MMA2202</a>: &#177;50g, Medium-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2204" href="/products/sensors/accelerometers/1-axis-accelerometers/100g-80g-medium-g-analog-accelerometer:MMA2204">MMA2204</a>: &#177;100g, &#177;80g, Medium-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2240" href="/products/sensors/accelerometers/1-axis-accelerometers/7g-low-g-analog-accelerometer:MMA2240">MMA2240</a>: &#177;7g, Low-g, Analog Accelerometer 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2244" href="/products/sensors/accelerometers/1-axis-accelerometers/20g-low-g-analog-accelerometer:MMA2244">MMA2244</a>: &#177;20g, Low-g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2300" href="/products/sensors/accelerometers/1-axis-accelerometers/250g.-high-g-analog-accelerometer:MMA2300">MMA2300</a>: &#177;250g. High-g, Analog Accelerometer 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA2301" href="/products/sensors/accelerometers/1-axis-accelerometers/200g-high-g-analog-accelerometer:MMA2301">MMA2301</a>: &#177;200g, High g, Analog Accelerometer
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA26xx" href="/products/sensors/accelerometers/1-axis-accelerometers/dsi2.5-25g-to-375g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA26xx">MMA26xx</a>: DSI2.5 &#177;25g to &#177;375g X-Axis, Medium- or High-g, Digital Inertial Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA27xxKW" href="/products/sensors/accelerometers/1-axis-accelerometers/dsi3-25g-to-375g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA27xxKW">MMA27xxKW</a>: DSI3 &#177;25g to &#177;375g X-Axis, Medium- or High-g Digital Inertial Sensor 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA51xxW" href="/products/sensors/accelerometers/1-axis-accelerometers/psi5-60g-to-480g-z-axis-medium-or-high-g-digital-inertial-sensor:MMA51xxW">MMA51xxW</a>: PSI5 &#177;60g to &#177;480g Z-Axis, Medium- or High-g, Digital Inertial Sensor 
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA52xx" href="/products/sensors/accelerometers/1-axis-accelerometers/psi5-60g-to-480g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA52xx">MMA52xx</a>: PSI5 &#177;60g to &#177;480g X-Axis, Medium- or High-g, Digital Inertial Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA685x" href="/products/sensors/accelerometers/1-axis-accelerometers/spi-20g-120g-medium-g-inertial-sensor:MMA685x">MMA685x</a>: SPI &#177;20g, 120g, Medium g, Inertial Sensor
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="MMA8XXXEG" href="/products/sensors/accelerometers/1-axis-accelerometers/50g-250g-high-g-digital-accelerometer:MMA8XXXEG">MMA8XXXEG</a>: &#177;50g, &#177;250g, High-g, Digital Accelerometer
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </ul>
+</div><!--ls:end[component-1473770942781]--> 
+       </div> 
+      </div> 
+      <div class="iw_columns col-lg-6" id="colit1h61c0"> 
+       <div class="iw_component" id="iw_comp1473770942759">
+         <!--ls:begin[component-1473770942759]-->	<h2>Design Resources</h2>
+		<div class="padMe5"></div>
+
+	<ul id="php-tree-des" class="treeview">
+		<li class="open">Getting Started
+		   <ul>
+				<li><a href='/assets/documents/data/en/brochures/BRAUTOSOL.pdf'>Automotive Solutions Brochure</a></li>
+				<li><a href='/assets/documents/data/en/white-papers/NEWENERGEFFICWP.pdf'>NXP<sup>®</sup> Energy-Efficient Solutions</a></li>
+				<li><a href='/products/sensors/nxp-sensing-solutions:XTRINSIC_SOLUTIONS'>NXP Sensing Solutions</a></li>
+				<li><a href='/pages/sensor-data-analytics:SENSOR-DATA-ANALYTICS'>Sensor Data Analytics</a></li>
+				<li><a href='/assets/documents/data/en/product-selector-guide/SENSSELECT.pdf'>Sensor Selector Guide</a> <span class="icon-file-pdf"></span></li>
+				<li><a href='/assets/documents/data/en/fact-sheets/SNSRSOLUTNTMFS.pdf'>Sensor Solutions Fact Sheet</a> <span class="icon-file-pdf"></span></li>
+				
+		   </ul>
+		</li>
+	  <li class="closed">Documentation
+			<ul>
+				<li><a href="/search?q=+inmeta:Asset_Type%3DDocuments+inmeta:deviceTax%3Dc265
++inmeta:type%3DApplication%2520Notes&lang_cd=en&site=nxp_en&proxystylesheet=nxp_search_style_fe&filter=0&getfields=*&entsp=a&client=nxp_search_documents&dnavs=inmeta:Asset_Type%3DDocuments+inmeta:deviceTax%3Dc265
++inmeta:type%3DApplication%2520Notes">Application Notes</a></li>
+
+
+
+				<li><a href='/search?q=+inmeta:Asset_Type%3DDocuments+inmeta:deviceTax%3Dc265
++inmeta:type%3DData%2520Sheets&lang_cd=en&site=nxp_en&proxystylesheet=nxp_search_style_fe&filter=0&getfields=*&entsp=a&client=nxp_search_documents&dnavs=inmeta:Asset_Type%3DDocuments+inmeta:deviceTax%3Dc265
++inmeta:type%3DData%2520Sheets'>Data Sheets</a></li>
+			</ul>
+		</li>
+		<li><a href="https://community.nxp.com/community/sensors"><i>NXP Community</i>: Sensors</a></li>
+		<li><a href="https://community.nxp.com/community/sensors/sensorfusion"><i>NXP Community</i>: Sensor Fusion</a></li>
+		<li><a href="/pages/nxp-designs:NXP-DESIGNS">Reference Designs</a></li>
+		
+		<li class="closed">Software and Development Tools <span class="new_green" date-expire="01/05/2014">&nbsp;</span>
+			<ul>
+							
+				<li><a href='/products/software-and-tools/hardware-development-tools/freedom-development-boards/frdm-fxs-multi-nxp-freedom-development-platform-for-multiple-sensors:FRDM-FXS-MULTI'>Freedom Development Platform for Multiple NXP Sensors</a> <span class="new_green" date-expire="01/05/2014">&nbsp;</span></li>
+				<li><a href='/products/software-and-tools/hardware-development-tools/freedom-development-boards/frdm-fxs-multi-b-freedom-development-platform-for-nxp-sensors-with-bluetooth:FRDM-FXS-MULTI-B'>Freedom Development Platform for NXP Sensors with Bluetooth</a> <span class="new_green" date-expire="01/05/2014">&nbsp;</span></li>
+				<li><a href='/products/software-and-tools/hardware-development-tools/freedom-development-boards/frdm-fxs-9axis-freedom-development-platform-for-9-axis-nxp-sensor-solution:FRDM-FXS-9AXIS'>Freedom Development Platform for 9-Axis NXP Sensor Solution</a> <span class="new_green" date-expire="01/05/2014">&nbsp;</span></li>
+				
+				<li><a href='/products/sensors/nxp-sensor-fusion:XTRSICSNSTLBOX'>NXP Sensor Fusion</a></li>
+				<li><a href='/products/automotive-products/sensors/accelerometers/3-axis-accelerometers/nxp-mechatronics-robot:FSLBOT'>Mechatronics Robot</a></li>
+				<li><a href='/products/sensors/sensor-toolbox-sensor-development-ecosystem/evaluation-boards:SNSTOOLBOX'>Sensors Toolbox</a></li>
+				<li><a href='/products/software-and-tools/hardware-development-tools/tower-development-boards:TOWER_HOME'>Tower<sup>®</sup> System</a></li>
+				<li><a href='/products/automotive-products/sensors/accelerometers/3-axis-accelerometers/nxp-e-compass-software:E-Compass'>NXP E-Compass Software</a></li>
+				<li><a href='/products/sensors/intelligent-sensing-framework:INTELLIGENT-SENSING-FRAMEWORK'>NXP Intelligent Sensing Framework (ISF)</a></li>
+				<li><a href='/products/sensors/touch-sensors/touch-sensing-software:TSS'>NXP Touch Sensing Software</a></li>
+				<li><a href="/search?q=+inmeta:Asset_Type%3DSoftwareTools+inmeta:deviceTax%3Dc265
+&lang_cd=en&site=nxp_en&proxystylesheet=nxp_search_style_fe&filter=0&getfields=*&entsp=a&client=nxp_search_sw_tools&dnavs=inmeta:Asset_Type%3DSoftwareTools+inmeta:deviceTax%3Dc265
+">View All Software and Tools for Sensors</a></li>
+			</ul>
+		</li>		
+		<li>Design Partners
+			<ul>	
+				<li><a href="/webapp/connect/memberDirSearch.sp">NXP partner program</a></li>
+			</ul>	
+		</li>
+		
+		<li>Training &amp; Events
+		<ul>
+			<li><a href="http://www.nxp.com/webapp/sps/site/eventCalendarSearch.sp?QueryText=&TrainingEvent=N&EventStatus=active"><strong>Events</strong></a></li>
+			<li><a href='/support/training-events/online-academy:ON_DEMAND_TRNG'><strong>On-Demand Training</strong></a>
+				<ul>
+					<li><a href='/products/sensors/sample-data-sets-for-inertial-and-magnetic-sensors:SENSORDATA'>Sensor Data Sets</a></li>
+				</ul>
+			</li>
+			<li><a href='/pages/certified-training-workshops:LIVE_TRNG'><strong>Live Training</strong></a></li>
+		</li>
+
+	</ul>
+<!--ls:end[component-1473770942759]--> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="iw_component" id="iw_comp1476804834804">
+       <!--ls:begin[component-1476804834804]--><div class="row">
+	<div class="col-md-12">
+		<div class="iu-container">
+			<div class="iu">
+					<h2>Learn More</h2>                      
+						<ul>
+							<li><a href='/pages/sensor-data-analytics:SENSOR-DATA-ANALYTICS'>Sensor Data Analytics</a><br/> Analyzing sensor data to guide informed decisions</li>
+							<li><a href='/products/sensors/nxp-sensing-solutions:XTRINSIC_SOLUTIONS'>NXP Sensing Solutions</a><br/> NXP: A Leader in Sensing Solutions</li>
+						</ul>
+			</div>
+			
+			<div class="iu">
+			<h2>What's New</h2>
+				<a href="/products/sensors/sensor-toolbox-sensor-development-ecosystem/freedom-sensor-toolbox-community-edition-sensor-evaluation-and-visualization-software:SENSOR-TOOLBOX-CE">STB-CE v1.5.0 is now Available</a></br>Introduces new features for enhancing the Out of Box Demonstration and Evaluation experience.
+				
+			
+			</div>
+			
+			<div class="iu">
+				<h2>Featured Videos</h2>
+		
+					<div class="iu-large-video clearfix">
+						<div class="video-inner-n">
+							<a class='FSLvideo' data-video='ISF-R2-OVERVIEW-DEMO'>
+								<img src="http://cache.nxp.com/videos/thumbnail/ISF-R2-OVERVIEW-DEMO.jpg" alt="ISF-R2-OVERVIEW-DEMO" class="thumb-v-n"/>
+							</a>
+							<div class="play-video-n">
+								<a class='FSLvideo' data-video='ISF-R2-OVERVIEW-DEMO'></a>
+							</div>
+						</div>
+						<div class="thumbp">
+							<a class='FSLvideo' data-video='ISF-R2-OVERVIEW-DEMO' data-title='ISF R2.1 Product Overview and Demo'>ISF R2.1 Product Overview and Demo</a> 
+							(16:04 min)
+						</div>
+					</div>			
+					
+					<p>
+						<a href="/webapp/video_vault/videoSummary.sp?searchLabel=renderChannelPage&#38;code=SNSHOME_VIDEOS:L">
+							<span class="txt">View all videos</span>
+						</a>
+					</p>			
+			</div>
+		</div>
+	</div>
+</div><!--ls:end[component-1476804834804]--> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b0"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b1"> 
+  <div class="iw_columns col-lg-12" id="colit1h61b2"> 
+   <div class="iw_component" id="iw_comp1473770942747">
+     <footer>
+    <!--  default footer -->
+    <div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                ABOUT NXP
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        Investors
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/webapp/connect/memberDirSearch.sp">
+                        Partners
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/about/careers-at-nxp:CAREERS">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                RESOURCES
+            </h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://www.nxp.com/about/nxp-mobile-applications:MOBILE">
+                        Mobile Apps
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.nxp.com">
+                        Press, News, Blogs
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/pages/contact-us:CONTACTUS">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                FOLLOW US
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+                <li class="twitter">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://twitter.com/NXP" target="_blank" title="Follow NXP on Twitter">
+                        <span class="icon-twitter22">
+                        </span>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="Follow NXP on Linked In">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://www.facebook.com/NXPsemi" target="_blank" title="Follow NXP on Facebook">
+                        <span class="icon-facebook">
+                        </span>
+                    </a>
+                </li>
+                <!--li class="youtube"><a href="https://www.youtube.com/nxpsemiconductors" title="Follow NXP on Youtube" target="_blank" data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US"><span class="icon-youtube-square2"></span></a></li-->
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center" target="_blank" title="Subscription Center">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            NEWS
+                        </h5>
+                        <p>
+                            NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-NewsCorporate" target="_blank">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/about/privacy:PRIVACYPRACTICES">
+                        Privacy
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/terms-of-use:TERMSOFUSE">
+                        Terms of Use
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        Terms of Sale
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        Feedback
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6">
+                &copy;2006-2017 NXP Semiconductors. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>

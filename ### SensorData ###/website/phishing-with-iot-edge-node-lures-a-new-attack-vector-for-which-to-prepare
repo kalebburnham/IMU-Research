@@ -1,0 +1,323 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<title>Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="NXP Blog &raquo; Feed" href="https://blog.nxp.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="NXP Blog &raquo; Comments Feed" href="https://blog.nxp.com/comments/feed" />
+<link rel="canonical" href="https://blog.nxp.com/security/phishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.nxp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=798acf3e63b970f3cf087e20976cb80b"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpemfb-lightbox-css'  href='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/lightbox2/css/lightbox.css?ver=798acf3e63b970f3cf087e20976cb80b' type='text/css' media='all' />
+<link rel='stylesheet' id='all-combined-css-css'  href='https://blog.nxp.com/wp-content/themes/nxp-blog/compiled.min.css?ver=1491929358' type='text/css' media='all' />
+<link rel='stylesheet' id='timeline-twitter-feed-frontend-css'  href='https://blog.nxp.com/wp-content/plugins/timeline-twitter-feed/res/css/timeline-twitter-feed-frontend.css?ver=1.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/lightbox2/js/lightbox.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/js/wpembedfb.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WEF = {"local":"en_US","version":"v2.7","fb_id":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/js/fb.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://blog.nxp.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.nxp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.nxp.com%2Fsecurity%2Fphishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.nxp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.nxp.com%2Fsecurity%2Fphishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare&#038;format=xml" />
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//blog.nxp.com/?wordfence_logHuman=1&hid=E6DAC9B4536E29694629D347A2D0531E');
+</script><link rel="Shortcut Icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAAAAtfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/AAA6AAAAOgAAAEnxAADp6wAA2zwAAD6ZAAANHAAAR94AAE3IAACLpgAAWn0AACUfAADL/AAARTsAAIkKAACuMg==" type="image/x-icon" />	<style type="text/css">
+
+	</style>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<meta name="resource-type" content="blog" />
+<style type="text/css">
+
+@media screen and (max-width: 1024px){
+.nxpsw-post-header {
+ height: 0 !important;
+}
+}
+</style></head>
+<body class="post-template-default single single-post postid-16008 single-format-standard header-image header-full-width content-sidebar" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><nav class="nav-secondary" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-nxp-outgoing-menu" class="menu genesis-nav-menu menu-secondary"><li id="menu-item-4361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4361"><a target="_blank" href="http://www.nxp.com" itemprop="url"><span itemprop="name">NXP Home ></span></a></li>
+<li id="menu-item-4362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4362"><a target="_blank" href="http://www.nxp.com/about/about-nxp:COMPANY_INFO_HOME" itemprop="url"><span itemprop="name">About NXP</span></a></li>
+<li id="menu-item-13331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13331"><a target="_blank" href="http://news.nxp.com/" itemprop="url"><span itemprop="name">News</span></a></li>
+<li id="menu-item-13332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13332"><a target="_blank" href="http://www.nxp.com/about/about-nxp/careers-at-nxp:CAREERS" itemprop="url"><span itemprop="name">Careers</span></a></li>
+<li id="menu-item-4365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4365"><a target="_blank" href="http://investors.nxp.com/" itemprop="url"><span itemprop="name">Investors</span></a></li>
+<li id="menu-item-13334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13334"><a target="_blank" href="http://www.nxp.com/support/sales-and-support/nxp-newsletter:NL_HOME" itemprop="url"><span itemprop="name">NXP Newsletter</span></a></li>
+<li id="menu-item-13335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13335"><a target="_blank" href="http://www.nxp.com/about/about-nxp/contact-us:CONTACTUS" itemprop="url"><span itemprop="name">Contact</span></a></li>
+<form class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://blog.nxp.com/" role="search"><meta itemprop="target" content="https://blog.nxp.com/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this website &#x2026;" /><input type="submit" value="Search"  /></form></ul></div></nav><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap">	<div class="two-fifths no-margin">
+		<a href="/">
+			<div class="single-page-logo">
+
+			</div>
+		</a><!-- .homepage-block-wrapper -->
+	</div><!-- .one-fourth -->
+
+	<div class="nxpsw-post-header three-fifths nxpsw-main-dark-post">
+
+		<nav class="nav-primary">
+			<div class="menu-category-menu-container"><ul id="menu-category-menu" class="menu"><li id="menu-item-3989" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3989"><a href="https://blog.nxp.com/category/connected-car" itemprop="url">Connected Car</a></li>
+<li id="menu-item-3986" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3986"><a href="https://blog.nxp.com/category/internet-of-things-2" itemprop="url">IoT</a></li>
+<li id="menu-item-3990" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3990"><a href="https://blog.nxp.com/category/portable-wearable" itemprop="url">Portables and Wearables</a></li>
+<li id="menu-item-13322" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-13322"><a href="https://blog.nxp.com/category/security" itemprop="url">Security</a></li>
+<li id="menu-item-13337" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13337"><a href="https://blog.nxp.com/category/tech-in-depth" itemprop="url">Tech In-Depth</a></li>
+<li id="menu-item-13336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13336"><a href="https://blog.nxp.com/category/events" itemprop="url">Events</a></li>
+<li id="menu-item-13355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13355"><a href="https://blog.nxp.com/categories" itemprop="url">All</a></li>
+</ul></div>		</nav>
+
+		<div class="image-clipper">
+			<img width="580" height="320" src="https://blog.nxp.com/wp-content/uploads/2017/04/Phishing-Scams-Graphic-580x320.jpg" class="attachment-blog-image-medium size-blog-image-medium wp-post-image" alt="" />		</div>
+
+		<div class="post-header-wrapper">
+			Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare
+					</div><!-- .homepage-block-wrapper -->
+	</div><!-- .three-fourths -->
+
+</div></header><div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><main class="content"><p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2017-04-06T21:08:27+00:00">April 6, 2017</time> <span class="entry-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="entry-author-name" itemprop="name">Donnie Garcia</span></span></p><h2 class="entry-title show-on-mobile" style="padding-left: 30px;">Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare</h2><div class="single-post-header"><img class="fallback-to-logo" src="https://blog.nxp.com/wp-content/uploads/2017/04/Phishing-Scams-Graphic.jpg" alt="Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare"  /></div><article class="post-16008 post type-post status-publish format-standard has-post-thumbnail category-cyber-security category-iot category-mcus category-microcontrollers category-secure-transactions category-security entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare</h1> 
+</header><div class="entry-content" itemprop="text"><div id="fb-root"></div>
+<style type="text/css">body[class~='postid-16008'] .single-post-header{visibility: hidden; width:0; height: 0; max-height: 0; display:none} body[class~='postid-16008'] .fallback-to-logo{visibility: hidden; display: none; height: 0; width: 0} body[class~='postid-16008'] article.post-16008{padding-top: 0}</style>
+<p>Just imagine, it’s your anniversary, your birthday or a holiday a<a href="https://blog.nxp.com/wp-content/uploads/2017/04/Phishing-Scams-Graphic.jpg"><img class=" wp-image-16010 alignright" src="https://blog.nxp.com/wp-content/uploads/2017/04/Phishing-Scams-Graphic-300x185.jpg" alt="" width="298" height="184" srcset="https://blog.nxp.com/wp-content/uploads/2017/04/Phishing-Scams-Graphic-300x185.jpg 300w, https://blog.nxp.com/wp-content/uploads/2017/04/Phishing-Scams-Graphic.jpg 580w" sizes="(max-width: 298px) 100vw, 298px" /></a>nd a new package arrives addressed to you. Expectantly you open it to find the latest IoT gadget, maybe an activity tracker or even a connected sprinkler system controller – something you’ve been wanting. “Nice!” you think, but who could have sent it? Pushing its origin aside for a bit, you eagerly set it up and pair it with your smart phone using your home Wi-Fi network credentials. BAM! In that moment, and unbeknownst to you, you have just created an opportunity for an attacker to gain access to your valuable data.</p>
+<p>By now, most are  aware of <a href="https://info.wombatsecurity.com/blog/the-latest-in-phishing-first-of-2016" target="_blank">email phishing scams</a> used to inject malware onto personal computing devices, but what about a phishing attack that uses an IoT edge node as a lure, like the scenario described above? As attackers and attacks become more sophisticated, this scenario is increasingly possible. Along with the growing expertise of the attacker, there is expanding technology adoption by the consumers fueling the expansion of IoT and increasing the probability of acceptance of an IoT edge node “bait.”</p>
+<p>So, what went wrong? What could have been done to prevent it? There are many scenarios that that could lead to this type of attack where a familiar product is repurposed for malicious intent. The firmware that was initially deployed, and or the firmware update that came after deployment was not properly protected by the device manufacturer.</p>
+<p>Just like the <a href="https://en.wikipedia.org/wiki/Trapdoor_function" target="_blank">trap door functions</a> that enable cryptography, there are some simple steps that can be taken in the manufacturing and development of embedded devices that can make this type of attack extraordinarily more difficult to perform in the field. With the right technology, firmware can be placed into internal memory and permanently locked down. Firmware updates can also be protected by cryptography.</p>
+<p><a href="https://blog.nxp.com/wp-content/uploads/2017/04/BOOTLOADER-KINETIS-MCUS-BD.jpg"><img class="size-medium wp-image-16011 alignleft" src="https://blog.nxp.com/wp-content/uploads/2017/04/BOOTLOADER-KINETIS-MCUS-BD-300x193.jpg" alt="" width="300" height="193" srcset="https://blog.nxp.com/wp-content/uploads/2017/04/BOOTLOADER-KINETIS-MCUS-BD-300x193.jpg 300w, https://blog.nxp.com/wp-content/uploads/2017/04/BOOTLOADER-KINETIS-MCUS-BD-768x495.jpg 768w, https://blog.nxp.com/wp-content/uploads/2017/04/BOOTLOADER-KINETIS-MCUS-BD-1024x660.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Let’s have a look at how NXP’s security technology is used to protect against this attack scenario. NXP’s Kinetis MCU and its bootloader enablement, the Kinetis bootloader or <a href="http://www.nxp.com/products/reference-designs/kinetis-bootloader:KBOOT?&amp;tid=vanKBOOT" target="_blank">KBOOT </a>integrate hardware and software features to enable secure initial provisioning of firmware along with protection of future downloads of firmware in end devices. KBOOT is a flash or ROM resident bootloader along with host tools that are designed to enable the programming of Kinetis MCUs through the entire product life cycle.</p>
+<p>This KBOOT enablement makes use of the Kinetis MCU security technology by providing software firewalls and the ability to leverage cryptographic hardware acceleration for the handling of firmware programming into internal or external memories. KBOOT recognizes the chip level security settings. On some devices, once in secure modes, the only method for using KBOOT to program firmware is to make use of encrypted binary files. All other attempts to update firmware will fail. This means that only the holder of the Secure Binary Key can create the files that will be accepted for downloading firmware to a Kinetis MCU using KBOOT.</p>
+<p>KBOOT is provided as full source code and is highly configurable allowing for more customizations to enhance the security for the application firmware. For example, the Kinetis MCU can be configured to place the bootloader in flash and to make the bootloader immutable using chip security settings. With this protection, an attacker would have to completely remove and replace the IC to make a clone. Because the software is open source, KBOOT could be modified to customize the cryptographic and integrity checking algorithms that the end user desires. One possibility for a very strong security implementation would be to leverage an <a href="http://www.nxp.com/products/identification-and-security/secure-authentication-and-anti-counterfeit-technology/secure-authentication-microcontroller:A700X_FAMILY?fsrch=1&amp;sr=8&amp;pageNum=1" target="_blank">embedded secure element</a> in addition to KBOOT to strengthen the product life cycle security by adding the authentication of devices using secure servers.</p>
+<p>As consumers, there is not much we can do about this type of focused phishing attack. Even knowing about the possibility does not ensure we will always be protected. But as a world leader in secure connectivity solutions, <a href="http://www.nxp.com/about/about-nxp:COMPANY_INFO_HOME" target="_blank">NXP</a> is providing solutions for such threats. Using KBOOT software and the Kinetis MCU will allow embedded developers to more easily integrate the firmware protection needed to ensure these attacks are mitigated.</p>
+<p>Learn more about NXP’s security technology for Kinetis MCUs, visit: <a href="http://www.nxp.com/Kinetis/Security" target="_blank">nxp.com/Kinetis/Security</a>.</p>
+<p style="text-align: center;"><strong>Join Upcoming Webinar</strong><br />
+How to protect your firmware against malicious attacks using the latest Kinetis development board<br />
+Tuesday, April 25 | 10 a.m. Central | <a href="https://register.gotowebinar.com/register/3449912725989686785?elq_mid=4675&amp;elq_cid=2193576" target="_blank">Register Now</a></p>
+</div><div class="clearfix"></div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="widget-author" class="widget widget-author"><div class="widget-wrap"><h4 class="widget-title widgettitle">Donnie Garcia</h4><div class="image-clipper"><img src="https://blog.nxp.com/wp-content/uploads/userphoto/118.jpg" alt="Donnie Garcia" width="210" height="157" class="photo" /></div><p>Donnie Garcia began his semiconductor career as an applications engineer for 8- and 16-bit MCUs. He has helped define and design low-power MCUs for consumer and industrial applications and currently works on embedded design solutions on the Kinetis MCU product marketing team. Donnie has authored nearly 20 technical publications (webinars, whitepapers, articles, application notes, engineering bulletins). He spends his weekends enjoying the outdoors around Austin.</p><a class="author-link" href="https://blog.nxp.com/author/donnie-garcia">All Articles by this author</a></div></section><section id="widget-social-share" class="widget widget-social-share"><h4 class="widget-title widgettitle">Share this blog post</h4><div class="widget-wrap"><ul><li class="fa linkedin-blue"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://blog.nxp.com/security/phishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare&title=Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare" title="Linkedin" target="_blank"></a></li><li class="fa twitter-blue"><a href="http://www.twitter.com/share?url=https://blog.nxp.com/security/phishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare" target="_blank"></a></li><li class="fa facebook-blue"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.nxp.com/security/phishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare" target="_blank" title="Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare"></a></li></ul></div></section></aside></div><div class="social-navigation"><ul id="menu-social-menu" class="menu"><li id="menu-item-4357" class="fa facebook-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4357"><a title="Facebook" href="https://www.facebook.com/nxpsemi" itemprop="url"></a></li>
+<li id="menu-item-4358" class="fa twitter-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4358"><a title="Twitter" href="http://www.twitter.com/nxp" itemprop="url"></a></li>
+<li id="menu-item-4359" class="fa instagram-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4359"><a title="Instagram" href="https://instagram.com/nxpsemiconductors/" itemprop="url"></a></li>
+<li id="menu-item-4360" class="fa linkedin-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4360"><a title="LinkedIn" href="https://www.linkedin.com/company/nxp-semiconductors" itemprop="url"></a></li>
+</ul></div></div></div>
+
+<div class="footer-top">
+	<div class="wrap">
+		<span class="footer-logo"></span>
+		<div class="triangle"><div class="arrow-up">›</div></div>
+		
+	</div>
+</div>
+
+<div class="footer-widgets">
+	<div class="wrap">
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">NXP Careers</h4>
+			<ul>
+				<li><a href="http://www.nxp.com/about/about-nxp/careers-at-nxp:CAREERS" target="_blank">Working at NXP</a></li>
+				<li><a href="https://nxp.wd3.myworkdayjobs.com/en-US/careers" target="_blank">View Job openings</a></li>
+			</ul>
+		</div>
+
+<!-- TEST INCLUDE PLAIN HTML -->
+<!-- <div class="one-fourth nxpsw-main-widget-popular-posts hide-on-mobile">
+	<section id="widget-popular-posts" class="widget widget-popular-posts">
+		<div class="widget-wrap">
+			<h4 class="widget-title widgettitle">
+				Popular blog posts
+			</h4>
+			<a class="pop-post-link nr-0" href="http://blog.nxp.com/slider-main/is-linked-data-the-future-of-data-integration-in-the-enterprise">
+				<h5>
+					Is Linked Data the future of data integration in the enterprise?
+				</h5>
+			</a>
+			<a class="pop-post-link nr-1" href="http://blog.nxp.com/sensors/accelerometer-placement-where-and-why">
+				<h5>
+					Accelerometer placement - where and why
+				</h5>
+			</a>
+			<a class="pop-post-link nr-2" href="http://blog.nxp.com/uncategorized/555-timer-ic-the-stuff-of-silicon-legends">
+				<h5>
+					555 Timer IC, the Stuff of Silicon Legends
+				</h5>
+			</a>
+		</div>
+	</section>
+</div> -->
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">NXP News</h4>
+			<ul>
+				<li><a href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-news&nyo=0" target="_blank">Press releases</a></li>
+				<li><a href="http://media.nxp.com/" target="_blank">News</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">Investors</h4>
+			<ul>
+				<li><a href="http://investors.nxp.com/">Investors home</a></li>
+				<li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-financial">Financial results</a></li>
+				<li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-contact">Contacts</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">Follow us</h4>
+				<ul class="follow-us">
+					<li><a href="https://www.linkedin.com/company/nxp-semiconductors" title="Linkedin"><i class="icon icon-linkedin"></i></a></li>
+					<li><a href="https://twitter.com/nxp" title="Twitter"><i class="icon icon-twitter-squared"></i></a></li>
+					<li><a href="https://www.facebook.com/nxpsemi" title="Facebook"><i class="icon icon-facebook-squared"></i></a></li>	
+					<li><a href="/feed" title="RSS"><i class="icon icon-rss-squared"></i></a></li>			
+				</ul>
+		</div>	
+		<div class="clearfix"></div>	
+	</div>
+<br />
+<br />
+		<div class="footer-bottom">
+			<div class="wrap">
+				<span class="terms"><a href="http://www.nxp.com/about/about-nxp/privacy:PRIVACYPRACTICES">Privacy</a> | <a href="http://www.nxp.com/about/about-nxp/terms-of-use:TERMSOFUSE">Terms of use</a></span>
+				<span class="copy">2006-2017 &copy; NXP SEMICONDUCTORS</span>
+			</div>
+		</div>		
+
+</div>
+
+</div>	<div class="old-ie">This website has been developed for Internet Explorer 9 or higher, please upgrade your browser to view this website. Or change your IE document mode setting to standard or edge if you already have upgraded your browser.</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54d33e185d51085f" async="async"></script> 
+	​<script type="text/javascript">
+		var addthis_config = addthis_config||{};
+		addthis_config.data_track_clickback = false;
+	</script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/themes/nxp-blog/js/build/compiled.min.js?ver=1491929358'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/wp-embed.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<!--<script type="text/javascript">-->
+<!-- var s_account = 'omniture_account_id'; -->
+<!--</script>-->
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js"></script>
+<script type="text/javascript" src="//styles.freescale.com/files/js/elqNow/elqwebanalytics.js"></script>
+<script type="text/javascript" src="//styles.freescale.com/shared/js/webanalytics.js"></script>
+
+<script src='//www.freescale.com/webapp/visitorIdLookup.jsp'></script>
+<script type="text/javascript">
+var digitalData = {};
+digitalData.pageInfo = {};
+digitalData.eventInfo = {};
+digitalData.eventInfo = {};
+digitalData.siteInfo = {};
+digitalData.userInfo = {};
+digitalData.searchInfo = {};
+digitalData.blogInfo = {};
+if(typeof getFslVisitorIDForAnalytics == 'function'){				
+	s_vid = getFslVisitorIDForAnalytics();
+var test1 = '';
+var test2 = '';
+var test3 = '';
+}
+</script>
+
+<script type="text/javascript">
+
+digitalData.pageInfo.pageName = 'NXP Blog Blog Post: Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare'; //page name
+digitalData.pageInfo.siteSection1 = 'WordPress - NXP Blog'; //channel
+digitalData.pageInfo.pageType = 'WordPress Blog Post'; //traffic variable 1
+digitalData.pageInfo.siteSection2 = 'NXP Blog : WordPress Category'; //traffic variable 2
+digitalData.pageInfo.siteSection3 = 'NXP Blog: phishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare' ;//traffic variable 3
+digitalData.searchInfo.searchkeyword  = ''; //traffic variable 4
+digitalData.searchInfo.resultCount = ''; //traffic variable 5
+digitalData.pageInfo.siteSection4 = ''; //traffic variable 8
+digitalData.pageInfo.siteSection5 = ''; //traffic variable 9
+digitalData.pageInfo.siteSection6 = ''; //traffic variable 10
+digitalData.pageInfo.pageEventPathing = 'NXP Blog Blog Post: Phishing with IoT Edge Node Lures – A New Attack Vector for Which to Prepare'; //traffic variable 10
+digitalData.pageInfo.siteSection7 = ''; //traffic variable 11
+digitalData.pageInfo.contentFinding = getContentFinding(document.referrer,document.URL); //traffic variable 17
+digitalData.siteInfo.sitePlatform = 'full'; //traffic variable 17
+digitalData.siteInfo.lang = 'en'; //traffic variable 17
+digitalData.siteInfo.userName = ''; //traffic variable 17
+digitalData.pageInfo.tags = ''; //traffic variable 17
+digitalData.siteInfo.userName = ''; //traffic variable 17
+digitalData.pageInfo.pageURLClean = getCleanPageURL(); //traffic page url
+test1 = 'https://blog.nxp.com/security/phishing-with-iot-edge-node-lures-a-new-attack-vector-for-which-to-prepare'; //authURL
+digitalData.pageInfo.pageLoadRule = 'General';
+//s.channel='WordPress';
+//var search_val=s.prop4;
+digitalData.userInfo.fslVisitorID = s_vid;
+digitalData.pageInfo.localTitle = document.title;
+/*s.campaign= ''; //campaign variable
+s.state= ''; //user state
+s.zip= ''; //user zip
+s.products= ''; //user products
+s.purchaseID= ''; //purchase ID*/
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+//var s_code=s.t();if(s_code)document.write(s_code) //omniture variable
+
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript" src="//style.nxp.com/files/abstract/misc/blueconic.js"></script>
+
+		<script>
+		
+			jQuery( document ).ready( function() {
+				
+				var wp_ajax_url = 'https://blog.nxp.com/wp-admin/admin-ajax.php';
+				
+				if ( typeof _PE !== 'undefined' ) {
+					var application = new _PE.app( { debug: 0 }, jQuery );
+					application.boot();				
+				}
+	
+			});
+			
+		</script>
+		</body>
+</html>

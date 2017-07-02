@@ -1,0 +1,338 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<title>GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="NXP Blog &raquo; Feed" href="https://blog.nxp.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="NXP Blog &raquo; Comments Feed" href="https://blog.nxp.com/comments/feed" />
+<link rel="canonical" href="https://blog.nxp.com/uncategorized/gdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.nxp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=798acf3e63b970f3cf087e20976cb80b"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpemfb-lightbox-css'  href='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/lightbox2/css/lightbox.css?ver=798acf3e63b970f3cf087e20976cb80b' type='text/css' media='all' />
+<link rel='stylesheet' id='all-combined-css-css'  href='https://blog.nxp.com/wp-content/themes/nxp-blog/compiled.min.css?ver=1491929358' type='text/css' media='all' />
+<link rel='stylesheet' id='timeline-twitter-feed-frontend-css'  href='https://blog.nxp.com/wp-content/plugins/timeline-twitter-feed/res/css/timeline-twitter-feed-frontend.css?ver=1.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/lightbox2/js/lightbox.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/js/wpembedfb.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WEF = {"local":"en_US","version":"v2.7","fb_id":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/js/fb.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://blog.nxp.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.nxp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.nxp.com%2Funcategorized%2Fgdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.nxp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.nxp.com%2Funcategorized%2Fgdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona&#038;format=xml" />
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//blog.nxp.com/?wordfence_logHuman=1&hid=93AE7D918C8D48CABF95707DDB0E4B20');
+</script><link rel="Shortcut Icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAAAAtfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/AAA6AAAAOgAAAEnxAADp6wAA2zwAAD6ZAAANHAAAR94AAE3IAACLpgAAWn0AACUfAADL/AAARTsAAIkKAACuMg==" type="image/x-icon" />	<style type="text/css">
+
+	</style>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<meta name="resource-type" content="blog" />
+<style type="text/css">
+
+@media screen and (max-width: 1024px){
+.nxpsw-post-header {
+ height: 0 !important;
+}
+}
+</style></head>
+<body class="post-template-default single single-post postid-15947 single-format-standard header-image header-full-width content-sidebar" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><nav class="nav-secondary" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-nxp-outgoing-menu" class="menu genesis-nav-menu menu-secondary"><li id="menu-item-4361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4361"><a target="_blank" href="http://www.nxp.com" itemprop="url"><span itemprop="name">NXP Home ></span></a></li>
+<li id="menu-item-4362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4362"><a target="_blank" href="http://www.nxp.com/about/about-nxp:COMPANY_INFO_HOME" itemprop="url"><span itemprop="name">About NXP</span></a></li>
+<li id="menu-item-13331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13331"><a target="_blank" href="http://news.nxp.com/" itemprop="url"><span itemprop="name">News</span></a></li>
+<li id="menu-item-13332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13332"><a target="_blank" href="http://www.nxp.com/about/about-nxp/careers-at-nxp:CAREERS" itemprop="url"><span itemprop="name">Careers</span></a></li>
+<li id="menu-item-4365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4365"><a target="_blank" href="http://investors.nxp.com/" itemprop="url"><span itemprop="name">Investors</span></a></li>
+<li id="menu-item-13334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13334"><a target="_blank" href="http://www.nxp.com/support/sales-and-support/nxp-newsletter:NL_HOME" itemprop="url"><span itemprop="name">NXP Newsletter</span></a></li>
+<li id="menu-item-13335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13335"><a target="_blank" href="http://www.nxp.com/about/about-nxp/contact-us:CONTACTUS" itemprop="url"><span itemprop="name">Contact</span></a></li>
+<form class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://blog.nxp.com/" role="search"><meta itemprop="target" content="https://blog.nxp.com/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this website &#x2026;" /><input type="submit" value="Search"  /></form></ul></div></nav><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap">	<div class="two-fifths no-margin">
+		<a href="/">
+			<div class="single-page-logo">
+
+			</div>
+		</a><!-- .homepage-block-wrapper -->
+	</div><!-- .one-fourth -->
+
+	<div class="nxpsw-post-header three-fifths nxpsw-main-dark-post">
+
+		<nav class="nav-primary">
+			<div class="menu-category-menu-container"><ul id="menu-category-menu" class="menu"><li id="menu-item-3989" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3989"><a href="https://blog.nxp.com/category/connected-car" itemprop="url">Connected Car</a></li>
+<li id="menu-item-3986" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3986"><a href="https://blog.nxp.com/category/internet-of-things-2" itemprop="url">IoT</a></li>
+<li id="menu-item-3990" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3990"><a href="https://blog.nxp.com/category/portable-wearable" itemprop="url">Portables and Wearables</a></li>
+<li id="menu-item-13322" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13322"><a href="https://blog.nxp.com/category/security" itemprop="url">Security</a></li>
+<li id="menu-item-13337" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13337"><a href="https://blog.nxp.com/category/tech-in-depth" itemprop="url">Tech In-Depth</a></li>
+<li id="menu-item-13336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13336"><a href="https://blog.nxp.com/category/events" itemprop="url">Events</a></li>
+<li id="menu-item-13355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13355"><a href="https://blog.nxp.com/categories" itemprop="url">All</a></li>
+</ul></div>		</nav>
+
+		<div class="image-clipper">
+			<img width="640" height="320" src="https://blog.nxp.com/wp-content/uploads/2016/10/shutterstock_399288955-640x320.jpg" class="attachment-blog-image-medium size-blog-image-medium wp-post-image" alt="" />		</div>
+
+		<div class="post-header-wrapper">
+			GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona
+					</div><!-- .homepage-block-wrapper -->
+	</div><!-- .three-fourths -->
+
+</div></header><div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><main class="content"><p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2017-03-08T18:22:07+00:00">March 8, 2017</time> <span class="entry-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="entry-author-name" itemprop="name">Eva Schulz-Kamm</span></span></p><h2 class="entry-title show-on-mobile" style="padding-left: 30px;">GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona</h2><div class="single-post-header"><img class="fallback-to-logo" src="https://blog.nxp.com/wp-content/uploads/2016/10/shutterstock_399288955-960x425.jpg" alt="GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona"  /></div><article class="post-15947 post type-post status-publish format-standard has-post-thumbnail category-uncategorized entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona</h1> 
+</header><div class="entry-content" itemprop="text"><div id="fb-root"></div>
+<p>The pervasive use of connected devices has improved safety and convenience in all aspects of our lives, and fueled a new wave of innovation by product and service developers. At the same time, we are confronted with a rise in cyber-attacks and data breaches, as well as with new legal provisions to which industry needs to comply.</p>
+<p>Expanding security around the “I“ in IoT to now include protecting “identity” gains new meaning and a political dimension that was at the heart of the 90-minutes panel discussion we hosted during last week’s MWC in Barcelona.</p>
+<p>Representatives from the European Commission, business and legal experts talked about privacy and security requirements that will become necessary not only for compliance to the EU General Data Protection Regulation (GDPR), which goes into effect for all EU member states in May 2018, but also to prepare for further regulation.</p>
+<p><a href="https://youtu.be/rRpATkrMwkM">Click here</a> for an impression of the panel discussion.</p>
+</div><div class="clearfix"></div></article>
+	<a href="https://blog.nxp.com/iot/unlock-ecockpits-and-camera-monitoring-systems-with-i-mx8quadmax-ecosystem-partners">
+		<div class="nxpsw-main-dark-post next-post-box one-fourth">
+			<article>
+			
+				<div class="image-clipper">
+					<img class="image-opaque" src="https://blog.nxp.com/wp-content/uploads/2017/03/blog-36650-VPP-iMX-8DV-Board-Top-HR-320x320.jpg" />
+				</div>
+				
+				<div class="post-content">
+					<span class="arrow"></span>	
+					<header class="entry-header-full">
+						<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2017-03-08T18:22:07+00:00">March 8, 2017</time> <span class="entry-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="entry-author-name" itemprop="name">Eva Schulz-Kamm</span></span></p>						<h2 class="entry-title">Unlock eCockpits and Camera Monitoring Systems with i.MX8QuadMax Ecosystem Partners</h2>
+					</header>
+					<footer class="entry-footer-full">
+						<span class="read-on">read on</span>
+					</footer>
+				</div>
+			</article>
+		</div>
+	</a>
+
+
+			
+</main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="widget-author" class="widget widget-author"><div class="widget-wrap"><h4 class="widget-title widgettitle">Eva Schulz-Kamm</h4><div class="image-clipper"><img src="https://blog.nxp.com/wp-content/uploads/userphoto/225.png" alt="Eva Schulz-Kamm" width="207" height="210" class="photo" /></div><p>Eva Schulz-Kamm heads NXP's Political Affairs and Public Co-Creation Team. In addition to extensive work on research funding initiatives, marketing strategies, university relations, intellectual property proposals, and governmental standardization policies, she holds a degree in Physics, with a focus in solid-state physics and thermodynamics, from the University of Karlsruhe and an MBA in Innovation Management and Entrepreneurship from the EDHEC Business School in Nice, France. Eva Schulz-Kamm has held key positions in numerous companies and organizations including the Fraunhofer Institute for Solar Energy Systems, MVV Energie AG, ZukunftsAgentur Brandenburg GmbH, and the Federal Ministry of Education and Research. Most recently, she was a Director at DIHK e.V. (Association of German Chambers of Industry and Commerce) where she was responsible for the development of national and international Innovation and Technology Policy including Standardization Policy.</p><a class="author-link" href="https://blog.nxp.com/author/eschkam">All Articles by this author</a></div></section><section id="widget-social-share" class="widget widget-social-share"><h4 class="widget-title widgettitle">Share this blog post</h4><div class="widget-wrap"><ul><li class="fa linkedin-blue"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://blog.nxp.com/uncategorized/gdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona&title=GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona" title="Linkedin" target="_blank"></a></li><li class="fa twitter-blue"><a href="http://www.twitter.com/share?url=https://blog.nxp.com/uncategorized/gdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona" target="_blank"></a></li><li class="fa facebook-blue"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.nxp.com/uncategorized/gdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona" target="_blank" title="GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211; NXP Panel Discussion at MWC Barcelona"></a></li></ul></div></section></aside></div><div class="social-navigation"><ul id="menu-social-menu" class="menu"><li id="menu-item-4357" class="fa facebook-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4357"><a title="Facebook" href="https://www.facebook.com/nxpsemi" itemprop="url"></a></li>
+<li id="menu-item-4358" class="fa twitter-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4358"><a title="Twitter" href="http://www.twitter.com/nxp" itemprop="url"></a></li>
+<li id="menu-item-4359" class="fa instagram-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4359"><a title="Instagram" href="https://instagram.com/nxpsemiconductors/" itemprop="url"></a></li>
+<li id="menu-item-4360" class="fa linkedin-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4360"><a title="LinkedIn" href="https://www.linkedin.com/company/nxp-semiconductors" itemprop="url"></a></li>
+</ul></div></div></div>
+
+<div class="footer-top">
+	<div class="wrap">
+		<span class="footer-logo"></span>
+		<div class="triangle"><div class="arrow-up">›</div></div>
+		
+	</div>
+</div>
+
+<div class="footer-widgets">
+	<div class="wrap">
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">NXP Careers</h4>
+			<ul>
+				<li><a href="http://www.nxp.com/about/about-nxp/careers-at-nxp:CAREERS" target="_blank">Working at NXP</a></li>
+				<li><a href="https://nxp.wd3.myworkdayjobs.com/en-US/careers" target="_blank">View Job openings</a></li>
+			</ul>
+		</div>
+
+<!-- TEST INCLUDE PLAIN HTML -->
+<!-- <div class="one-fourth nxpsw-main-widget-popular-posts hide-on-mobile">
+	<section id="widget-popular-posts" class="widget widget-popular-posts">
+		<div class="widget-wrap">
+			<h4 class="widget-title widgettitle">
+				Popular blog posts
+			</h4>
+			<a class="pop-post-link nr-0" href="http://blog.nxp.com/slider-main/is-linked-data-the-future-of-data-integration-in-the-enterprise">
+				<h5>
+					Is Linked Data the future of data integration in the enterprise?
+				</h5>
+			</a>
+			<a class="pop-post-link nr-1" href="http://blog.nxp.com/sensors/accelerometer-placement-where-and-why">
+				<h5>
+					Accelerometer placement - where and why
+				</h5>
+			</a>
+			<a class="pop-post-link nr-2" href="http://blog.nxp.com/uncategorized/555-timer-ic-the-stuff-of-silicon-legends">
+				<h5>
+					555 Timer IC, the Stuff of Silicon Legends
+				</h5>
+			</a>
+		</div>
+	</section>
+</div> -->
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">NXP News</h4>
+			<ul>
+				<li><a href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-news&nyo=0" target="_blank">Press releases</a></li>
+				<li><a href="http://media.nxp.com/" target="_blank">News</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">Investors</h4>
+			<ul>
+				<li><a href="http://investors.nxp.com/">Investors home</a></li>
+				<li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-financial">Financial results</a></li>
+				<li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-contact">Contacts</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">Follow us</h4>
+				<ul class="follow-us">
+					<li><a href="https://www.linkedin.com/company/nxp-semiconductors" title="Linkedin"><i class="icon icon-linkedin"></i></a></li>
+					<li><a href="https://twitter.com/nxp" title="Twitter"><i class="icon icon-twitter-squared"></i></a></li>
+					<li><a href="https://www.facebook.com/nxpsemi" title="Facebook"><i class="icon icon-facebook-squared"></i></a></li>	
+					<li><a href="/feed" title="RSS"><i class="icon icon-rss-squared"></i></a></li>			
+				</ul>
+		</div>	
+		<div class="clearfix"></div>	
+	</div>
+<br />
+<br />
+		<div class="footer-bottom">
+			<div class="wrap">
+				<span class="terms"><a href="http://www.nxp.com/about/about-nxp/privacy:PRIVACYPRACTICES">Privacy</a> | <a href="http://www.nxp.com/about/about-nxp/terms-of-use:TERMSOFUSE">Terms of use</a></span>
+				<span class="copy">2006-2017 &copy; NXP SEMICONDUCTORS</span>
+			</div>
+		</div>		
+
+</div>
+
+</div>	<div class="old-ie">This website has been developed for Internet Explorer 9 or higher, please upgrade your browser to view this website. Or change your IE document mode setting to standard or edge if you already have upgraded your browser.</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54d33e185d51085f" async="async"></script> 
+	​<script type="text/javascript">
+		var addthis_config = addthis_config||{};
+		addthis_config.data_track_clickback = false;
+	</script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/themes/nxp-blog/js/build/compiled.min.js?ver=1491929358'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/wp-embed.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<!--<script type="text/javascript">-->
+<!-- var s_account = 'omniture_account_id'; -->
+<!--</script>-->
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js"></script>
+<script type="text/javascript" src="//styles.freescale.com/files/js/elqNow/elqwebanalytics.js"></script>
+<script type="text/javascript" src="//styles.freescale.com/shared/js/webanalytics.js"></script>
+
+<script src='//www.freescale.com/webapp/visitorIdLookup.jsp'></script>
+<script type="text/javascript">
+var digitalData = {};
+digitalData.pageInfo = {};
+digitalData.eventInfo = {};
+digitalData.eventInfo = {};
+digitalData.siteInfo = {};
+digitalData.userInfo = {};
+digitalData.searchInfo = {};
+digitalData.blogInfo = {};
+if(typeof getFslVisitorIDForAnalytics == 'function'){				
+	s_vid = getFslVisitorIDForAnalytics();
+var test1 = '';
+var test2 = '';
+var test3 = '';
+}
+</script>
+
+<script type="text/javascript">
+
+digitalData.pageInfo.pageName = 'NXP Blog Blog Post: GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211...'; //page name
+digitalData.pageInfo.siteSection1 = 'WordPress - NXP Blog'; //channel
+digitalData.pageInfo.pageType = 'WordPress Blog Post'; //traffic variable 1
+digitalData.pageInfo.siteSection2 = 'NXP Blog : WordPress Category'; //traffic variable 2
+digitalData.pageInfo.siteSection3 = 'NXP Blog: gdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona' ;//traffic variable 3
+digitalData.searchInfo.searchkeyword  = ''; //traffic variable 4
+digitalData.searchInfo.resultCount = ''; //traffic variable 5
+digitalData.pageInfo.siteSection4 = ''; //traffic variable 8
+digitalData.pageInfo.siteSection5 = ''; //traffic variable 9
+digitalData.pageInfo.siteSection6 = ''; //traffic variable 10
+digitalData.pageInfo.pageEventPathing = 'NXP Blog Blog Post: GDPR and the Internet of Things: Protecting the &#8220;I&#8221; in IoT &#8211...'; //traffic variable 10
+digitalData.pageInfo.siteSection7 = ''; //traffic variable 11
+digitalData.pageInfo.contentFinding = getContentFinding(document.referrer,document.URL); //traffic variable 17
+digitalData.siteInfo.sitePlatform = 'full'; //traffic variable 17
+digitalData.siteInfo.lang = 'en'; //traffic variable 17
+digitalData.siteInfo.userName = ''; //traffic variable 17
+digitalData.pageInfo.tags = ''; //traffic variable 17
+digitalData.siteInfo.userName = ''; //traffic variable 17
+digitalData.pageInfo.pageURLClean = getCleanPageURL(); //traffic page url
+test1 = 'https://blog.nxp.com/uncategorized/gdpr-and-the-internet-of-things-protecting-the-i-in-iot-nxp-panel-discussion-at-mwc-barcelona'; //authURL
+digitalData.pageInfo.pageLoadRule = 'General';
+//s.channel='WordPress';
+//var search_val=s.prop4;
+digitalData.userInfo.fslVisitorID = s_vid;
+digitalData.pageInfo.localTitle = document.title;
+/*s.campaign= ''; //campaign variable
+s.state= ''; //user state
+s.zip= ''; //user zip
+s.products= ''; //user products
+s.purchaseID= ''; //purchase ID*/
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+//var s_code=s.t();if(s_code)document.write(s_code) //omniture variable
+
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript" src="//style.nxp.com/files/abstract/misc/blueconic.js"></script>
+
+		<script>
+		
+			jQuery( document ).ready( function() {
+				
+				var wp_ajax_url = 'https://blog.nxp.com/wp-admin/admin-ajax.php';
+				
+				if ( typeof _PE !== 'undefined' ) {
+					var application = new _PE.app( { debug: 0 }, jQuery );
+					application.boot();				
+				}
+	
+			});
+			
+		</script>
+		</body>
+</html>

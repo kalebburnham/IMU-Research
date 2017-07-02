@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Internet of Things (IoT)|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="" />
+	<meta name="Keywords" content="" />
+	<meta name="ModifiedDate" content="2017-02-03 13:15:08" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="homepage" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Enabled">
+<meta name="template" content="HLP-Thought-Leadership">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/web-plugins/thought-leadership-v2.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "HOMEPAGE";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="General:Internet of Things | Internet-of-Things-IoT";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="General";
+	digitalData.pageInfo.siteSection1 = "Applications";
+	digitalData.pageInfo.siteSection2 = "Internet of Things";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "027471";	
+digitalData.pageInfo.assetID = "1486152877425712127471";
+digitalData.pageInfo.localTitle="Internet of Things";
+digitalData.pageInfo.pageCodeID = "Internet-of-Things-IoT"
+digitalData.pageInfo.pageTemplateType = "Homepage";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "en";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="027471"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="1486152877425712127471"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="applicationsmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionizbq9ojb"> 
+ <div class="row iw_row iw_stretch" id="rowizbq9ojc"> 
+  <div class="iw_columns col-lg-12" id="colizbq9ojd"> 
+   <div class="iw_component" id="iw_comp1487451585142">
+     <header>
+<!-- default header -->
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">Select language</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en selected"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/high-level-pages/products/mcus-and-mpus/KINETIS.page?submit=true&amp;componentID=1473770942743" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                           <li id="CrossReference" name="CrossReference"><a ><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a ><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="Search..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_en" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/products/products:PCPRODCAT">PRODUCTS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>&reg;</sup>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex&reg;-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX Applications Processors</a></li>
+                                 <li><a href="//www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM-based SoCs</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>&reg;</sup><br/>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/more-processors:MORE-PROCESSORS">MORE PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/zidentification-and-security-beta:MC_53420 ">IDENTIFICATION & SECURITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/interfaces:WIRED-CONNECTIVITY">INTERFACE<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">MEDIA AND AUDIO PROCESSING<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/power-management:POWER-MANAGEMENT">POWER MANAGEMENT<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/rf:RF_HOME">RF<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/sensors:SNSHOME">SENSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/automotive-products:MC_50802">AUTOMOTIVE PRODUCTS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">Automotive Radar</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">Car Access & Immobilizers</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">In-Vehicle Network</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">Multi Standard Digital Radio</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCUs/MPUs</a></li>
+                                 <!--li><a href="//www.nxp.com/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV Microcontroller</a></li><li><a href="//www.nxp.com/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCUs/MPUs</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>REFERENCE DESIGN LIBRARY<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/tools/embedded-software-and-tools:DEVELOPER_HOME">DEVELOPMENT TOOLS<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">SOFTWARE CENTER<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>MORE PRODUCT INFORMATION</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/products/products:PCPRODCAT ">All Products</a></li>
+                                    <li><a href="//www.nxp.com/webapp/crosscheck/competitorXRef.sp">Competitor Cross Reference Tool</a></li>
+                                    <li><a href="//www.nxp.com/packages ">Packages</a></li>
+                                    <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity Program</a></li>
+                                    <li><a href="//www.nxp.com/webapp/parametricSelector.sp?">Product Selector</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">NXP COMMUNITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior Development Tools</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX Community (SoCs and PMIC Support)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis Microcontrollers</a></li>
+                                 <li><a href="https://www.lpcware.com/forum" target="_blank">LPC Forums</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ Processors</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV Microcontrollers</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">Wireless Connectivity</a></li>
+                                 <li><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">View All</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/online-academy:ON_DEMAND_TRNG">ONLINE TRAINING ACADEMY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">TRAINING<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">NXP FTF Tech Forum</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">NXP FTF Connects</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">NXP Technology Days</a></li>
+                                 <li><a href="//www.nxp.com/training/classroom-training-events/industry-events:EVENTS_HOME">Industry Events</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">Global Smarter World Tours&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/training/university-programs:UNIVPROGRAM_HOME_CAT">UNIVERSITY PROGRAMS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/video/vault/?searchLabel=renderHomepage">VIDEO VAULT<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT RESOURCES<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/pages/documentation:DOCUMENTATION">Documentation Library</a></li>
+                                 <li><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">Sales and Support</a></li>
+                                 <li><a href="//www.nxp.com/pages/nxp-professional-services:PROFESSIONAL-SERVICES">Professional Engineering Services</a></li>
+                                 <li><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">Software Center</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT NXP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations:GLOBAL_SITES">NXP Worldwide</a></li>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">Distributor Network</a></li>
+                                 <li><a href="http://media.nxp.com">Media Center</a></li>
+                                 <li><a href="http://investors.nxp.com">Investor Relations</a></li>
+                                 <li><a href="//www.nxp.com/about/careers-at-nxp:CAREERS">Careers</a></li>
+                                 <li><a href="//www.nxp.com/about/our-customers:ABOUT_CUSTOMERS">Customers</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">Blogs</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/corporate-responsibility:CORP_SOCIAL_RESP">CORPORATE RESPONSIBILITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">Environmental Compliance Office</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/ethics:ETHICS">Ethics</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/employees:EMPLOYEES">Employees</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">TECHNOLOGY LEADERSHIP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/quality:QUALITY_HOME">Quality</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END --> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionizbq9ojf"> 
+ <div class="row iw_row iw_stretch" id="rowizbq9ojg"> 
+  <div class="iw_columns col-lg-12" id="colizbq9ojh"> 
+   <div class="row iw_row" id="rowizbq9ojw"> 
+    <div class="iw_columns col-lg-2" id="colizbq9ojx"> 
+     <div class="iw_component" id="iw_comp1487451585146">
+       <!--ls:begin[component-1487451585146]--><ul class="leftnav dtmLeftNav MMenu-applications"><li><a href="/applications/solutions-for-the-iot-and-adas/automotive:SECURE-CONNECTED-VEHICLE">Automotive</a><li class="selected"><a href="/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT">Internet of Things</a><ul><li class=><a href="/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things"><span class="icon-stop2"></span>Smart Things</a></li><li class=><a href="/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things"><span class="icon-stop2"></span>Connected Things</a></li><li class=><a href="/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things"><span class="icon-stop2"></span>Secure Things</a></li></ul></li><li><a href="/applications/solutions-for-the-iot-and-adas/smart-society:SMART-SOCIETY">Smart Society</a></ul><!--ls:end[component-1487451585146]--> 
+     </div> 
+    </div> 
+    <div class="iw_columns col-lg-10" id="colizbq9ojy"> 
+     <div class="iw_component" id="iw_comp1487451585154">
+       <!--ls:begin[component-1487451585154]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com"><span>NXP</span></a></li> <li><span>Internet of Things</span></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="Share via Email"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="facebook18x" title="Share on Facebook"><span class="icon-facebook"></span> Facebook</a></li>
+            <li><a id="twitter18x" title="Share on Twitter"><span class="icon-twitter2"></span> Twitter</a></li>
+            <li><a id="google18x" title="Share on Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="Share on LinkedIn"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="Printer"><span class="icon-print"></span> Printer</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1487451585154]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1487451585170">
+       <!--ls:begin[component-1487451585170]--><h1>Internet of Things</h1><!--ls:end[component-1487451585170]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1487451585171">
+       <!--ls:begin[component-1487451585171]--><div class="dtmGenDiv" data-dtmSection="Overview Section"></div><!--ls:end[component-1487451585171]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1487451585172">
+       <!--ls:begin[component-1487451585172]--><style type="text/css">	
+
+/* Fixes Though leadership */
+.iw_viewport-wrapper .container-fluid {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+}
+
+.container-fluid.iw_section:nth-child(2) > .row > .col-lg-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid.iw_section:nth-child(2) > .row > .col-lg-12 .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.iw_viewport-wrapper > .container-fluid .iw_columns.col-lg-2 {
+    display: none;
+	padding-left: 0px;
+}
+
+.iw_viewport-wrapper > .container-fluid .iw_columns .iw_columns.col-lg-10 .iw_component:last-of-type { /* HTML section */
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media screen and (max-width: 992px) {
+	.iw_viewport-wrapper > .container-fluid .iw_columns .iw_columns.col-lg-10 {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.iw_viewport-wrapper > .container-fluid .iw_columns.col-lg-2 {
+		display: block;
+	}
+	.iw_viewport-wrapper > .container-fluid .iw_columns .iw_columns.col-lg-10 .iw_component:first-of-type { /* breadcrumb */
+		margin-left: -15px;
+	}
+}
+
+#footer {
+    margin-top: 0 !important;
+}
+body .iw_component>h1{
+	display:none;
+}
+section.hero h1,
+section.hero .title {
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 0;
+    padding-bottom: 16px;
+    padding-left: 7vw;
+    padding-right: 2em;
+	margin-right: 44m;
+    color: white;
+    line-height: 1;
+	margin-top:0;
+	display: inline-block;
+}
+
+.thought-leadership section.hero .preamble {
+    color: white
+}
+.thought-leadership h1 {
+    font-size: 100%;
+}
+.xlarge-media-hero {
+	/*align-items: center;*/
+    background-size: cover;
+    display: flex;
+    min-height: calc(50vh);
+    /*justify-content: center;*/
+    padding: 4em 4vh 0 0;
+    position: relative;
+}
+section.hero .preamble {
+    margin-left: 7vw;
+    z-index: 3;
+}
+
+/*section .preamble{
+    font-size: 115%
+}
+@media (min-width: 768px) {
+	section .preamble{
+        font-size: 138%
+    }
+}
+@media (min-width: 992px) {
+	section .preamble{
+        font-size: 148%
+    }
+}
+@media (min-width: 1200px) {
+	section .preamble{
+        font-size: 153%
+    }
+}*/
+
+.hero .display-4 {
+    font-size: 1.9em;
+}
+@media screen and (min-width: 1200px) {
+	.hero .display-4 {
+		font-size: 2.4em;
+	}
+}
+.color-scheme-transparent h1,
+.color-scheme-transparent h2,
+.color-scheme-transparent h3,
+.color-scheme-transparent h4,
+.color-scheme-transparent h5,
+.color-scheme-transparent h6,
+.color-scheme-transparent .title,
+.color-scheme-transparent .subtitle,
+.color-scheme-transparent .sub-subtitle,
+.color-scheme-transparent p,
+.color-scheme-transparent ul {
+    color: #fff
+}
+.color-scheme-transparent a {
+    color: #fff
+}
+.color-scheme-transparent .topic-card,
+.color-scheme-transparent .social-card {
+    background-color: rgba(255, 255, 255, 0.95)
+}
+.color-scheme-transparent .topic-card h4,
+.color-scheme-transparent .topic-card p,
+.color-scheme-transparent .social-card h4,
+.color-scheme-transparent .social-card p {
+    color: #fff
+}
+.color-scheme-transparent .topic-card a,
+.color-scheme-transparent .social-card a {
+    color: #fff
+}
+.color-scheme-transparent .btn {
+    -webkit-transition: background-color 0.25s ease;
+    -moz-transition: background-color 0.25s ease;
+    -ms-transition: background-color 0.25s ease;
+    -o-transition: background-color 0.25s ease;
+    transition: all 0.25s ease 0s;
+	background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid white;
+    color: #fff;
+}
+.color-scheme-transparent .btn:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+ /* End Fixes */
+
+.no-text-transform {
+    text-transform: none;
+}
+.hero-img{	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)), url("//www.nxp.com/assets/images/en/photography/hero-iot.jpg");
+/*url("//www.nxp.com/assets/images/en/banners/SMART-HERO-POSTER-OVERLAY.svg")*/
+}
+
+.smart-things{
+	/*background-image: url("/assets/images/en/photography/iot-smart-things-card-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;*/
+	background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.75)), url('/assets/images/en/photography/smart-things-full-bleed-card.jpg');
+	/*//www.nxp.com/assets/images/en/photography/iot-smart-things-card-bg.jpg*/
+	background-size: cover;
+	flex-flow: 1;
+}
+.secure-things{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.75)), url('/assets/images/en/photography/secure-things-full-bleed-card.jpg');
+	/*//www.nxp.com/assets/images/en/photography/iot-secure-things-card-bg.jpg*/
+	background-size: cover;
+	flex-flow: 1;
+}
+.connected-things{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.75)), url('/assets/images/en/photography/connected-things-full-bleed-card.jpg');
+	/*https://unsplash.it/800/800/?random&4*/
+	background-size: cover;
+	flex-flow: 1;
+}
+.row.segments .segment-icon svg {
+	width: 105px;
+}
+@media screen and (min-width: 1200px) {
+	.row.segments .segment-icon svg {
+		width: 120px;
+	}
+}
+.row.segments {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1100px) and (min-width: 992px)  {
+.segments .category{
+padding: 1em !important;
+}
+.segments h2{
+  font-size: 200%;
+}
+}
+</style>
+<div class="thought-leadership top20">
+<a name="section-hero"></a>
+<section class="hero xlarge-media-hero hero-img color-scheme-transparent pt3 pb3">
+    <div class="hero-container" style="">    
+                <h1 class="mb2 pt1">
+					<span class="display-3 nxp-white-text"><strong>Internet of Things</strong></span><br>
+					<span class="display-4 nxp-gray-light-text">Secure Connections for a Smarter World</span>
+				</h1>
+                <p class="preamble mt0 mb0 h2">Driving technology innovation in the IoT to help you develop smart, connected and secure solutions.</p>
+                              
+                <!--video muted="muted" autoplay="autoplay" preload="auto" loop="loop" poster="/assets/images/en/photography/iot-hero-bg.jpg" id="bgvid">
+                    <source src="" type="video/mp4">
+                </video-->
+                <!--script>
+                                setTimeout(function(){document.getElementById('bgvid').play();},2500);
+                                setTimeout(function(){document.getElementById('bgvid').play();},5000);
+                </script-->
+    </div>
+</section>
+<!-- /.hero -->            
+<section class="color-scheme-white mt3 mb3">
+    <div class="row">
+                              
+        <div class="col-xs-10 col-xs-offset-1 hideme" style="opacity: 1;">
+            <p class="h2 mt0 no-text-transform">
+				The Internet of Things (IoT) is changing the way we interact with devices at home, at work and in the world around us. 
+			</p>
+		</div>            
+        <div class="col-xs-10 col-xs-offset-1 hideme" style="opacity: 1;">
+            <p class="intro">
+				New opportunities and challenges are created by the rapid growth of electronic content, the demand for connectivity and networking bandwidth, and the proliferation of smart mobile devices.		
+				NXP’s end-to-end IoT portfolio, deep application insight and partner ecosystem empower our customers to design cutting-edge solutions and stay ahead of the competition. We enable secure connections and infrastructure for a smarter world.
+			</p>
+		</div>
+        
+    </div>
+</section>
+<section class="segments cool-grey-xxlight p3">
+    <div class="row">        
+		<div class="col-md-10 col-md-offset-1 hideme mb2x text-center" style="opacity: 1;">
+			<p class="h1 mt0 mb1">Everything you need to develop smart, connected and secure things for the IoT starts here.</p>
+		</div>
+	</div>
+    <div class="row segments">        
+        <div class="col-md-4 color-scheme-transparent smart-things p2 category">
+			<div class="segment-icon text-center mb2x">
+				<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+				<svg viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+					<title>icon-smart-things-white-252x252</title>
+					<desc>Created with Sketch.</desc>
+					<defs>
+						<polygon id="path-1" points="0 251.94 251.423 251.94 251.423 0.578 0 0.578"></polygon>
+					</defs>
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="icon-smart-things-white-252x252">
+							<g id="12942-CS-3332_Icons-for-IoT-Smart-Things-Blue">
+								<g id="Group-4">
+									<mask id="mask-2" fill="white">
+										<use xlink:href="#path-1"></use>
+									</mask>
+									<g id="Clip-2"></g>
+									<path d="M129.687,156.428 C99.162,156.428 74.418,131.683 74.418,101.159 C74.418,70.634 99.162,45.89 129.687,45.89 C160.211,45.89 184.956,70.634 184.956,101.159 C184.956,131.683 160.211,156.428 129.687,156.428 Z M130.192,25.355 C118.598,25.355 107.655,27.96 97.85,32.596 C71.978,44.597 54.079,70.756 54.079,101.143 L54.079,113.715 L38.66,143.167 C34.756,150.611 38.458,156.672 46.837,156.672 L54.079,156.672 L54.079,184.662 C54.079,193.408 61.238,200.567 69.986,200.567 L91.829,197.313 L91.871,219.159 L91.871,219.322 C91.992,222.128 94.352,223.958 97.282,223.471 L175.998,209.557 C178.969,209.028 181.408,206.141 181.408,203.131 L181.408,156.835 C196.501,143.004 205.94,123.11 205.94,101.062 C205.898,59.243 172.011,25.355 130.192,25.355 L130.192,25.355 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+									<path d="M245.003,126.289 L238.583,126.289 C238.583,157.484 225.959,185.655 205.511,206.103 C185.063,226.551 156.891,239.176 125.696,239.176 C94.516,239.176 66.33,226.551 45.868,206.103 C25.434,185.655 12.825,157.484 12.825,126.289 C12.825,95.094 25.434,66.908 45.868,46.46 C66.33,26.027 94.516,13.403 125.696,13.403 C156.891,13.403 185.063,26.027 205.511,46.46 C225.959,66.908 238.583,95.094 238.583,126.289 L251.423,126.289 C251.408,56.864 195.136,0.578 125.696,0.578 C56.271,0.578 0,56.864 0,126.289 C0,195.714 56.271,252 125.696,252 C195.136,252 251.408,195.714 251.423,126.289 L245.003,126.289" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+								</g>
+								<path d="M122.322,135.165 L139.415,135.165 L139.415,132.661 L122.322,132.661 L122.322,135.165 Z M122.322,140.282 L139.415,140.282 L139.415,137.778 L122.322,137.778 L122.322,140.282 Z M131.972,145.815 L131.971,145.835 L129.678,145.835 L129.678,145.815 C127.998,145.606 125.171,143.013 125.171,143.013 L136.478,143.013 C136.478,143.013 133.651,145.606 131.972,145.815 Z M122.723,106.412 C121.512,106.355 119.164,106.016 119.164,104.245 C119.164,104.039 119.22,103.011 120.325,103.011 C121.941,103.011 122.531,105.309 122.723,106.412 Z M139.049,106.412 C139.231,105.349 139.818,103.011 141.448,103.011 C142.475,103.011 142.602,103.879 142.609,104.245 C142.609,106.017 140.259,106.356 139.049,106.412 Z M129.589,101.039 C128.824,100.011 128.629,99.05 129.024,98.262 C129.417,97.481 130.277,97.059 130.887,97.059 C131.497,97.059 132.357,97.481 132.749,98.262 C133.145,99.05 132.949,100.011 132.215,101 C131.787,101.51 131.34,101.981 130.884,102.413 C130.439,101.992 130.005,101.535 129.589,101.039 Z M127.901,128.994 L124.708,108.219 C126.422,107.796 128.697,106.474 130.883,104.719 C133.064,106.471 135.345,107.794 137.063,108.219 L133.872,128.994 L127.901,128.994 Z M108.535,94.675 C108.535,78.576 125.466,75.522 131,75.399 C131.061,75.397 131.119,75.396 131.177,75.395 C131.235,75.396 131.294,75.397 131.355,75.399 C136.889,75.522 153.82,78.576 153.82,94.675 C153.82,110.95 140.199,117.671 140.199,128.994 L134.785,128.994 L138.79,108.436 C141.51,108.394 144.351,107.075 144.351,104.245 C144.351,103.049 143.578,101.269 141.448,101.269 C138.71,101.269 137.588,104.189 137.305,106.206 C135.955,105.837 134.067,104.981 132.211,103.549 C132.681,103.095 133.344,102.606 133.825,102.079 C135.543,99.961 135.057,97.418 134.615,96.609 C133.917,95.336 132.26,94.446 130.887,94.446 C129.513,94.446 127.856,95.336 127.159,96.609 C126.716,97.418 126.23,99.961 127.983,102.12 C128.45,102.63 129.098,103.106 129.555,103.548 C127.695,104.984 125.813,105.837 124.468,106.206 C124.168,104.143 123.042,101.269 120.325,101.269 C118.195,101.269 117.422,103.049 117.422,104.245 C117.422,107.074 120.261,108.394 122.982,108.436 L126.989,128.994 L121.802,128.994 C121.802,119.087 108.535,111.834 108.535,94.675 Z M143.56,129.17 C143.56,121.033 157.535,111.48 157.535,94.852 C157.535,81.964 145.887,71.827 131.177,71.516 L131.177,71.501 C131.061,71.501 130.946,71.508 130.83,71.508 C130.714,71.508 130.6,71.501 130.483,71.501 L130.483,71.516 C115.774,71.827 104.125,81.964 104.125,94.852 C104.125,111.48 118.101,121.033 118.101,129.17 C118.09,129.177 118.101,132.885 118.101,132.885 L118.111,132.885 L118.111,141.169 C118.111,141.169 120.873,143.999 123.675,146.299 C126.476,148.599 128.813,149.319 130.753,149.319 L130.915,149.319 C132.856,149.319 135.192,148.599 137.994,146.299 C140.796,143.999 143.56,141.169 143.56,141.169 L143.56,132.014 L143.555,132.014 C143.55,130.916 143.545,129.17 143.56,129.17 L143.56,129.17 Z" id="Fill-5" fill="#FFFFFF"></path>
+								<path d="M130.792,65.609 C129.313,65.609 128.115,64.41 128.115,62.932 L128.115,52.224 C128.115,50.746 129.313,49.547 130.792,49.547 C132.271,49.547 133.469,50.746 133.469,52.224 L133.469,62.932 C133.469,64.41 132.271,65.609 130.792,65.609" id="Fill-6" fill="#FFFFFF"></path>
+								<path d="M145.174,68.81 C144.793,68.81 144.407,68.73 144.04,68.558 C142.701,67.93 142.124,66.337 142.751,64.997 L147.294,55.3 C147.92,53.964 149.518,53.387 150.853,54.012 C152.193,54.64 152.77,56.233 152.142,57.573 L147.6,67.27 C147.145,68.24 146.18,68.81 145.174,68.81" id="Fill-7" fill="#FFFFFF"></path>
+								<path d="M156.844,77.812 C156.076,77.812 155.315,77.484 154.786,76.848 C153.84,75.712 153.993,74.025 155.129,73.078 L163.356,66.224 C164.492,65.278 166.18,65.431 167.126,66.567 C168.072,67.704 167.919,69.391 166.782,70.337 L158.556,77.191 C158.055,77.608 157.448,77.812 156.844,77.812" id="Fill-8" fill="#FFFFFF"></path>
+								<path d="M163.588,90.912 C162.4,90.912 161.316,90.118 161.001,88.915 C160.625,87.484 161.48,86.022 162.911,85.646 L173.268,82.929 C174.699,82.559 176.16,83.41 176.536,84.839 C176.911,86.27 176.057,87.732 174.626,88.108 L164.268,90.825 C164.041,90.884 163.813,90.912 163.588,90.912" id="Fill-9" fill="#FFFFFF"></path>
+								<path d="M174.676,107.572 C174.516,107.572 174.354,107.558 174.19,107.528 L163.658,105.594 C162.204,105.325 161.242,103.931 161.51,102.478 C161.776,101.022 163.163,100.062 164.626,100.327 L175.157,102.261 C176.612,102.53 177.574,103.924 177.306,105.377 C177.069,106.669 175.943,107.572 174.676,107.572" id="Fill-10" fill="#FFFFFF"></path>
+								<path d="M116.41,68.81 C115.403,68.81 114.439,68.24 113.984,67.268 L109.442,57.571 C108.815,56.233 109.393,54.64 110.731,54.012 C112.068,53.382 113.664,53.962 114.291,55.302 L118.832,64.999 C119.46,66.337 118.882,67.93 117.544,68.558 C117.177,68.73 116.79,68.81 116.41,68.81" id="Fill-11" fill="#FFFFFF"></path>
+								<path d="M104.739,77.812 C104.135,77.812 103.528,77.608 103.028,77.191 L94.801,70.337 C93.665,69.391 93.511,67.704 94.458,66.567 C95.402,65.431 97.09,65.278 98.227,66.224 L106.454,73.078 C107.591,74.025 107.744,75.712 106.798,76.848 C106.269,77.484 105.507,77.812 104.739,77.812" id="Fill-12" fill="#FFFFFF"></path>
+								<path d="M97.996,90.912 C97.771,90.912 97.543,90.884 97.315,90.825 L86.958,88.108 C85.527,87.732 84.672,86.27 85.048,84.839 C85.422,83.41 86.889,82.561 88.315,82.929 L98.673,85.646 C100.104,86.022 100.958,87.484 100.583,88.915 C100.268,90.118 99.183,90.912 97.996,90.912" id="Fill-13" fill="#FFFFFF"></path>
+								<path d="M86.907,107.572 C85.64,107.572 84.514,106.669 84.277,105.377 C84.01,103.924 84.972,102.53 86.426,102.261 L96.958,100.327 C98.415,100.062 99.806,101.022 100.074,102.478 C100.341,103.931 99.379,105.325 97.925,105.594 L87.393,107.528 C87.23,107.558 87.067,107.572 86.907,107.572" id="Fill-14" fill="#FFFFFF"></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<h2 class="display-4">Smart<br>Things</h2>
+			<p>Get to market faster using our broad portfolio of integrated solutions that address the power, performance and security challenges facing the IoT.</p>
+			<a href="/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things" class="btn dtmGenLink" data-dtmName="Smart Things Link">Smart Things <span class="icon-angle-right"></span></a>
+		</div>            
+        <div class="col-md-4 col-md-4 color-scheme-transparent connected-things p2 category">            
+			<div class="segment-icon text-center mb2x">
+				<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+				<svg viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+					<title>icon-connected-things-white-252x252</title>
+					<desc>Created with Sketch.</desc>
+					<defs>
+						<polygon id="path-1" points="0 251.94 0 0.578 251.423 0.578 251.423 251.94"></polygon>
+					</defs>
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="icon-connected-things-white-252x252">
+							<g id="12942-CS-3332_Icons-for-IoT-Connected-Things-Blue">
+								<g id="Group-3">
+									<mask id="mask-2" fill="white">
+										<use xlink:href="#path-1"></use>
+									</mask>
+									<g id="Clip-2"></g>
+									<path d="M245.003,126.289 L238.583,126.289 C238.583,157.484 225.959,185.655 205.511,206.103 C185.063,226.551 156.891,239.176 125.696,239.176 C94.516,239.176 66.33,226.551 45.868,206.103 C25.434,185.655 12.825,157.484 12.825,126.289 C12.825,95.094 25.434,66.908 45.868,46.46 C66.33,26.027 94.516,13.403 125.696,13.403 C156.891,13.403 185.063,26.027 205.511,46.46 C225.959,66.908 238.583,95.094 238.583,126.289 L251.423,126.289 C251.408,56.864 195.136,0.578 125.696,0.578 C56.271,0.578 0,56.864 0,126.289 C0,195.714 56.271,252 125.696,252 C195.136,252 251.408,195.714 251.423,126.289 L245.003,126.289" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+								</g>
+								<path d="M81.156,139.147 C79.563,139.147 78.274,137.853 78.274,136.265 C78.274,134.673 79.563,133.383 81.156,133.383 C82.748,133.383 84.038,134.673 84.038,136.265 C84.038,137.853 82.748,139.147 81.156,139.147 Z M81.156,131.859 C78.723,131.859 76.75,133.833 76.75,136.265 C76.75,138.698 78.723,140.671 81.156,140.671 C83.589,140.671 85.562,138.698 85.562,136.265 C85.562,133.833 83.589,131.859 81.156,131.859 L81.156,131.859 Z" id="Fill-4" fill="#FFFFFF"></path>
+								<path d="M81.157,135.581 C80.776,135.581 80.474,135.889 80.474,136.265 C80.474,136.642 80.776,136.944 81.157,136.944 C81.533,136.944 81.836,136.642 81.836,136.265 C81.836,135.889 81.533,135.581 81.157,135.581" id="Fill-5" fill="#FFFFFF"></path>
+								<path d="M46.403,139.147 C44.811,139.147 43.521,137.853 43.521,136.265 C43.521,134.673 44.811,133.383 46.403,133.383 C47.995,133.383 49.285,134.673 49.285,136.265 C49.285,137.853 47.995,139.147 46.403,139.147 Z M46.403,131.859 C43.97,131.859 41.997,133.833 41.997,136.265 C41.997,138.698 43.97,140.671 46.403,140.671 C48.836,140.671 50.809,138.698 50.809,136.265 C50.809,133.833 48.836,131.859 46.403,131.859 L46.403,131.859 Z" id="Fill-6" fill="#FFFFFF"></path>
+								<path d="M46.406,135.581 C46.025,135.581 45.722,135.889 45.722,136.265 C45.722,136.642 46.025,136.944 46.406,136.944 C46.777,136.944 47.085,136.642 47.085,136.265 C47.085,135.889 46.777,135.581 46.406,135.581" id="Fill-7" fill="#FFFFFF"></path>
+								<path d="M86.193,130.734 C86.931,130.534 87.712,130.588 88.362,130.72 C89.139,131.193 89.735,131.907 90.145,132.849 C86.916,132.087 86.193,130.734 86.193,130.734 Z M47.827,126.655 C46.137,126.47 45.106,124.169 45.106,124.169 C45.106,124.169 54.72,121.707 62.028,122.855 C70.371,124.169 74.074,128.39 74.074,128.39 C74.074,128.39 49.513,126.841 47.827,126.655 Z M91.376,137.251 C91.376,136.264 91.654,131.296 87.859,129.84 C84.058,128.39 75.153,127.495 75.153,127.495 C75.153,127.495 69.013,122.576 62.262,121.731 C55.77,120.92 46.655,122.151 46.655,122.151 L42.625,122.151 C42.811,122.948 43.558,123.558 43.558,123.558 C43.558,123.558 41.921,124.496 39.435,126.089 C36.949,127.686 38.307,129.84 38.307,129.84 C36.621,131.53 37.232,134.857 38.404,136.498 C38.917,137.216 40.012,137.627 41.306,137.866 C41.145,137.358 41.057,136.821 41.057,136.264 C41.057,133.313 43.455,130.92 46.401,130.92 C49.356,130.92 51.745,133.313 51.745,136.264 C51.745,136.943 51.623,137.593 51.388,138.188 L76.169,138.188 C75.935,137.593 75.813,136.943 75.813,136.264 C75.813,133.313 78.201,130.92 81.152,130.92 C84.107,130.92 86.496,133.313 86.496,136.264 C86.496,136.943 86.374,137.593 86.139,138.188 C88.684,138.179 91.376,138.096 91.376,137.251 L91.376,137.251 Z" id="Fill-8" fill="#FFFFFF"></path>
+								<path d="M45.257,104.911 C53.693,97.276 67.42,97.276 75.856,104.911 C76.364,105.37 77.009,105.6 77.644,105.6 C78.371,105.6 79.099,105.307 79.622,104.721 C80.614,103.627 80.526,101.941 79.436,100.95 C74.38,96.378 67.674,93.857 60.556,93.857 C53.434,93.857 46.732,96.378 41.671,100.95 C40.582,101.941 40.499,103.627 41.486,104.721 C42.473,105.815 44.163,105.898 45.257,104.911" id="Fill-9" fill="#FFFFFF"></path>
+								<path d="M50.005,109.837 C48.916,110.828 48.828,112.514 49.82,113.608 C50.806,114.697 52.497,114.785 53.586,113.798 C57.431,110.32 63.683,110.32 67.523,113.798 C68.031,114.258 68.675,114.487 69.311,114.487 C70.038,114.487 70.766,114.194 71.289,113.608 C72.276,112.514 72.193,110.828 71.103,109.837 C65.285,104.576 55.823,104.576 50.005,109.837" id="Fill-10" fill="#FFFFFF"></path>
+								<path d="M146.83,157.734 C146.42,158.213 146.483,158.936 146.967,159.341 C147.446,159.747 148.164,159.688 148.569,159.209 C150.118,157.382 152.375,156.332 154.768,156.332 C157.162,156.332 159.418,157.382 160.967,159.209 C161.192,159.473 161.514,159.61 161.837,159.61 C162.095,159.61 162.359,159.522 162.574,159.341 C163.053,158.936 163.112,158.213 162.701,157.734 C160.723,155.394 157.826,154.056 154.768,154.056 C151.701,154.056 148.813,155.394 146.83,157.734" id="Fill-11" fill="#FFFFFF"></path>
+								<path d="M151.592,161.767 C152.383,160.833 153.546,160.296 154.767,160.296 C155.993,160.296 157.151,160.833 157.942,161.767 C158.167,162.035 158.489,162.172 158.812,162.172 C159.076,162.172 159.335,162.084 159.549,161.903 C160.028,161.493 160.087,160.775 159.676,160.296 C158.45,158.845 156.663,158.015 154.767,158.015 C152.867,158.015 151.079,158.845 149.853,160.296 C149.447,160.775 149.511,161.493 149.985,161.903 C150.469,162.309 151.186,162.25 151.592,161.767" id="Fill-12" fill="#FFFFFF"></path>
+								<path d="M143.526,198.733 L166.007,198.733 L166.007,170.005 L143.526,170.005 L143.526,198.733 Z M154.767,207.716 C153.184,207.716 151.894,206.431 151.894,204.844 C151.894,203.256 153.184,201.971 154.767,201.971 C156.359,201.971 157.644,203.256 157.644,204.844 C157.644,206.431 156.359,207.716 154.767,207.716 Z M141.099,169.482 L141.099,205.498 C141.099,208.424 143.487,210.823 146.413,210.823 L163.12,210.823 C166.046,210.823 168.439,208.424 168.439,205.498 L168.439,169.482 C168.439,166.556 166.046,164.162 163.12,164.162 L146.413,164.162 C143.487,164.162 141.099,166.556 141.099,169.482 L141.099,169.482 Z" id="Fill-13" fill="#FFFFFF"></path>
+								<path d="M140.208,61.237 C141.279,61.34 142.05,60.398 142.067,59.486 C142.084,58.509 141.357,57.665 140.467,57.593 C139.134,57.485 138.266,58.339 138.292,59.483 C138.311,60.285 138.818,61.273 140.208,61.237" id="Fill-14" fill="#FFFFFF"></path>
+								<path d="M135.242,68.075 C135.356,68.325 135.406,68.472 135.484,68.602 C136.105,69.636 136.736,70.663 137.354,71.697 C138.121,72.98 138.871,74.272 139.641,75.553 C140.38,76.78 141.14,77.994 141.881,79.22 C142.429,80.128 142.953,81.052 143.501,81.961 C144.394,83.44 145.303,84.909 146.192,86.39 C146.399,86.735 146.555,87.11 146.805,87.611 C146.375,87.632 146.128,87.654 145.88,87.654 C143.359,87.657 140.838,87.653 138.318,87.657 C137.283,87.659 136.548,88.391 136.545,89.421 C136.54,91.249 136.542,93.076 136.544,94.904 C136.545,96.044 137.346,96.855 138.467,96.855 C148.53,96.855 158.593,96.851 168.656,96.865 C169.333,96.867 169.788,96.518 170.215,96.105 C170.571,95.762 170.571,95.27 170.572,94.805 C170.575,93.229 170.576,91.653 170.573,90.078 C170.572,89.742 170.549,89.407 170.537,89.071 C170.523,88.687 170.333,88.4 170.051,88.158 C169.658,87.821 169.234,87.64 168.689,87.645 C166.084,87.669 163.479,87.656 160.874,87.655 C160.685,87.655 160.496,87.654 160.307,87.649 C160.083,87.642 159.915,87.567 159.806,87.342 C159.637,86.99 159.444,86.648 159.24,86.316 C158.859,85.695 158.447,85.094 158.075,84.468 C157.043,82.733 156.032,80.987 155.001,79.252 C153.949,77.48 152.879,75.72 151.828,73.949 C151.085,72.697 150.362,71.434 149.625,70.18 C149.065,69.226 148.501,68.275 147.93,67.328 C147.813,67.135 147.658,66.964 147.523,66.787 C143.789,70.301 139.72,70.538 135.242,68.075" id="Fill-15" fill="#FFFFFF"></path>
+								<path d="M150.349,63.014 C153.058,63.014 155.767,63.014 158.477,63.015 C158.645,63.015 158.813,63.018 158.981,63.02 C159.228,63.023 159.378,63.139 159.401,63.391 C159.48,64.239 160.604,65.014 161.456,64.985 C162.588,64.946 163.723,64.982 164.857,64.972 C165.222,64.969 165.504,65.061 165.704,65.395 C165.852,65.642 166.05,65.861 166.234,66.085 C167.227,67.295 168.219,68.505 169.22,69.708 C169.683,70.265 170.254,70.636 171.014,70.5 C171.336,70.443 171.664,70.324 171.947,70.161 C173.048,69.527 174.129,68.86 175.222,68.214 C176.887,67.229 178.561,66.257 180.222,65.264 C180.685,64.987 181.153,64.694 181.548,64.332 C181.905,64.004 182.244,63.63 182.2,63.047 C182.171,62.661 181.897,62.454 181.712,62.202 C181.294,61.632 180.703,61.274 179.974,61.451 C179.542,61.556 179.138,61.806 178.743,62.03 C178.111,62.389 177.501,62.786 176.876,63.157 C175.962,63.7 175.045,64.237 174.125,64.771 C173.281,65.261 172.437,65.752 171.584,66.225 C171.222,66.425 171.054,66.371 170.772,66.049 C170.703,65.97 170.633,65.892 170.567,65.81 C169.46,64.453 168.363,63.088 167.24,61.745 C166.947,61.394 166.854,61.012 166.852,60.585 C166.849,59.829 166.865,59.072 166.847,58.317 C166.835,57.807 167,57.387 167.326,56.999 C168.117,56.058 168.89,55.102 169.669,54.151 C170.065,53.668 170.461,53.183 170.854,52.696 C171.034,52.471 171.269,52.377 171.519,52.513 C172.046,52.8 172.556,53.119 173.072,53.427 C174.163,54.079 175.253,54.731 176.342,55.385 C177.267,55.94 178.176,56.521 179.116,57.048 C180.049,57.57 180.767,57.592 181.573,56.851 C181.721,56.716 181.776,56.468 181.934,56.359 C182.375,56.055 182.272,55.573 182.121,55.294 C181.873,54.835 181.49,54.386 181.053,54.102 C179.94,53.375 178.764,52.746 177.617,52.069 C176.308,51.297 175.007,50.511 173.697,49.74 C172.839,49.233 171.982,48.722 171.1,48.257 C170.907,48.156 170.564,48.156 170.378,48.263 C169.967,48.499 169.55,48.779 169.247,49.136 C168.061,50.532 166.907,51.956 165.769,53.392 C165.491,53.744 165.201,53.887 164.757,53.876 C163.687,53.849 162.615,53.848 161.544,53.873 C160.492,53.896 159.595,54.431 159.399,55.493 C159.351,55.75 159.204,55.844 158.96,55.839 C158.792,55.835 158.624,55.84 158.456,55.84 L150.328,55.84 L149.577,55.84 C150.512,58.242 150.418,60.566 149.556,63.014 L150.349,63.014" id="Fill-16" fill="#FFFFFF"></path>
+								<path d="M139.944,55.164 C142.186,54.979 144.456,56.679 144.548,59.357 C144.554,61.686 142.836,63.503 140.527,63.671 C137.989,63.857 135.891,62.089 135.855,59.462 C135.823,57.141 137.395,55.373 139.944,55.164 Z M135.428,64.651 C136.086,65.209 136.789,65.706 137.663,65.946 C138.401,66.149 139.106,66.46 139.894,66.446 C140.584,66.434 141.255,66.4 141.941,66.216 C142.864,65.968 143.74,65.614 144.469,65.045 C146.265,63.643 147.309,61.81 147.316,59.136 C147.386,58.112 147.01,57.09 146.401,56.006 C145.702,54.76 144.738,53.786 143.41,53.189 C142.879,52.95 142.354,52.757 141.781,52.624 C141.265,52.504 140.766,52.405 140.24,52.397 C139.67,52.388 139.128,52.52 138.572,52.624 C137.266,52.866 136.2,53.49 135.265,54.388 C134.474,55.149 133.849,56.007 133.49,57.072 C133.23,57.846 132.99,58.625 132.988,59.427 C132.986,60.276 133.225,61.106 133.517,61.91 C133.91,62.996 134.559,63.914 135.428,64.651 L135.428,64.651 Z" id="Fill-17" fill="#FFFFFF"></path>
+								<path d="M158.089,138.797 C156.991,138.714 155.885,138.658 154.766,138.658 C134.9,138.658 118.093,151.967 112.763,170.135 L88.872,157.032 C100.228,149.31 107.787,136.4 108.096,121.733 L108.105,119.882 L108.096,119.882 C107.923,111.686 105.485,104.037 101.387,97.535 L116.647,88.456 C123.042,104.848 138.989,116.497 157.614,116.497 C157.946,116.497 158.274,116.479 158.604,116.472 L158.089,138.797 Z M192.324,182.438 C192.324,192.466 188.416,201.897 181.321,208.993 C174.224,216.087 164.794,219.995 154.766,219.995 C144.741,219.995 135.308,216.087 128.207,208.993 C121.118,201.898 117.214,192.467 117.214,182.438 C117.214,172.405 121.118,162.972 128.207,155.879 C135.309,148.787 144.741,144.881 154.766,144.881 C164.792,144.881 174.224,148.787 181.321,155.879 C188.416,162.973 192.324,172.406 192.324,182.438 Z M37.766,147.368 C30.674,140.27 26.768,130.837 26.768,120.808 C26.768,110.78 30.674,101.351 37.766,94.254 C44.856,87.164 54.289,83.256 64.325,83.251 C74.359,83.256 83.79,87.164 90.88,94.254 C97.972,101.347 101.878,110.776 101.878,120.808 C101.878,130.837 97.972,140.27 90.88,147.368 C83.783,154.46 74.352,158.366 64.326,158.366 C54.295,158.366 44.863,154.46 37.766,147.368 Z M130.938,45.842 C138.068,38.717 147.542,34.793 157.614,34.793 C167.69,34.793 177.165,38.717 184.295,45.842 C191.419,52.971 195.344,62.447 195.344,72.524 C195.344,82.596 191.419,92.071 184.295,99.2 C177.167,106.328 167.691,110.254 157.614,110.254 C147.54,110.254 138.067,106.328 130.938,99.2 C126.513,94.775 123.326,89.443 121.543,83.625 C121.518,83.194 121.409,82.77 121.202,82.38 C121.198,82.371 121.191,82.364 121.187,82.356 C120.337,79.188 119.889,75.891 119.889,72.524 C119.889,62.443 123.813,52.967 130.938,45.842 Z M201.583,73.449 L201.592,71.598 L201.583,71.598 C201.082,47.778 181.549,28.552 157.614,28.552 C133.371,28.552 113.647,48.277 113.647,72.524 C113.647,75.941 114.052,79.265 114.793,82.46 L97.768,92.589 C89.731,83.078 77.721,77.028 64.326,77.028 C40.185,77.028 20.545,96.667 20.545,120.808 C20.545,144.95 40.185,164.589 64.326,164.589 C70.861,164.589 77.062,163.142 82.637,160.562 L111.424,176.349 C111.145,178.341 110.991,180.371 110.991,182.438 C110.991,206.578 130.629,226.218 154.766,226.218 C178.595,226.218 198.042,207.077 198.543,183.363 L198.552,181.512 L198.543,181.512 C198.11,161.013 183.515,143.942 164.174,139.688 L164.722,115.913 C185.302,112.552 201.133,94.862 201.583,73.449 L201.583,73.449 Z" id="Fill-18" fill="#FFFFFF"></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<h2 class="display-4">Connected<br>Things</h2>
+			<p>From the end node, to the gateway, to the cloud, leverage our IoT infrastructure solutions for wired and wireless applications to enable connectivity and seamless interoperability.</p>
+			<a href="/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things" class="btn dtmGenLink" data-dtmName="Connected Things Link">Connected Things <span class="icon-angle-right"></span></a>
+		</div>   
+        <div class="col-md-4 color-scheme-transparent secure-things p2 category">
+			<div class="segment-icon text-center mb2x">
+				<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+				<svg viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+					<title>icon-secure-things-white-252x252</title>
+					<desc>Created with Sketch.</desc>
+					<defs>
+						<polygon id="path-1" points="0 251.94 0 0.578 251.423 0.578 251.423 251.94"></polygon>
+					</defs>
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="icon-secure-things-white-252x252">
+							<g id="12942-CS-3332_Icons-for-IoT-Secure-Things-Blue">
+								<g id="Group-3">
+									<mask id="mask-2" fill="white">
+										<use xlink:href="#path-1"></use>
+									</mask>
+									<g id="Clip-2"></g>
+									<path d="M245.003,126.289 L238.583,126.289 C238.583,157.484 225.959,185.655 205.511,206.103 C185.063,226.551 156.891,239.176 125.696,239.176 C94.516,239.176 66.33,226.551 45.868,206.103 C25.434,185.655 12.825,157.484 12.825,126.289 C12.825,95.094 25.434,66.908 45.868,46.46 C66.33,26.027 94.516,13.403 125.696,13.403 C156.891,13.403 185.063,26.027 205.511,46.46 C225.959,66.908 238.583,95.094 238.583,126.289 L251.423,126.289 C251.408,56.864 195.136,0.578 125.696,0.578 C56.271,0.578 0,56.864 0,126.289 C0,195.714 56.271,252 125.696,252 C195.136,252 251.408,195.714 251.423,126.289 L245.003,126.289" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+								</g>
+								<path d="M173.198,130.787 L185.648,130.787 C184.904,131.95 184.099,133.074 183.265,134.179 C177.237,134.468 172.402,139.256 172.042,145.265 C169.335,147.253 166.459,148.99 163.418,150.446 C167.437,145.108 170.776,138.413 173.198,130.787 Z M149.893,152.337 C148.053,153.631 146.174,154.556 144.28,155.112 L144.28,130.787 L164.437,130.787 C163.041,134.693 161.37,138.272 159.439,141.497 C156.644,146.154 153.345,149.899 149.893,152.337 Z M144.28,105.861 L159.686,105.861 C160.563,110.302 163.928,113.838 168.267,114.983 C167.904,117.526 167.448,120.031 166.875,122.478 L144.28,122.478 L144.28,105.861 Z M144.28,80.935 L166.875,80.935 C167.715,84.523 168.311,88.231 168.698,92.019 C165.468,92.741 162.743,94.784 161.107,97.552 L144.28,97.552 L144.28,80.935 Z M144.28,48.309 C146.174,48.861 148.053,49.782 149.893,51.084 C153.345,53.518 156.644,57.263 159.439,61.921 C161.37,65.141 163.041,68.723 164.437,72.631 L144.28,72.626 L144.28,48.309 Z M172.487,58.478 C173.683,62.569 177.026,65.738 181.217,66.686 C182.83,68.573 184.32,70.548 185.648,72.626 L173.198,72.626 C170.78,65 167.437,58.305 163.418,52.967 C166.626,54.503 169.652,56.35 172.487,58.478 Z M181.469,97.552 C180.428,95.791 178.949,94.325 177.175,93.304 C176.829,89.028 176.225,84.888 175.386,80.935 L189.994,80.935 C192.209,86.245 193.545,91.816 193.977,97.552 L181.469,97.552 Z M189.989,122.478 L175.382,122.478 C175.962,119.748 176.423,116.925 176.771,114.034 C179.889,112.399 182.187,109.419 182.89,105.861 L193.973,105.861 C193.541,111.598 192.204,117.168 189.989,122.478 Z M135.971,72.626 L115.815,72.626 C117.21,68.72 118.882,65.138 120.813,61.916 C123.608,57.259 126.906,53.514 130.359,51.076 C132.199,49.778 134.077,48.857 135.971,48.301 L135.971,72.626 Z M135.971,97.552 L111.133,97.552 C111.378,91.82 112.131,86.254 113.376,80.935 L135.971,80.935 L135.971,97.552 Z M135.971,122.478 L119.015,122.478 C118.617,116.174 116.181,110.418 112.357,105.861 L135.971,105.861 L135.971,122.478 Z M135.971,155.104 C134.077,154.552 132.199,153.631 130.359,152.329 C126.906,149.895 123.608,146.15 120.813,141.493 C120.206,140.481 119.635,139.421 119.08,138.34 L119.08,130.783 L135.971,130.787 L135.971,155.104 Z M72.875,147.63 L72.875,124.31 C72.875,119.212 75.08,114.632 78.572,111.435 C80.805,125.675 87.86,138.314 98.015,147.63 L72.875,147.63 Z M93.67,179.341 L93.728,179.995 L93.728,192.573 C93.728,194.432 92.201,195.959 90.353,195.959 C88.494,195.959 86.968,194.432 86.968,192.573 L86.968,179.995 L87.025,179.341 C82.939,177.963 79.99,174.096 79.99,169.528 C79.99,163.813 84.627,159.176 90.353,159.176 C96.069,159.176 100.706,163.813 100.706,169.528 C100.706,174.096 97.767,177.963 93.67,179.341 Z M88.604,85.499 C88.679,85.5 88.753,85.51 88.829,85.51 C92.626,85.51 95.996,83.715 98.161,80.935 L104.869,80.935 C103.755,86.185 103.054,91.763 102.824,97.552 L100.811,97.552 C97.567,96.279 94.042,95.572 90.353,95.572 C89.026,95.572 87.721,95.671 86.441,95.846 C86.819,92.322 87.543,88.866 88.604,85.499 Z M90.353,106.831 C95.51,106.831 100.139,109.092 103.34,112.661 C103.699,116.032 104.199,119.32 104.869,122.478 L90.262,122.478 C88.232,117.612 86.953,112.525 86.416,107.294 C87.684,107.001 88.998,106.831 90.353,106.831 Z M101.94,139.894 C99.148,137.107 96.696,134.06 94.603,130.787 L107.054,130.787 C107.298,131.556 107.558,132.309 107.821,133.059 L107.821,144.978 C105.755,143.432 103.788,141.742 101.94,139.894 Z M116.833,52.967 C112.815,58.305 109.476,65 107.054,72.626 L100.607,72.626 C100.427,70.599 99.742,68.718 98.669,67.115 C99.706,65.877 100.786,64.67 101.94,63.518 C106.31,59.15 111.312,55.612 116.833,52.967 Z M191.495,136.973 C198.394,126.943 202.44,114.8 202.44,101.706 C202.44,87.965 197.982,75.271 190.448,64.968 C193.596,62.842 195.667,59.241 195.667,55.157 C195.667,48.623 190.37,43.326 183.836,43.326 C179.484,43.326 175.692,45.683 173.637,49.183 C163.958,42.994 152.466,39.392 140.125,39.392 C120.678,39.392 103.316,48.304 91.888,62.263 C90.911,62.002 89.889,61.849 88.829,61.849 C82.296,61.849 76.999,67.146 76.999,73.68 C76.999,77.144 78.497,80.251 80.87,82.415 C79.218,87.494 78.189,92.854 77.899,98.413 C68.272,103.06 61.616,112.92 61.616,124.31 L61.616,148.273 C55.235,150.178 50.529,156.135 50.529,163.113 L50.529,191.839 C50.529,200.355 57.507,207.333 66.023,207.333 L114.661,207.333 C123.188,207.333 130.166,200.355 130.166,191.839 L130.166,163.219 C133.41,163.74 136.734,164.021 140.125,164.021 C152.93,164.021 164.83,160.153 174.729,153.53 C176.899,156.145 180.173,157.811 183.836,157.811 C190.37,157.811 195.667,152.514 195.667,145.981 C195.667,142.37 194.044,139.143 191.495,136.973 L191.495,136.973 Z" id="Fill-4" fill="#FFFFFF"></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<h2 class="display-4">Secure<br>Things</h2>
+			<p>As more devices connect to the network, to the cloud and to each other, NXP security solutions offer the highest levels of protection, while making it easy for users to interact with devices and services.</p>
+			<a href="/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things" class="btn dtmGenLink" data-dtmName="Secure Things Link">Secure Things <span class="icon-angle-right"></span></a>
+		</div>
+    </div>
+	
+	  
+</section>
+</div><!--ls:end[component-1487451585172]--> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionizbq9ojj"> 
+ <div class="row iw_row iw_stretch" id="rowizbq9ojk"> 
+  <div class="iw_columns col-lg-12" id="colizbq9ojl"> 
+   <div class="iw_component" id="iw_comp1487451585150">
+     <footer>
+    <!--  default footer -->
+    <div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                ABOUT NXP
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        Investors
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/webapp/connect/memberDirSearch.sp">
+                        Partners
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/about/careers-at-nxp:CAREERS">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                RESOURCES
+            </h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://www.nxp.com/about/nxp-mobile-applications:MOBILE">
+                        Mobile Apps
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.nxp.com">
+                        Press, News, Blogs
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/pages/contact-us:CONTACTUS">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                FOLLOW US
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+                <li class="twitter">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://twitter.com/NXP" target="_blank" title="Follow NXP on Twitter">
+                        <span class="icon-twitter22">
+                        </span>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="Follow NXP on Linked In">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://www.facebook.com/NXPsemi" target="_blank" title="Follow NXP on Facebook">
+                        <span class="icon-facebook">
+                        </span>
+                    </a>
+                </li>
+                <!--li class="youtube"><a href="https://www.youtube.com/nxpsemiconductors" title="Follow NXP on Youtube" target="_blank" data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US"><span class="icon-youtube-square2"></span></a></li-->
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center" target="_blank" title="Subscription Center">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            NEWS
+                        </h5>
+                        <p>
+                            NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-NewsCorporate" target="_blank">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/about/privacy:PRIVACYPRACTICES">
+                        Privacy
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/terms-of-use:TERMSOFUSE">
+                        Terms of Use
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        Terms of Sale
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        Feedback
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6">
+                &copy;2006-2017 NXP Semiconductors. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>

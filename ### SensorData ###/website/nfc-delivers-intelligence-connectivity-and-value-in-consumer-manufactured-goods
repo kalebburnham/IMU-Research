@@ -1,0 +1,437 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<title>NFC delivers intelligence, connectivity, and value in consumer manufactured goods</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="NXP Blog &raquo; Feed" href="https://blog.nxp.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="NXP Blog &raquo; Comments Feed" href="https://blog.nxp.com/comments/feed" />
+<link rel="canonical" href="https://blog.nxp.com/iot/nfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.nxp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=798acf3e63b970f3cf087e20976cb80b"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpemfb-lightbox-css'  href='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/lightbox2/css/lightbox.css?ver=798acf3e63b970f3cf087e20976cb80b' type='text/css' media='all' />
+<link rel='stylesheet' id='all-combined-css-css'  href='https://blog.nxp.com/wp-content/themes/nxp-blog/compiled.min.css?ver=1491929358' type='text/css' media='all' />
+<link rel='stylesheet' id='timeline-twitter-feed-frontend-css'  href='https://blog.nxp.com/wp-content/plugins/timeline-twitter-feed/res/css/timeline-twitter-feed-frontend.css?ver=1.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/lightbox2/js/lightbox.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/js/wpembedfb.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WEF = {"local":"en_US","version":"v2.7","fb_id":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/plugins/wp-embed-facebook/lib/js/fb.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://blog.nxp.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.nxp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.nxp.com%2Fiot%2Fnfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.nxp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.nxp.com%2Fiot%2Fnfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods&#038;format=xml" />
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//blog.nxp.com/?wordfence_logHuman=1&hid=C697D96CC86740768CAD5D82C8D749E1');
+</script><link rel="Shortcut Icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAAAAtfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/ALX5/wC1+f8Atfn/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/ANLJ/wDSyf8A0sn/ANLJ/wC1+f8Atfn/ALX5/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/wDSyf8A0sn/ANLJ/wDSyf8Atfn/ALX5/wC1+f/bsXv/27F7/9uxe//bsXv/27F7/9uxe//bsXv/27F7/9uxe/8A0sn/ANLJ/wDSyf8A0sn/AAA6AAAAOgAAAEnxAADp6wAA2zwAAD6ZAAANHAAAR94AAE3IAACLpgAAWn0AACUfAADL/AAARTsAAIkKAACuMg==" type="image/x-icon" />	<style type="text/css">
+
+	</style>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
+	<meta name="resource-type" content="blog" />
+<style type="text/css">
+
+@media screen and (max-width: 1024px){
+.nxpsw-post-header {
+ height: 0 !important;
+}
+}
+</style></head>
+<body class="post-template-default single single-post postid-15873 single-format-standard header-image header-full-width content-sidebar" itemscope itemtype="http://schema.org/WebPage"><div class="site-container"><nav class="nav-secondary" itemscope itemtype="http://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-nxp-outgoing-menu" class="menu genesis-nav-menu menu-secondary"><li id="menu-item-4361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4361"><a target="_blank" href="http://www.nxp.com" itemprop="url"><span itemprop="name">NXP Home ></span></a></li>
+<li id="menu-item-4362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4362"><a target="_blank" href="http://www.nxp.com/about/about-nxp:COMPANY_INFO_HOME" itemprop="url"><span itemprop="name">About NXP</span></a></li>
+<li id="menu-item-13331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13331"><a target="_blank" href="http://news.nxp.com/" itemprop="url"><span itemprop="name">News</span></a></li>
+<li id="menu-item-13332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13332"><a target="_blank" href="http://www.nxp.com/about/about-nxp/careers-at-nxp:CAREERS" itemprop="url"><span itemprop="name">Careers</span></a></li>
+<li id="menu-item-4365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4365"><a target="_blank" href="http://investors.nxp.com/" itemprop="url"><span itemprop="name">Investors</span></a></li>
+<li id="menu-item-13334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13334"><a target="_blank" href="http://www.nxp.com/support/sales-and-support/nxp-newsletter:NL_HOME" itemprop="url"><span itemprop="name">NXP Newsletter</span></a></li>
+<li id="menu-item-13335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13335"><a target="_blank" href="http://www.nxp.com/about/about-nxp/contact-us:CONTACTUS" itemprop="url"><span itemprop="name">Contact</span></a></li>
+<form class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction" method="get" action="https://blog.nxp.com/" role="search"><meta itemprop="target" content="https://blog.nxp.com/?s={s}"/><input itemprop="query-input" type="search" name="s" placeholder="Search this website &#x2026;" /><input type="submit" value="Search"  /></form></ul></div></nav><header class="site-header" itemscope itemtype="http://schema.org/WPHeader"><div class="wrap">	<div class="two-fifths no-margin">
+		<a href="/">
+			<div class="single-page-logo">
+
+			</div>
+		</a><!-- .homepage-block-wrapper -->
+	</div><!-- .one-fourth -->
+
+	<div class="nxpsw-post-header three-fifths nxpsw-main-dark-post">
+
+		<nav class="nav-primary">
+			<div class="menu-category-menu-container"><ul id="menu-category-menu" class="menu"><li id="menu-item-3989" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3989"><a href="https://blog.nxp.com/category/connected-car" itemprop="url">Connected Car</a></li>
+<li id="menu-item-3986" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3986"><a href="https://blog.nxp.com/category/internet-of-things-2" itemprop="url">IoT</a></li>
+<li id="menu-item-3990" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3990"><a href="https://blog.nxp.com/category/portable-wearable" itemprop="url">Portables and Wearables</a></li>
+<li id="menu-item-13322" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13322"><a href="https://blog.nxp.com/category/security" itemprop="url">Security</a></li>
+<li id="menu-item-13337" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13337"><a href="https://blog.nxp.com/category/tech-in-depth" itemprop="url">Tech In-Depth</a></li>
+<li id="menu-item-13336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13336"><a href="https://blog.nxp.com/category/events" itemprop="url">Events</a></li>
+<li id="menu-item-13355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13355"><a href="https://blog.nxp.com/categories" itemprop="url">All</a></li>
+</ul></div>		</nav>
+
+		<div class="image-clipper">
+			<img width="640" height="320" src="https://blog.nxp.com/wp-content/uploads/2017/02/NXP-blog-header-smart-products-cloud-icons_V4-640x320.png" class="attachment-blog-image-medium size-blog-image-medium wp-post-image" alt="" />		</div>
+
+		<div class="post-header-wrapper">
+			NFC delivers intelligence, connectivity, and value in consumer manufactured goods
+					</div><!-- .homepage-block-wrapper -->
+	</div><!-- .three-fourths -->
+
+</div></header><div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><main class="content"><p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2017-02-28T15:00:03+00:00">February 28, 2017</time> <span class="entry-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="entry-author-name" itemprop="name">Sylvia Kaiser-Kershaw</span></span></p><h2 class="entry-title show-on-mobile" style="padding-left: 30px;">NFC delivers intelligence, connectivity, and value in consumer manufactured goods</h2><div class="single-post-header"><img class="fallback-to-logo" src="https://blog.nxp.com/wp-content/uploads/2017/02/NXP-blog-header-smart-products-cloud-icons_V4.png" alt="NFC delivers intelligence, connectivity, and value in consumer manufactured goods"  /></div><article class="post-15873 post type-post status-publish format-standard has-post-thumbnail category-iot tag-brands tag-identification-2 tag-identification-and-security tag-nfc tag-retail tag-smart-consumer-products entry" itemscope itemtype="http://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">NFC delivers intelligence, connectivity, and value in consumer manufactured goods</h1> 
+</header><div class="entry-content" itemprop="text"><div id="fb-root"></div>
+<p>The number of electronic devices that have their own IP addresses and connect to the internet, in what is commonly referred to as the Internet of Things (IoT), is forecasted to reach 80 billion by 2020. But there are other items connecting to the IoT, too, not just electronic devices. That’s because everyday objects can now use embedded NFC tags for connectivity.</p>
+<p>A growing array of familiar consumer goods, including apparel, footwear, foods and beverages, cosmetics, and pharmaceuticals are now becoming smart and cloud-connected. They use a unique electronic ID, in the form of an NFC tag, to interact with tag readers and go online. As more products in the consumer packaged goods (CPG) sector connect to the internet, the lines between the digital and physical world continue to blur. The Internet of Things is becoming the Internet of Everyday Things.</p>
+<p>A recent study by <a href="http://www.vandagraf.com"><u>Vandagraf International</u></a>, a leading market-research institute, forecasts the total market potential of connected packaging and labels will jump to 1.2 trillion units in 2021 and 1.5 trillion units in 2026.</p>
+<p>What’s behind this rapidly growing trend of adding connectivity to consumer products? For many brand owners, it’s versatility, made possible by dynamic year-on-year growth of NFC devices. The NFC technology used to power smart, connected products and packages is remarkably flexible, and enables a wide variety of applications, including new levels of pre- and post-sale consumer engagement, location awareness, robust brand protection, tamper proofing, and parts configuration.</p>
+<p><strong>More options = greater ROI</strong></p>
+<p>NFC is a seamless, intuitive IoT connectivity technology. On-item electronics connect products to the web, by simply tapping products (or packages) with a smartphone, or by placing them on or near smart reader devices. The IoT is based on securely collecting IDs and data from such devices and communicating that information to the cloud, where products have their own addressable digital profiles and can exchange data in real time. NFC works with proximity reading capabilities (up to 10 cm), and is also compatible with vicinity RFID reading capabilities (RFID up to 1.2 meters).</p>
+<p><strong><a href="http://blog.nxp.com/wp-content/uploads/2017/02/intrinsic-ID.jpg"><img class="alignright wp-image-15874 size-medium" src="http://blog.nxp.com/wp-content/uploads/2017/02/intrinsic-ID-300x222.jpg" width="300" height="222" srcset="https://blog.nxp.com/wp-content/uploads/2017/02/intrinsic-ID-300x222.jpg 300w, https://blog.nxp.com/wp-content/uploads/2017/02/intrinsic-ID.jpg 619w" sizes="(max-width: 300px) 100vw, 300px" /></a>Three application layers for multi-function versatility</strong></p>
+<p>NFC technology uses three application layers to manage the data associated with a product. These layers make it possible to capture, store, present, and analyze many different categories of information, for multiple benefits.</p>
+<ol>
+<li><strong>Intrinsic ID Layer: </strong>Stores a secure ID on the electronic device to provide an assurance of authenticity and provenance. Products must be authenticated before any interactions take place, thereby providing an extra level of defense against counterfeiting and market diversions.</li>
+<li><b><strong>On-Product Electronic Device Layer: </strong></b>Stores smaller amounts of data on the product or package’s electronic device. The on-pack data can, for example, confirm that the tamper loop is intact and the package hasn’t been opened, or that the package has been stored correctly within its specified temperature range. On-pack data can also link to a specific web address in the cloud to extend further actions.</li>
+<li><strong>Off-Product Cloud Layer: </strong>Stores relatively large amounts of data away from the product or package, in the cloud. This is where brand owners can put helpful product information, such as on-line instructions or product ingredients, for consumers to access. It’s also where data on product location can be stored, so it’s easy to check traceability along the distribution chain (including transfer of ownership), or contextualize consumer messages based on where the product is sold or used. The cloud layer can also be used to store rich marketing data, for use with real-time customer interactions such as promotions, online communities, and brand experiences based on the product at hand.</li>
+</ol>
+<p><strong>A wealth of business cases</strong></p>
+<p>NFC’s three-layered application structure means brand owners can select from a wide variety of functions to create a unique offering that meets their specific requirements. The end result is significantly more robust and compelling applications and solutions, and a measurable return on investment. The table describes just some of the business cases enabled by NFC.</p>
+<p><em>The Multi-faceted benefits of NFC</em></p>
+<table>
+<tbody>
+<tr>
+<td colspan="2" width="623"><strong>Brand protection: safeguard brands and control operations</strong></td>
+</tr>
+<tr>
+<td width="162">Product authentication</td>
+<td width="462">Digitally verify that a product is genuine, anytime and anywhere in the world, by letting businesses and consumers use unique product identifiers and secure authentication services</td>
+</tr>
+<tr>
+<td width="162">Product traceability</td>
+<td width="462">Assure product provenance and traceability, as each product can be assigned to geographic area and distributor, such that any deviation can be detected and flagged</td>
+</tr>
+<tr>
+<td colspan="2" width="623"><strong>Change of state: secure product integrity by monitoring internal/external conditions</strong></td>
+</tr>
+<tr>
+<td width="162">Tamper evidence</td>
+<td width="462">Detect whether a product has been interfered with or opened prior to sale, within the supply chain or in retail locations</td>
+</tr>
+<tr>
+<td width="162">Product quality assurance</td>
+<td width="462">Assure a product’s correct handling profile, by noting quality checks have occurred, or by monitoring and recording ambient environmental changes (e.g. temperature or humidity) during transit or storage</td>
+</tr>
+<tr>
+<td width="162">Usage compliance</td>
+<td width="462">Assure that pharmaceuticals are consumed correctly, by recording and time-stamping consumption of individual items e.g. smart blister packs</td>
+</tr>
+<tr>
+<td colspan="2" width="623"><strong>Location-based data: determine actual location in the supply chain, at retail, or after sale</strong></td>
+</tr>
+<tr>
+<td width="162">Mobile proximity marketing</td>
+<td width="462">Target marketing messages at consumers based on their location when products are purchased or used</td>
+</tr>
+<tr>
+<td width="162">Data analytics for brand protection</td>
+<td width="462">Identify where clusters of counterfeits have occurred and plot them on a map to assist in the search for illegitimate activities</td>
+</tr>
+<tr>
+<td width="162">Data analytics for distribution control</td>
+<td width="462">Identify clusters of products at a wrong location (as with grey markets or channel diversions), so corrective action can be taken</td>
+</tr>
+<tr>
+<td colspan="2" width="623"><strong>Consumer engagement: use products and packages to connect and engage with consumers</strong></td>
+</tr>
+<tr>
+<td width="162">Consumer information</td>
+<td width="462">Give products and their packages the ability to embed electronics to couple data with apps, cloud databases, and analytics software. Deliver specifics that help consumers, such as product features, use-by dates, provenance, usage instructions, and more</td>
+</tr>
+<tr>
+<td width="162">Consumer experience</td>
+<td width="462">Engage consumers to create deeper, more lasting relationships, with things like after-sales services, loyalty programs, social communities, e-commerce, and more</td>
+</tr>
+<tr>
+<td colspan="2" width="623"><strong>Parts management: equip appliances with built-in readers to automatically communicate with inserted consumables </strong></td>
+</tr>
+<tr>
+<td width="162">Parts authentication &amp; parts configuration</td>
+<td width="462">Identify branded consumables and accessories, and regulate use of authorized parts (printer cartridges, brush heads, etc.). Automate the transfer of settings from accessories to the appliance, thereby achieving the best, safest performance</td>
+</tr>
+<tr>
+<td width="162">Customer notification</td>
+<td width="462">Alert users, based on usage, when it’s time to get a refill or replacement, and then link to a dedicated site for processing orders</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NFC in the real world</strong></p>
+<p>Here’s a look at just a few of the clever ways brand owners are using NFC technology to enhance their offerings and create deeper customer relationships.</p>
+<ul>
+<li><b><strong>Easier customization </strong></b>– <strong>Vitamix blenders</strong> When consumers place an NFC-enabled container or cup onto the base of <a href="https://www.smartrac-group.com/pr/smartrac-technology-blends-convenience-and-safety-for-vitamix.html"><u>Vitamix’s new Ascent or Venturist blenders</u></a>, the appliance’s NFC reader automatically changes up to 140 parameters, making it easier to modify settings and safely prepare foods.</li>
+<li><strong>Real-time social media access </strong>– <strong>Spyder skiwear</strong> As part of their support for the U.S. Ski Team, <a href="https://www.smartrac-group.com/pr/spyder-launches-first-outerwear-collection-with-nfc-technology.html"><u>Spyder</u></a> embeds an NFC touchpoint in the logo on their ski jackets. Tapping a smartphone to the logo lets skiers instantly engage in real-time social media with USST members and share location-based information (e.g. snow conditions, trail maps, local point of interest).</li>
+<li><strong>Consumer engagement and trends – Malibu rum </strong>Pernod Ricard UK, the maker of coconut-flavored <a href="http://www.rfidjournal.com/articles/view?15020"><u>Malibu rum</u></a>, outfits their bottles with a tag that lets consumers access product-related content as well as instant prize wins and competitions with the tap of an NFC-enabled phone. The technology also captures information regarding what content is accessed, and from where.</li>
+<li><strong>Medication safety – SHL Medical auto-injectors </strong>Users of <a href="http://www.labelsandlabeling.com/news/latest/schreiner-medipharm-develops-multi-functional-labels-nfc-shl-medical"><u>SHL Medical’s auto-injector</u></a> can interactively access important information and services from the NFC label with a smartphone, and can see a color change on the label when a defined ambient temperature has been reached. Self-medication becomes safer and more intuitive.</li>
+<li><strong>Product authentication and enjoyment – Geantet-Pansiot vineyard estate </strong>Every wine bottle from <a href="https://www.nfcworld.com/2016/06/21/345687/french-vineyard-safeguard-entire-output-nfc/"><u>Geantet-Pansiot vineyard estate</u></a>, in Burgundy, France, is equipped with an NFC tag that lets customers authenticate the beverage and receive information about the wine (vintage, production, serving temperature, storage, etc.) directly on their smartphone. The wine maker also engages its distribution network with the same technology, to combat counterfeiting and gray markets.</li>
+</ul>
+<p><strong>Just the beginning </strong>The aggressive growth predictions for connected consumer goods, stated above, are a strong indicator that NFC is a compelling technology for brand owners. NXP is helping brand owners take advantage of NFC, by building on our position as a leader in the technology. We offer a full suite of fully-passive tags (which derive power from the field generated by the reader), and a range of battery-assisted sensory tags that can perform precise time and data logging while monitoring and recording the ambient conditions of goods as they’re transported or stored.</p>
+<p>As demand increases for smart, connected consumer products and packages, we’ll remain at the forefront. We’re focusing on the next steps, by adding innovative security features and making tags even more suitable for in-demand use cases, such as proximity-based authentication and proof of tag presence, and by expanding support for every relevant operating environment, whether it’s online, offline, with apps, or without.</p>
+<p><strong>Related links</strong></p>
+<ul>
+<li>NXP site for NFC &#8211; <a href="https://nxp-rfid.com/">https://nxp-rfid.com/</a></li>
+<li>Smartrac Technology Blends Convenience and Safety for Vitamix &#8211; <a href="https://www.smartrac-group.com/pr/smartrac-technology-blends-convenience-and-safety-for-vitamix.html">https://www.smartrac-group.com/pr/smartrac-technology-blends-convenience-and-safety-for-vitamix.html</a></li>
+<li>SPYDER Launches First Outerwear Collection with NFC Technology &#8211; <a href="https://www.smartrac-group.com/pr/spyder-launches-first-outerwear-collection-with-nfc-technology.html">https://www.smartrac-group.com/pr/spyder-launches-first-outerwear-collection-with-nfc-technology.html</a></li>
+<li>Malibu Rum Serves up NFC-Connected Bottles &#8211; <a href="http://www.rfidjournal.com/articles/view?15020">http://www.rfidjournal.com/articles/view?15020</a></li>
+<li>Schreiner MediPharm develops multi-function labels with NFC for SHL Medical &#8211; <a href="http://www.labelsandlabeling.com/news/latest/schreiner-medipharm-develops-multi-functional-labels-nfc-shl-medical">http://www.labelsandlabeling.com/news/latest/schreiner-medipharm-develops-multi-functional-labels-nfc-shl-medical</a></li>
+<li>French vineyard to safeguard its entire output with NFC &#8211; <a href="https://www.nfcworld.com/2016/06/21/345687/french-vineyard-safeguard-entire-output-nfc/">https://www.nfcworld.com/2016/06/21/345687/french-vineyard-safeguard-entire-output-nfc/</a></li>
+</ul>
+</div><div class="clearfix"></div></article>
+	<a href="https://blog.nxp.com/iot/why-banks-are-moving-to-contactless-readers-at-cash-machines">
+		<div class="nxpsw-main-dark-post next-post-box one-fourth">
+			<article>
+			
+				<div class="image-clipper">
+					<img class="image-opaque" src="https://blog.nxp.com/wp-content/uploads/2017/03/ATM_phone.png" />
+				</div>
+				
+				<div class="post-content">
+					<span class="arrow"></span>	
+					<header class="entry-header-full">
+						<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2017-02-28T15:00:03+00:00">February 28, 2017</time> <span class="entry-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="entry-author-name" itemprop="name">Sylvia Kaiser-Kershaw</span></span></p>						<h2 class="entry-title">Why banks are moving to contactless readers at cash machines</h2>
+					</header>
+					<footer class="entry-footer-full">
+						<span class="read-on">read on</span>
+					</footer>
+				</div>
+			</article>
+		</div>
+	</a>
+
+
+			
+</main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar"><section id="widget-author" class="widget widget-author"><div class="widget-wrap"><h4 class="widget-title widgettitle">Sylvia Kaiser-Kershaw</h4><div class="image-clipper"><img src="https://blog.nxp.com/wp-content/uploads/userphoto/84.jpg" alt="Sylvia Kaiser-Kershaw" width="140" height="210" class="photo" /></div><p>A marketing professional with over 15 years of experience working across markets, including technology, FMCG, prestige, and financial services, Sylvia Kaiser-Kershaw is an expert in the definition and implementation of brand strategies and cross-channel marketing solutions. At NXP, she's driving IoT applications that increase engagement between brands and consumers by adding digital RFID-NFC connectivity, security and intelligence to physical media and products.</p><a class="author-link" href="https://blog.nxp.com/author/s-kaiser-kershaw">All Articles by this author</a></div></section><section id="widget-social-share" class="widget widget-social-share"><h4 class="widget-title widgettitle">Share this blog post</h4><div class="widget-wrap"><ul><li class="fa linkedin-blue"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://blog.nxp.com/iot/nfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods&title=NFC delivers intelligence, connectivity, and value in consumer manufactured goods" title="Linkedin" target="_blank"></a></li><li class="fa twitter-blue"><a href="http://www.twitter.com/share?url=https://blog.nxp.com/iot/nfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods" target="_blank"></a></li><li class="fa facebook-blue"><a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.nxp.com/iot/nfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods" target="_blank" title="NFC delivers intelligence, connectivity, and value in consumer manufactured goods"></a></li></ul></div></section></aside></div><div class="social-navigation"><ul id="menu-social-menu" class="menu"><li id="menu-item-4357" class="fa facebook-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4357"><a title="Facebook" href="https://www.facebook.com/nxpsemi" itemprop="url"></a></li>
+<li id="menu-item-4358" class="fa twitter-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4358"><a title="Twitter" href="http://www.twitter.com/nxp" itemprop="url"></a></li>
+<li id="menu-item-4359" class="fa instagram-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4359"><a title="Instagram" href="https://instagram.com/nxpsemiconductors/" itemprop="url"></a></li>
+<li id="menu-item-4360" class="fa linkedin-blue menu-item menu-item-type-custom menu-item-object-custom menu-item-4360"><a title="LinkedIn" href="https://www.linkedin.com/company/nxp-semiconductors" itemprop="url"></a></li>
+</ul></div></div></div>
+
+<div class="footer-top">
+	<div class="wrap">
+		<span class="footer-logo"></span>
+		<div class="triangle"><div class="arrow-up">›</div></div>
+		
+	</div>
+</div>
+
+<div class="footer-widgets">
+	<div class="wrap">
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">NXP Careers</h4>
+			<ul>
+				<li><a href="http://www.nxp.com/about/about-nxp/careers-at-nxp:CAREERS" target="_blank">Working at NXP</a></li>
+				<li><a href="https://nxp.wd3.myworkdayjobs.com/en-US/careers" target="_blank">View Job openings</a></li>
+			</ul>
+		</div>
+
+<!-- TEST INCLUDE PLAIN HTML -->
+<!-- <div class="one-fourth nxpsw-main-widget-popular-posts hide-on-mobile">
+	<section id="widget-popular-posts" class="widget widget-popular-posts">
+		<div class="widget-wrap">
+			<h4 class="widget-title widgettitle">
+				Popular blog posts
+			</h4>
+			<a class="pop-post-link nr-0" href="http://blog.nxp.com/slider-main/is-linked-data-the-future-of-data-integration-in-the-enterprise">
+				<h5>
+					Is Linked Data the future of data integration in the enterprise?
+				</h5>
+			</a>
+			<a class="pop-post-link nr-1" href="http://blog.nxp.com/sensors/accelerometer-placement-where-and-why">
+				<h5>
+					Accelerometer placement - where and why
+				</h5>
+			</a>
+			<a class="pop-post-link nr-2" href="http://blog.nxp.com/uncategorized/555-timer-ic-the-stuff-of-silicon-legends">
+				<h5>
+					555 Timer IC, the Stuff of Silicon Legends
+				</h5>
+			</a>
+		</div>
+	</section>
+</div> -->
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">NXP News</h4>
+			<ul>
+				<li><a href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-news&nyo=0" target="_blank">Press releases</a></li>
+				<li><a href="http://media.nxp.com/" target="_blank">News</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">Investors</h4>
+			<ul>
+				<li><a href="http://investors.nxp.com/">Investors home</a></li>
+				<li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-financial">Financial results</a></li>
+				<li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-contact">Contacts</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-widgets-1 widget-area">
+			<h4 class="widget-title widgettitle">Follow us</h4>
+				<ul class="follow-us">
+					<li><a href="https://www.linkedin.com/company/nxp-semiconductors" title="Linkedin"><i class="icon icon-linkedin"></i></a></li>
+					<li><a href="https://twitter.com/nxp" title="Twitter"><i class="icon icon-twitter-squared"></i></a></li>
+					<li><a href="https://www.facebook.com/nxpsemi" title="Facebook"><i class="icon icon-facebook-squared"></i></a></li>	
+					<li><a href="/feed" title="RSS"><i class="icon icon-rss-squared"></i></a></li>			
+				</ul>
+		</div>	
+		<div class="clearfix"></div>	
+	</div>
+<br />
+<br />
+		<div class="footer-bottom">
+			<div class="wrap">
+				<span class="terms"><a href="http://www.nxp.com/about/about-nxp/privacy:PRIVACYPRACTICES">Privacy</a> | <a href="http://www.nxp.com/about/about-nxp/terms-of-use:TERMSOFUSE">Terms of use</a></span>
+				<span class="copy">2006-2017 &copy; NXP SEMICONDUCTORS</span>
+			</div>
+		</div>		
+
+</div>
+
+</div>	<div class="old-ie">This website has been developed for Internet Explorer 9 or higher, please upgrade your browser to view this website. Or change your IE document mode setting to standard or edge if you already have upgraded your browser.</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54d33e185d51085f" async="async"></script> 
+	​<script type="text/javascript">
+		var addthis_config = addthis_config||{};
+		addthis_config.data_track_clickback = false;
+	</script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-content/themes/nxp-blog/js/build/compiled.min.js?ver=1491929358'></script>
+<script type='text/javascript' src='https://blog.nxp.com/wp-includes/js/wp-embed.min.js?ver=798acf3e63b970f3cf087e20976cb80b'></script>
+<!--<script type="text/javascript">-->
+<!-- var s_account = 'omniture_account_id'; -->
+<!--</script>-->
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js"></script>
+<script type="text/javascript" src="//styles.freescale.com/files/js/elqNow/elqwebanalytics.js"></script>
+<script type="text/javascript" src="//styles.freescale.com/shared/js/webanalytics.js"></script>
+
+<script src='//www.freescale.com/webapp/visitorIdLookup.jsp'></script>
+<script type="text/javascript">
+var digitalData = {};
+digitalData.pageInfo = {};
+digitalData.eventInfo = {};
+digitalData.eventInfo = {};
+digitalData.siteInfo = {};
+digitalData.userInfo = {};
+digitalData.searchInfo = {};
+digitalData.blogInfo = {};
+if(typeof getFslVisitorIDForAnalytics == 'function'){				
+	s_vid = getFslVisitorIDForAnalytics();
+var test1 = '';
+var test2 = '';
+var test3 = '';
+}
+</script>
+
+<script type="text/javascript">
+
+digitalData.pageInfo.pageName = 'NXP Blog Blog Post: NFC delivers intelligence, connectivity, and value in consumer manufactured g...'; //page name
+digitalData.pageInfo.siteSection1 = 'WordPress - NXP Blog'; //channel
+digitalData.pageInfo.pageType = 'WordPress Blog Post'; //traffic variable 1
+digitalData.pageInfo.siteSection2 = 'NXP Blog : WordPress Category'; //traffic variable 2
+digitalData.pageInfo.siteSection3 = 'NXP Blog: nfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods' ;//traffic variable 3
+digitalData.searchInfo.searchkeyword  = ''; //traffic variable 4
+digitalData.searchInfo.resultCount = ''; //traffic variable 5
+digitalData.pageInfo.siteSection4 = ''; //traffic variable 8
+digitalData.pageInfo.siteSection5 = ''; //traffic variable 9
+digitalData.pageInfo.siteSection6 = ''; //traffic variable 10
+digitalData.pageInfo.pageEventPathing = 'NXP Blog Blog Post: NFC delivers intelligence, connectivity, and value in consumer manufactured g...'; //traffic variable 10
+digitalData.pageInfo.siteSection7 = ''; //traffic variable 11
+digitalData.pageInfo.contentFinding = getContentFinding(document.referrer,document.URL); //traffic variable 17
+digitalData.siteInfo.sitePlatform = 'full'; //traffic variable 17
+digitalData.siteInfo.lang = 'en'; //traffic variable 17
+digitalData.siteInfo.userName = ''; //traffic variable 17
+digitalData.pageInfo.tags = 'brands,identification,identification and security,NFC,retail,smart consumer products'; //traffic variable 17
+digitalData.siteInfo.userName = ''; //traffic variable 17
+digitalData.pageInfo.pageURLClean = getCleanPageURL(); //traffic page url
+test1 = 'https://blog.nxp.com/iot/nfc-delivers-intelligence-connectivity-and-value-in-consumer-manufactured-goods'; //authURL
+digitalData.pageInfo.pageLoadRule = 'General';
+//s.channel='WordPress';
+//var search_val=s.prop4;
+digitalData.userInfo.fslVisitorID = s_vid;
+digitalData.pageInfo.localTitle = document.title;
+/*s.campaign= ''; //campaign variable
+s.state= ''; //user state
+s.zip= ''; //user zip
+s.products= ''; //user products
+s.purchaseID= ''; //purchase ID*/
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+//var s_code=s.t();if(s_code)document.write(s_code) //omniture variable
+
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript" src="//style.nxp.com/files/abstract/misc/blueconic.js"></script>
+
+		<script>
+		
+			jQuery( document ).ready( function() {
+				
+				var wp_ajax_url = 'https://blog.nxp.com/wp-admin/admin-ajax.php';
+				
+				if ( typeof _PE !== 'undefined' ) {
+					var application = new _PE.app( { debug: 0 }, jQuery );
+					application.boot();				
+				}
+	
+			});
+			
+		</script>
+		</body>
+</html>

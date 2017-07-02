@@ -1,0 +1,1880 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Signal Chain and Memory|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="Signal Chain and Memory" />
+	<meta name="Keywords" content="memory" />
+	<meta name="ModifiedDate" content="2016-10-04 22:47:48" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="http://www.nxp.com/pages/:INTERFACE-SYSTEM-MANAGEMENT" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="homepage" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Enabled">
+<meta name="template" content="Tmp-HLP-Dynamic">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/web-plugins/clock-positioning.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/web-plugins/clock.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/products/signal-chain-and-memory:INTERFACE-SYSTEM-MANAGEMENT"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "HOMEPAGE";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="Family:Interface and System Management | INTERFACE-SYSTEM-MANAGEMENT";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="Family";
+	digitalData.pageInfo.siteSection1 = "Products";
+	digitalData.pageInfo.siteSection2 = "Interface and System Management";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "014DB5";	
+digitalData.pageInfo.assetID = "1441146696608709344DB5";
+digitalData.pageInfo.localTitle="Signal Chain and Memory";
+digitalData.pageInfo.pageCodeID = "INTERFACE-SYSTEM-MANAGEMENT"
+digitalData.pageInfo.pageTemplateType = "Homepage";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "en";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="014DB5"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="1441146696608709344DB5"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="productsmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionit1h61aw"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61ax"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ay"> 
+   <div class="iw_component" id="iw_comp1473770942743">
+     <header>
+<!-- default header -->
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">Select language</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en selected"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/high-level-pages/products/mcus-and-mpus/KINETIS.page?submit=true&amp;componentID=1473770942743" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                           <li id="CrossReference" name="CrossReference"><a ><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a ><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="Search..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_en" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/products/products:PCPRODCAT">PRODUCTS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>&reg;</sup>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex&reg;-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX Applications Processors</a></li>
+                                 <li><a href="//www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM-based SoCs</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>&reg;</sup><br/>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/more-processors:MORE-PROCESSORS">MORE PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/zidentification-and-security-beta:MC_53420 ">IDENTIFICATION & SECURITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/interfaces:WIRED-CONNECTIVITY">INTERFACE<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">MEDIA AND AUDIO PROCESSING<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/power-management:POWER-MANAGEMENT">POWER MANAGEMENT<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/rf:RF_HOME">RF<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/sensors:SNSHOME">SENSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/automotive-products:MC_50802">AUTOMOTIVE PRODUCTS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">Automotive Radar</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">Car Access & Immobilizers</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">In-Vehicle Network</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">Multi Standard Digital Radio</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCUs/MPUs</a></li>
+                                 <!--li><a href="//www.nxp.com/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV Microcontroller</a></li><li><a href="//www.nxp.com/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCUs/MPUs</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>REFERENCE DESIGN LIBRARY<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/tools/embedded-software-and-tools:DEVELOPER_HOME">DEVELOPMENT TOOLS<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">SOFTWARE CENTER<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>MORE PRODUCT INFORMATION</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/products/products:PCPRODCAT ">All Products</a></li>
+                                    <li><a href="//www.nxp.com/webapp/crosscheck/competitorXRef.sp">Competitor Cross Reference Tool</a></li>
+                                    <li><a href="//www.nxp.com/packages ">Packages</a></li>
+                                    <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity Program</a></li>
+                                    <li><a href="//www.nxp.com/webapp/parametricSelector.sp?">Product Selector</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">NXP COMMUNITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior Development Tools</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX Community (SoCs and PMIC Support)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis Microcontrollers</a></li>
+                                 <li><a href="https://www.lpcware.com/forum" target="_blank">LPC Forums</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ Processors</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV Microcontrollers</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">Wireless Connectivity</a></li>
+                                 <li><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">View All</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/online-academy:ON_DEMAND_TRNG">ONLINE TRAINING ACADEMY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">TRAINING<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">NXP FTF Tech Forum</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">NXP FTF Connects</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">NXP Technology Days</a></li>
+                                 <li><a href="//www.nxp.com/training/classroom-training-events/industry-events:EVENTS_HOME">Industry Events</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">Global Smarter World Tours&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/training/university-programs:UNIVPROGRAM_HOME_CAT">UNIVERSITY PROGRAMS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/video/vault/?searchLabel=renderHomepage">VIDEO VAULT<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT RESOURCES<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/pages/documentation:DOCUMENTATION">Documentation Library</a></li>
+                                 <li><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">Sales and Support</a></li>
+                                 <li><a href="//www.nxp.com/pages/nxp-professional-services:PROFESSIONAL-SERVICES">Professional Engineering Services</a></li>
+                                 <li><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">Software Center</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT NXP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations:GLOBAL_SITES">NXP Worldwide</a></li>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">Distributor Network</a></li>
+                                 <li><a href="http://media.nxp.com">Media Center</a></li>
+                                 <li><a href="http://investors.nxp.com">Investor Relations</a></li>
+                                 <li><a href="//www.nxp.com/about/careers-at-nxp:CAREERS">Careers</a></li>
+                                 <li><a href="//www.nxp.com/about/our-customers:ABOUT_CUSTOMERS">Customers</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">Blogs</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/corporate-responsibility:CORP_SOCIAL_RESP">CORPORATE RESPONSIBILITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">Environmental Compliance Office</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/ethics:ETHICS">Ethics</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/employees:EMPLOYEES">Employees</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">TECHNOLOGY LEADERSHIP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/quality:QUALITY_HOME">Quality</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END --> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b8"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b9"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ba"> 
+   <div class="row iw_row" id="rowit1h61bc"> 
+    <div class="iw_columns col-lg-3" id="colit1h61bd"> 
+     <div class="iw_component" id="iw_comp1473770942755">
+       <!--ls:begin[component-1473770942755]--><ul class="leftnav dtmLeftNav MMenu-products"><li><a href="/products/microcontrollers-and-processors:MICROCONTROLLERS-AND-PROCESSORS">Microcontrollers and Processors</a><li><a href="/products/identification-and-security:MC_53420">Identification and Security</a><li><a href="/products/interfaces:WIRED-CONNECTIVITY">Interfaces</a><li><a href="/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">Media and Audio Processing</a><li><a href="/products/power-management:POWER-MANAGEMENT">Power Management</a><li><a href="/products/rf:RF_HOME">RF</a><li><a href="/products/sensors:SNSHOME">Sensors</a><li class="selected"><a href="/products/signal-chain-and-memory:INTERFACE-SYSTEM-MANAGEMENT">Signal Chain and Memory</a><ul><li class=><a href="/products/signal-chain-and-memory/analog-switches:ANALOG-SWITCHES"><span class="icon-stop2"></span>Analog Switches</a></li><li class=><a href="/products/signal-chain-and-memory/analog-watch-motor-drivers:MC_53498"><span class="icon-stop2"></span>Analog Watch Motor Drivers</a></li><li class=><a href="/products/signal-chain-and-memory/bridges:MC_50962"><span class="icon-stop2"></span>Bridges</a></li><li class=><a href="/products/signal-chain-and-memory/clocks-with-lcd-drivers:MC_53497"><span class="icon-stop2"></span>Clocks with LCD drivers</a></li><li class=><a href="/products/signal-chain-and-memory/comparators:MC_52376"><span class="icon-stop2"></span>Comparators</a></li><li class=><a href="/products/signal-chain-and-memory/high-speed-multiplexer:MC_71595"><span class="icon-stop2"></span>High-speed Multiplexer</a></li><li class=><a href="/products/signal-chain-and-memory/memory-data-switches:MC_41843"><span class="icon-stop2"></span>Memory Data Switches</a></li><li class=><a href="/products/signal-chain-and-memory/real-time-clocks:MC_71246"><span class="icon-stop2"></span>Real-Time Clocks</a></li></ul></li><li><a href="/products/wireless-connectivity:WIRELESS-CONNECTIVITY">Wireless Connectivity</a><li><a href="/products/single-chip-modules:SINGLE-CHIP-MODULE">Single Chip Modules</a><li><a href="/products/automotive-products:MC_50802">Automotive Products</a><li><a href="/products/reference-designs:REFDSGNHOME">Reference Designs</a><li><a href="/products/software-and-tools:DEVELOPER_HOME">Software and Tools</a></ul><!--ls:end[component-1473770942755]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1476893855586">
+       <!--ls:begin[component-1476893855586]--><div class="leftSecAbs dtmGenAbstract" data-dtmname="Sectional Navigation Abstract">
+<h3>PRODUCT SELECTOR</h3>
+<p>
+Easily locate your ideal product based on technical specifications. <br><a href="/webapp/parametricSelector.sp?" id="ProdSelLink" bccta="search_parametric">Try Now &gt;</a>
+</p>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		if($('input#shortname').length > 0){
+			if($('input#shortname').val().replace(/_/g,"")!=""){
+				var shortname=$('input#shortname').val();
+				var MCUMPU=$('input#shortname').val().substr(0,4)=="c731";
+				var n=shortname.lastIndexOf('_');
+				if(n==-1||!MCUMPU){
+					if(document.getElementById("lang").value == "ko")
+						$('a#ProdSelLink').attr("href","/ko/webapp/parametricSelector.sp#/&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+					else
+						$('a#ProdSelLink').attr("href","/webapp/parametricSelector.sp#/&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+				}else{					
+					var p_shortname=shortname.substring(0,n);
+					if(document.getElementById("lang").value == "ko")
+						$('a#ProdSelLink').attr("href","/ko/webapp/parametricSelector.sp#/&amp;c="+p_shortname+"&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+					else
+						$('a#ProdSelLink').attr("href","/webapp/parametricSelector.sp#/&amp;c="+p_shortname+"&amp;c="+shortname+"&amp;cof=0&amp;am=0");
+				}
+			}
+		}else{
+			if(document.getElementById("lang").value == "ko")
+				$('a#ProdSelLink').attr("href","/ko/webapp/parametricSelector.sp?");
+			else
+				$('a#ProdSelLink').attr("href","/webapp/parametricSelector.sp?");
+		}
+	});
+</script><!--ls:end[component-1476893855586]--> 
+     </div> 
+    </div> 
+    <div class="iw_columns col-lg-9" id="colit1h61be"> 
+     <div class="iw_component" id="iw_comp1474458748437">
+       <!--ls:begin[component-1474458748437]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com"><span>NXP</span></a></li> <li><span>Signal Chain and Memory</span></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="Share via Email"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="facebook18x" title="Share on Facebook"><span class="icon-facebook"></span> Facebook</a></li>
+            <li><a id="twitter18x" title="Share on Twitter"><span class="icon-twitter2"></span> Twitter</a></li>
+            <li><a id="google18x" title="Share on Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="Share on LinkedIn"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="Printer"><span class="icon-print"></span> Printer</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1474458748437]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942779">
+       <!--ls:begin[component-1473770942779]--><h1>Signal Chain and Memory</h1><!--ls:end[component-1473770942779]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942780">
+       <!--ls:begin[component-1473770942780]--><div class="dtmGenDiv" data-dtmSection="Overview Section"></div><!--ls:end[component-1473770942780]--> 
+     </div> 
+     <div class="row iw_row" id="rowit1h61by"> 
+      <div class="iw_columns col-lg-6" id="colit1h61bz"> 
+       <div class="iw_component" id="iw_comp1473770942781">
+         <!--ls:begin[component-1473770942781]--><div class="dtmGenDiv" data-dtmsection="Tree Menu">
+   <h2>Signal Chain and Memory</h2>
+   <ul class="treeview">
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Analog Switches" href="/products/signal-chain-and-memory/analog-switches:ANALOG-SWITCHES">Analog Switches</a><ul>
+               <li class="last"><a data-dtmname="NX3DV221GM" href="/products/signal-chain-and-memory/analog-switches/high-speed-usb-2.0-switch-with-enable:NX3DV221GM">NX3DV221GM</a>: High-speed USB 2.0 switch with enable
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV221TK" href="/products/signal-chain-and-memory/analog-switches/high-speed-usb-2.0-switch-with-enable:NX3DV221TK">NX3DV221TK</a>: High-speed USB 2.0 switch with enable
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV2567" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-four-pole-double-throw-analog-switch-based-on-pip-nx3dv2567:NX3DV2567">NX3DV2567</a>: Low-ohmic four-pole double-throw analog switch (Based on PIP NX3DV2567)
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV2567GU" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-four-pole-double-throw-analog-switch:NX3DV2567GU">NX3DV2567GU</a>: Low-ohmic four-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV2567HR" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-four-pole-double-throw-analog-switch:NX3DV2567HR">NX3DV2567HR</a>: Low-ohmic four-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV2567HR-Q100" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-four-pole-double-throw-analog-switch:NX3DV2567HR-Q100">NX3DV2567HR-Q100</a>: Low-ohmic four-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV3899" href="/products/signal-chain-and-memory/analog-switches/dual-double-pole-double-throw-analog-switch:NX3DV3899">NX3DV3899</a>: Dual double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV3899GU" href="/products/signal-chain-and-memory/analog-switches/dual-double-pole-double-throw-analog-switch:NX3DV3899GU">NX3DV3899GU</a>: Dual double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV3899HR" href="/products/signal-chain-and-memory/analog-switches/dual-double-pole-double-throw-analog-switch:NX3DV3899HR">NX3DV3899HR</a>: Dual double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV42" href="/products/signal-chain-and-memory/analog-switches/series-based-on-data-sheet-nx3dv42:NX3DV42">NX3DV42</a>: series based on data sheet NX3DV42
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV42GM" href="/products/signal-chain-and-memory/analog-switches/dual-high-speed-usb-2.0-double-pole-double-throw-analog-switch:NX3DV42GM">NX3DV42GM</a>: Dual high-speed USB 2.0 double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV42GU" href="/products/signal-chain-and-memory/analog-switches/dual-high-speed-usb-2.0-double-pole-double-throw-analog-switch:NX3DV42GU">NX3DV42GU</a>: Dual high-speed USB 2.0 double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV42GU10" href="/products/signal-chain-and-memory/analog-switches/dual-high-speed-usb-2.0-double-pole-double-throw-analog-switch:NX3DV42GU10">NX3DV42GU10</a>: Dual high-speed USB 2.0 double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV42GU33" href="/products/signal-chain-and-memory/analog-switches/nx3dv42gu33:NX3DV42GU33">NX3DV42GU33</a>: NX3DV42GU33
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3DV642GU" href="/products/signal-chain-and-memory/analog-switches/3-lane-high-speed-mipi-compatible-switch:NX3DV642GU">NX3DV642GU</a>: 3-lane high-speed MIPI compatible switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G3157" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G3157">NX3L1G3157</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G3157GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G3157GM">NX3L1G3157GM</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G3157GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G3157GW">NX3L1G3157GW</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G3157GW-Q100" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G3157GW-Q100">NX3L1G3157GW-Q100</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G384" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G384">NX3L1G384</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G384GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G384GM">NX3L1G384GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G384GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G384GW">NX3L1G384GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G53" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G53">NX3L1G53</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G53GD" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G53GD">NX3L1G53GD</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G53GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G53GM">NX3L1G53GM</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G53GT" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1G53GT">NX3L1G53GT</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G66" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G66">NX3L1G66</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G66GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G66GM">NX3L1G66GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G66GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G66GW">NX3L1G66GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1G66GW-Q100" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1G66GW-Q100">NX3L1G66GW-Q100</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T3157" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T3157">NX3L1T3157</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T3157GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T3157GM">NX3L1T3157GM</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T3157GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T3157GW">NX3L1T3157GW</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T384" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1T384">NX3L1T384</a>: low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T384GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1T384GM">NX3L1T384GM</a>: low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T384GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1T384GW">NX3L1T384GW</a>: low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T5157" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T5157">NX3L1T5157</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T5157GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T5157GM">NX3L1T5157GM</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T53" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T53">NX3L1T53</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T53GD" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T53GD">NX3L1T53GD</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T53GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T53GM">NX3L1T53GM</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T53GT" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-double-throw-analog-switch:NX3L1T53GT">NX3L1T53GT</a>: Low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T66" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1T66">NX3L1T66</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T66GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1T66GM">NX3L1T66GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L1T66GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3L1T66GW">NX3L1T66GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2267" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L2267">NX3L2267</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2267GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L2267GM">NX3L2267GM</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2267GU" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L2267GU">NX3L2267GU</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2267SGU" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L2267SGU">NX3L2267SGU</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2467" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-double-pole-double-throw-analog-switch:NX3L2467">NX3L2467</a>: Dual low-ohmic double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2467GU" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-double-pole-double-throw-analog-switch:NX3L2467GU">NX3L2467GU</a>: Dual low-ohmic double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2467HR" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-double-pole-double-throw-analog-switch:NX3L2467HR">NX3L2467HR</a>: Dual low-ohmic double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2467PW" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-double-pole-double-throw-analog-switch:NX3L2467PW">NX3L2467PW</a>: Dual low-ohmic double-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G384" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G384">NX3L2G384</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G384GD" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G384GD">NX3L2G384GD</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G384GM" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G384GM">NX3L2G384GM</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G384GT" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G384GT">NX3L2G384GT</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G66" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G66">NX3L2G66</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G66GD" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G66GD">NX3L2G66GD</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G66GM" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G66GM">NX3L2G66GM</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2G66GT" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2G66GT">NX3L2G66GT</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T384" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-double-throw-analog-switch:NX3L2T384">NX3L2T384</a>: Dual low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T384GD" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-double-throw-analog-switch:NX3L2T384GD">NX3L2T384GD</a>: Dual low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T384GM" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-double-throw-analog-switch:NX3L2T384GM">NX3L2T384GM</a>: Dual low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T384GT" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-double-throw-analog-switch:NX3L2T384GT">NX3L2T384GT</a>: Dual low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T66" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2T66">NX3L2T66</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T66GD" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2T66GD">NX3L2T66GD</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T66GM" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2T66GM">NX3L2T66GM</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L2T66GT" href="/products/signal-chain-and-memory/analog-switches/dual-low-ohmic-single-pole-single-throw-analog-switch:NX3L2T66GT">NX3L2T66GT</a>: Dual low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4051" href="/products/signal-chain-and-memory/analog-switches/single-low-ohmic-8-channel-analog-switch:NX3L4051">NX3L4051</a>: Single low-ohmic 8-channel analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4051HR" href="/products/signal-chain-and-memory/analog-switches/single-low-ohmic-8-channel-analog-switch:NX3L4051HR">NX3L4051HR</a>: Single low-ohmic 8-channel analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4051HR-Q100" href="/products/signal-chain-and-memory/analog-switches/single-low-ohmic-8-channel-analog-switch:NX3L4051HR-Q100">NX3L4051HR-Q100</a>: Single low-ohmic 8-channel analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4051PW" href="/products/signal-chain-and-memory/analog-switches/single-low-ohmic-8-channel-analog-switch:NX3L4051PW">NX3L4051PW</a>: Single low-ohmic 8-channel analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4051PW-Q100" href="/products/signal-chain-and-memory/analog-switches/single-low-ohmic-8-channel-analog-switch:NX3L4051PW-Q100">NX3L4051PW-Q100</a>: Single low-ohmic 8-channel analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4053" href="/products/signal-chain-and-memory/analog-switches/triple-low-ohmic-single-pole-double-throw-analog-switch:NX3L4053">NX3L4053</a>: Triple low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4053HR" href="/products/signal-chain-and-memory/analog-switches/triple-low-ohmic-single-pole-double-throw-analog-switch:NX3L4053HR">NX3L4053HR</a>: Triple low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4053HR-Q100" href="/products/signal-chain-and-memory/analog-switches/triple-low-ohmic-single-pole-double-throw-analog-switch:NX3L4053HR-Q100">NX3L4053HR-Q100</a>: Triple low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4053PW" href="/products/signal-chain-and-memory/analog-switches/triple-low-ohmic-single-pole-double-throw-analog-switch:NX3L4053PW">NX3L4053PW</a>: Triple low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4053PW-Q100" href="/products/signal-chain-and-memory/analog-switches/triple-low-ohmic-single-pole-double-throw-analog-switch:NX3L4053PW-Q100">NX3L4053PW-Q100</a>: Triple low-ohmic single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4357" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-triple-throw-analog-switch-with-enable-input:NX3L4357">NX3L4357</a>: Low-ohmic single-pole triple-throw analog switch with enable input
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4357GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-triple-throw-analog-switch-with-enable-input:NX3L4357GM">NX3L4357GM</a>: Low-ohmic single-pole triple-throw analog switch with enable input
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4684" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L4684">NX3L4684</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4684GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L4684GM">NX3L4684GM</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3L4684TK" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-dual-single-pole-double-throw-analog-switch:NX3L4684TK">NX3L4684TK</a>: Low-ohmic dual single-pole double-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1G384" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1G384">NX3V1G384</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1G384GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1G384GM">NX3V1G384GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1G384GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1G384GW">NX3V1G384GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1G66" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1G66">NX3V1G66</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1G66GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1G66GM">NX3V1G66GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1G66GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1G66GW">NX3V1G66GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1T384" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1T384">NX3V1T384</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1T384GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1T384GM">NX3V1T384GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1T384GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1T384GW">NX3V1T384GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1T66" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1T66">NX3V1T66</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1T66GM" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1T66GM">NX3V1T66GM</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX3V1T66GW" href="/products/signal-chain-and-memory/analog-switches/low-ohmic-single-pole-single-throw-analog-switch:NX3V1T66GW">NX3V1T66GW</a>: Low-ohmic single-pole single-throw analog switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV330" href="/products/signal-chain-and-memory/analog-switches/quad-1-of-2-video-multiplexer-demultiplexer:NX5DV330">NX5DV330</a>: Quad 1-of-2 video multiplexer/demultiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV330BQ" href="/products/signal-chain-and-memory/analog-switches/quad-1-of-2-video-multiplexer-demultiplexer:NX5DV330BQ">NX5DV330BQ</a>: Quad 1-of-2 video multiplexer/demultiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV330D" href="/products/signal-chain-and-memory/analog-switches/quad-1-of-2-video-multiplexer-demultiplexer:NX5DV330D">NX5DV330D</a>: Quad 1-of-2 video multiplexer/demultiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV330DS" href="/products/signal-chain-and-memory/analog-switches/quad-1-of-2-video-multiplexer-demultiplexer:NX5DV330DS">NX5DV330DS</a>: Quad 1-of-2 video multiplexer/demultiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV330PW" href="/products/signal-chain-and-memory/analog-switches/quad-1-of-2-video-multiplexer-demultiplexer:NX5DV330PW">NX5DV330PW</a>: Quad 1-of-2 video multiplexer/demultiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV4885EHF" href="/products/signal-chain-and-memory/analog-switches/dual-supply-1-of-2-vga-switch:NX5DV4885EHF">NX5DV4885EHF</a>: Dual supply 1-of-2 VGA switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV713EHF" href="/products/signal-chain-and-memory/analog-switches/dual-supply-1-of-2-vga-switch:NX5DV713EHF">NX5DV713EHF</a>: Dual supply 1-of-2 VGA switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV713HF" href="/products/signal-chain-and-memory/analog-switches/dual-supply-1-of-2-vga-switch:NX5DV713HF">NX5DV713HF</a>: Dual supply 1-of-2 VGA switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5DV715HF" href="/products/signal-chain-and-memory/analog-switches/dual-supply-1-of-2-vga-switch:NX5DV715HF">NX5DV715HF</a>: Dual supply 1-of-2 VGA switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NX5L2750CGU" href="/products/signal-chain-and-memory/analog-switches/analog-switch-with-negative-swing-audio-capability:NX5L2750CGU">NX5L2750CGU</a>: Analog switch with negative swing audio capability
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Analog Watch Motor Drivers" href="/products/signal-chain-and-memory/analog-watch-motor-drivers:MC_53498">Analog Watch Motor Drivers</a><ul>
+               <li class="last"><a data-dtmname="PCA1462U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuits-with-adaptive-motor-pulse:PCA1462U">PCA1462U</a>: 32 kHz watch circuits with adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA1485U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuits-with-adaptive-motor-pulse:PCA1485U">PCA1485U</a>: 32 kHz watch circuits with adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA1626U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuits-with-eeprom:PCA1626U">PCA1626U</a>: 32 kHz watch circuits with EEPROM
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2000CX8" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse:PCA2000CX8">PCA2000CX8</a>: 32 kHz watch circuit with programmable adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2000U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse:PCA2000U">PCA2000U</a>: 32 kHz watch circuit with programmable adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2000_PCA2001" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse:PCA2000_PCA2001">PCA2000_PCA2001</a>: 32 kHz watch circuit with programmable adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2001CX8" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse:PCA2001CX8">PCA2001CX8</a>: 32 kHz watch circuit with programmable adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2001U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse:PCA2001U">PCA2001U</a>: 32 kHz watch circuit with programmable adaptive motor pulse
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2002" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-output-period-and-pulse-width:PCA2002">PCA2002</a>: 32 kHz watch circuit with programmable output period and pulse width
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2002CX8" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-output-period-and-pulse-width:PCA2002CX8">PCA2002CX8</a>: 32 kHz watch circuit with programmable output period and pulse width
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2002U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-output-period-and-pulse-width:PCA2002U">PCA2002U</a>: 32 kHz watch circuit with programmable output period and pulse width
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCA2003U" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse-and-pulse-period:PCA2003U">PCA2003U</a>: 32 kHz watch circuit with programmable adaptive motor pulse and pulse period
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF2003DUS" href="/products/signal-chain-and-memory/analog-watch-motor-drivers/32-khz-watch-circuit-with-programmable-adaptive-motor-pulse-and-pulse-period:PCF2003DUS">PCF2003DUS</a>: 32 kHz watch circuit with programmable adaptive motor pulse and pulse period
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Bridges" href="/products/signal-chain-and-memory/bridges:MC_50962">Bridges</a><ul>
+               <li class="last"><a data-dtmname="SC16IS740IPW" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS740IPW">SC16IS740IPW</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS740_750_760" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS740_750_760">SC16IS740_750_760</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS741AIPW" href="/products/signal-chain-and-memory/bridges/single-uart-with-ic-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS741AIPW">SC16IS741AIPW</a>: Single UART with I&#178;C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS741IPW" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS741IPW">SC16IS741IPW</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS750IBS" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS750IBS">SC16IS750IBS</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS750IPW" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS750IPW">SC16IS750IPW</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS752IBS" href="/products/signal-chain-and-memory/bridges/dual-uart-with-ic-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS752IBS">SC16IS752IBS</a>: Dual UART with I&#178;C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS752IPW" href="/products/signal-chain-and-memory/bridges/dual-uart-with-ic-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS752IPW">SC16IS752IPW</a>: Dual UART with I&#178;C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS752_SC16IS762" href="/products/signal-chain-and-memory/bridges/dual-uart-with-ic-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS752_SC16IS762">SC16IS752_SC16IS762</a>: Dual UART with I&#178;C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS760IBS" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS760IBS">SC16IS760IBS</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS760IPW" href="/products/signal-chain-and-memory/bridges/single-uart-with-i2c-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS760IPW">SC16IS760IPW</a>: Single UART with I2C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS762IBS" href="/products/signal-chain-and-memory/bridges/dual-uart-with-ic-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS762IBS">SC16IS762IBS</a>: Dual UART with I&#178;C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS762IPW" href="/products/signal-chain-and-memory/bridges/dual-uart-with-ic-bus-spi-interface-64-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS762IPW">SC16IS762IPW</a>: Dual UART with I&#178;C-bus/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS850L" href="/products/signal-chain-and-memory/bridges/single-uart-with-ic-bus-spi-interface-128-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS850L">SC16IS850L</a>: Single UART with I&#178;C-bus/SPI interface, 128 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS850LIBS" href="/products/signal-chain-and-memory/bridges/single-uart-with-ic-bus-spi-interface-128-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS850LIBS">SC16IS850LIBS</a>: Single UART with I&#178;C-bus/SPI interface, 128 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC16IS850LIPW" href="/products/signal-chain-and-memory/bridges/single-uart-with-ic-bus-spi-interface-128-bytes-of-transmit-and-receive-fifos-irda-sir-built-in-support:SC16IS850LIPW">SC16IS850LIPW</a>: Single UART with I&#178;C-bus/SPI interface, 128 bytes of transmit and receive FIFOs, IrDA SIR built-in support
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IM700IPW" href="/products/signal-chain-and-memory/bridges/master-ic-bus-controller-with-uart-interface:SC18IM700IPW">SC18IM700IPW</a>: Master I&#178;C-bus controller with UART interface
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IS600IBS" href="/products/signal-chain-and-memory/bridges/spi-to-ic-bus-interface:SC18IS600IBS">SC18IS600IBS</a>: SPI to I&#178;C-bus interface
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IS600IPW" href="/products/signal-chain-and-memory/bridges/spi-to-ic-bus-interface:SC18IS600IPW">SC18IS600IPW</a>: SPI to I&#178;C-bus interface
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IS600_601" href="/products/signal-chain-and-memory/bridges/spi-to-ic-bus-interface:SC18IS600_601">SC18IS600_601</a>: SPI to I&#178;C-bus interface
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IS601IPW" href="/products/signal-chain-and-memory/bridges/spi-to-ic-bus-interface:SC18IS601IPW">SC18IS601IPW</a>: SPI to I&#178;C-bus interface
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IS602BIPW" href="/products/signal-chain-and-memory/bridges/i2c-bus-to-spi-bridge:SC18IS602BIPW">SC18IS602BIPW</a>: I2C-bus to SPI bridge
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="SC18IS603IPW" href="/products/signal-chain-and-memory/bridges/i2c-bus-to-spi-bridge:SC18IS603IPW">SC18IS603IPW</a>: I2C-bus to SPI bridge
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Clocks with LCD Drivers" href="/products/signal-chain-and-memory/clocks-with-lcd-drivers:MC_53497">Clocks with LCD Drivers</a><ul>
+               <li class="last"><a data-dtmname="PCF1175CT" href="/products/signal-chain-and-memory/clocks-with-lcd-drivers/4-digit-duplex-lcd-car-clock:PCF1175CT">PCF1175CT</a>: 4-digit duplex LCD car clock
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF1178CT" href="/products/signal-chain-and-memory/clocks-with-lcd-drivers/4-digit-duplex-lcd-car-clock:PCF1178CT">PCF1178CT</a>: 4-digit duplex LCD car clock
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PCF1179CT" href="/products/signal-chain-and-memory/clocks-with-lcd-drivers/4-digit-duplex-lcd-car-clock:PCF1179CT">PCF1179CT</a>: 4-digit duplex LCD car clock
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Comparators" href="/products/signal-chain-and-memory/comparators:MC_52376">Comparators</a><ul>
+               <li class="last"><a data-dtmname="LM2903DP" href="/products/signal-chain-and-memory/comparators/lm2903dp:LM2903DP">LM2903DP</a>: LM2903DP
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2200" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2200">NCX2200</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2200GF3" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2200GF3">NCX2200GF3</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2200GM" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2200GM">NCX2200GM</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2200GS" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2200GS">NCX2200GS</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2200GW" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2200GW">NCX2200GW</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2202" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2202">NCX2202</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2202GM" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2202GM">NCX2202GM</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2202GW" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2202GW">NCX2202GW</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2220" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2220">NCX2220</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2220DP" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2220DP">NCX2220DP</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2220GF" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2220GF">NCX2220GF</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2220GM" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2220GM">NCX2220GM</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2220GT" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2220GT">NCX2220GT</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2220GU" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator:NCX2220GU">NCX2220GU</a>: Low voltage comparator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2222" href="/products/signal-chain-and-memory/comparators/ncx2220:NCX2222">NCX2222</a>: NCX2220
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2222DP" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2222DP">NCX2222DP</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2222GM" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2222GM">NCX2222GM</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2222GT" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2222GT">NCX2222GT</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX2222GU" href="/products/signal-chain-and-memory/comparators/low-voltage-comparator-open-drain-output:NCX2222GU">NCX2222GU</a>: Low voltage comparator; open-drain output
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX8193GU" href="/products/signal-chain-and-memory/comparators/audio-jack-detection-and-configuration-with-false-detection-prevention:NCX8193GU">NCX8193GU</a>: Audio jack detection and configuration with false detection prevention
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="NCX8200UK" href="/products/signal-chain-and-memory/comparators/audio-jack-configuration-switch-matrix:NCX8200UK">NCX8200UK</a>: Audio jack configuration switch matrix
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="High-Speed Multiplexer" href="/products/signal-chain-and-memory/high-speed-multiplexer:MC_71595">High-Speed Multiplexer</a><ul>
+               <li class="last"><a data-dtmname="CBTL01023GM" href="/products/signal-chain-and-memory/high-speed-multiplexer/3.3-v-one-differential-channel-2-1-multiplexer-demultiplexer-switch-for-pci-express-gen3:CBTL01023GM">CBTL01023GM</a>: 3.3 V, one differential channel, 2 : 1 multiplexer/demultiplexer switch for PCI Express Gen3
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL03SB212BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/displayport-gen2-sideband-signal-multiplexer:CBTL03SB212BS">CBTL03SB212BS</a>: DisplayPort Gen2 sideband signal multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL04DP211BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/displayport-2-1-multiplexer:CBTL04DP211BS">CBTL04DP211BS</a>: DisplayPort 2 : 1 multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL04GP043EX" href="/products/signal-chain-and-memory/high-speed-multiplexer/dual-2-x-2-differential-channel-crossbar-switch:CBTL04GP043EX">CBTL04GP043EX</a>: Dual 2 x 2 differential channel crossbar switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL05023BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/multiplexer-demultiplexer-switch-for-thunderbolt-applications:CBTL05023BS">CBTL05023BS</a>: Multiplexer/demultiplexer switch for Thunderbolt applications
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06121AHF" href="/products/interfaces/pci-express/gen1-hex-display-multiplexer:CBTL06121AHF">CBTL06121AHF</a>: Gen1 hex display multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06121BHF" href="/products/interfaces/pci-express/gen1-hex-display-multiplexer:CBTL06121BHF">CBTL06121BHF</a>: Gen1 hex display multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06122AHF" href="/products/signal-chain-and-memory/high-speed-multiplexer/high-performance-displayport-pcie-gen2-hex-display-multiplexer:CBTL06122AHF">CBTL06122AHF</a>: High-performance DisplayPort/PCIe Gen2 hex display multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06122BHF" href="/products/interfaces/pci-express/high-performance-displayport-pcie-gen2-hex-display-multiplexer:CBTL06122BHF">CBTL06122BHF</a>: High-performance DisplayPort/PCIe Gen2 hex display multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06141EE" href="/products/signal-chain-and-memory/high-speed-multiplexer/gen1-display-2-1-multiplexer:CBTL06141EE">CBTL06141EE</a>: Gen1 display 2 : 1 multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06DP211EE" href="/products/signal-chain-and-memory/high-speed-multiplexer/displayport-gen1-2-1-multiplexer:CBTL06DP211EE">CBTL06DP211EE</a>: DisplayPort Gen1 2 : 1 multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06DP212EE" href="/products/signal-chain-and-memory/high-speed-multiplexer/high-performance-displayport-gen2-2-1-multiplexer:CBTL06DP212EE">CBTL06DP212EE</a>: High-performance DisplayPort Gen2 2 : 1 multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06DP213EE" href="/products/signal-chain-and-memory/high-speed-multiplexer/third-generation-high-performance-displayport-multiplexer:CBTL06DP213EE">CBTL06DP213EE</a>: Third generation high-performance DisplayPort multiplexer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL06GP213EE" href="/products/signal-chain-and-memory/high-speed-multiplexer/second-generation-high-performance-general-purpose-switch:CBTL06GP213EE">CBTL06GP213EE</a>: Second-generation high performance general purpose switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL08GP053EV" href="/products/signal-chain-and-memory/high-speed-multiplexer/usb-type-c-high-performance-crossbar-switch-ic:CBTL08GP053EV">CBTL08GP053EV</a>: USB Type-C High performance Crossbar Switch IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTL12131ET" href="/products/signal-chain-and-memory/high-speed-multiplexer/displayport-multiplexer-for-bidirectional-video-in-all-in-one-computer-systems:CBTL12131ET">CBTL12131ET</a>: DisplayPort multiplexer for bidirectional video in all-in-one computer systems
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3300AHF2" href="/products/signal-chain-and-memory/high-speed-multiplexer/ptn3300ahf2:PTN3300AHF2">PTN3300AHF2</a>: PTN3300AHF2
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3300BHF" href="/products/signal-chain-and-memory/high-speed-multiplexer/ptn3300bhf:PTN3300BHF">PTN3300BHF</a>: PTN3300BHF
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3301HF" href="/products/signal-chain-and-memory/high-speed-multiplexer/dvi-and-hdmi-level-shifter-with-up-to-2.25gbps-operation-active-ddc-buffer-hdmi-dongle-detect:PTN3301HF">PTN3301HF</a>: DVI and HDMI level shifter with up to 2.25Gbps operation, active DDC buffer, HDMI dongle detect
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3310D" href="/products/signal-chain-and-memory/high-speed-multiplexer/high-speed-serial-logic-translators:PTN3310D">PTN3310D</a>: High-speed serial logic translators
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3310DP" href="/products/signal-chain-and-memory/high-speed-multiplexer/high-speed-serial-logic-translators:PTN3310DP">PTN3310DP</a>: High-speed serial logic translators
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3311D" href="/products/signal-chain-and-memory/high-speed-multiplexer/ptn3311d:PTN3311D">PTN3311D</a>: PTN3311D
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3355BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/low-power-displayport-to-vga-adapter-with-integrated-1-2-vga-switch:PTN3355BS">PTN3355BS</a>: Low power DisplayPort to VGA adapter with integrated 1 : 2 VGA switch
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3356BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/flash-based-low-power-displayport-to-vga-adapter:PTN3356BS">PTN3356BS</a>: Flash-based low-power DisplayPort to VGA adapter
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3356R1BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/rom-based-low-power-displayport-to-vga-adapter:PTN3356R1BS">PTN3356R1BS</a>: ROM-based low-power DisplayPort to VGA adapter
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3360ABS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter-with-inverting-hpd:PTN3360ABS">PTN3360ABS</a>: Enhanced performance HDMI/DVI level shifter with inverting HPD
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3360BBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter:PTN3360BBS">PTN3360BBS</a>: Enhanced performance HDMI/DVI level shifter
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3360DBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter-with-active-ddc-buffer-supporting-3-gbit-s-operation:PTN3360DBS">PTN3360DBS</a>: Enhanced performance HDMI/DVI level shifter with active DDC buffer, supporting 3 Gbit/s operation
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3361BBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/hdmi-dvi-level-shifter-with-dongle-detect-support-and-active-ddc-buffer:PTN3361BBS">PTN3361BBS</a>: HDMI/DVI level shifter with dongle detect support and active DDC buffer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3361CBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter-with-active-ddc-buffer-supporting-1.65-gbit-s-operation:PTN3361CBS">PTN3361CBS</a>: Enhanced performance HDMI/DVI level shifter with active DDC buffer, supporting 1.65 Gbit/s operation
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3363BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/low-power-hdmi-dvi-level-shifter-with-active-ddc-buffer-supporting-3.4-gbit-s-operation:PTN3363BS">PTN3363BS</a>: Low power HDMI/DVI level shifter with active DDC buffer, supporting 3.4 Gbit/s operation
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3365BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter-with-active-ddc-buffer-supporting-3-gbit-s-operation:PTN3365BS">PTN3365BS</a>: Enhanced performance HDMI/DVI level shifter with active DDC buffer, supporting 3 Gbit/s operation
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3366BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/low-power-hdmi-dvi-level-shifter-with-active-ddc-buffer-supporting-3-gbit-s-operation:PTN3366BS">PTN3366BS</a>: Low power HDMI/DVI level shifter with active DDC buffer, supporting 3 Gbit/s &#9;&#9;&#9;operation
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3380BBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/dvi-level-shifter-with-voltage-regulator:PTN3380BBS">PTN3380BBS</a>: DVI level shifter with voltage regulator
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3381BBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter-with-voltage-regulator-dongle-detect-support-and-active-ddc-buffer:PTN3381BBS">PTN3381BBS</a>: Enhanced performance HDMI/DVI level shifter with voltage regulator, dongle detect support and active DDC buffer
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3381DBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/enhanced-performance-hdmi-dvi-level-shifter:PTN3381DBS">PTN3381DBS</a>: Enhanced performance HDMI/DVI level shifter
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3392BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/2-lane-displayport-to-vga-adapter-ic:PTN3392BS">PTN3392BS</a>: 2-lane DisplayPort to VGA adapter IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3393BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/2-lane-displayport-to-vga-adapter-test-ic:PTN3393BS">PTN3393BS</a>: 2-lane DisplayPort to VGA adapter test IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3460BS" href="/products/signal-chain-and-memory/high-speed-multiplexer/edp-to-lvds-bridge-ic:PTN3460BS">PTN3460BS</a>: eDP to LVDS bridge IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN3460IBS" href="/products/signal-chain-and-memory/high-speed-multiplexer/edp-to-lvds-bridge-for-industrial-and-embedded-applications:PTN3460IBS">PTN3460IBS</a>: eDP to LVDS bridge for industrial and embedded applications
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN5110DHQ" href="/products/signal-chain-and-memory/high-speed-multiplexer/usb-pd-tcpc-phy-ic:PTN5110DHQ">PTN5110DHQ</a>: USB PD TCPC PHY IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN5110HQ" href="/products/signal-chain-and-memory/high-speed-multiplexer/usb-pd-tcpc-phy-ic:PTN5110HQ">PTN5110HQ</a>: USB PD TCPC PHY IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="PTN5110THQ" href="/products/signal-chain-and-memory/high-speed-multiplexer/usb-pd-tcpc-phy-ic:PTN5110THQ">PTN5110THQ</a>: USB PD TCPC PHY IC
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="TDA9996HL" href="/products/signal-chain-and-memory/high-speed-multiplexer/smart-hdmi-1.3a-4-1-switch-with-auto-adaptive-equalizer:TDA9996HL">TDA9996HL</a>: Smart HDMI 1.3a (4 : 1) switch with auto-adaptive equalizer
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Memory Data Switches" href="/products/signal-chain-and-memory/memory-data-switches:MC_41843">Memory Data Switches</a><ul>
+               <li class="last"><a data-dtmname="CBTU02043HE" href="/products/signal-chain-and-memory/memory-data-switches/high-speed-differential-1-to-2-switch-chip:CBTU02043HE">CBTU02043HE</a>: High speed differential 1-to-2 switch chip
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTU4411EE" href="/products/signal-chain-and-memory/memory-data-switches/11-bit-ddr2-sdram-mux-bus-switch-with-12-ohms-on-resistance:CBTU4411EE">CBTU4411EE</a>: 11-bit DDR2 SDRAM MUX/bus switch with 12 &#937; ON resistance
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTV24DD12ET" href="/products/signal-chain-and-memory/memory-data-switches/12-bit-bus-switch-multiplexer-for-ddr4-ddr3-ddr2-applications:CBTV24DD12ET">CBTV24DD12ET</a>: 12-bit bus switch/multiplexer for DDR4-DDR3-DDR2 applications
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTW28DD14" href="/products/signal-chain-and-memory/memory-data-switches/14-bit-bus-switch-multiplexer-for-ddr2-ddr3-ddr4-applications:CBTW28DD14">CBTW28DD14</a>: 14-bit bus switch/multiplexer for DDR2/DDR3/DDR4 applications
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTW28DD14AET" href="/products/signal-chain-and-memory/memory-data-switches/14-bit-bus-switch-multiplexer-for-ddr2-ddr3-ddr4-applications:CBTW28DD14AET">CBTW28DD14AET</a>: 14-bit bus switch/multiplexer for DDR2/DDR3/DDR4 applications
+               </li>
+            </ul>
+            <ul>
+               <li class="last"><a data-dtmname="CBTW28DD14ET" href="/products/signal-chain-and-memory/memory-data-switches/14-bit-bus-switch-multiplexer-for-ddr2-ddr3-ddr4-applications:CBTW28DD14ET">CBTW28DD14ET</a>: 14-bit bus switch/multiplexer for DDR2/DDR3/DDR4 applications
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li class="expandable closed">
+            <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Real-Time Clocks" href="/products/signal-chain-and-memory/real-time-clocks:MC_71246">Real-Time Clocks</a><ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Automotive RTCs" href="/products/signal-chain-and-memory/real-time-clocks/automotive-rtcs:MC_1382623212081">Automotive RTCs</a><ul>
+                     <li class="last"><a data-dtmname="PCA21125T" href="/products/signal-chain-and-memory/real-time-clocks/automotive-rtcs/spi-bus-real-time-clock-and-calendar:PCA21125T">PCA21125T</a>: SPI-bus Real-Time Clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA2129T" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/automotive-accurate-rtc-with-integrated-quartz-crystal:PCA2129T">PCA2129T</a>: Automotive accurate RTC with integrated quartz crystal
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8565AU" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCA8565AU">PCA8565AU</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8565TS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCA8565TS">PCA8565TS</a>: Real time clock/calendar
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="I&amp;sup2;C Real-Time Clocks (RTC)" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc:MC_71250">I&sup2;C Real-Time Clocks (RTC)</a><ul>
+                     <li class="last"><a data-dtmname="PCA85063ATT" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/automotive-tiny-real-time-clock-calendar-with-alarm-function-and-ic-bus:PCA85063ATT">PCA85063ATT</a>: Automotive tiny Real-Time Clock/calendar with alarm function and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8565AU" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCA8565AU">PCA8565AU</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8565BS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCA8565BS">PCA8565BS</a>: Real time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8565TS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCA8565TS">PCA8565TS</a>: Real time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85063A" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-and-ic-bus:PCF85063A">PCF85063A</a>: Tiny Real-Time Clock/calendar with alarm function and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85063AT" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-and-ic-bus:PCF85063AT">PCF85063AT</a>: Tiny Real-Time Clock/calendar with alarm function and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85063ATL" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-and-ic-bus:PCF85063ATL">PCF85063ATL</a>: Tiny Real-Time Clock/calendar with alarm function and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85063ATT" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-and-ic-bus:PCF85063ATT">PCF85063ATT</a>: Tiny Real-Time Clock/calendar with alarm function and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85063TP" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar:PCF85063TP">PCF85063TP</a>: Tiny Real-Time Clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8523" href="/products/interfaces/ic-bus-portfolio/ic-real-time-clocks-rtc/real-time-clock-rtc-and-calendar:PCF8523">PCF8523</a>: Real-Time Clock (RTC) and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8523T" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-rtc-and-calendar:PCF8523T">PCF8523T</a>: Real-Time Clock (RTC) and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8523TK" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-rtc-and-calendar:PCF8523TK">PCF8523TK</a>: Real-Time Clock (RTC) and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8523TS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-rtc-and-calendar:PCF8523TS">PCF8523TS</a>: Real-Time Clock (RTC) and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8523U" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-rtc-and-calendar:PCF8523U">PCF8523U</a>: Real-Time Clock (RTC) and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85263A" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-battery-switch-over-time-stamp-input-and-ic-bus:PCF85263A">PCF85263A</a>: Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85263AT" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-battery-switch-over-time-stamp-input-and-ic-bus:PCF85263AT">PCF85263AT</a>: Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85263ATL" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-battery-switch-over-time-stamp-input-and-ic-bus:PCF85263ATL">PCF85263ATL</a>: Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85263ATT" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-battery-switch-over-time-stamp-input-and-ic-bus:PCF85263ATT">PCF85263ATT</a>: Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85263ATT1" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar-with-alarm-function-battery-switch-over-time-stamp-input-and-ic-bus:PCF85263ATT1">PCF85263ATT1</a>: Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, and I&#178;C-bus
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85363A" href="/products/interfaces/ic-bus-portfolio/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar:PCF85363A">PCF85363A</a>: Tiny real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85363ATL" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar:PCF85363ATL">PCF85363ATL</a>: Tiny real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85363ATT" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar:PCF85363ATT">PCF85363ATT</a>: Tiny real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85363ATT1" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/tiny-real-time-clock-calendar:PCF85363ATT1">PCF85363ATT1</a>: Tiny real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8563" href="/products/interfaces/ic-bus-portfolio/ic-real-time-clocks-rtc/real-time-clock-calendar:PCF8563">PCF8563</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8563BS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCF8563BS">PCF8563BS</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8563P" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCF8563P">PCF8563P</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8563T" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCF8563T">PCF8563T</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8563TS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-calendar:PCF8563TS">PCF8563TS</a>: Real-time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8564A" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-and-calendar:PCF8564A">PCF8564A</a>: Real time clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8564ACX9" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-and-calendar:PCF8564ACX9">PCF8564ACX9</a>: Real time clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8564AU" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-and-calendar:PCF8564AU">PCF8564AU</a>: Real time clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8564AUG" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/real-time-clock-and-calendar:PCF8564AUG">PCF8564AUG</a>: Real time clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8583BS" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/clock-and-calendar-with-240-x-8-bit-ram:PCF8583BS">PCF8583BS</a>: Clock and calendar with 240 x 8-bit RAM
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8583P" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/clock-and-calendar-with-240-x-8-bit-ram:PCF8583P">PCF8583P</a>: Clock and calendar with 240 x 8-bit RAM
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8583T" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/clock-and-calendar-with-240-x-8-bit-ram:PCF8583T">PCF8583T</a>: Clock and calendar with 240 x 8-bit RAM
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8593" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/low-power-clock-and-calendar:PCF8593">PCF8593</a>: Low power clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8593P" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/low-power-clock-and-calendar:PCF8593P">PCF8593P</a>: Low power clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8593T" href="/products/signal-chain-and-memory/real-time-clocks/ic-real-time-clocks-rtc/low-power-clock-and-calendar:PCF8593T">PCF8593T</a>: Low power clock and calendar
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="RTCs with SPI" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi:MC_71251">RTCs with SPI</a><ul>
+                     <li class="last"><a data-dtmname="PCA21125T" href="/products/signal-chain-and-memory/real-time-clocks/automotive-rtcs/spi-bus-real-time-clock-and-calendar:PCA21125T">PCA21125T</a>: SPI-bus Real-Time Clock and calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2120" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/quartz-oscillator:PCF2120">PCF2120</a>: Quartz oscillator
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2120TK" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/quartz-oscillator:PCF2120TK">PCF2120TK</a>: Quartz oscillator
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2120U" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/quartz-oscillator:PCF2120U">PCF2120U</a>: Quartz oscillator
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2123" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/spi-real-time-clock-calendar:PCF2123">PCF2123</a>: SPI Real time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2123BS" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/spi-real-time-clock-calendar:PCF2123BS">PCF2123BS</a>: SPI Real time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2123TS" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/spi-real-time-clock-calendar:PCF2123TS">PCF2123TS</a>: SPI Real time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2123U" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/spi-real-time-clock-calendar:PCF2123U">PCF2123U</a>: SPI Real time clock/calendar
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF85063BTL" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-spi/tiny-real-time-clock-calendar-with-alarm-function-and-spibus:PCF85063BTL">PCF85063BTL</a>: Tiny Real-Time Clock/calendar with alarm function and SPI&#8209;bus
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="RTCs with Temperature Compensation" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation:MC_71311">RTCs with Temperature Compensation</a><ul>
+                     <li class="last"><a data-dtmname="PCA2129T" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/automotive-accurate-rtc-with-integrated-quartz-crystal:PCA2129T">PCA2129T</a>: Automotive accurate RTC with integrated quartz crystal
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2127" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/accurate-rtc-with-integrated-quartz-crystal-for-industrial-applications:PCF2127">PCF2127</a>: Accurate RTC with integrated quartz crystal for industrial applications
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2127AT" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/accurate-rtc-with-integrated-quartz-crystal-for-industrial-applications:PCF2127AT">PCF2127AT</a>: Accurate RTC with integrated quartz crystal for industrial applications
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2127T" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/accurate-rtc-with-integrated-quartz-crystal-for-industrial-applications:PCF2127T">PCF2127T</a>: Accurate RTC with integrated quartz crystal for industrial applications
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2129" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/accurate-rtc-with-integrated-quartz-crystal-for-industrial-applications:PCF2129">PCF2129</a>: Accurate RTC with integrated quartz crystal for industrial applications
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2129AT" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/accurate-rtc-with-integrated-quartz-crystal-for-industrial-applications:PCF2129AT">PCF2129AT</a>: Accurate RTC with integrated quartz crystal for industrial applications
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF2129T" href="/products/signal-chain-and-memory/real-time-clocks/rtcs-with-temperature-compensation/accurate-rtc-with-integrated-quartz-crystal-for-industrial:PCF2129T">PCF2129T</a>: Accurate RTC with integrated quartz crystal for industrial
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul>
+               <li class="expandable closed">
+                  <div class="hitarea expandable-hitarea"><span class="innericon"></span></div><a data-dtmname="Smart Card RTCs" href="/products/signal-chain-and-memory/real-time-clocks/smart-card-rtcs:MC_71312">Smart Card RTCs</a><ul>
+                     <li class="last"><a data-dtmname="PCA8802" href="/products/signal-chain-and-memory/real-time-clocks/smart-card-rtcs/smartcard-rtc-ultra-low-power-oscillator-with-integrated-counter-for-initiating-one-time-password-generation:PCA8802">PCA8802</a>: Smartcard RTC; ultra low power oscillator with integrated counter for initiating one time password generation
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8802CX8" href="/products/signal-chain-and-memory/real-time-clocks/smart-card-rtcs/smartcard-rtc-ultra-low-power-oscillator-with-integrated-counter-for-initiating-one-time-password-generation:PCA8802CX8">PCA8802CX8</a>: Smartcard RTC; ultra low power oscillator with integrated counter for initiating one time password generation
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8802U" href="/products/signal-chain-and-memory/real-time-clocks/smart-card-rtcs/smartcard-rtc-ultra-low-power-oscillator-with-integrated-counter-for-initiating-one-time-password-generation:PCA8802U">PCA8802U</a>: Smartcard RTC; ultra low power oscillator with integrated counter for initiating one time password generation
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCA8802UG" href="/products/signal-chain-and-memory/real-time-clocks/smart-card-rtcs/smartcard-rtc-ultra-low-power-oscillator-with-integrated-counter-for-initiating-one-time-password-generation:PCA8802UG">PCA8802UG</a>: Smartcard RTC; ultra low power oscillator with integrated counter for initiating one time password generation
+                     </li>
+                  </ul>
+                  <ul>
+                     <li class="last"><a data-dtmname="PCF8802AUG" href="/products/signal-chain-and-memory/real-time-clocks/smart-card-rtcs/smartcard-rtc-ultra-low-power-oscillator-with-integrated-counter-for-initiating-one-time-password-generation:PCF8802AUG">PCF8802AUG</a>: Smartcard RTC; ultra low power oscillator with integrated counter for initiating one time password generation
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </ul>
+</div><!--ls:end[component-1473770942781]--> 
+       </div> 
+      </div> 
+      <div class="iw_columns col-lg-6" id="colit1h61c0"> 
+       <div class="iw_component" id="iw_comp1473770942759">
+         <!--ls:begin[component-1473770942759]--> <!--ls:end[component-1473770942759]--> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="iw_component" id="iw_comp1476804834804">
+       <!--ls:begin[component-1476804834804]--><div class="row">
+	<div class="col-md-12">
+		<div class="iu-container">
+			<div class="iu">
+			    <h2>What's new?</h2>
+			    <ul>
+					<li><a href='/products/automotive-products/advanced-automotive-safety/airbag-solutions/dual-dsi3-master-transceiver-for-automotive-applications:SA0528'>SA0528: Dual DSI3 Master Transceiver (Preproduction)</a>
+					<br/>Enables reliable, high-speed master to slave communication for safety critical applications. Learn more today!                                 
+					</li>
+			        <li><a href='/products/interfaces/other-interfaces/io-link-master-transceiver-tower-system-module:TWR-CM3120-EVM'>CM3120 Dual Transceiver IO-Link</a>
+			            <br />Now available our CM3120 for industrial automation market.</li>
+			        <li><a href='/products/interfaces/signal-conditioners/33-channel-multiple-switch-detection-interface-with-programmable-current:CD1030'>CD1030: 33-Channel Multiple Switch Detection Interface</a>
+			            <br />Designed to detect the closing and opening of up to 33 switch contacts.</li>
+			    </ul>
+			</div>
+			<div class="iu">
+			    <h2>Featured Video</h2>
+			    <div class="iu-large-video clearfix">
+			        <div class="video-inner-n">
+			            <a class="FSLvideo" data-video="NXP-INTERFACE-GPIO-AGILE-IO" data-title="NXP Interface Products GPIO Agile IO">
+			                <img  src="http://cache.nxp.com/videos/thumbnail/NXP-INTERFACE-GPIO-AGILE-IO.jpg" alt="ARM with Green Hills' Robert Redfield" class="thumb-v-n">
+			            </a>
+			            <div class="play-video-n">
+			                <a class="FSLvideo" data-video="NXP-INTERFACE-GPIO-AGILE-IO" data-title="NXP Interface Products GPIO Agile IO"></a>
+			            </div>
+			        </div>
+			        <div class="">
+			            <a class="FSLvideo" data-video="NXP-INTERFACE-GPIO-AGILE-IO" data-title="NXP Interface Products GPIO Agile IO">NXP Interface Products GPIO Agile IO</a>
+			            <br>(02:20 min)
+			            <div class="bkflt"></div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div><!--ls:end[component-1476804834804]--> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b0"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b1"> 
+  <div class="iw_columns col-lg-12" id="colit1h61b2"> 
+   <div class="iw_component" id="iw_comp1473770942747">
+     <footer>
+    <!--  default footer -->
+    <div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                ABOUT NXP
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        Investors
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/webapp/connect/memberDirSearch.sp">
+                        Partners
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/about/careers-at-nxp:CAREERS">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                RESOURCES
+            </h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://www.nxp.com/about/nxp-mobile-applications:MOBILE">
+                        Mobile Apps
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.nxp.com">
+                        Press, News, Blogs
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/pages/contact-us:CONTACTUS">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                FOLLOW US
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+                <li class="twitter">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://twitter.com/NXP" target="_blank" title="Follow NXP on Twitter">
+                        <span class="icon-twitter22">
+                        </span>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="Follow NXP on Linked In">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://www.facebook.com/NXPsemi" target="_blank" title="Follow NXP on Facebook">
+                        <span class="icon-facebook">
+                        </span>
+                    </a>
+                </li>
+                <!--li class="youtube"><a href="https://www.youtube.com/nxpsemiconductors" title="Follow NXP on Youtube" target="_blank" data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US"><span class="icon-youtube-square2"></span></a></li-->
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center" target="_blank" title="Subscription Center">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            NEWS
+                        </h5>
+                        <p>
+                            NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-NewsCorporate" target="_blank">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/about/privacy:PRIVACYPRACTICES">
+                        Privacy
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/terms-of-use:TERMSOFUSE">
+                        Terms of Use
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        Terms of Sale
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        Feedback
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6">
+                &copy;2006-2017 NXP Semiconductors. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>

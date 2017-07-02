@@ -1,0 +1,780 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sample Data Sets for Inertial and Magnetic Sensors|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="Compare/Contrast typical data sets for actions such as lift, slide, tap, nudge, stationary (on table, in pocket), as well as inertial data for walking, standing stationary, etc. Graphs are generated of acceleration, magnetic readings and gyro readings over time." />
+	<meta name="Keywords" content="" />
+	<meta name="ModifiedDate" content="2016-10-13 16:40:43" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="overview" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Disabled">
+<meta name="template" content="Tmp-No-LeftNav">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.carouFredSel-6.2.1-packed.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/cn/products/sensors/sample-data-sets-for-inertial-and-magnetic-sensors:SENSORDATA"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "OVERVIEW";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="Family:Sample Data Sets for Inertial and Magnetic Sensors | SENSORDATA";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="Family";
+	digitalData.pageInfo.siteSection1 = "Products";
+	digitalData.pageInfo.siteSection2 = "Sensors";
+	digitalData.pageInfo.siteSection3 = "Sample Data Sets for Inertial and Magnetic Sensors";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "011269BF8B";	
+digitalData.pageInfo.assetID = "130461217884870245BF8B";
+digitalData.pageInfo.localTitle="Sample Data Sets for Inertial and Magnetic Sensors";
+digitalData.pageInfo.pageCodeID = "SENSORDATA"
+digitalData.pageInfo.pageTemplateType = "Hidden";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "zh-Hans";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="011269BF8B"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="130461217884870245BF8B"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="productsmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionit1h61aw"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61ax"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ay"> 
+   <div class="iw_component" id="iw_comp1473770942743">
+      <header>
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com/cn" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="flag flag-zh pull-left"></span><span class="currentSiteLang"><span>CN</span><span>中文</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">选择语言</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en" href="//www.nxp.com/?lang=en"><span class="icon-earth2 pull-left"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh selected" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">购物车</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/high-level-pages/products/interfaces/USB-TYPE-C-SYSTEM.page?submit=true&amp;componentID=1473770942743" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">全部 &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;全部</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;产品</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;文档</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;软件和工具</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;支持</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp; 应用</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;视频</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;培训</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;网络社区</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;博客</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;合作伙伴</a></li>
+                           <li id="CrossReference" name="CrossReference"><a><span class="icon-shuffle2"></span>&nbsp;&nbsp;交叉参考</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;封装搜索</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;化学成分查询</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a><span class="icon-equalizer"></span>&nbsp;&nbsp;产品选型工具</a></li>
+                        </ul>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="搜索..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_zhHans" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="zh-Hans" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/cn/products/products:PCPRODCAT">产品</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>®</sup>处理器    <span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex®-M微控制器</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M微控制器</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX应用处理器</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM SoC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/cn/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>®</sup><br/>处理器<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/products/more-processors:MORE-PROCESSORS">其他处理器<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/products/zidentification-and-security-beta:MC_53420 ">身份识别和安全性<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/cn/products/interfaces:WIRED-CONNECTIVITY">接口和连接<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/cn/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">媒体和音频处理<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/products/power-management:POWER-MANAGEMENT">电源管理<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/products/rf:RF_HOME">射频<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/products/sensors:SNSHOME">传感器<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/products/automotive-products:MC_50802">汽车电子产品<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">汽车雷达</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">汽车防盗系统</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">车载网络</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">多标准数字收音机</a></li>
+                                 <li><a href="//www.nxp.com/cn/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCU/MPU</a></li>
+                                 <!--li><a href="//www.nxp.com/cn/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV微控制器</a></li><li><a href="//www.nxp.com/cn/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCU/MPU</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/cn/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>参考设计库<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/cn/tools/embedded-software-and-tools:DEVELOPER_HOME">开发工具<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/cn/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">软件中心<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>其他产品信息</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/cn/products/products:PCPRODCAT ">所有产品</a></li>
+                                    <li><a href="//www.nxp.com/cn/webapp/crosscheck/competitorXRef.sp">竞争对手交叉参考工具</a></li>
+                                    <li><a href="//www.nxp.com/cn/packages ">封装</a></li>
+                                    <li><a href="//www.nxp.com/cn/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">产品长期供货计划</a></li>
+                                    <li><a href="//www.nxp.com/cn/webapp/parametricSelector.sp?">产品选型工具</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">应用</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/cn/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/cn/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/cn/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/cn/training/sales-and-support:SUPPORTHOME">技术支持</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/pages/communities:COMMUNITIES" target="_blank">恩智浦网络社区<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior开发工具</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX网络社区(SoC和PMIC支持)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis微控制器</a></li>
+                                 <li><a href="https://community.nxp.com/community/lpc" target="_blank">LPC微控制器</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ处理器</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV 微控制器</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">无线连接</a></li>
+                                 <li><a href="//www.nxp.com/cn/pages/communities:COMMUNITIES" target="_blank">查看全部</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/training/online-academy:ON_DEMAND_TRNG">在线学院<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">现场培训<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">恩智浦FTF未来科技峰会</a></li>
+                                 <li><a href="//www.nxp.com/cn/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">恩智浦FTF Connect </a></li>
+                                 <li><a href="//www.nxp.com/cn/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">恩智浦技术培训</a></li>
+                                 <li><a href="//www.nxp.com/cn/training/classroom-training-events/industry-events:EVENTS_HOME">活动时间表</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">创新智慧行全球巡展&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="http://university.cn.nxp.com/university/index.shtml">大学计划<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/video/vault/?searchLabel=renderHomepage">视频库<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/training/sales-and-support:SUPPORTHOME">支持资源<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/pages/documentation:DOCUMENTATION">文档库</a></li>
+                                 <li><a href="//www.nxp.com/cn/training/sales-and-support:SUPPORTHOME">销售与技术支持</a></li>
+                                 <li><a href="//www.nxp.com/cn/pages/nxp-professional-services:PROFESSIONAL-SERVICES">专业工程技术服务</a></li>
+                                 <li><a href="//www.nxp.com/cn/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">软件中心</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/cn/webapp/connect/memberDirSearch.sp">恩智浦合作伙伴计划<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/cn/about/about-nxp:COMPANY_INFO_HOME">关于恩智浦</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/about/about-nxp:COMPANY_INFO_HOME">关于恩智浦<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/about/worldwide-locations:GLOBAL_SITES">恩智浦全球机构</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">代理商网络</a></li>
+                                 <li><a href="http://media.cn.nxp.com/media-center/index.shtml">媒体中心</a></li>
+                                 <li><a href="http://investors.nxp.com">投资者关系</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/careers-at-nxp:CAREERS">人才招聘</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/our-customers:ABOUT_CUSTOMERS">客户</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">博客</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/cn/about/corporate-responsibility:CORP_SOCIAL_RESP">企业社会责任<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">环保产品</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/corporate-responsibility/ethics:ETHICS">道德准则</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/corporate-responsibility/employees:EMPLOYEES">职场环境</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/cn/webapp/connect/memberDirSearch.sp">恩智浦合作伙伴计划<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/cn/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">领先的技术<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/cn/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">产品长期供货计划</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/technology-leadership/quality:QUALITY_HOME">质量至上</a></li>
+                                 <li><a href="//www.nxp.com/cn/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END -->
+	 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b8"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b9"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ba"> 
+   <div class="iw_component" id="iw_comp1474458748468">
+     <!--ls:begin[component-1474458748468]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com/cn/?lang=cn"><span>NXP</span></a></li> <li><a href="/cn/products/%E4%BC%A0%E6%84%9F%E5%99%A8:SNSHOME"><span>&#20256;&#24863;&#22120;</span></a></li> <li><span>Sample Data Sets for Inertial and Magnetic Sensors</span></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="通过电子邮件共享"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="weibo18x" title="分享到新浪微博"><span class="icon-weibo2"></span> 微博</a></li>
+            <li><a id="google18x" title="分享到Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="分享到LinkedIn "><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="打印机"><span class="icon-print"></span> 打印机</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1474458748468]--> 
+   </div> 
+   <div class="iw_component" id="iw_comp1473770942795">
+     <!--ls:begin[component-1473770942795]--><h1>Sample Data Sets for Inertial and Magnetic Sensors</h1><!--ls:end[component-1473770942795]--> 
+   </div> 
+   <div class="iw_component" id="iw_comp1473770942796">
+     <!--ls:begin[component-1473770942796]--><div class="dtmGenDiv" data-dtmSection="Overview Section"></div><!--ls:end[component-1473770942796]--> 
+   </div> 
+   <div class="iw_component" id="iw_comp1473770942759">
+     <!--ls:begin[component-1473770942759]--><!--  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml"> <head> -->
+<!-- <base href="http://www.nxp.com/" /> -->
+<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <title>Sample Data Sets for Inertial and Magnetic Sensors - NXP Semiconductor</title> <link rel="stylesheet" href="http://style.nxp.com/shared/stylesheets/toplevel.css" type="text/css" /> <link rel="stylesheet" href="http://style.nxp.com/files/abstract/misc/TOPLEVEL_DELTA.css" type="text/css" /> <link rel="stylesheet" href="http://style.nxp.com/shared/stylesheets/public_common.css" type="text/css" /> <script type="text/javascript" src="http://style.nxp.com/shared/js/public_common.js"></script> <link rel="stylesheet" href="http://style.nxp.com/shared/js/jquery/jquery_ui_min.css" type="text/css" /> <script type="text/javascript" src="http://style.nxp.com/shared/js/jquery/jquery.plus.min.js"></script> -->
+	<!-- ########## SPECIAL ADD ########## -->
+	<script type="text/javascript">
+		$(function(){
+			$(".datasetTab:eq(0)").append("<div id='actions-ajax' />");
+			$(".datasetTab:eq(1)").append("<div id='environment-ajax' />");
+			$(".datasetTab:eq(2)").append("<div id='events-ajax' />");
+			$(".datasetTab:eq(3)").append("<div id='gestures-ajax' />");
+			$(".datasetTab:eq(4)").append("<div id='locomotion-ajax' />");
+			$(".datasetTab:eq(0) .dataset-link").click(function(){var dataSetUri=$(this).attr("href");$(this).each(function(){$.ajax({url:dataSetUri,success:function(data){$("#actions-ajax").html(data);}});});return false});
+			$(".datasetTab:eq(1) .dataset-link").click(function(){var dataSetUri=$(this).attr("href");$(this).each(function(){$.ajax({url:dataSetUri,success:function(data){$("#environment-ajax").html(data);}});});return false});
+			$(".datasetTab:eq(2) .dataset-link").click(function(){var dataSetUri=$(this).attr("href");$(this).each(function(){$.ajax({url:dataSetUri,success:function(data){$("#events-ajax").html(data);}});});return false});
+			$(".datasetTab:eq(3) .dataset-link").click(function(){var dataSetUri=$(this).attr("href");$(this).each(function(){$.ajax({url:dataSetUri,success:function(data){$("#gestures-ajax").html(data);}});});return false});
+			$(".datasetTab:eq(4) .dataset-link").click(function(){var dataSetUri=$(this).attr("href");$(this).each(function(){$.ajax({url:dataSetUri,success:function(data){$("#locomotion-ajax").html(data);}});});return false});
+		});
+	</script>
+<!-- </head><body> <img id="fake-header" src='/files/test/header_image.png' width="990" height="98" alt="" style="display: block;" /> <div id="pgctwrp" style="margin-top: 0; padding-top: 0;"><div id="mncnt" class="iframe"> <div id ="bc"> <ul> <li><a href="#">NXP</a></li> <li>Sample Data Sets for Inertial and Magnetic Sensors</li> </ul> </div> <div class="hrw"><hr/></div> <h1>Sample Data Sets for Inertial and Magnetic Sensors</h1> <div class="hrw"><hr/></div> <div class="padMe5"></div>-->
+<!-- comment above lines before uploading to TS -->
+
+ <link rel="stylesheet" title="Report Stylesheet" type="text/css" href="report/style.css" /> 
+
+	<div class="ilc verticalDotted">
+	
+		<p class="intro">惯性和磁性传感已融入了大多数消费电子产品，但许多工程师对其仍旧知之甚少或一无所知。此处所列数据仅供学习之用。通过比较/对比各种数据集，工程师可以更加深入地了解此类设备相关的各种过滤和数据识别方法的利弊。</p>
+	
+		<p>此报告展示了通过第三方IMU(非恩智浦惯性测量单元)采集的数据。此举旨在尝试采集提升、滑动、点击、微移、静止(桌面上、口袋中)等各种动作和行走、站立不动等惯性数据的典型数据集。图形由一段时间的加速度、磁读数和陀螺仪读数生成。每个数据集附有基本统计信息。</p>
+	
+	</div>
+	<div class="irc">
+	
+		<ul class="boxes">
+			<li><a href="/cn/products/sensors/sample-data-sets-for-inertial-and-magnetic-sensors/inertial-measurement-unit:SENSORDATA_IMU">用于研究的惯性测量单元</a></li>
+			<li><a href="/cn/products/sensors/sample-data-sets-for-inertial-and-magnetic-sensors/data-file-format:SD_DATAFILEFORMAT">数据文件格式</a></li>
+			<li><a href="/cn/products/sensors/sample-data-sets-for-inertial-and-magnetic-sensors/matlab-scripts:SD_MATLAB_SCRIPTS">Matlab脚本</a></li>
+		</ul>
+
+		<p>请参考 <a data-toggle="modal" data-target="#DATASET-TERMS">数据集使用条款页面</a>使用限制相关事项。</p>
+
+		<br />
+
+		<p class="si">报告生成时间：7/3/2011 19:17:3</p>
+
+	</div>
+
+	<div class="clearfix"></div>
+	<br />
+	
+	<div class="hrw"><hr /></div>
+		<h2>样本数据集</h2>
+	<div class="hrw"><hr /></div>
+
+	<div id="tabsJQ" style="min-height: 300px;">
+		<ul>
+			<li><a href="#actions">动作</a></li>
+			<li><a href="#environment">环境</a></li>
+			<li><a href="#events">事件</a></li>
+			<li><a href="#gestures">手势</a></li>
+			<li><a href="#locomotion">位置移动</a></li>
+		</ul>
+		<div id="actions" class="datasetTab">
+			<h4>点击列出的项目以查看数据集。</h4>
+			<ul class="boxes inline clearfix">
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/FastPickup.html">迅速拿起</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/Nudge.html">微移</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/Pickup.html">拿起</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/Slide.html">滑动</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/SlowPickup.html">缓慢拿起</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/button_click.html">单击按钮</a></li>
+			</ul>
+			<!-- <div id="actions-ajax"></div> -->
+		</div>
+		<div id="environment" class="datasetTab">
+			<h4>点击列出的项目以查看数据集。</h4>
+			<ul class="boxes inline clearfix">
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/freefall.html">自由落体</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/freefall2.html">自由落体2</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/gyro_orientation_test.html">陀螺仪定向测试</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/manual_study.html">手动研究</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/pocketed1.html">放入口袋1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_baseline.html">声音基准</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_test2.html">声音测试2</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_test3.html">声音测试3</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_test4.html">声音测试4</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_test5.html">声音测试5</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_test6.html">声音测试6</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/sound_test7.html">声音测试7</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/stationary.html">静止</a></li>
+			</ul>
+			<!-- <div id="environment-ajax"></div> -->
+		</div>
+		<div id="events" class="datasetTab">
+			<h4>点击列出的项目以查看数据集。</h4>
+			<ul class="boxes inline clearfix">
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/FallFromDesk1.html">从桌面落下1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/FallFromDesk2.html">从桌面落下2</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/FallFromDesk3.html">从桌面落下3</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/FallFromDesk4.html">从桌面落下4</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/FallFromDesk5.html">从桌面落下5</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/laptop_tip1.html">笔记本翻转1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/laptop_tip2.html">笔记本翻转2</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/laptop_tip3.html">笔记本翻转3</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/laptop_tip4.html">笔记本翻转4</a></li>
+			</ul>
+			<div id="events-ajax"></div>
+		</div>
+		<div id="gestures" class="datasetTab">
+			<h4>点击列出的项目以查看数据集。</h4>
+			<ul class="boxes inline clearfix">
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/double_tap1.html">双击1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/double_tap2.html">双击2</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/shake1.html">摇晃1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/single_tap1.html">单击1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/single_tap2.html">单击2</a></li>
+			</ul>
+			<div id="gestures-ajax"></div>
+		</div>
+		<div id="locomotion" class="datasetTab">
+			<h4>点击列出的项目以查看数据集。</h4>
+			<ul class="boxes inline clearfix">
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/CityDrivingToGarage1.html">城市行驶至车库1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/Mixed_Driving.html">混合行驶</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/Northbound_101.html">向北行驶101</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/StraightFreeway.html">高速公路直行</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/pedometry1.html">计步器1</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/pedometry2.html">计步器2</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/pedometry3.html">计步器3</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/pedometry4.html">计步器4</a></li>
+				<li><a class="dataset-link" href="/files/abstract/training/sensordata/pedometry5.html">计步器5</a></li>
+			</ul>
+			<div id="locomotion-ajax"></div>
+		</div>
+	</div>
+
+<div class="clearfix"></div>
+
+<script>setEqualSizeDiv();</script>
+
+
+<!-- comment lines below before uploading to TS -->
+<!-- </div></div><img id="fake-footer" src='/files/test/footer_image.png' width="990" height="25" alt="" style="display: block;" /></body></html>  -->
+
+
+<!-- Modals -->
+<div class="modal fade" id="DATASET-TERMS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Dataset Terms of Use</h4>
+            </div>
+            <div class="modal-body">
+             
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><br><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"></a>
+<p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">"Sample Data Sets for Inertial and Magnetic Sensors"</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.freescale.com" property="cc:attributionName" rel="cc:attributionURL">NXP Semiconductor</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>..
+
+</p><p>Please attribute the work as follows:
+</p><ul>
+Original report, figures and data were provided courtesy of 
+<a class="nodec" href="http://www.nxp.com"> <img style="vertical-align: middle" border="0" src="/files/graphic/logo_freescale/FS_COLOR_LOGOSM_JPG.jpg" width="195px"></a>
+</ul>
+This report is provided without guarantee or warranty of any kind.  Suggestions and comments may be submitted to the author at <a href="mailto:Mike.Stanley@freescla.com">Mike.Stanley@freescale.com</a>.  Unfortunately, time limitations are such that requests for additional data sets cannot be honored.<br><br>
+The full report in HTML format may be downloaded in <a href="/files/training/doc/learning/SensorData.zip">Zip file format</a>.
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--ls:end[component-1473770942759]--> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b0"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b1"> 
+  <div class="iw_columns col-lg-12" id="colit1h61b2"> 
+   <div class="iw_component" id="iw_comp1473770942747">
+     <footer>
+<div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                关于恩智浦
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        投资者关系
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/cn/webapp/connect/memberDirSearch.sp">
+                        合作伙伴
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/cn/about/careers-at-nxp:CAREERS">
+                        人才招聘
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                资源
+            </h4>
+            <ul class="list-unstyled">
+                <li ">
+                    <a href="http://www.nxp.com/cn/about/nxp-mobile-applications:MOBILE">
+                        移动设备App
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.cn.nxp.com/media-center/index.shtml">
+                        新闻和博客
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/cn/pages/contact-us:CONTACTUS">
+                        联系我们
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                关注我们
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+				<li class="wechat"> 
+					<a href="#" id="weixin-icon" onmouseover="showQR()" onmouseout="hideQR()">	
+						<span>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="weixin" x="0px" y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve" >	
+								<path d="M93.5,24.1c49.2,0,82.9,30,87.7,61.9c-3.8-0.5-12.2-1.4-26.3,2.2c-12.3,3.1-25.7,7.7-40.1,22c-14.1,15.1-17.9,29-18.5,37.7  c-0.5,7.9-1,14.4,1.9,24.1c0,0.5-1.8,1.1-2.7,1.3c-9.5,2.9-28.1-0.3-33.5-3c-4.1,1.8-9.2,5.4-29.6,15l3.3-9.8  c3-8.9,3.1-9.4,5.5-16.8c0.3-0.8-3.2-2.2-4.9-3.6C15.9,141.8,3,120.7,3,97.6C3,57,43.5,24.1,93.5,24.1z M62.6,61.2  c-8.1,0-14.6,5.6-14.6,12.5s6.5,12.5,14.6,12.5s14.6-5.6,14.6-12.5S70.7,61.2,62.6,61.2z M124.6,61.2c-8.1,0-14.6,5.6-14.6,12.5  s6.5,12.5,14.6,12.5s14.6-5.6,14.6-12.5S132.6,61.2,124.6,61.2z"/>	
+								<path d="M221.6,206.5c-0.4,0.2,1,4.7,4.8,15.9c0,0,2,4.2,0.8,3.8c-4.7-1.6-11.3-3.4-21.3-11.1c-9.1,3.8-20.8,5.1-28.3,5.1  c-41.5,0-75.1-28.8-75.1-64.3c0-35.5,33.6-64.3,75.1-64.3s75.1,28.8,75.1,64.3c0,13.9-5.2,26.8-13.9,37.3  C233.2,199.9,225.2,204.7,221.6,206.5z M203.3,126.4c-6.8,0-12.3,4.7-12.3,10.5s5.5,10.5,12.3,10.5c6.8,0,12.3-4.7,12.3-10.5  S210.2,126.4,203.3,126.4z M155.3,126.4c-6.8,0-12.3,4.7-12.3,10.5s5.5,10.5,12.3,10.5c6.8,0,12.3-4.7,12.3-10.5  S162.1,126.4,155.3,126.4z"/>	
+							</svg>	
+						</span>
+					</a>
+				</li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="在Linked In上关注NXP	">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center-zh-Hans" target="_blank" title="订购中心">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            新闻
+                        </h5>
+                        <p>
+                           NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-media-center" target="_blank">
+                            阅读全文
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/cn/about/privacy:PRIVACYPRACTICES">
+                        隐私政策
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/cn/about/terms-of-use:TERMSOFUSE">
+                        使用条款
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/cn/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        销售条款
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        提供反馈
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6 pull-right">
+            <span class="pull-right">
+                ©2006-2017 NXP Semiconductors. All rights reserved. 沪ICP备15046844
+            </span>
+          </div>
+		  <div id="QRWechat" onmouseover="showQR()" onmouseout="hideQR()" style="display: none; width:310px; height: 321px; position: fixed; top: 25%; left: 40%; border: 1px solid #f36a1b; background-color: #fff; z-index: 100;">
+			<img style="padding-left: 21px; width:300px; height: 321px; padding-bottom:21px;" src="//www.nxp.com/files/graphic/icons/NXPQRCODEWECHAT.jpg"/>
+		  </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><link type="text/css" href="/resources/css/nxp-web-zh.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show"><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>

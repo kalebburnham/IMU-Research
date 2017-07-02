@@ -1,0 +1,675 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Solutions for the IoT and ADAS|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="NXP<sup>®</sup> provides embedded processing solutions spanning the automotive, consumer, industrial and networking markets. From microprocessors and microcontrollers to sensors, analog ICs and connectivity – our technologies are the foundation to your innovations." />
+	<meta name="Keywords" content="Semiconductor Applications, Reference Designs, Embedded processing solutions" />
+	<meta name="ModifiedDate" content="2016-10-04 22:46:14" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="homepage" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Disabled">
+<meta name="template" content="Tmp-No-LeftNav">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "HOMEPAGE";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="General:Applications | IFINDSTRYFCS";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="General";
+	digitalData.pageInfo.siteSection1 = "Applications";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "02";	
+digitalData.pageInfo.assetID = "2";
+digitalData.pageInfo.localTitle="Solutions for the IoT and ADAS";
+digitalData.pageInfo.pageCodeID = "IFINDSTRYFCS"
+digitalData.pageInfo.pageTemplateType = "Homepage";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "en";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="02"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="2"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="applicationsmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionit1h61aw"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61ax"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ay"> 
+   <div class="iw_component" id="iw_comp1473770942743">
+     <header>
+<!-- default header -->
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">Select language</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en selected"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/summary-pages/Summary_Buy_Parametric_Tab.page?submit=true&amp;componentID=1470904648364" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                           <li id="CrossReference" name="CrossReference"><a ><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a ><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="Search..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_en" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/products/products:PCPRODCAT">PRODUCTS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>&reg;</sup>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex&reg;-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX Applications Processors</a></li>
+                                 <li><a href="//www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM-based SoCs</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>&reg;</sup><br/>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/more-processors:MORE-PROCESSORS">MORE PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/zidentification-and-security-beta:MC_53420 ">IDENTIFICATION & SECURITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/interfaces:WIRED-CONNECTIVITY">INTERFACE<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">MEDIA AND AUDIO PROCESSING<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/power-management:POWER-MANAGEMENT">POWER MANAGEMENT<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/rf:RF_HOME">RF<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/sensors:SNSHOME">SENSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/automotive-products:MC_50802">AUTOMOTIVE PRODUCTS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">Automotive Radar</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">Car Access & Immobilizers</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">In-Vehicle Network</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">Multi Standard Digital Radio</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCUs/MPUs</a></li>
+                                 <!--li><a href="//www.nxp.com/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV Microcontroller</a></li><li><a href="//www.nxp.com/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCUs/MPUs</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>REFERENCE DESIGN LIBRARY<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/tools/embedded-software-and-tools:DEVELOPER_HOME">DEVELOPMENT TOOLS<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">SOFTWARE CENTER<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>MORE PRODUCT INFORMATION</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/products/products:PCPRODCAT ">All Products</a></li>
+                                    <li><a href="//www.nxp.com/webapp/crosscheck/competitorXRef.sp">Competitor Cross Reference Tool</a></li>
+                                    <li><a href="//www.nxp.com/packages ">Packages</a></li>
+                                    <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity Program</a></li>
+                                    <li><a href="//www.nxp.com/webapp/parametricSelector.sp?">Product Selector</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">NXP COMMUNITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior Development Tools</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX Community (SoCs and PMIC Support)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis Microcontrollers</a></li>
+                                 <li><a href="https://www.lpcware.com/forum" target="_blank">LPC Forums</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ Processors</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV Microcontrollers</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">Wireless Connectivity</a></li>
+                                 <li><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">View All</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/online-academy:ON_DEMAND_TRNG">ONLINE TRAINING ACADEMY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">TRAINING<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">NXP FTF Tech Forum</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">NXP FTF Connects</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">NXP Technology Days</a></li>
+                                 <li><a href="//www.nxp.com/training/classroom-training-events/industry-events:EVENTS_HOME">Industry Events</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">Global Smarter World Tours&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/training/university-programs:UNIVPROGRAM_HOME_CAT">UNIVERSITY PROGRAMS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/video/vault/?searchLabel=renderHomepage">VIDEO VAULT<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT RESOURCES<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/pages/documentation:DOCUMENTATION">Documentation Library</a></li>
+                                 <li><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">Sales and Support</a></li>
+                                 <li><a href="//www.nxp.com/pages/nxp-professional-services:PROFESSIONAL-SERVICES">Professional Engineering Services</a></li>
+                                 <li><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">Software Center</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT NXP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations:GLOBAL_SITES">NXP Worldwide</a></li>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">Distributor Network</a></li>
+                                 <li><a href="http://media.nxp.com">Media Center</a></li>
+                                 <li><a href="http://investors.nxp.com">Investor Relations</a></li>
+                                 <li><a href="//www.nxp.com/about/careers-at-nxp:CAREERS">Careers</a></li>
+                                 <li><a href="//www.nxp.com/about/our-customers:ABOUT_CUSTOMERS">Customers</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">Blogs</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/corporate-responsibility:CORP_SOCIAL_RESP">CORPORATE RESPONSIBILITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">Environmental Compliance Office</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/ethics:ETHICS">Ethics</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/employees:EMPLOYEES">Employees</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">TECHNOLOGY LEADERSHIP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/quality:QUALITY_HOME">Quality</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END --> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b8"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b9"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ba"> 
+   <div class="iw_component" id="iw_comp1474458748468">
+     <!--ls:begin[component-1474458748468]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com"><span>NXP</span></a></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="Share via Email"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="facebook18x" title="Share on Facebook"><span class="icon-facebook"></span> Facebook</a></li>
+            <li><a id="twitter18x" title="Share on Twitter"><span class="icon-twitter2"></span> Twitter</a></li>
+            <li><a id="google18x" title="Share on Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="Share on LinkedIn"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="Printer"><span class="icon-print"></span> Printer</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1474458748468]--> 
+   </div> 
+   <div class="iw_component" id="iw_comp1473770942795">
+     <!--ls:begin[component-1473770942795]--><h1></h1><!--ls:end[component-1473770942795]--> 
+   </div> 
+   <div class="iw_component" id="iw_comp1473770942796">
+     <!--ls:begin[component-1473770942796]--><div class="dtmGenDiv" data-dtmSection="Overview Section"></div><!--ls:end[component-1473770942796]--> 
+   </div> 
+   <div class="iw_component" id="iw_comp1473770942759">
+     <!--ls:begin[component-1473770942759]--><style>
+		a.header-link:hover{text-decoration:none;}
+	</style>
+	
+	<div class="row">
+		<div class="col-sm-12">
+			<p class="intro">NXP enables secure connections and infrastructure for a smarter world, advancing solutions that make lives easier, better and safer. As the world leader in secure connectivity solutions for embedded applications, NXP is driving Internet of Things (IoT) innovation in the secure connected vehicle, smart connected solutions and end-to-end security &amp; privacy markets.</p>
+		</div>
+	</div>
+	
+	<div class="row bottom20">
+		<div class="col-sm-6">
+			<a href='/pages/smart-connected-solutions-for-the-iot:SMART-CONNECTED-SOLUTIONS'>
+				<img class="img-responsive" src='/assets/images/en/banners/SMART-CONNECTED-SOLUTION-TN.jpg' alt="Smart Connected Solutions for the Internet of Things (IoT)" />
+			</a>
+			<div class="paddingtop15">
+				<a class="header-link" href='/pages/smart-connected-solutions-for-the-iot:SMART-CONNECTED-SOLUTIONS'><h2>Smart Connected Solutions <span class="icon-angle-right"></span></h2></a>
+			</div>
+			<p>An unrivaled portfolio of solutions for the Internet of Things (IoT), spanning everything from the end node, to the gateway, to the cloud.</p>
+		</div>
+		
+		<div class="col-sm-6">
+			<a href='/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things/smart-cities:SMART-CITIES'>
+				<img class="img-responsive" src='/assets/images/en/banners/SMART-CITIES-TN.jpg' alt="Smart Cities" />
+			</a>
+			<div class="paddingtop15">
+				<a class="header-link" href='/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things/smart-cities:SMART-CITIES'><h2>Smart Cities <span class="icon-angle-right"></span></h2></a>
+			</div>
+			<p>Increasingly sophisticated and secure microcontrollers and networking technologies offering real-time decision making and long-term data analysis.</p>
+		</div>
+	</div>
+
+	<div class="row bottom20">
+		<div class="col-sm-6">
+			<a href='/applications/solutions-for-the-iot-and-adas/automotive:SECURE-CONNECTED-VEHICLE'>
+				<img class="img-responsive" src='/assets/images/en/banners/SECURE-CONNECTED-VEHICLE-TN.jpg' alt="Secure Connected Car" />
+			</a>
+			<div class="paddingtop15">
+				<a class="header-link" href='/applications/solutions-for-the-iot-and-adas/automotive:SECURE-CONNECTED-VEHICLE'><h2>Secure Connected Car <span class="icon-angle-right"></span></h2></a>
+			</div>
+			<p>Breakthrough automotive designs in and around the car that enhance safety and the driver experience including ADAS, access, infotainment, in-vehicle networking, body, chassis and safety applications.</p>
+		</div>
+		
+		<div class="col-sm-6">
+			<a href='/pages/security-in-a-smart-connected-world:END-TO-END-SECURITY-AND-PRIVACY'>
+				<img class="img-responsive" src='/assets/images/en/banners/SECURITY-AND-PRIVACY-TN.jpg' alt="Smart Cities" />
+			</a>
+			<div class="paddingtop15">
+				<a class="header-link" href='/pages/security-in-a-smart-connected-world:END-TO-END-SECURITY-AND-PRIVACY'><h2>End-to-End Security and Privacy <span class="icon-angle-right"></span></h2></a>
+			</div>
+			<p>Security solutions for the Internet of Things (IoT) that deliver the highest levels of protection, while making it as easy and convenient for users to interact with any service or device.</p>
+		</div>
+	</div>	
+	
+	<div class="row bottom20">
+		<div class="col-sm-6">
+			<a href='/applications/solutions-for-the-iot-and-adas/smart-society:SMART-SOCIETY'>
+				<img class="img-responsive" src='/assets/images/en/banners/SMART-SOCIETY-TN.jpg' alt="Smart Society" />
+			</a>
+			<div class="paddingtop15">
+				<a class="header-link" href='/applications/solutions-for-the-iot-and-adas/smart-society:SMART-SOCIETY'><h2>Smart Society <span class="icon-angle-right"></span></h2></a>
+			</div>
+			<p>Building a smarter society takes innovation, mentoring and the right tools at all levels.</p>
+		</div>
+	</div>	
+
+<script type="text/javascript">
+	//Comment this for testing purposes
+	//$("#bc > ul > li:last").text("Solutions");
+	//$("h1").text("Solutions");
+</script>
+<!--ls:end[component-1473770942759]--> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b0"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b1"> 
+  <div class="iw_columns col-lg-12" id="colit1h61b2"> 
+   <div class="iw_component" id="iw_comp1473770942747">
+     <footer>
+    <!--  default footer -->
+    <div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                ABOUT NXP
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        Investors
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/webapp/connect/memberDirSearch.sp">
+                        Partners
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/about/careers-at-nxp:CAREERS">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                RESOURCES
+            </h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://www.nxp.com/about/nxp-mobile-applications:MOBILE">
+                        Mobile Apps
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.nxp.com">
+                        Press, News, Blogs
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/pages/contact-us:CONTACTUS">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                FOLLOW US
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+                <li class="twitter">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://twitter.com/NXP" target="_blank" title="Follow NXP on Twitter">
+                        <span class="icon-twitter22">
+                        </span>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="Follow NXP on Linked In">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://www.facebook.com/NXPsemi" target="_blank" title="Follow NXP on Facebook">
+                        <span class="icon-facebook">
+                        </span>
+                    </a>
+                </li>
+                <!--li class="youtube"><a href="https://www.youtube.com/nxpsemiconductors" title="Follow NXP on Youtube" target="_blank" data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US"><span class="icon-youtube-square2"></span></a></li-->
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center" target="_blank" title="Subscription Center">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            NEWS
+                        </h5>
+                        <p>
+                            NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-NewsCorporate" target="_blank">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/about/privacy:PRIVACYPRACTICES">
+                        Privacy
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/terms-of-use:TERMSOFUSE">
+                        Terms of Use
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        Terms of Sale
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        Feedback
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6">
+                &copy;2006-2017 NXP Semiconductors. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>

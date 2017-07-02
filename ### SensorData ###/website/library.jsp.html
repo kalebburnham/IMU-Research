@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="verify-v1" content="BXkOWcTHpEIHsaiI4T8cQwVghsgXd7NlIg+083NTZNI=">
+  <meta name="DCSext.language_option" content="en" />
+  <meta name="DCSext.en_ti" content="Welcome to NXP Semiconductors" />
+  <meta name="DCSext.page_template" content="Main_Homepage" />
+  <meta name="baidu-site-verification" content="K9kPMSVOyB" />
+  <meta name="msvalidate.01" content="7A3A441EEF38540BD996CCEE9E0EB1F2" />
+  <link rel="icon" href="//www.nxp.com/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/resources/css/nxp-web.min.css"> 
+<link rel="stylesheet" href="/resources/css/nxp-legacy.min.css">
+  <script>
+var conflict = false; 
+if(typeof $ != "undefined") 
+	conflict = true;
+</script>
+
+<script type="text/javascript" src="/resources/scripts/jquery.min3.1.js" ></script>
+<script type="text/javascript" src="/resources/scripts/bootstrap.min.3.3.7.js" ></script>
+<script type="text/javascript" src="/resources/scripts/jquery.mmenu.all.min.js"></script>
+<script type="text/javascript" src="/resources/scripts/nxp-cms/global-nav.js"></script>
+
+<script type="text/javascript">
+var jQuery_1_9_1 = jQuery;
+if(conflict) 
+	jQuery_1_9_1 = jQuery.noConflict(true);
+</script>
+<script type="text/javascript" src="/search/javascript/gsa_suggestions.js"></script>
+<title>Software Center</title>
+  	<meta name="Keywords" content="Software Center">
+  	<meta name="description" content="Freescale Software Code Exchange is an embedded software catalog featuring free, low cost, example, and commercial grade embedded software for software engineers developing embedded solutions on ARM processors, i.MX architectures, Kinetis Microcontrollers, RF, sensors and power managements designs.">
+  
+ <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+  <script src="http://style.nxp.com/v1.54/shared/js/angular/angular.min.js"></script>
+  <script src="http://style.nxp.com/v1.54/shared/js/angular/angular-resource.min.js"></script>
+  <script src="http://style.nxp.com/v1.54/shared/js/angular/angular-route.min.js"></script>
+  
+
+  <script src="http://style.nxp.com/v1.54/softwarestore/js/app.js"></script>
+  <script src="http://style.nxp.com/v1.54/softwarestore/js/controller.js"></script>
+  <script src="http://style.nxp.com/v1.54/softwarestore/js/services.js"></script>
+  <script src="http://style.nxp.com/v1.54/softwarestore/js/filters.js"></script>
+  <script src="http://style.nxp.com/v1.54/softwarestore/js/angular-sanitize.min.js">
+  
+  </script>
+ <!-- <link rel="stylesheet" href="/files/css/basecamp-legacy-header-footer.css"> -->
+	<!-- <link rel="stylesheet" href="/files/css/bootstrap.css"> -->
+  	<link rel="stylesheet" href="http://style.nxp.com/v1.54/softwarestore/stylesheet/storeFront.css">
+  	<script src="http://style.nxp.com/v1.54/files/abstract/text_insert/sw_store/software-store-homepage.js"></script>
+  	
+  	
+  	
+	<script type="text/javascript">
+		var digitalData = {};
+		digitalData.ignorePageLoad = true;
+		digitalData.pageInfo = {};
+		digitalData.userInfo = {};
+		digitalData.siteInfo = {};
+		digitalData.searchInfo = {};
+		digitalData.eventInfo = {};		
+		
+		function sendAnalyticsData(qrytxt,selectedFilterString,resultCount,pageNum) {
+			//Added by b44406 for CR-56179 on 19-05-2014 (RecordActivity tracking) -start
+			var url = '/webapp/history/recordActivity.sp';
+			var obj = new Object;
+			obj.assetID = "softwaresearch";
+			obj.assetType = "search";
+		 	obj.referrerUrl = document.referrer;
+		 	obj.commandID = "RECORD_WEB_ACTIVITY";  
+			var attrNames = "";
+			var attrValues = ""; 
+			var iteration ="0";
+			var s_lang_cd = getQryParamForAnalytics(document.URL,'lang_cd');
+			var lang = s_lang_cd;
+			if( lang !=null && lang!="" ){			   
+				attrNames+="lang@@";
+				attrValues+=lang+"@@"; 
+			}else{			   
+				attrNames+="lang@@";
+				attrValues+="en@@";
+			}
+			if(resultCount!="null" && resultCount!=null && !(resultCount.length==0)) {
+				attrNames = attrNames + "Result Count" + "@@";
+				attrValues = attrValues + resultCount + "@@";
+			}else{
+				attrNames = attrNames + "Result Count" + "@@";
+				attrValues = attrValues + "0" + "@@";	
+			}
+			if(pageNum!="null" && pageNum!=null && !(pageNum.length==0)) {
+				attrNames = attrNames + "Current Page Number" + "@@";
+				attrValues = attrValues + pageNum + "@@";
+			}
+			
+			attrNames = attrNames + "Query Text" + "@@";
+			attrValues = attrValues + qrytxt + "@@";
+			
+			
+			if( iteration !=null && iteration!="" ){	
+			attrNames = attrNames + "Iteration" + "@@";
+			attrValues = attrValues + iteration + "@@";
+			}
+			var  attempt ="0";
+			if( attempt !=null && attempt!="" ){		
+			attrNames = attrNames + "Attempt" + "@@";
+			attrValues = attrValues + attempt + "@@";
+			}
+			var selectedAsset="SoftwareTools";
+			if(selectedAsset!="null" && selectedAsset!=null && !(selectedAsset.length==0)) {
+				attrNames = attrNames + "Selected Asset" + "@@";
+				attrValues = attrValues + selectedAsset + "@@";
+			}
+			//added by b44406 - CR56179 start
+			if(selectedFilterString !="null" && selectedFilterString !=null){
+				attrNames = attrNames + "category" + "@@";
+				attrValues = attrValues + "Software & Tools Type" + "@@";
+				
+				var filterObj = new Object();
+				var parametrics = selectedFilterString.split("$");
+					for(var i=0;i<parametrics.length;i++){
+						
+						if(parametrics[i]!=null && parametrics[i]!="null" ){
+							parametrics[i] = parametrics[i].replace(/!`/gi,' - ');        
+							parametrics[i] = parametrics[i].replace(/>/gi,'');
+							var splitValue = parametrics[i].split("~");
+							if(splitValue[0]!=null && splitValue[0]!="null" && splitValue[1]!=null && splitValue[1]!="null"){
+								
+								var keyname =splitValue[0];
+								var dataValue =splitValue[1];
+								if(filterObj[keyname]!=null){
+									filterObj[keyname] += 1; 
+								}else{
+									filterObj[keyname] = 1;
+								}
+								if(keyname !="Asset Type"){
+									attrNames = attrNames + keyname+"_"+ filterObj[keyname]+ "@@";
+									attrValues = attrValues + dataValue + "@@";	
+								}
+								
+								}
+								
+							}
+						} 
+					
+					}
+					
+			    
+			//added by b44406 - CR56179 end
+			attrNames = attrNames.substring(0,attrNames.length-2);
+			attrValues = attrValues.substring(0,attrValues.length-2);
+			attrValues = replaceAll(attrValues, "%26", "&");
+			attrValues = replaceAll(attrValues, "plus", "+");
+			attrValues = replaceAll(attrValues, "~", "/");
+			attrValues = replaceAll(attrValues, "&%238482%3B", "&#8482;");
+			obj.attrNames = attrNames;
+			obj.attrValues = attrValues;
+			digitalData.pageInfo.pageCategory = "SOFTWARE SEARCH";
+			var s_contentFinder = getContentFinding(document.referrer, document.URL); 
+			//Added by b44406 for CR-56179 on 19-05-2014 (RecordActivity tracking) -End
+			 			
+			//Modified by b47045 for CR-55852 to clear vars on 25 Jun 2014
+			//s.manageVars("clearVars","prop4,prop2,prop5,eVar2",1);
+			
+			// Modified the pagename by B12883 for CR56179
+			digitalData.pageInfo.pageName = "Software Center";
+			digitalData.pageInfo.siteSection1 = "Software Search";
+			digitalData.pageInfo.pageType = "Software Center";
+			digitalData.pageInfo.localTitle = "Software Center";			
+			digitalData.siteInfo.sitePlatform = "full";
+			digitalData.pageInfo.pageEventPathing = "D=pageName";
+			digitalData.searchInfo.searchFilterList = selectedFilterString;
+	        if(resultCount) {
+	        	digitalData.searchInfo.resultCount = resultCount;
+	        }
+	        else{
+			    if(qrytxt != "")
+			    	digitalData.searchInfo.resultCount ='zero';
+			}
+        	
+	        digitalData.userInfo.fslVisitorID = getCookieForSiteCatalyst("freescale_visitor_id");
+	        if(qrytxt != "") {
+	        	digitalData.searchInfo.searchkeyword = qrytxt;
+		        	if(digitalData.eventInfo.pageAction!=null && digitalData.eventInfo.pageAction!="undefined" && digitalData.eventInfo.pageAction!=""){ 
+		        	//Modified start by b47045 for CR-55852 to clear vars on 26 Jun 2014
+				        	if(digitalData.eventInfo.pageAction.indexOf('Removed')!=-1 || digitalData.eventInfo.pageAction.indexOf('Reset')!=-1 ){
+				        		digitalData.pageInfo.pageEventPathing = "Software  Store: Results of "+qrytxt+", Filters Removed";
+				        		digitalData.eventInfo.name = 'searchEvent';
+				        	}else if(digitalData.eventInfo.pageAction.indexOf('Applied')!=-1 ){
+				        		digitalData.pageInfo.pageEventPathing = "Software  Store: Results of "+qrytxt+", Filters Applied";
+				        		digitalData.eventInfo.name = 'searchEvent';
+				        	}else if(digitalData.eventInfo.pageAction.indexOf('Popularity')!=-1){
+				        		digitalData.pageInfo.pageEventPathing = "Software Search - Sort by Popularity";
+				        		digitalData.eventInfo.name = 'searchEvent';
+				        	}else if(digitalData.eventInfo.pageAction.indexOf('Relevance')!=-1){
+				        		digitalData.pageInfo.pageEventPathing = "Software Search - Sort by Relevance";
+				        		digitalData.eventInfo.name = 'searchEvent';
+				        	}else{
+				        		digitalData.pageInfo.pageEventPathing = "Software Store: Results of "+qrytxt;
+				        		digitalData.eventInfo.name = 'search';
+					        }
+		        	}else{
+		        		digitalData.pageInfo.pageEventPathing = "Software Store: Results of "+qrytxt;
+		        		digitalData.eventInfo.name = 'search';
+					}	
+		        }
+		        else{
+		        	digitalData.searchInfo.searchkeyword = "";
+			        if(digitalData.eventInfo.pageAction!=null && digitalData.eventInfo.pageAction!="undefined" && digitalData.eventInfo.pageAction!=""){ 
+			    	   if(digitalData.eventInfo.pageAction.indexOf('Removed')!=-1 || digitalData.eventInfo.pageAction.indexOf('Reset')!=-1){
+			    		   digitalData.pageInfo.pageEventPathing = "Software Store: No Keyword, Filters Removed";
+			    		   digitalData.eventInfo.name = 'searchEvent';
+			        	}else if(digitalData.eventInfo.pageAction.indexOf('Applied')!=-1){
+			        		digitalData.pageInfo.pageEventPathing = "Software Store: No Keyword, Filters Applied";
+			        		digitalData.eventInfo.name = 'searchEvent';
+			        	}else if(digitalData.eventInfo.pageAction.indexOf('Popularity')!=-1){
+			        		digitalData.pageInfo.pageEventPathing = "Software Search - Sort by Popularity";
+			        		digitalData.eventInfo.name = 'searchEvent';
+			        	}else if(digitalData.eventInfo.pageAction.indexOf('Relevance')!=-1){
+			        		digitalData.pageInfo.pageEventPathing = "Software Search - Sort by Relevance";
+			        		digitalData.eventInfo.name = 'searchEvent';
+			        	}else{
+			        		digitalData.pageInfo.pageEventPathing = "Software Store: No Keyword";
+			        		digitalData.eventInfo.name = 'search';
+				        }
+		        	}else{
+						digitalData.pageInfo.pageEventPathing = "Software Store: No Keyword";
+						digitalData.eventInfo.name = 'search';
+					}	
+		        }	
+	      //Modified end by b47045 for CR-55852 to clear vars on 26 Jun 2014
+        									
+	       <!-- Added by b51504 for CR-58339:START -->
+	      
+	   	
+	        var path=location.pathname;
+	         var lang_cd ='';
+	        if (typeof path != 'undefined') {
+	             lang_cd = path.substr(0,path.indexOf('/',1));
+	            if (lang_cd.match('^/webapp')) {
+	            	lang_cd='en';
+	            }
+	            s_lang_cd=lang_cd.replace("/","");
+	       }
+			       
+	         
+			digitalData.siteInfo.lang = s_lang_cd;
+			 if(s_contentFinder != null && s_contentFinder != '') {        	
+					digitalData.pageInfo.contentFinding = s_contentFinder;
+			}
+			digitalData.pageInfo.trackingID = getQryParamForAnalytics(document.URL, "tid"); 
+			
+			var s_currentUrl = "";
+			if(document.URL.indexOf("?") != -1) {
+			 s_currentUrl = document.URL.split("?")[0];
+				
+			}
+			else {
+				s_currentUrl = document.URL.split("#")[0];
+			}
+			
+			
+			var langAnalytics = "zh-Hans,ja,ko";
+			for(var i=0; i < langAnalytics.split(",").length;i++){
+				var lng_Code = langAnalytics.split(",")[i];
+				s_currentUrl = s_currentUrl.replace("/"+lng_Code+"/","/");
+			}
+			
+			digitalData.pageInfo.pageURLClean = s_currentUrl; 
+			 
+			 document.getElementById("container").style.display = "block";
+			_satellite.track("trackSoftwareCenterAnalytics")
+	        //Modified by b47045 for CR-55852 to clear vars on 25 Jun 2014
+	        digitalData.pageInfo.contentFinding=digitalData.pageInfo.pageEventPathing=digitalData.eventInfo.pageAction=digitalData.eventInfo.pageSubaction=digitalData.searchInfo.resultCount="";
+
+	        //Added by b44406 for CR-56179 on 19-05-2014 (RecordActivity tracking) -start
+			recordActivity(url, obj);
+			//Added by b44406 for CR-56179 on 19-05-2014 (RecordActivity tracking) -end
+			
+		}
+		//Added by b44406 for CR-56179 on 19-05-2014 (RecordActivity tracking) -start
+		function recordActivity(url, obj) {
+			sendPostMessage(url, obj);
+		}
+		function replaceAll(source,toReplace,replaceWith){
+			 var strReplaceAll = source;
+			 var intIndexOfMatch = strReplaceAll.indexOf(toReplace);
+			 while (intIndexOfMatch != -1){
+				 strReplaceAll = strReplaceAll.replace(toReplace,replaceWith);
+			     intIndexOfMatch = strReplaceAll.indexOf(toReplace);
+			  }
+			 return strReplaceAll;
+		}
+		function sendPostMessage(url,obj){
+				jQuery.post(url, obj, function(data){
+			});		
+		}
+		//Added by b44406 for CR-56179 on 19-05-2014 (RecordActivity tracking) -end
+		/* function showHomepageBreadcrumb() {
+			   $('div#bc ul li:nth-child(2)').html(getTranslatedText("Software Center"));
+			   $('div#bc ul li:gt(1)').remove();
+			  }
+			  function showSearchBreadcrumb(homeUrl) {
+			  
+			   if($('div#bc ul > li').length == 2) {
+				//$('div#bc ul li:nth-child(1) a').attr('href',hostUrl);
+				$('div#bc ul li:nth-child(2)').html("<a href='"+homeUrl+"' target='_self'>"+getTranslatedText("Software Center")+"</a>");
+				$('div#bc ul').append("<li>"+getTranslatedText("Search")+"</li>");
+			   }
+			  } */
+	</script>
+	<script>
+var LANG_CD_LIST = "zh-Hans,ja,ko";
+var URL_DOMAIN = "www.nxp.com";
+var URL_MAJOR_DOMAIN = "nxp.com";
+var CACHE_URL_DOMAINS = ["cache.nxp.com", "style.nxp.com", "image.nxp.com"];
+</script>
+<script type="text/javascript" src="http://style.nxp.com/v1.54/shared/js/js.cookie.js"></script>
+<script type="text/javascript" src="http://style.nxp.com/v1.54/shared/js/webanalytics.js"></script>
+<script type="text/javascript" src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js"></script></head>
+ 
+  <body>
+  <input id="secureUrl" type="hidden" name="mobileUrl" value="https://www.nxp.com"/>
+  <input type="hidden" id="sechighlight" name="sechighlight" value="noHighlight" />
+    <div id="nxp-wrapper">
+      <header class="loadnav">
+      <div id="header" class="nxp-nav">
+    <div  class="container">
+        <div class="row" id="top">
+            <div class="col-xs-4">
+                <div id="site-logo">
+                    <a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'"
+                            alt="NXP logo"></a>
+                </div>
+            </div>
+            <div class="col-xs-8 pull-right">
+                <ul class="list-inline pull-right" id="top-nav">
+                    <li>
+                        <div class="dropdown" id="login-block">
+                            <a class="dtmHeaderLogin" href="/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-user nxp-orange-text"></span>Account</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown" id="languages"><a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                            <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                                <li role="presentation" class="select-lang">Select language</li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-en selected" href="#"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-zh" href="#"><span class="flag flag-zh pull-left"></span>ä¸­æ</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-ja" href="#"><span class="flag flag-ja pull-left"></span>æ¥æ¬èª</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" class="lang-ko" href="#"><span class="flag flag-ko pull-left"></span>íêµ­ì´</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="shopping-cart" class="shoppingCartNav"><a href="/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-8 pull-right" id="search-block">
+                <div class="input-group pull-right" id="search-input">
+                    <form id="search" class="search-form" name="gs" method="GET" action="/search" onsubmit="return validateSubmitQuery(this);"
+                        _lpchecked="1">
+                        <div class="sf-row">
+                            <div class="input-group-btn zIndex5" id="search-all"><button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown"
+                                    tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                                <ul id="search-choices" class="dropdown-menu" role="menu">
+                                    <li id="All" name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                                    <li id="Products" name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                                    <li id="Documents" name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                                    <li id="SoftwareTools" name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                                    <li id="Support" name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                                    <li id="Applications" name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                                    <li id="Videos" name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                                    <li id="Trainings" name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                                    <li id="Community" name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                                    <li id="Blogs" name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                                    <li id="Partners" name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                                    <li id="CrossReference" name="CrossReference"><a><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                                    <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                                    <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                                    <li id="ProductSelector" name="ProductSelector"><a><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                                </ul>
+                            </div><input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q"
+                                placeholder="Search..." class="form-control">
+                            <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                            <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button>
+                                <input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site"
+                                    name="site" value="nxp__en" type="hidden"><input id="proxystylesheet" name="proxystylesheet"
+                                    value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1"
+                                    type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie"
+                                    value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output"
+                                    name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps"
+                                    value="1" type="hidden">
+                                <input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd"
+                                    value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden">
+                                <input
+                                    id="getfields" name="getfields" value="*" type="hidden">
+                                    <input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden"
+                                        name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1">
+                                    <input
+                                        type="hidden" name="rc" value="1">
+                                        <input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default megamenu">
+        <div class="navbar-header">
+            <a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-fsl"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a>
+        </div>
+        <div class="container">
+            <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+                <div class="navbar-center">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown megamenu-fw productsmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/products:PCPRODCAT">PRODUCTS</a>
+                           
+                        </li>
+                        <li class="dropdown megamenu-fw applicationsmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                           
+                        </li>
+                        <li class="dropdown megamenu-fw trainingmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                            
+                        </li>
+                        <li class="dropdown megamenu-fw aboutmenu"><a class="dropdown-toggle" data-toggle="dropdown" href="/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+	</div>
+      </header>
+      <nav id="nxp-mobile-nav"></nav>
+      <div class="clearfix"></div>
+    </div>
+       
+      <div class="container">
+ 	<div class="row">
+ 		<div class="iw_columns col-lg-12">
+			<div class="bc-container clearfix" id="bc-container">
+				<ul class="bc">
+					<li><a href="https://www.nxp.com">NXP</a></li>
+					<li>Software Center</li>
+				</ul>
+			</div>
+		</div>
+ 	</div>
+</div>
+
+<script>
+function showHomepageBreadcrumb() {
+	   $('div#bc-container ul li:nth-child(2)').html(getTranslatedText("Software Center"));
+	   $('div#bc-container ul li:gt(1)').remove();
+	  }
+	  function showSearchBreadcrumb(homeUrl) {
+	  
+	   if($('div#bc-container ul > li').length == 2) {
+		//$('div#bc ul li:nth-child(1) a').attr('href',hostUrl);
+		$('div#bc-container ul li:nth-child(2)').html("<a href='"+homeUrl+"' target='_self'>"+getTranslatedText("Software Center")+"</a>");
+		$('div#bc-container ul').append("<li>"+getTranslatedText("Search")+"</li>");
+	   }
+	  }
+</script><div id ="container" class="container" style="display: none;">
+	<script  type="text/javascript" charset="utf-8">
+	var i18n_en = { 'Freescale' : 'NXP','About Freescale' : 'About NXP','We detected that your email is a Freescale account. To change your password, please go to <a href=\"https://password.freescale.net\">Freescale SPS X.500 Directory Service</a>' : 'We detected that your email is an employee account. To change your password, please go to <a href=\"https://password.NXP.net\">NXP SPS X.500 Directory Service</a>','Freescale Connect and Reseller Program Tools' : 'NXP Partner and Reseller Program Tools','Freescale Connect Partner Program Portal' : 'NXP Partner Program Portal','Freescale Part Matches' : 'NXP Part Matches','FREESCALE' : 'NXP','Freescale Product Selector' : 'Product Selector','Reference or evaluation boards containing Freescale silicon device and/or other boards used in close conjunction with the reference or evaluation board such as daughter cards, connector cards, etc.' : 'Reference or evaluation boards containing NXP silicon device and/or other boards used in close conjunction with the reference or evaluation board such as daughter cards, connector cards, etc.'}
+</script>
+<script type="text/javascript" charset="UTF-8">
+function getTranslatedText(string){
+	try {
+		var localize = {};
+		if(  (typeof i18n_en != 'undefined' ) && i18n_en !=null)
+		localize = i18n_en;
+		
+        string = string.toString() || '';
+        var args = arguments;
+        var pattern = (args.length > 0) ? new RegExp('%([1-' + args.length.toString() + '])', 'g') : null;
+        var str = localize.hasOwnProperty(string) ? localize[string] : string;
+       	return String(str).replace(pattern, function (match, index) { return args[index]; });
+    } catch (e) {
+    }	
+}
+</script>
+<script src="http://style.nxp.com/v1.54/softwarestore/js/auto_suggestions.js"></script>
+	 <input type="hidden" name="styleCacheURL" id="styleCacheURL" value="http://style.nxp.com/v1.54" />
+	<div ng-app="storeApp" >
+		<div ng-view class="view-frame"></div>
+	</div>
+	</div>
+	<div> <footer class="loadnav">
+            <!-- // /* FOOTER CONTENT GOES HERE */ -->
+      </footer>
+
+<!-- /data/devs_git_repositories/b56858/ebiz/projects/ebiz/WebContent/NewCoSectionalNavRules.json -->
+<script type="text/javascript" src="/resources/scripts/nxp-cms/global-web-common.js"></script>
+
+<script>
+$(document).ready(function() {
+	var url = window.location.href;
+
+		/* if (url.indexOf("?")>-1){
+			url = url.substr(0,url.indexOf("?"));
+		} */
+		var jsonFileUrl=""+"/resources/scripts/nxp-cms/NewCoSectionalNavRules.json";
+		
+		var secNodeValue= $('#sechighlight').val();
+		if(secNodeValue == 'noHighlight'){
+		   $.getJSON(jsonFileUrl, function(data) {
+			   $.each(data, function(index, element) {
+	        	   if(url.match("^"+index) || url.indexOf(index)!=-1){
+	            	   $('.'+element[0].Nodeid).css("background-color", "#ffffff");
+	        		   $('.'+element[0].Nodeid+' > a ').css("color", "#777777");
+	        		   return false;
+	        	   }
+	    	    }); 
+	       });
+	}
+});
+
+</script></div>	
+	<script type="text/javascript">
+	</script>
+	<script type="text/javascript" src="http://style.nxp.com/files/js/elqNow/elqwebanalytics.js"></script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript" src="http://style.nxp.com/files/abstract/misc/blueconic.js"></script></div>
+</body>
+</html>

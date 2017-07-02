@@ -1,0 +1,1430 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SafeAssure Functional Safety Program|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="" />
+	<meta name="Keywords" content="" />
+	<meta name="ModifiedDate" content="2016-10-04 22:38:51" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="homepage" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Enabled">
+<meta name="template" content="Tmp-HLP-Static">
+<meta name="testtag" content="content for tag">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/about/about-nxp/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "HOMEPAGE";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="General:SafeAssure Functional Safety Program | SAFETYPRGRM";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="General";
+	digitalData.pageInfo.siteSection1 = "About NXP";
+	digitalData.pageInfo.siteSection2 = "Technology Leadership";
+	digitalData.pageInfo.siteSection3 = "SafeAssure Functional Safety Program";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "062874CE9E";	
+digitalData.pageInfo.assetID = "131472723112570840CE9E";
+digitalData.pageInfo.localTitle="SafeAssure<sup>®</sup> Functional Safety Program";
+digitalData.pageInfo.pageCodeID = "SAFETYPRGRM"
+digitalData.pageInfo.pageTemplateType = "Homepage";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "en";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="062874CE9E"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="131472723112570840CE9E"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="aboutmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionit1h61aw"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61ax"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ay"> 
+   <div class="iw_component" id="iw_comp1473770942743">
+     <header>
+<!-- default header -->
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">Select language</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en selected"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/high-level-pages/corporate/about/DISTRIBUTORS.page?submit=true&amp;componentID=1473770942743" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                           <li id="CrossReference" name="CrossReference"><a ><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a ><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="Search..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_en" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/products/products:PCPRODCAT">PRODUCTS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>&reg;</sup>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex&reg;-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX Applications Processors</a></li>
+                                 <li><a href="//www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM-based SoCs</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>&reg;</sup><br/>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/more-processors:MORE-PROCESSORS">MORE PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/zidentification-and-security-beta:MC_53420 ">IDENTIFICATION & SECURITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/interfaces:WIRED-CONNECTIVITY">INTERFACE<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">MEDIA AND AUDIO PROCESSING<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/power-management:POWER-MANAGEMENT">POWER MANAGEMENT<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/rf:RF_HOME">RF<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/sensors:SNSHOME">SENSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/automotive-products:MC_50802">AUTOMOTIVE PRODUCTS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">Automotive Radar</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">Car Access & Immobilizers</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">In-Vehicle Network</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">Multi Standard Digital Radio</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCUs/MPUs</a></li>
+                                 <!--li><a href="//www.nxp.com/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV Microcontroller</a></li><li><a href="//www.nxp.com/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCUs/MPUs</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>REFERENCE DESIGN LIBRARY<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/tools/embedded-software-and-tools:DEVELOPER_HOME">DEVELOPMENT TOOLS<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">SOFTWARE CENTER<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>MORE PRODUCT INFORMATION</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/products/products:PCPRODCAT ">All Products</a></li>
+                                    <li><a href="//www.nxp.com/webapp/crosscheck/competitorXRef.sp">Competitor Cross Reference Tool</a></li>
+                                    <li><a href="//www.nxp.com/packages ">Packages</a></li>
+                                    <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity Program</a></li>
+                                    <li><a href="//www.nxp.com/webapp/parametricSelector.sp?">Product Selector</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">NXP COMMUNITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior Development Tools</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX Community (SoCs and PMIC Support)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis Microcontrollers</a></li>
+                                 <li><a href="https://www.lpcware.com/forum" target="_blank">LPC Forums</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ Processors</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV Microcontrollers</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">Wireless Connectivity</a></li>
+                                 <li><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">View All</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/online-academy:ON_DEMAND_TRNG">ONLINE TRAINING ACADEMY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">TRAINING<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">NXP FTF Tech Forum</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">NXP FTF Connects</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">NXP Technology Days</a></li>
+                                 <li><a href="//www.nxp.com/training/classroom-training-events/industry-events:EVENTS_HOME">Industry Events</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">Global Smarter World Tours&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/training/university-programs:UNIVPROGRAM_HOME_CAT">UNIVERSITY PROGRAMS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/video/vault/?searchLabel=renderHomepage">VIDEO VAULT<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT RESOURCES<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/pages/documentation:DOCUMENTATION">Documentation Library</a></li>
+                                 <li><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">Sales and Support</a></li>
+                                 <li><a href="//www.nxp.com/pages/nxp-professional-services:PROFESSIONAL-SERVICES">Professional Engineering Services</a></li>
+                                 <li><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">Software Center</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT NXP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations:GLOBAL_SITES">NXP Worldwide</a></li>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">Distributor Network</a></li>
+                                 <li><a href="http://media.nxp.com">Media Center</a></li>
+                                 <li><a href="http://investors.nxp.com">Investor Relations</a></li>
+                                 <li><a href="//www.nxp.com/about/careers-at-nxp:CAREERS">Careers</a></li>
+                                 <li><a href="//www.nxp.com/about/our-customers:ABOUT_CUSTOMERS">Customers</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">Blogs</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/corporate-responsibility:CORP_SOCIAL_RESP">CORPORATE RESPONSIBILITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">Environmental Compliance Office</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/ethics:ETHICS">Ethics</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/employees:EMPLOYEES">Employees</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">TECHNOLOGY LEADERSHIP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/quality:QUALITY_HOME">Quality</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END --> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b8"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b9"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ba"> 
+   <div class="row iw_row" id="rowit1h61bc"> 
+    <div class="iw_columns col-lg-3" id="colit1h61bd"> 
+     <div class="iw_component" id="iw_comp1473770942755">
+       <!--ls:begin[component-1473770942755]--><ul class="leftnav dtmLeftNav MMenu-about"><li><a href="/about/about-nxp/our-customers:ABOUT_CUSTOMERS">Our Customers</a><li><a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">Investor Relations</a><li><a href="/about/about-nxp/contact-us:CONTACTUS">Contact Us</a><li><a href="/webapp/connect/memberDirSearch.sp">NXP<sup>®</sup> Partner Program</a><li><a href="/about/about-nxp/careers-at-nxp:CAREERS">Careers at NXP</a><li><a href="/about/about-nxp/corporate-responsibility:CORP_SOCIAL_RESP">Corporate Responsibility</a><li><a href="http://media.nxp.com/phoenix.zhtml&#63;c=254228&p=irol-media-center">Media Center</a><li><a href="/about/about-nxp/awards-and-accolades:AWARDS">Awards and Accolades</a><li><a href="/about/about-nxp/worldwide-locations:GLOBAL_SITES">Worldwide Locations</a><li><a href="/about/about-nxp/trade-compliance:CORP_TRADECOMPL">Trade Compliance</a><li><a href="/about/about-nxp/technology-leadership:RESEARCH_AND_DEVELOPMENT">Technology Leadership</a><ul><li class=><a href="/about/about-nxp/technology-leadership/nxp-portfolio-snapshot:PORTFOLIO-SNAPSHOT"><span class="icon-stop2"></span>NXP<sup>®</sup> Portfolio Snapshot</a></li><li class=><a href="/about/about-nxp/technology-leadership/product-longevity:PRDCT_LONGEVITY_HM"><span class="icon-stop2"></span>Product Longevity</a></li><li class=><a href="/about/about-nxp/technology-leadership/quality:QUALITY_HOME"><span class="icon-stop2"></span>Quality</a></li><li class=selected><a href="/about/about-nxp/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM"><span class="icon-stop2"></span>SafeAssure Functional Safety Program</a><ul><li><a href="/about/about-nxp/technology-leadership/safeassure-functional-safety-program/functional-safety-for-iso-26262-and-iec-61508:FNCTNLSFTY"><span></span>Functional Safety for ISO 26262 and IEC 61508</a></li></ul></li><li class=><a href="/about/about-nxp/technology-leadership/nxp-greenchip-solutions:NXP-GREENCHIP-SOLUTIONS"><span class="icon-stop2"></span>NXP GreenChip Solutions</a></li></ul></li></ul><!--ls:end[component-1473770942755]--> 
+     </div> 
+    </div> 
+    <div class="iw_columns col-lg-9" id="colit1h61be"> 
+     <div class="iw_component" id="iw_comp1474458748468">
+       <!--ls:begin[component-1474458748468]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com"><span>NXP</span></a></li> <li><a href="/about/about-nxp/technology-leadership:RESEARCH_AND_DEVELOPMENT"><span>Technology Leadership</span></a></li> <li><span>SafeAssure Functional Safety Program</span></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="Share via Email"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="facebook18x" title="Share on Facebook"><span class="icon-facebook"></span> Facebook</a></li>
+            <li><a id="twitter18x" title="Share on Twitter"><span class="icon-twitter2"></span> Twitter</a></li>
+            <li><a id="google18x" title="Share on Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="Share on LinkedIn"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="Printer"><span class="icon-print"></span> Printer</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1474458748468]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942795">
+       <!--ls:begin[component-1473770942795]--><h1>SafeAssure<sup>®</sup> Functional Safety Program</h1><!--ls:end[component-1473770942795]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942796">
+       <!--ls:begin[component-1473770942796]--><div class="dtmGenDiv" data-dtmSection="Overview Section"></div><!--ls:end[component-1473770942796]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942759">
+       <!--ls:begin[component-1473770942759]--><script type="text/javascript" src="/files/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="/files/js/jquery.ColumnFilter.js"></script>
+<script type="text/javascript" src="/files/js/jquery.ahp-popup.js"></script>
+<script type="text/javascript" charset="utf-8">
+    jQuery(function($){
+        $('#safeAssure table').ColumnFilter({'alternateRowClassNames':["evenRow","oddRow"] });
+    });
+</script>
+<style type="text/css">
+        #safeAssure {
+            height:550px; 
+            overflow-y: scroll;
+            width:110%;
+        }
+        
+        #filterText1 {width:95%;}
+        #filterText2 {width:95%;}
+        #filterText3 {width:100%;}
+        #filterText4 {width:100%;}
+        #filterText5 {width:95%;}
+        #filterText6 {width:95%;}
+        #filterText7 {width:95%;}
+        #filterText8 {width:95%;}
+        #safeAssure table{width:100%}
+</style>
+
+    <div class="row">
+        <div class="col-md-10">
+            <p class="intro pthumb">A simpler way to comply with standards for functional safety at the system level.</p>
+            <p class="intro pthumb">These SafeAssure<sup>®</sup> solutions reduce the time it takes to develop safety systems that comply with the International Standards Organization (ISO) 26262 and International Electrotechnical Commission (IEC) 61508 standard.</p>
+        </div>
+        <div class="col-md-2">
+            <img src="/assets/images/en/logos-internal/SAFETYPRGRM_TN.jpg" alt="SafeAssure Functional Safety Program" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            
+            <div id="pHB_bd" class="pull-right paddingleft15">
+                <div class="padMe5"></div>
+                    <a data-toggle="modal" data-target="#SFTYSRPRGRM_BD">
+                        <img alt="SafeAssure Program Thumbnail" src="/assets/images/en/block-diagrams/G5664_SFTYSRPRGRM_TN.jpg" style="width: 365px; height: 255px;" />
+                    </a>
+                <div class="pdtn"></div>
+            </div>
+            
+            <span class="h2">SafeAssure Program Features</span>
+            <ul class="boxes">
+                <li>Select MCUs, mixed-signal MCUs, processors, analog and power management ICs and sensors</li>
+                <li>Hardware safety concepts focused on detecting and mitigating random hardware failures using built-in safety features, including self-testing, monitoring and hardware-based redundancy</li>
+                <li>Software that works seamlessly with hardware for system-level functional safety goals</li>
+                <li>Support, including:
+                    <ul class="boxes2">
+                        <li>Customer-specific training</li>
+                        <li>System design reviews regarding functional safety architecture</li>
+                        <li>Safety documents</li>
+                        <li>Technical support</li>
+                        <li>SafeAssure product-specific safety documents, upon request</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>  
+
+    <div class="row">
+        <div class="col-md-12">
+            <p>This program supports the most stringent Safety Integrity Levels (SILs) and Automotive Safety Integrity Levels (ASILs) to help developers get to system compliance more easily.</p>
+            <p><a href='/about/about-nxp/technology-leadership/safeassure-functional-safety-program/functional-safety-for-iso-26262-and-iec-61508:FNCTNLSFTY'>Learn more about how we approach functional safety <span class="icon-angle-right"></span></a></p>
+        </div>
+    </div>
+    <div class="padMe5"></div><div class="padMe5"></div>
+         
+    <h2>Safe Assure Product Solutions Table</h2>
+    <div class="padMe5"></div>
+    <style type="text/css">.tbb th, .tbb td {border:1px solid #CCC!important}</style>
+
+<div id="safeAssure">
+    <table class="table table-bordered" style="table-layout:fixed;">
+        <thead>
+            <tr>
+                <th width="11%" filter-type="ddl">Target Market</th>
+                <th filter-type="ddl" width="13%">Product Type</th>
+                <th width="14%">Product</th>
+                <th width="20%">Target Applications</th>
+                <th width="10%">Development Process</th>
+                <th width="15%">Safety Hardware</th>
+                <th>Safety Software</th>
+                <th>Safety Support</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Automotive</td>
+                <td>Analog & Power Management</td>
+                <td><a href='/products/automotive-products/energy-power-management/engine-and-dc-motor-control/h-bridges/spi-programmable-10a-h-bridge-brushed-dc-motor-driver:HB2000'>HB2000</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Electronic Throttle Control</li>
+                        <li>Electronic Gas Recirculation</li>
+                        <li>Swirl Gas Flaps</li>
+                        <li>Turbocharger Flap Control</li>
+                        <li>Brushed DC Fan and Pumps</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture.</br> E.g. Two separate Enable/Disable, I/O withstands 36V, Redundant control via SPI and parallel inputs, Voltage and Temperature monitoring, Overvoltage protection, Short-circuit protection, Fail-Safe state indication and highly accurate real-time current feedback.</td>
+                <td>N/A</td>
+                <td>Safety Manual, Safety Analysis Report</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Analog & Power Management</td>
+                <td><a href='/products/automotive-products/energy-power-management/engine-and-dc-motor-control/h-bridges/spi-programmable-10a-h-bridge-brushed-dc-motor-driver:HB2001'>HB2001</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Electronic Throttle Control</li>
+                        <li>Electronic Gas Recirculation</li>
+                        <li>Swirl Gas Flaps</li>
+                        <li>Turbocharger Flap Control</li>
+                        <li>Brushed DC Fan and Pumps</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture.</br> E.g. Two separate Enable/Disable, I/O withstands 36V, Redundant control via SPI and parallel inputs, Voltage and Temperature monitoring, Overvoltage protection, Short-circuit protection, Fail-Safe state indication and highly accurate real-time current feedback.</td>
+                <td>N/A</td>
+                <td>Safety Manual, Safety Analysis Report</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Processors</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/arm-mcus-and-mpus/s32-processors-microcontrollers/s32v230-family-of-processors-for-advanced-driver-assistance-systems:S32V230'>S32V230</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='APLFVCAM:W'>-->Front View</li>
+                        <li><!--<a href='APLSRVCAM:W'>-->Reverse View</li>
+                        <li><!--<a href='APLVPASYS:W'>-->Surround View</li>
+                        <li>Data Fusion</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL B<br />Integrated Safety Architecture:<br />ECC, LBIST &amp; MBIST, replicated peripherals, clock and voltage monitoring, Memory protection, FCCU</td>
+                <td>Core Self Test<br />AUTOSAR MCAL</td>
+                <td>FMEDA<br />DFA<br />Safety Manual</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc57xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mpc577xk-mcu-for-automotive-adas-industrial-radar-applications:MPC577xK'>MPC577xK</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things/smart-mobility/77-ghz-radar-system:APLADDRAS'>-->77 GHz RADAR System</li>
+                        <li>Adaptive Cruise Control</li>
+                        <li><!--<a href='APLVPASYS :W'>-->Surround View Park Assist System</li>
+                        <li>Blind Spot Detection</li>
+                        <li>Cross Traffic Alert</li>
+                        <li>Autonomous Emergency Braking Systems</li>
+                        <li>Side Impact Assistance</li>
+                        <li>Sensor Fusion</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture:<br />Multicore delayed lockstep, e2e ECC, replicated peripherals, LBIST &amp; MBIST, FCCU</td>
+                <td>AUTOSAR MCAL<br />Structural Core Self Test</td>
+                <td>FMEDA<br />Safety Manual</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc57xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mcus-for-automotive-industrial-control-and-gateway:MPC574xB-C-G'>MPC574xB-C-D-G</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/battery-management:APLBTRMTRN'>-->Battery Management</li>
+                        <li><!--<a href='/pages/high-end-body-control-module:APLHEBDCTRLMDL'>-->High End Body Control Module</li>
+                        <li>Infotainment Gateway</li>
+                        <li><!--<a href='/pages/central-gateway-in-vehicle-networking:APLBDCR5'>-->Central Gateway / In-Vehicle Networking</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL B<br />Integrated Safety Architecture e.g.:<br />Multicore, e2eECC, LBIST &amp; MBIST, clock and under voltage monitoring, FCCU</td>
+                <td>&nbsp;</td>
+                <td>FMEDA<br />Safety Manual</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc57xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mpc5777m-mcu-for-automotive-industrial-engine-management:MPC5777M'>MPC5777M</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Direct Injection Engines</li>
+                        <li>Common Rail Diesel Injection Systems</li>
+                        <li>Electronically Controlled Transmissions</li>
+                        <li><!--<a href='/pages/diesel-engine-management:APLDENGMNG'>-->Diesel Engine Management</li>
+                        <li><!--<a href='/pages/gasoline-engine-management:APLENGINECONTROL'>-->Gasoline Engine Management</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture e.g.;<br />Dual core, delayed lockstep, e2eECC, replicated peripherals, LBIST &#38; MBIST, FCCU</td>
+                <td>&nbsp;</td>
+                <td>FMEDA<br />Safety Manual</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc57xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mpc574xp-mcu-for-automotive-industrial-safety-applications:MPC574xP'>MPC5744P</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/electric-power-steering-eps:APLELECPWRSTEERING'>-->Electric Power Steering (EPS)</li>
+                        <li><!--<a href='/pages/braking-and-stability-control:APLABS'>-->Braking and Stability Control</li>
+                        <li><!--<a href='/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things/smart-mobility/77-ghz-radar-system:APLADDRAS'>-->77 GHz RADAR System</li>
+                        <li>Safety Domain Control</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture e.g.;<br />Dual core, delayed lockstep, e2eECC, replicated peripherals, LBIST &#38; MBIST, FCCU</td>
+                <td>AUTOSAR MCAL</td>
+                <td>FMEDA<br /><a href="/assets/documents/data/en/reference-manuals/MPC5744PSM.pdf">Safety Manual</a></td>
+            </tr>
+            <tr >
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc56xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mpc567xk-mcu-for-automotive-industrial-radar-applications:MPC567xK'>MPC567xK</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things/smart-mobility/77-ghz-radar-system:APLADDRAS'>-->77 GHz RADAR System</li>
+                        <li><!--<a href='APLFVCAM:W'>-->Front View Camera</li>
+                    </ul>
+                <td>Quality Managed</td>
+                <td>Integrated Safety Architecture e.g.;<br />Dual core, lockstep or dual parallel processing, replicated peripherals, FCCU</td>
+                <td>e200Zx Core Self Test with Instruction Coverage Metric</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MPC5675KSM.pdf'>Safety Manual</a></td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc56xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-dual-core-32-bit-mcu-for-automotive-and-industrial-applications:MPC564xL'>MPC564xL</a></td>
+                <td>
+                <ul class="boxes">
+                    <li><!--<a href='/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things/smart-mobility/77-ghz-radar-system:APLADDRAS'>-->77 GHz RADAR System</li>
+                    <li><!--<a href='/pages/electric-power-steering-eps:APLELECPWRSTEERING'>-->Electric Power Steering (EPS)</li>
+                    <li><!--<a href='/pages/braking-and-stability-control:APLABS'>-->Braking and Stability Control</li>
+                </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture e.g.;<br />Dual core, lockstep or dual parallel processing, replicated peripherals, FCCU</td>
+                <td>e200Zx Core Self Test with Instruction Coverage Metric</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MPC5643LSM.pdf'>Safety Manual</a><br />System Level<br />Application Note</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/arm-mcus-and-mpus/s32-processors-microcontrollers/32-bit-automotive-general-purpose-microcontrollers:S32K'>S32K144</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href="/pages/chassis-and-safety:APLSAFETY">-->Body and Chassis Control</li>
+                        <li>Climate Control</li>
+                        <li><!--<a href="/pages/doors-window-lift-and-seat-control:APLDOOR_WINDOW_SEAT">-->Windows/Door/Dun Roof</li>
+                        <li><!--<a href="/pages/powertrain-and-hybrid-systems:APLPWTRCTRL">-->Powertrain Companion</li>
+                        <li>PMSM/BLDC Motor Control</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL B or higher Integrated Safety Architecture: ECC on Flash and RAM, peripheral diversity, Memory protection and voltage/clocks monitoring</td>
+                <td>Core Selft Test AUTOSAR MCAL</td>
+                <td>FMEDA DFA Safety Manual</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc56xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mpc560xp-mcu-for-automotive-industrial-safety-applications:MPC560xP'>MPC560xP</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Airbags</li>
+                        <li><!--<a href='/pages/electric-power-steering-eps:APLELECPWRSTEERING'>-->Electric Power Steering (EPS)</li></a>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>Single core, SEC/DED ECC, Clock Monitoring Unit, Low Voltage Detector, FCU</td>
+                <td>e200Zx Core Self Test with Instruction Coverage Metric</td>
+                <td>FMEDA<br />Safety Application Note</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Mixed-Signal Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/16-bit-s12-magniv/s12zvl-mixed-signal-mcu-for-automotive-industrial-lin-applications:S12ZVL'>S12 MagniV<sup>®</sup> S12ZVL</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>LIN User Interface</li>
+                        <li>LIN Sensors</li>
+                        <li>LIN Actuators</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL A<br />Voltage/clocks monitoring, Memories with ECC, Windowed Watchdog</td>        
+                <td>Core Self Test</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MC9S12ZVxSM.pdf'>Safety Manual</a></td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Mixed-Signal Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/16-bit-s12-magniv/s12zvc-mixed-signal-mcu-for-automotive-industrial-can-applications:S12ZVC'>S12 MagniV S12ZVC</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/heating-ventilation-and-air-conditioning-hvac:APLHVAC'>-->Heating Ventilation and Air Conditioning (HVAC)</li>
+                        <li><!--<a href='/pages/lighting:APLATILIGHTING'>-->Lighting</li>
+                        <li>Steering Wheel Controllers</li>
+                        <li>CAN Nodes</li>
+                        <li>CAN User Interface</li>
+                        <li>CAN Switch Panel</li>
+                        <li>Watchdog Controller for Chassis/Safety/Powertrain</li>
+                        <li>CAN Actuators, Sensors</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL A<br />Voltage/clocks monitoring, Memories with ECC, Windowed Watchdog</td>        
+                <td>Core Self Test</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MC9S12ZVxSM.pdf'>Safety Manual</a></td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Mixed-Signal Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/16-bit-s12-magniv/s12zvm-mixed-signal-mcu-for-automotive-industrial-motor-control-applications:S12ZVM'>S12 MagniV S12ZVM</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/heating-ventilation-and-air-conditioning-hvac:APLHVAC'>-->Heating Ventilation and Air Conditioning (HVAC)</li>
+                        <li>Automotive Electrical Fuel Pump</li>
+                        <li>Wiper Systems</li>
+                        <li>Engine Cooling Fan</li>
+                </td>
+                <td>Quality Managed</td>
+                <td>Voltage/clocks monitoring<br />Memories with ECC<br />Windowed Watchdog</td>
+                <td>Core Self Test</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MC9S12ZVxSM.pdf'>Safety Manual</a></td>
+            </tr>   
+            <tr>
+                <td>Automotive</td>
+                <td>Analog and Power Management</td>
+                <td><a href='/products/power-management/system-basis-chip/functional-system-basis-chips/safe-system-basis-chip-dc-dc-up-to-800-ma:MC33907'>MC33907</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/electric-power-steering-eps:APLELECPWRSTEERING'>-->Electric Power Steering (EPS)</li>
+                        <li>Safety critical motor control</li>
+                        <li>Vehicle dynamic and chassis control</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>
+                    Targets ASIL D<br />Integrated Safety Architecture e.g.;<br />
+                    Voltage Monitoring and Fail Safe state Machine (ABIST, LBIST), FCCU Monitoring for Dual Core Lock Step Mode, Several HW diagnostic to cover SPF, LT
+                </td>       
+                <td>&nbsp;</td>
+                <td><a href="/webapp/Download?colCode=MC33907_8SMUG">Safety Manual</a><br />FMEDA<br />System Level<br />Application Note</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Analog and Power Management</td>
+                <td><a href='/products/automotive-products/energy-power-management/system-basis-chip/functional-system-basis-chips/safe-system-basis-chip-with-buck-and-boost-dc-dc-up-to-1.5a-on-vcore:MC33908'>MC33908</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Integrated Chassis Domain</li>
+                        <li>Safety Critical Motor Control</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>
+                    Targets ASIL D<br />Integrated Safety Architecture e.g.;<br />
+                    Voltage Monitoring and Fail Safe state Machine (ABIST, LBIST), FCCU Monitoring for Dual Core Lock Step Mode, Several HW diagnostic to cover SPF, LT
+                </td>
+                <td>&nbsp;</td>
+                <td><a href="/webapp/Download?colCode=MC33907_8SMUG">Safety Manual</a><br />FMEDA<br />System Level<br />Application Note</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Analog and Power Management</td>
+                <td><a href='/products/automotive-products/energy-power-management/system-basis-chip/can-lin-system-basis-chips/in-vehicle-networks/airbag-power-supply-and-psi5-sensor-interface:MC33789'>MC33789</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/psi5-airbag-system:APLELSTC'>-->PSI5 Airbag System</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>4x PSI5 Host<br />
+                    Safing Block
+                </td>
+                <td>&nbsp;</td>
+                <td>Safety FMEA</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Analog and Power Management</td>
+                <td><a href='/products/automotive-products/energy-power-management/engine-and-dc-motor-control/h-bridges/h-bridge-brushed-dc-motor-driver-5-28v-5a-20khz:MC33926'>MC33926</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Throttle Control for Powertrain applications</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>Output state flag<br />Thermal Shutdown</td>
+                <td>&nbsp;</td>
+                <td>Safety FMEA</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Sensors</td>
+                <td><a href='/products/sensors/accelerometers/1-axis-accelerometers/dsi2.5-50g-to-312.5g-z-axis-medium-or-high-g-digital-inertial-sensor:MMA16xx'>MMA16xx</a><br /> and <a href='/products/sensors/accelerometers/1-axis-accelerometers/dsi2.5-25g-to-375g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA26xx'>MMA26xx</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/dsi-airbag-system:APLAIRBAGS'>-->Airbags, DSI2.5 Satellite</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>DSI2.5 safety bus<br />Triggered self test, Over-damped MEMS</td>
+                <td>&nbsp;</td>
+                <td>FTA</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Sensors</td>
+                <td><a href='/products/sensors/accelerometers/1-axis-accelerometers/dsi3-25g-to-375g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA27xxKW'>MMA17xx</a><br /> and <a href='/products/sensors/accelerometers/1-axis-accelerometers/dsi3-25g-to-375g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA27xxKW'>MMA27xx</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/dsi-airbag-system:APLAIRBAGS'>-->Airbags, DSI3.0 Satellite</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>DSI3.0 safety bus<br />Triggered self test, Over-damped MEMS</td>
+                <td>&nbsp;</td>
+                <td>FTA</td>
+            </tr>   
+            <tr>
+                <td>Automotive</td>
+                <td>Sensors</td>
+                <td><a href='/products/sensors/accelerometers/1-axis-accelerometers/psi5-60g-to-480g-z-axis-medium-or-high-g-digital-inertial-sensor:MMA51xxW'>MMA51xx</a><br /> and <a href='/products/sensors/accelerometers/1-axis-accelerometers/psi5-60g-to-480g-x-axis-medium-or-high-g-digital-inertial-sensor:MMA52xx'>MMA52xx</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/psi5-airbag-system:APLELSTC'>-->Airbags, PSI5 Satellite</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>PSI5 safety bus<br />Triggered self test, Over-damped MEMS</td>
+                <td>&nbsp;</td>
+                <td>FTA</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Sensors</td>
+                <td><a href='/products/sensors/accelerometers/2-axis-accelerometers/spi-80g-to-120g-xy-axis-medium-g-digital-inertial-sensor:MMA65xx'>MMA65xx</a><br /> and <a href='/products/sensors/accelerometers/2-axis-accelerometers/spi-20g-to-120g-xy-axis-medium-g-digital-inertial-sensor:MMA68xxKW'>MMA68xx</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/psi5-airbag-system:APLELSTC'>-->Airbags, Main ECU</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>SPI w/ CRC<br />Triggered self test, Over-damped MEMS</td>
+                <td>&nbsp;</td>
+                <td>FTA</td>
+            </tr>
+            <tr>
+                <td>Automotive</td>
+                <td>Sensors</td>
+                <td><a href='MMA690xQ:P'>MMA69xx</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li><!--<a href='/pages/braking-and-stability-control:APLABS'>-->Braking and Stability Control</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>SPI w/ CRC<br />Triggered self test, Over-damped MEMS</td>
+                <td>&nbsp;</td>
+                <td>FTA</td>
+            </tr>
+            <tr>
+                <td>Industrial</td>
+                <td>Microcontrollers</td>
+                <td height="50%"><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc56xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-dual-core-32-bit-mcu-for-automotive-and-industrial-applications:MPC564xL'>MPC564xL</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Aerospace</li>
+                        <li><!--<a href='/pages/i-o-control:APLIOCONT'>-->Input-Output Control (I/O Control)</li>
+                        <li><!--<a href='/pages/process-control-temperature-control:APLPRTEMCO'>-->Process Control, Temperature Control</li>
+                        <li><!--<a href='/pages/programmable-logic-control-plc:APLPROLOGC'>-->Programmable Logic Control (PLC)</li>
+                        <li>Motor Drivers</li>
+                        <li>Robotics</li>
+                        <li>Safety Shutdown Systems</li>
+                        <li><!--<a href='APLVENRES:W'>-->Ventilators and Respirators</li>
+                    </ul>
+                </td>
+                <td>ISO 26262</td>
+                <td>Targets ASIL D<br />Integrated Safety Architecture e.g.;<br />Dual core, lockstep or dual parallel processing, replicated peripherals, FCCU</td>
+                <td>e200Zx Core Self Test with Instruction Coverage Metric</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MPC5643LSM.pdf'>Safety Manual</a><br />System Level Application Note</td>
+            </tr>
+            <tr>
+                <td>Industrial</td>
+                <td>Microcontrollers</td>
+                <td><a href='/products/automotive-products/microcontrollers-and-processors/32-bit-power-architecture/ultra-reliable-mpc56xx-32-bit-automotive-industrial-microcontrollers-mcus/ultra-reliable-mpc567xk-mcu-for-automotive-industrial-radar-applications:MPC567xK'>MPC567xK</a></td>
+                <td>
+                    <ul class="boxes">
+                        <li>Aerospace</li>
+                        <li><!--<a href='/pages/i-o-control:APLIOCONT'>-->Input-Output Control (I/O Control)</li>
+                        <li><!--<a href='/pages/process-control-temperature-control:APLPRTEMCO'>-->Process Control, Temperature Control</li>
+                        <li><!--<a href='/pages/programmable-logic-control-plc:APLPROLOGC'>-->Programmable Logic Control (PLC)</li>
+                        <li>Motor Drivers</li>
+                        <li>Robotics</li>
+                        <li>Safety Shutdown Systems</li>
+                        <li><!--<a href='APLVENRES:W'>-->Ventilators and Respirators</li>
+                    </ul>
+                </td>
+                <td>Quality Managed</td>
+                <td>Integrated Safety Architecture e.g.; Dual core, lockstep or dual parallel processing, replicated peripherals, FCCU</td>
+                <td>e200Zx Core Self Test with Instruction Coverage Metric</td>
+                <td>FMEDA<br /><a href='/assets/documents/data/en/user-guides/MPC5675KSM.pdf'>Safety Manual</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="iu-container">  
+    <div class="iu">
+        <h2>Training &amp; Events</h2>
+        <ul>
+            <li><strong>On-Demand Training</strong>
+                <ul class="boxes">
+                    <li><a href="/webapp/Download?colCode=NXP FTF-AUT-F0411">Introduction to the SafeAssure Kit for Industrial Functional Safety Applications</a></li>
+                    <li><a href="/webapp/Download?colCode=NXP FTF-AUT-F0009">Functional Safety Compliance Throughout the Vehicle with SafeAssure Solutions</a></li>
+                    <li><a href="/webapp/Download?colCode=NXP FTF-AUT-F0350">Safety Implementation For System Basis Chips (SBCs)</a></li>
+                    <li><a  data-toggle="modal" data-target="#ON-DEMAND-NXP"rel="nofollow">View all</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <div class="iu">
+        <h2>ISO 26262 Standard</h2>
+        <ul>
+        
+        <li class="clearfix">                   
+            <img alt="MC33907 and MC33908 are first SBCs to receive ISO 26262 compliant assessment" style="border:0;" src='/assets/images/en/logos-internal/SAFEASSURE_68X74.jpg' class="thumb" width="68"/>
+            <p class="thumbp">MC33907 and MC33908 are first SBC’s to receive ISO 26262 compliant Technical report assessment (Report no. FT77361aT). For details on the technical report <a href="/support/sales-and-support:SUPPORTHOME">contact your NXP representative.</a></p>
+        </li>       
+        
+        <li class="clearfix">       
+                <a href='/assets/documents/data/en/supporting-information/C26262_MPC5643L.pdf'><img alt="ISO 26262 certificate for" src='' class="thumb" width="68"/></a>
+                <p class="thumbp"><a href='/assets/documents/data/en/supporting-information/C26262_MPC5643L.pdf'>MPC5643L MCU</a> <span class="icon-file-pdf"></span><br /><a href="http://otp.investis.com/clients/us/free_scale/usn/usnews-story.aspx?cid=896&amp;newsid=17099">First auto MCU</a> with ISO 26262 certificate for ASIL D</p>
+            </li>           
+        </ul>
+    </div>
+    
+    <div class="iu">
+        <h2>Featured Video</h2>
+            <div class="iu-large-video clearfix">
+                <div class="video-inner-n">
+                    <a class='FSLvideo' data-video='FAULT-MANAGEMENT-WEBINAR' data-title='Fault Management Webinar'>
+                        <img height="51px" border="0" align="left" width="68px" src="http://cache.nxp.com/videos/poster/FAULT-MANAGEMENT-WEBINAR.jpg" alt="" class="thumb-v-n"/>
+                    </a>
+                    <div class="play-video-n">
+                        <a class='FSLvideo' data-video='FAULT-MANAGEMENT-WEBINAR' data-title='Fault Management Webinar'></a>
+                    </div>
+                </div>
+                <div class="thumbp">
+                    <a class='FSLvideo' data-video='FAULT-MANAGEMENT-WEBINAR' data-title='Fault Management Webinar'>Fault Management Webinar</a>
+                    (04:10 min)
+                </div>
+            </div>  
+            <div class="iu-large-video clearfix">               
+                    <div class="video-inner-n">
+                          <a class="FSLvideo" data-video="NXP FTF2014_SAKITFUNCTSAESDS_VID" data-title="SafeAssure Kit for Industrial Functional Safety Applications - ESD System">
+                            <img src="http://cache.nxp.com/videos/thumbnail/FTF2014_SAKITFUNCTSAESDS_VID.jpg" alt="SafeAssure Kit for Industrial Functional Safety Applications - ESD System" class="thumb-v-n" alt="NXP FTF2014_SAKITFUNCTSAESDS_VID" /></a>
+                        <div class="play-video-n">
+                        <a class="FSLvideo" data-video="NXP FTF2014_SAKITFUNCTSAESDS_VID" data-title="SafeAssure Kit for Industrial Functional Safety Applications - ESD System"></a>
+                        </div>
+                    </div>                  
+                    <div class="thumbp">
+                            <a class="FSLvideo" data-video="NXP FTF2014_SAKITFUNCTSAESDS_VID" data-title= "SafeAssure Kit for Industrial Functional Safety Applications - ESD System">SafeAssure Kit for Industrial Functional Safety Applications - ESD System</a>
+                            (02:12 min)
+                        <div class="bkflt"></div>           
+                    </div>
+            </div>
+            <div class="iu-large-video clearfix">               
+                    <div class="video-inner-n">
+                          <a class="FSLvideo" data-video="NXP FTF2014_PSQMCUSBC_VID" data-title="Predictive Safety with MPC5xxx MCU and MC33907/8 System Basis Chip (SBC)">
+                            <img src="http://cache.nxp.com/videos/thumbnail/FTF2014_PSQMCUSBC_VID.jpg" alt="Predictive Safety with MPC5xxx MCU and MC33907/8 System Basis Chip (SBC)" class="thumb-v-n" /></a>
+                        <div class="play-video-n">
+                        <a class="FSLvideo" data-video="NXP FTF2014_PSQMCUSBC_VID" data-title="Predictive Safety with MPC5xxx MCU and MC33907/8 System Basis Chip (SBC)"></a>
+                        </div>
+                    </div>                  
+                    <div class="thumbp">
+                            <a class="FSLvideo" data-video="NXP FTF2014_PSQMCUSBC_VID" data-title= "Predictive Safety with MPC5xxx MCU and MC33907/8 System Basis Chip (SBC)">Predictive Safety with MPC5xxx MCU and MC33907/8 System Basis Chip (SBC)</a>
+                            (05:36 min)
+                        <div class="bkflt"></div>           
+                    </div>
+            </div>
+            <ul>
+            <li><a href="/webapp/video_vault/videoSummary.sp?searchLabel=renderSearchPage&amp;q=SAfe" target="_blank">View all</a></li>
+            </ul>
+    </div>
+    
+</div>
+</div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="ON-DEMAND-NXP" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">On-Demand Training</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="boxes">          
+                    <li><a href='/files/training_pdf/TP_ISFM3.pdf?'>Software for SafeAssure</a></li>
+                    <li><a href='1254764282099733317549:T'>MPC564xL Safety Demonstration &#8211; Fault Detection</a></li>
+                    <li><a href='1276006747157705322767:T'>Addressing Safety Standard Requirements for IEC 61508 (SIL3) and ISO 26262 (ASIL&#45;D) with the NXP MPC5643L</a></li>
+                </ul>   
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="SFTYSRPRGRM_BD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h4 class="modal-title" id="myModalLabel"></h4></div><div class="modal-body">
+
+ 
+
+<div id="bd_cont">
+
+<!-- the source of this image is the "pop-up" version of the thumbnail on the ASP -->
+<img id="bd_one" src="/files/graphic/block_diagram/G5664_SFTYSRPRGRM_BD.jpg" width="715" height="480" border="0" alt="SafeAssure Program Block Diagram">
+
+<!-- the aplinks work the same as "areas" in an image map, 
+			but in addition the color changes on hover - -
+			IE6 cannot read the :hover pseudo-element of CSS except a:hover, 
+			therefore we have to change absolute-positioned divs into a-links 
+			in order to get the requested look and behavior (color change) -->		
+<div id="aplinks">
+	<a title="Functional Safety Standards" href="#one" rel="#one" class="local" style="left: 210px; top: 35px; height: 35px; width: 295px;"></a>
+	<a title="Safety Support" href="#two" rel="#two" class="local" style="left: 310px; top: 140px; height: 65px; width: 95px;"></a>
+	<a title="Safety Hardware" href="#three" rel="#three" class="local" style="left: 230px; top: 219px; height: 80px; width: 90px;"></a>
+	<a title="Safety Software" href="#four" rel="#four" class="local" style="left: 395px; top: 219px; height: 80px; width: 90px;"></a>
+	<a title="Safety Process" href="#five" rel="#five" class="local" style="left: 310px; top: 310px; height: 60px; width: 95px;"></a>
+	<a title="NXP<sup>®</sup> Quality Foundation" href="#six" rel="#six" class="local" style="left: 210px; top: 440px; height: 35px; width: 295px;"></a>	
+</div>
+<!-- title - - IMPORTANT! this is what appears as the title of the rollover
+			href - - this is an anchor tag, basically - - 
+			rel - - this is the hook used by the script to fetch the rollover content
+			class - - this tells the script to look only on this page for the content
+			style - - this is all of the absolute positioning information -->
+
+
+<!-- this "key" contains the rollover content - - 
+			making a key helps users who want to print out the block diagram,
+			when used with a print stylesheet -->			
+<div id="key">
+
+<!-- Give the key the same title as the found in the page title -->
+	<h3>SafeAssure Program</h3>
+
+	<ol>
+
+<!-- the number of list items = the number of rollovers -->
+		<li id="one">
+		<a name="one"></a>
+<!-- this h4 will be hidden on the Web, but is needed for printing -->
+			<h4>Functional Safety Standards</h4>
+			<ul>
+				<li><strong>ISO 26262</strong><br>
+        Automotive Industry standard, adaptation of IEC 61508 for electrical / electronic systems within road vehicles<br><br>
+        
+        Integrity levels<br>
+        ASIL-A, ASIL-B, ASIL-C, ASIL-D<br><br> 
+        
+        Publication date<br>
+        Target end 2011
+        </li>
+        <li><strong>IEC 61508</strong><br> 
+        Generic Industry standard, applicable to electrical / electronic / programmable electronic safety-related systems.<br><br> 
+        
+        Integrity levels<br>
+        SIL 1, SIL 2, SIL 3, SIL 4<br><br>
+        
+        Publication date<br>
+        More than 10 years ago
+        </li>
+
+      </ul>
+			
+		</li><!-- end of one rollover -->
+
+		
+		<li id="two">
+		<a name="two"></a>
+<!-- this h4 will be hidden on the Web, but is needed for printing -->
+			<h4>Safety Support</h4>
+			<ul>
+			<li><strong>Documentation</strong><br>
+      Safety Application Notes<br>
+      Safety Manual<br>
+      FMEA / FMEDA<br>
+      </li>
+      <li><strong>People</strong><br>
+      Regional functional safety experts
+      </li>			
+			</ul>
+		
+		</li><!-- end of two rollover -->
+
+		
+		<li id="three">
+		<a name="three"></a>
+<!-- this h4 will be hidden on the Web, but is needed for printing -->
+			<h4>Safety Hardware</h4>
+			<ul>
+				<li><strong>Microcontrollers</strong><br>
+        Lockstep Cores<br>
+        ECC on Memories<br>
+        Redundant Functions<br>
+        Internal Monitors<br>
+        Built In Self Test<br>
+        Fault Collection &amp; Control
+        </li>
+        
+        <li><strong>Analog and Power Management</strong><br>
+        Voltage Monitors<br>
+        External Error Monitor<br>
+        Advanced Watchdog<br>
+        Built In Self Test
+        </li>
+        
+        <li><strong>Sensors</strong><br>
+        Timing Checker<br>
+        Digital Scan of Signal Chains<br>
+        DSI3 or PSI5 Safety Data links
+        </li>
+			</ul>
+		
+		</li><!-- end of three rollover -->
+		
+		<li id="four">
+		<a name="four"></a>
+<!-- this h4 will be hidden on the Web, but is needed for printing -->
+			<h4>Safety Software</h4>
+			<ul>            
+				<li><strong>Automotive Software</strong><br>
+        AUTOSAR OS &amp; MCAL<br>
+        Core Self Test<br>
+        Device Self Test<br>        
+        Complex Drivers
+        </li>
+        
+        <li><strong>Software Partnerships</strong><br>
+        Partnering with leading third-party software providers to offer additional safety software solutions for automotive and industrial
+        </li>
+			</ul>
+		
+		</li><!-- end of three rollover -->
+    
+		<li id="five">
+		<a name="five"></a>
+<!-- this h4 will be hidden on the Web, but is needed for printing -->
+			<h4>Safety Process</h4>
+			<ul>
+				<li><strong>Organization</strong><br>
+        Safety is an integral part of the NXP world wide organization<br>
+        
+        <strong>Project Management</strong><br>
+        Configuration &amp; Change Management<br>
+        Quality Management<br>
+        Requirements Management<br>
+        Architecture &amp; Design<br>
+        Verification &amp; Validation<br>
+        </li>
+        <li><strong>Safety Analysis</strong><br>
+        Selected products defined and designed from the ground up with safety analysis being done at each step of the process<br>
+        
+        <strong>Assessments / Audits</strong><br>
+        Safety Confirmation Measures
+        </li>
+			</ul>
+		
+		</li><!-- end of three rollover -->
+    
+		<li id="six">
+		<a name="six"></a>
+<!-- this h4 will be hidden on the Web, but is needed for printing -->
+			<h4>NXP Quality Foundation</h4>
+			<ul>
+
+				<li><strong>Quality Management</strong><br>
+        ISO TS 16949 Certified Quality Management System<br>
+        Hardware - Zero Defects<br>
+        Software - SPICE Level 3
+        </li>
+        <li><strong>Continuous Improvement</strong><br>
+        Process evaluation, assessments / audits and gap-analysis exist to ensure processes are continually optimized
+        </li>
+			</ul>
+		
+		</li><!-- end of three rollover -->        		
+	
+	</ol><!-- end of all the rollovers -->
+</div><!-- end of the key -->
+
+
+</div><!-- bd_cont -->
+
+
+</div><div class="modal-footer"><button type="button" class="btn" data-dismiss="modal">Close</button></div></div></div>
+</div><!--ls:end[component-1473770942759]--> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b0"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b1"> 
+  <div class="iw_columns col-lg-12" id="colit1h61b2"> 
+   <div class="iw_component" id="iw_comp1473770942747">
+     <footer>
+    <!--  default footer -->
+    <div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                ABOUT NXP
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        Investors
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/webapp/connect/memberDirSearch.sp">
+                        Partners
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/about/careers-at-nxp:CAREERS">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                RESOURCES
+            </h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://www.nxp.com/about/nxp-mobile-applications:MOBILE">
+                        Mobile Apps
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.nxp.com">
+                        Press, News, Blogs
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/pages/contact-us:CONTACTUS">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                FOLLOW US
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+                <li class="twitter">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://twitter.com/NXP" target="_blank" title="Follow NXP on Twitter">
+                        <span class="icon-twitter22">
+                        </span>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="Follow NXP on Linked In">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://www.facebook.com/NXPsemi" target="_blank" title="Follow NXP on Facebook">
+                        <span class="icon-facebook">
+                        </span>
+                    </a>
+                </li>
+                <!--li class="youtube"><a href="https://www.youtube.com/nxpsemiconductors" title="Follow NXP on Youtube" target="_blank" data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US"><span class="icon-youtube-square2"></span></a></li-->
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center" target="_blank" title="Subscription Center">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            NEWS
+                        </h5>
+                        <p>
+                            NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-NewsCorporate" target="_blank">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/about/privacy:PRIVACYPRACTICES">
+                        Privacy
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/terms-of-use:TERMSOFUSE">
+                        Terms of Use
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        Terms of Sale
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        Feedback
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6">
+                &copy;2006-2017 NXP Semiconductors. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>

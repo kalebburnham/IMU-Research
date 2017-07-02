@@ -1,0 +1,1583 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>NXP Technology Days|NXP</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="NXP<sup>®</sup> Technology Days provide tailored live training to embedded engineers on a broad range of solutions. Available in convenient locations globally, with more than 250 seminars offered globally, you can find the right training you need in a city near you." />
+	<meta name="Keywords" content="NXP<sup>®</sup> technology days; NXP tech days; NXP technology days; NXP tech days; designing with NXP<sup>®</sup>, DWF" />
+	<meta name="ModifiedDate" content="2016-10-04 22:39:06" />
+	<meta property="OG:Type" content="" />
+	<meta property="OG:URL" content="" />
+	<meta property="OG:Title" content="" />
+	<meta property="OG:Image" content="" />
+	<meta name="templateType" content="overview" />
+	<meta name="Asset_Type" content="Webpages" />
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/lsds/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:begin[custom-meta-data]-->
+<meta name="sectionalnav" content="Enabled">
+<meta name="template" content="Tmp-HLP-Static">
+<meta name="testtag" content="content for tag">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--ls:end[custom-meta-data]-->
+<meta name="vpath" content="">
+<meta name="page-locale-name" content="">
+<!--ls:begin[script]-->
+<script type="text/javascript" src="/lsds/resources/scripts/jquery.min3.1.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/bootstrap.min.3.3.7.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/jquery.mmenu.all.min.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[script]--><script type="text/javascript" src="/lsds/resources/scripts/analytics/webanalytics.js" data-tg-desktop_or_tablet_or_phone="show"></script>
+<!--ls:end[script]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/lsds/resources/css/nxp-web.min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<link data-tg-desktop_or_tablet_or_phone="show" rel="stylesheet" href="/resources/css/nxp_containers.css" type="text/css">
+<link rel="canonical" href="http://www.nxp.com/support/training-events/nxp-technology-days:NXP-TECH-DAYS"/>
+<script src="//assets.adobedtm.com/f2bd0c145f764c0e7b6dae5f9269061e38fabacd/satelliteLib-2fb7098ae4e0938976f1eee822973607d3f48c60.js" type="text/javascript"></script>
+</head>
+<body>
+<!--ls:begin[body]--><script type="text/javascript">
+	var s_site_platform = "normal";
+	var LANG_CD_LIST = "zh-Hans,ja,ko,cn,jp,kr";
+	var URL_DOMAIN = "www.nxp.com";
+	var URL_MAJOR_DOMAIN= "null";
+ var CACHE_URL_DOMAINS = ["cache.nxp.com", "www.nxp.com", "www.nxp.com"];
+	var s_vt_id  = getCookieForSiteCatalyst("freescale_visitor_id");
+var s_normal_site ="normal";
+	if(s_site_platform == s_normal_site) {
+		s_site_platform = "full";
+	}	var s_do_pagecall = true;
+		var s_searchQryTxt = "";
+	var s_searchResultCnt = "";
+		var s_searchFilter = "";
+			if(s_searchResultCnt == '' || s_searchResultCnt == "0"){
+		s_searchResultCnt = "zero";
+	}
+	var s_currentUrl = document.URL;
+	var searchLabel = null;
+	var code = null;
+	var type = null;
+	var nodeId = null;
+	var partnerId = null;
+	var partNumber = null;
+var partNumber1 = null;
+var packageId = null;
+var orderablePartNum = null;
+var yid = null;
+var pageLoadRule  = "";
+var sourceType  = "";
+	var  pageCategory = "OVERVIEW";
+	var summaryPageType  = "";
+	var sourceId  = "";
+	var digitalData={};
+	digitalData.pageInfo = {};
+pageLoadRule = pageLoadRule == "" ? "General":pageLoadRule;s_currentUrl = getCleanPageURL();
+if(searchLabel != null) s_currentUrl = s_currentUrl +'?searchLabel=' + searchLabel;
+if(partnerId != null) s_currentUrl = s_currentUrl +'?partnerId=' + partnerId;
+if(partNumber != null) s_currentUrl = s_currentUrl +'?PART_NUMBER=' + partNumber;
+if(partNumber1 != null) s_currentUrl = s_currentUrl +'?partnumber=' + partNumber1;
+if(packageId != null) s_currentUrl = s_currentUrl +'?packageId=' + packageId;
+if(orderablePartNum != null) s_currentUrl = s_currentUrl +'?orderablePartNum=' + orderablePartNum;
+ digitalData.pageInfo.pageLoadRule=pageLoadRule;
+digitalData.pageInfo.pageName ="General:NXP Technology Days Seminars | NXP-TECH-DAYS";
+digitalData.pageInfo.pageURLClean = s_currentUrl;
+digitalData.pageInfo.pageType ="General";
+	digitalData.pageInfo.siteSection1 = "Design Resources";
+	digitalData.pageInfo.siteSection2 = "Classroom Training & Events";
+	digitalData.pageInfo.siteSection3 = "NXP Technology Days Seminars";
+var eventPathing = "";
+var eVar57 = "";
+eventPathing = "D=pageName";
+if (typeof(eVar57) != "undefined" && eVar57.indexOf("Rich Media Component") != -1) {
+eventPathing = eVar57;
+}
+ digitalData.pageInfo.pageEventPathing = eventPathing;
+digitalData.pageInfo.summaryPageType ="";
+digitalData.pageInfo.pageTab = "";
+digitalData.pageInfo.nodeID = "0ST2F983BA8";	
+digitalData.pageInfo.assetID = "1205772478103727543BA8";
+digitalData.pageInfo.localTitle="NXP<sup>®</sup> Technology Days";
+digitalData.pageInfo.pageCodeID = "NXP-TECH-DAYS"
+digitalData.pageInfo.pageTemplateType = "Overview";
+digitalData.pageInfo.pageCategory = pageCategory;
+digitalData.pageInfo.sourceId = sourceId;
+digitalData.pageInfo.sourceType= "";
+if(pageCategory == "PSP" && sourceId != "")
+ digitalData.pageInfo.sourceType = sourceType;
+var s_contentFinder = getContentFinding(document.referrer, document.URL);
+digitalData.pageInfo.contentFinding = s_contentFinder;
+digitalData.userInfo = {};
+digitalData.userInfo.fslVisitorID = s_vt_id;
+digitalData.siteInfo = {};
+digitalData.siteInfo.sitePlatform = s_site_platform;
+digitalData.siteInfo.lang = "en";
+</script><input id="recordHistoryTime" type="hidden" name="recordHistroryTime" value="10"/>
+<input id="recordHistoryCommand" type="hidden" name="recordHistroryCommand" value="BROWSE_WEBPAGE"/>
+<input id="pageNodeId" type="hidden" name="pageNodeId" value="0ST2F983BA8"/>
+<input id="pageType" type="hidden" name="pageType" value=""/>
+<input id="recrdHistDwnlodComnd" type="hidden" name="recrdHistDwnlodComnd" value="DOWNLOAD"/>
+<input id="webActivityParentID" type="hidden" name="webActivityParentID" value="null"/>
+<input id="webActivityParentType" type="hidden" name="webActivityParentType" value="null"/>
+<input id="webActivityAssetType" type="hidden" name="webActivityParentType" value="webpage"/>
+<input id="recordActivityCommand" type="hidden" name="recordActivityCommand" value="RECORD_WEB_ACTIVITY"/>
+<input id="webActivityAssetID" type="hidden" name="webActivityAssetID" value="1205772478103727543BA8"/>
+<input id="sechighlight" type="hidden" name="sechighlight" value="trainingmenu"/>
+<div class="iw_viewport-wrapper nxp-wrapper"><div class="container-fluid iw_section" id="sectionit1h61aw"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61ax"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ay"> 
+   <div class="iw_component" id="iw_comp1473770942743">
+     <header>
+<!-- default header -->
+
+
+<div id="header" class="nxp-nav">
+   <div class="container">
+      <div class="row" id="top">
+         <div class="col-xs-4">
+            <div id="site-logo"><a href="//www.nxp.com" title="NXP Semiconductor"><img src="//www.nxp.com/resources/images/nxp-logo.svg" onerror="this.src='http://image.nxp.com/files/graphic/logo_external/NXP_logo.png'" alt="NXP logo"></a></div>
+         </div>
+         <div class="col-xs-8 pull-right">
+            <ul class="list-inline pull-right" id="top-nav">
+               <li>
+                  <div class="dropdown" id="login-block"><a href="//www.nxp.com/security/public/login.LoginActionController.sp" onclick="call_pbar_metrics('pb_login')"><span class="icon-para-reset spin-icon"></span></a></div>
+               </li>
+               <li>
+                  <div class="dropdown" id="languages">
+                     <a href="#" id="languageDropdownMenu" data-toggle="dropdown"><span class="icon-globe2 nxp-blue-text"></span><span class="currentSiteLang"><span>EN</span><span>English</span></span><span class="icon-arrow-down2"></span></a>
+                     <ul id="language-actions" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="languageDropdownMenu">
+                        <li role="presentation" class="select-lang">Select language</li>
+                        <li role="presentation"><a role="menuitem" class="lang-en selected"><span class="icon-earth2 pull-left"></span><span class="icon-checkmark3 fsl-orange-text pull-right"></span>English</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-zh" href="//www.nxp.com/cn"><span class="flag flag-zh pull-left"></span>中文</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ja" href="//www.nxp.com/jp"><span class="flag flag-ja pull-left"></span>日本語</a></li>
+                        <li role="presentation"><a role="menuitem" class="lang-ko" href="//www.nxp.com/kr"><span class="flag flag-ko pull-left"></span>한국어</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li>
+                  <div id="shopping-cart" class="shoppingCartNav"><a href="//www.nxp.com/webapp/ecommerce.show_cart.framework"><span class="icon-cart nxp-green-text"></span><span class="shoppingCartNav-label">Cart</span></a></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-sm-8 pull-right" id="search-block">
+            <div class="input-group pull-right" id="search-input">
+               <form id="search" class="search-form" name="gs" method="GET" action="/lsds/en/high-level-pages/products/mcus-and-mpus/KINETIS.page?submit=true&amp;componentID=1473770942743" onSubmit="return validateSubmitQuery(this);">
+                  <div class="sf-row">
+                     <div class="input-group-btn zIndex5" id="search-all">
+                        <button type="button" class="btn btn-default dropdown-toggle everything" data-toggle="dropdown" tabindex="-1"><span id="Default-choice-list">ALL &nbsp;</span><span class="icon-arrow-down2"></span></button>
+                        <ul id="search-choices" class="dropdown-menu" role="menu">
+                           <li id="All"name="nxp_search_all_results" style="display: none;"><a><span class="icon-globe"></span>&nbsp;&nbsp;All</a></li>
+                           <li id="Products"name="nxp_search_products"><a><span class="icon-part"></span>&nbsp;&nbsp;Products</a></li>
+                           <li id="Documents"name="nxp_search_documents"><a><span class="icon-document"></span>&nbsp;&nbsp;Documents</a></li>
+                           <li id="SoftwareTools"name="nxp_search_sw_tools"><a><span class="icon-tools"></span>&nbsp;&nbsp;Software &amp; Tools</a></li>
+                           <li id="Support"name="nxp_search_support"><a><span class="icon-question6"></span>&nbsp;&nbsp;Support</a></li>
+                           <li id="Applications"name="nxp_search_applications"><a><span class="icon-tree3"></span>&nbsp;&nbsp;Applications</a></li>
+                           <li id="Videos"name="nxp_search_videos"><a><span class="icon-film"></span>&nbsp;&nbsp;Videos</a></li>
+                           <li id="Trainings"name="nxp_search_training"><a><span class="icon-graduation"></span>&nbsp;&nbsp;Training</a></li>
+                           <li id="Community"name="nxp_search_community"><a><span class="icon-bubbles"></span>&nbsp;&nbsp;Community</a></li>
+                           <li id="Blogs"name="nxp_search_blogs"><a><span class="icon-bubble11"></span>&nbsp;&nbsp;Blogs</a></li>
+                           <li id="Partners"name="nxp_search_partner"><a><span class="icon-user7"></span>&nbsp;&nbsp;Partners</a></li>
+                           <li id="CrossReference" name="CrossReference"><a ><span class="icon-shuffle2"></span>&nbsp;&nbsp;Cross Reference</a></li>
+                           <li id="PackageSearch" name="PackageSearch"><a style="cursor:pointer"><span class="icon-key-keyboard"></span>&nbsp;&nbsp;Package Search</a></li>
+                           <li id="ChemicalFinder" name="ChemicalFinder"><a style="cursor:pointer"><span class="icon-leaf2"></span>&nbsp;&nbsp;Chemical Finder</a></li>
+                           <li id="ProductSelector" name="ProductSelector"><a ><span class="icon-equalizer"></span>&nbsp;&nbsp;Product Selector</a></li>
+                        </ul>
+                     </div>
+                     <input type="text" value="" autocomplete="off" onkeyup=" searchTop(event)" id="parts" name="q" placeholder="Search..." class="form-control" />
+                     <table style="visibility: hidden;" id="result_suggest" cellpadding="0" cellspacing="0" class="ss-gac-m"></table>
+                     <div class="input-group-btn " id="keyword-button-div"><button style="cursor:pointer" type="submit" class="btn btn-default search-submit"><span class="icon-search2 fsl-gray-text"></span></button><input id="client" name="client" value="nxp_search_all_results" type="hidden"><input id="site" name="site" value="nxp_en" type="hidden"><input id="proxystylesheet" name="proxystylesheet" value="nxp_search_style_fe" type="hidden"><input id="sort" name="sort" value="date:D:L:d1" type="hidden"><input id="oe" name="oe" value="UTF-8" type="hidden"><input id="ie" name="ie" value="UTF-8" type="hidden"><input id="ud" name="ud" value="1" type="hidden"><input id="output" name="output" value="xml_no_dtd" type="hidden"><input id="exclude_apps" name="exclude_apps" value="1" type="hidden"><input id="callback" name="callback" value="ss_show" type="hidden"><input id="lang_cd" name="lang_cd" value="en" type="hidden"><input id="filter" name="filter" value="0" type="hidden"><input id="getfields" name="getfields" value="*" type="hidden"><input type="hidden" name="baseUrl" value="http://www.nxp.com/webapp"><input type="hidden" name="SEARCH_OPERATOR" value="Contains"><input type="hidden" name="attempt" value="-1"><input type="hidden" name="rc" value="1"><input type="hidden" name="hl" value="en"><input id="dnavs" name="dnavs" type="hidden"></div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default megamenu">
+      <div class="navbar-header"><a href="#nxp-mobile-nav" id="hamburger" class="navbar-toggle"><span class="top-bar"></span><span class="middle-bar"></span><span class="bottom-bar"></span><span class="mobile-nav-label">Menu</span></a></div>
+      <div class="container">
+         <div id="navbar-collapse-fsl" class="navbar-collapse collapse">
+            <div class="navbar-center">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown megamenu-fw productsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/products/products:PCPRODCAT">PRODUCTS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="PRODUCTS">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/arm-processors:ARM-ARCHITECTURE">ARM<sup>&reg;</sup>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/arm-processors/kinetis-cortex-m:KINETIS">Kinetis Cortex&reg;-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/lpc-arm-cortex-m-mcus:LPC-ARM-CORTEX-M-MCUS ">LPC Cortex-M Microcontrollers</a></li>
+                                 <li><a href="//www.nxp.com/products/arm-processors/i.mx-applications-processors-based-on-arm-cores:IMX_HOME">i.MX Applications Processors</a></li>
+                                 <li><a href="//www.nxp.com/products/microcontrollers-and-processors/arm-processors/qoriq-arm-processors:QORIQ-ARM">QorIQ ARM-based SoCs</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/power-architecture-processors:POWER-ARCHITECTURE">POWER ARCHITECTURE<sup>&reg;</sup><br/>PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/more-processors:MORE-PROCESSORS">MORE PROCESSORS<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/zidentification-and-security-beta:MC_53420 ">IDENTIFICATION & SECURITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/smart-card-ics/mifare-ics:MC_53422">MIFARE</a></li>
+                                 <li><a href="//www.nxp.com/products/identification-and-security/nfc-and-reader-ics:MC_71110">NFC</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/interfaces:WIRED-CONNECTIVITY">INTERFACE<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/interfaces/ic-bus-portfolio:MC_41735">I<sup>2</sup>C</a></li>
+                                 <li><a href="//www.nxp.com/products/interfaces/usb-interfaces/usb-type-c-true-plugn-play:USB-TYPE-C">USB Type-C</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/products/media-and-audio-processing:MEDIA-AND-AUDIO-PROCESSING">MEDIA AND AUDIO PROCESSING<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/power-management:POWER-MANAGEMENT">POWER MANAGEMENT<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/rf:RF_HOME">RF<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/sensors:SNSHOME">SENSORS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/signal-chain:INTERFACE-SYSTEM-MANAGEMENT">SIGNAL CHAIN AND MEMORY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/products/wireless-connectivity:WIRELESS-CONNECTIVITY">WIRELESS CONNECTIVITY<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/products/automotive-products:MC_50802">AUTOMOTIVE PRODUCTS<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/products/analog-power-management/advanced-automotive-safety/automotive-radar:MITERWAVEICS ">Automotive Radar</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/identification-and-security:IDENTIFICATION-SECURITY-AUTO ">Car Access & Immobilizers</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/in-vehicle-network:WIRED-CONNECTIVITY-AUTO ">In-Vehicle Network</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/media-and-audio-processing/multi-standard-digital-radio:MC_53738 ">Multi Standard Digital Radio</a></li>
+                                 <li><a href="//www.nxp.com/products/automotive-products/microcontrollers-and-processors:MICROCONTROLLERS-PROCESSORS-AUTO ">S12 & S32 MCUs/MPUs</a></li>
+                                 <!--li><a href="//www.nxp.com/products/more-processors/16-bit-mcus/s12-magni-mixed-signal-mcusmagniv:S12MAGNIVMCU?cof=0&am=0">S12 MagniV Microcontroller</a></li><li><a href="//www.nxp.com/products/arm-processors/s32-processors-and-microcontrollers:S32V200">S32 MCUs/MPUs</a></li-->
+                                 <hr/>
+                                 <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME">NXP DESIGNS:<br>REFERENCE DESIGN LIBRARY<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/tools/embedded-software-and-tools:DEVELOPER_HOME">DEVELOPMENT TOOLS<span class="icon-angle-right"></span></a></h5>
+                                 <h5><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0 ">SOFTWARE CENTER<span class="icon-angle-right"></span></a></h5>
+                                 <hr/>
+                                 <h5>MORE PRODUCT INFORMATION</h5>
+                                 <ul>
+                                    <li><a href="//www.nxp.com/products/products:PCPRODCAT ">All Products</a></li>
+                                    <li><a href="//www.nxp.com/webapp/crosscheck/competitorXRef.sp">Competitor Cross Reference Tool</a></li>
+                                    <li><a href="//www.nxp.com/packages ">Packages</a></li>
+                                    <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity Program</a></li>
+                                    <li><a href="//www.nxp.com/webapp/parametricSelector.sp?">Product Selector</a></li>
+                                 </ul>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw applicationsmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/applications/solutions-for-the-iot-and-adas:IFINDSTRYFCS">APPLICATIONS</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SOLUTIONS">
+                        <div class="row" style="padding:0 15px;">
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/secure-connected-vehicle:SECURE-CONNECTED-VEHICLE" style="padding-left: 0px">AUTOMOTIVE&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Solutions that enable breakthrough automotive designs in and around the car&mdash;enhancing safety and the driver experience.</p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/adas-autonomous-driving:ADAS-AND-AUTONOMOUS-DRIVING">Advanced Driver Assistance Systems (ADAS) and Autonomous Driving</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/secure-vehicle-architecture:AUTOMOTIVE-SECURITY">Secure Vehicle Architecture</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/instrument-clusters:INSTRUMENT-CLUSTERS">Instrument Clusters</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/secure-connected-car-and-adas/infotainment:INFOTAINMENT">Infotainment</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things:Internet-of-Things-IoT" style="padding-left: 0px;">INTERNET OF THINGS&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Driving technology innovation in the Internet of Things to empower you to develop smart, connected and secure things. </p>
+                              <ul>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/smart-things:Smart-Things">Smart Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/connected-things:Connected-Things">Connected Things</a></li>
+                                 <li style="padding-bottom:10px !important"><a href="//www.nxp.com/applications/solutions-for-the-iot-and-adas/internet-of-things/secure-things:Secure-Things">Secure Things</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4 pl2 pr2">
+                              <h5><a href="//www.nxp.com/products/software-and-tools/nxp-designs-reference-design-library:REFDSGNHOME" style="padding-left: 0px">NXP REFERENCE DESIGN LIBRARY&nbsp;<span class="icon-angle-right"></span></a></h5>
+                              <p>Technical content and expertise to help jump start your design and get you to production faster.</p>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw trainingmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="SUPPORT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">NXP COMMUNITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="https://community.freescale.com/community/codewarrior" target="_blank">CodeWarrior Development Tools</a></li>
+                                 <li><a href="https://community.freescale.com/community/imx" target="_blank">i.MX Community (SoCs and PMIC Support)</a></li>
+                                 <li><a href="https://community.freescale.com/community/nfc" target="_blank">NFC</a></li>
+                                 <li><a href="https://community.freescale.com/community/iot-center" target="_blank">IoT Solutions Center</a></li>
+                                 <li><a href="https://community.freescale.com/community/kinetis" target="_blank">Kinetis Microcontrollers</a></li>
+                                 <li><a href="https://www.lpcware.com/forum" target="_blank">LPC Forums</a></li>
+                                 <li><a href="https://community.freescale.com/community/qoriq" target="_blank">QorIQ Processors</a></li>
+                                 <li><a href="https://community.nxp.com/community/s32/16-bit" target="_blank">S12/MagniV Microcontrollers</a></li>
+                                 <li><a href="https://community.freescale.com/community/wireless-connectivity" target="_blank">Wireless Connectivity</a></li>
+                                 <li><a href="//www.nxp.com/pages/communities:COMMUNITIES" target="_blank">View All</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/online-academy:ON_DEMAND_TRNG">ONLINE TRAINING ACADEMY<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/training/classroom-training-events:CLASSROOM-TRAINING-EVENTS">TRAINING<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-technology-forum:NXP-FTF-TECH-FORUM-HOME">NXP FTF Tech Forum</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-ftf-connects:NXP-FTF-CONNECTS">NXP FTF Connects</a></li>
+                                 <li><a href="//www.nxp.com/support/classroom-training-events/nxp-tech-days:NXP-TECH-DAYS">NXP Technology Days</a></li>
+                                 <li><a href="//www.nxp.com/training/classroom-training-events/industry-events:EVENTS_HOME">Industry Events</a></li>
+                                 <li><a href="http://iot.nxp.com" target="_blank">Global Smarter World Tours&nbsp;<span class="icon-newtab"></span></a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/training/university-programs:UNIVPROGRAM_HOME_CAT">UNIVERSITY PROGRAMS<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/video/vault/?searchLabel=renderHomepage">VIDEO VAULT<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">SUPPORT RESOURCES<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/pages/documentation:DOCUMENTATION">Documentation Library</a></li>
+                                 <li><a href="//www.nxp.com/training/sales-and-support:SUPPORTHOME">Sales and Support</a></li>
+                                 <li><a href="//www.nxp.com/pages/nxp-professional-services:PROFESSIONAL-SERVICES">Professional Engineering Services</a></li>
+                                 <li><a href="//www.nxp.com/webapp/software-center/library.jsp#/home/query/~query~/~filter~/popularity/0">Software Center</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+                  <li class="dropdown megamenu-fw aboutmenu">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT</a>
+                     <div class="dropdown-menu dtmMegaMenu" data-dtmname="ABOUT">
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/about-nxp:COMPANY_INFO_HOME">ABOUT NXP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations:GLOBAL_SITES">NXP Worldwide</a></li>
+                                 <li><a href="//www.nxp.com/about/worldwide-locations/worldwide-sales-offices/distributor-network:DISTRIBUTORS">Distributor Network</a></li>
+                                 <li><a href="http://media.nxp.com">Media Center</a></li>
+                                 <li><a href="http://investors.nxp.com">Investor Relations</a></li>
+                                 <li><a href="//www.nxp.com/about/careers-at-nxp:CAREERS">Careers</a></li>
+                                 <li><a href="//www.nxp.com/about/our-customers:ABOUT_CUSTOMERS">Customers</a></li>
+                                 <li><a href="http://blog.nxp.com/" target="_blank">Blogs</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h5><a href="//www.nxp.com/about/corporate-responsibility:CORP_SOCIAL_RESP">CORPORATE RESPONSIBILITY<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/environmentally-preferred-products:ABUENVPRFPRDX">Environmental Compliance Office</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/ethics:ETHICS">Ethics</a></li>
+                                 <li><a href="//www.nxp.com/about/corporate-responsibility/employees:EMPLOYEES">Employees</a></li>
+                              </ul>
+                              <h5><a href="//www.nxp.com/webapp/connect/memberDirSearch.sp">NXP PARTNER PROGRAM<span class="icon-angle-right"></span></a></h5>
+                              <h5><a href="//www.nxp.com/about/technology-leadership:RESEARCH_AND_DEVELOPMENT">TECHNOLOGY LEADERSHIP<span class="icon-angle-right"></span></a></h5>
+                              <ul>
+                                 <li><a href="//www.nxp.com/about/technology-programs/product-longevity:PRDCT_LONGEVITY_HM">Product Longevity</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/quality:QUALITY_HOME">Quality</a></li>
+                                 <li><a href="//www.nxp.com/about/technology-leadership/safeassure-functional-safety-program:SAFETYPRGRM">SafeAssure</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="dropdown-border"></div>
+                     </div>
+                  </li>
+               </ul>
+               <!--  Megamenu goes here -->
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- id="header" class="nxp-nav" -->
+
+
+</header>
+ <!-- /MOBILE NAV START -->
+    <nav id="nxp-mobile-nav"> </nav>
+    <!-- MOBILE NAV END --> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b8"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b9"> 
+  <div class="iw_columns col-lg-12" id="colit1h61ba"> 
+   <div class="row iw_row" id="rowit1h61bc"> 
+    <div class="iw_columns col-lg-3" id="colit1h61bd"> 
+     <div class="iw_component" id="iw_comp1473770942755">
+       <!--ls:begin[component-1473770942755]--><ul class="leftnav dtmLeftNav MMenu-support"><li><a href="/support/nxp-communities:COMMUNITIES">NXP Communities</a><li><a href="/support/documentation:DOCUMENTATION">Documentation</a><li><a href="/support/sales-and-support:SUPPORTHOME">Sales and Support</a><li><a href="/support/nxp-engineering-consultants:APPROVED-ENGINEERING-CONSULTANT">NXP Engineering Consultants</a><li><a href="/support/nxp-professional-services:PROFESSIONAL-SERVICE">NXP<sup>®</sup> Professional Services</a><li><a href="/video/vault/?searchLabel=renderHomepage">Video Vault</a><li><a href="/support/industry-events:EVENTS_HOME">Industry Events</a><li><a href="/support/training-events:CLASSROOM-TRAINING-EVENTS">Training & Events</a><ul><li class=><a href="/support/training-events/online-academy:ON_DEMAND_TRNG"><span class="icon-stop2"></span>Online Academy</a></li><li class=><a href="/support/training-events/webinars-archive:WEBINARS-ARCHIVE"><span class="icon-stop2"></span>Webinars Archive</a></li><li class=><a href="https://community.freescale.com/community/training"><span class="icon-stop2"></span>Training Content</a></li><li class=><a href="/support/training-events/nxp-ftf-connects:NXP-FTF-CONNECTS"><span class="icon-stop2"></span>NXP FTF Connects</a></li><li class=><a href="/support/training-events/approved-training-centers:APPROVED-TRAINING-CENTERS"><span class="icon-stop2"></span>Approved Training Centers</a></li><li class=><a href="/support/training-events/motor-tutorial:WBT_MOTORTUT_WP"><span class="icon-stop2"></span>Motor Tutorial</a></li><li class=><a href="/support/training-events/nxp-ftf-tech-forum:NXP-FTF-TECH-FORUM-HOME"><span class="icon-stop2"></span>NXP FTF Tech Forum</a></li><li class=selected><a href="/support/training-events/nxp-technology-days:NXP-TECH-DAYS"><span class="icon-stop2"></span>NXP Technology Days</a></li><li class=><a href="/support/training-events/training-faq:TRAINING-FAQ"><span class="icon-stop2"></span>Training FAQ</a></li></ul></li><li><a href="/support/university-programs:UNIVPROGRAM_HOME_CAT">University Programs</a></ul><!--ls:end[component-1473770942755]--> 
+     </div> 
+    </div> 
+    <div class="iw_columns col-lg-9" id="colit1h61be"> 
+     <div class="iw_component" id="iw_comp1474458748468">
+       <!--ls:begin[component-1474458748468]--><div class="bc-container clearfix"><ul class="bc" > <li><a href="http://www.nxp.com"><span>NXP</span></a></li> <li><a href="/support/training-events:CLASSROOM-TRAINING-EVENTS"><span>Training & Events</span></a></li> <li><span>NXP Technology Days</span></li></ul><!--googleoff: all-->
+   <nav class="pull-right share-icons"><a id="email18x" title="Share via Email"><span class="icon-mail2"></span></a><div class="dropdown"><a data-toggle="dropdown" class="icon-share2" aria-expanded="false" href="#"></a><ul role="menu" class="dropdown-menu dropdown-menu-right">
+            <li><a id="facebook18x" title="Share on Facebook"><span class="icon-facebook"></span> Facebook</a></li>
+            <li><a id="twitter18x" title="Share on Twitter"><span class="icon-twitter2"></span> Twitter</a></li>
+            <li><a id="google18x" title="Share on Google+"><span class="icon-googleplus"></span> Google+</a></li>
+            <li><a id="linkedIn18x" title="Share on LinkedIn"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li><a id="print18x" title="Printer"><span class="icon-print"></span> Printer</a></li>
+         </ul>
+      </div>
+   </nav><!--googleon: all-->
+</div><!--ls:end[component-1474458748468]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942795">
+       <!--ls:begin[component-1473770942795]--><h1>NXP<sup>®</sup> Technology Days</h1><!--ls:end[component-1473770942795]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942796">
+       <!--ls:begin[component-1473770942796]--><div class="dtmGenDiv" data-dtmSection="Overview Section"></div><!--ls:end[component-1473770942796]--> 
+     </div> 
+     <div class="iw_component" id="iw_comp1473770942759">
+       <!--ls:begin[component-1473770942759]--><script type="text/javascript" src="http://www.nxp.com/resources/scripts/jquery.expiredlis.js"></script>
+<div class="row">
+    <div class="col-md-12">
+        <p>NXP Technology Days provide tailored live training to embedded engineers on a broad range of solutions. Available in convenient locations globally, with more than 250 seminars offered globally, you can find the right training you need in a city near you.</p>
+        <div class="padMe5"></div>
+        <p>Our instructor-led training courses created to enable embedded engineers to accelerate the development of innovative end–products utilizing NXP technologies.</p>
+        <p><strong>2017 Technical Identification Training Catalog <a href="/assets/documents/data/en/training-reference-material/NXP-Training-Catalog.pdf">Click Here</a></strong> <span class="icon-file-pdf"></span>
+        </p>
+        <h2>Course Materials</h2>
+        <p>Join and find technical sessions and support material delivered at <a href="http://community.nxp.com/community/training">NXP Training Community</a>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+	<h2>NXP Technology Days- Multi Market Seminars</h2>
+        <div class="table-responsive">
+            <style>
+                #content-spec thead tr:nth-of-type(3) th:nth-of-type(4) {
+                    display: inline-block;
+                    max-height: 4em;
+                    overflow-y: scroll;
+                }
+            </style>
+
+			<table id="multi-market" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="W30">Date</th>
+                        <th class="W30">Title</th>
+                        <th class="W10">City</th>
+                        <th>Country</th>
+                        <th>Region</th>
+                        <th class="W20 text-center">Registration</th>
+                    </tr>
+                    <!--tr>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                    </tr!-->
+                </thead>
+                <tbody>
+                    <tr class="expirable-element" date-expire="06/01/2017">
+                        <td>Thursday, June 1, 2017</td>
+                        <td>NXP Tech Day – Minneapolis/St. Paul</td>
+                        <td>Minneapolis/St. Paul, MN</td>
+                        <td>USA</td>
+                        <td>AMEC</td>
+                        <td>Coming Soon<!--a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a!-->
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/28/2017">
+                        <td>Wednesday, June 28, 2017</td>
+                        <td>NXP Tech Day – Boston</td>
+                        <td>Boston, MA</td>
+                        <td>USA</td>
+                        <td>AMEC</td>
+                        <td>Coming Soon<!--a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a!-->
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="08/30/2017">
+                        <td>Wednesday, August 30, 2017</td>
+                        <td>NXP Tech Day – Irvine</td>
+                        <td>Irvine, CA</td>
+                        <td>USA</td>
+                        <td>AMEC</td>
+                        <td>Coming Soon<!--a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a!-->
+                        </td>
+                    </tr>
+				</tbody>
+			</table>
+				
+		</div>
+	</div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+	<h2>NXP Technology Days- Content Specific Seminars</h2>
+        <div class="table-responsive">
+            <table id="content-spec" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="W30">Date</th>
+                        <th class="W30">Title</th>
+                        <th class="W10">City</th>
+                        <th>Country</th>
+                        <th>Region</th>
+                        <th class="W20 text-center">Registration</th>
+                    </tr>
+                    <tr>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                        <th class='filter-column'></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="expirable-element" date-expire="05/10/2017">
+                        <td>Wednesday/Thursday, May 17-18, 2017</td>
+                        <td>DN & S&C Solution Solutions Seminar - Shanghai</td>
+                        <td>Shanghai</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://getregisterednow.com/NXP/Event/Register/Register.asp?e=NTDCoSShanghai2017&l=1" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>				
+				
+                    <tr class="expirable-element" date-expire="05/10/2017">
+                        <td>Wednesday, May 10, 2017</td>
+                        <td>S&C Solutions Seminar - Taipei</td>
+                        <td>Taipei</td>
+                        <td>Taiwan</td>
+                        <td>APAC</td>
+                        <td><a href="https://getregisterednow.com/NXP/Event/Register/Register.asp?e=NTDCoSSCTaipei2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+
+					<tr class="expirable-element" date-expire="06/26/2017"> 
+						<td>Thursday, May 4, 2017</td> 
+						<td>Auto Solutions Seminar - Xiamen</td> 
+						<td>Xiamen</td> 
+						<td>China</td> 
+						<td>APAC</td> 
+						<td><a href="https://getregisterednow.com/NXP/Event/Register/Register.asp?e=NTDCoSAutoXiamen2017&l=1" target="_blank">Register Now<span class="icon-arrow-right2"></span></a> </td> 
+					</tr> 					
+					
+                    <tr class="expirable-element" date-expire="04/20/2017">
+                        <td>Wednesday/Thursday, April 19-20, 2017</td>
+                        <td>NXP Technology Days - DN & S&C Solution Seminars - Hangzhou</td>
+                        <td>Hangzhou</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://getregisterednow.com/NXP/Event/Register/Register.asp?e=NTDCoSHangzhou2017&l=1" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+					
+					<tr class="expirable-element" date-expire="06/26/2017">
+                        <td>Monday, June 26, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/27/2017">
+                        <td>Tuesday, June 27, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/28/2017">
+                        <td>Wednesday, June 28, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/29/2017">
+                        <td>Thursday, June 29, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/30/2017">
+                        <td>Friday, June 30, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="04/04/2017">
+                        <td>Tuesday, April 04, 2017</td>
+                        <td>MIFARE Day 1 - Module M1</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM1MunichApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="04/05/2017">
+                        <td>Wednesday, April 05, 2017</td>
+                        <td>MIFARE Plus EV1 Training - Module M2</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM2MunichApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="04/06/2017">
+                        <td>Thursday, April 06, 2017</td>
+                        <td>MIFARE DESFire EV2 Training - Module M3</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM3MunichApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+										
+                    <tr class="expirable-element" date-expire="04/24/2017">
+                        <td>Monday, April 24, 2017</td>
+                        <td>MIFARE Plus EV1 Training - Module M2</td>
+                        <td>Delhi</td>
+                        <td>India</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCosMIFAREM2DelhiApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="04/25/2017">
+                        <td>Tuesday, April 25, 2017</td>
+                        <td>MIFARE DESFire EV2 Training - Module M3</td>
+                        <td>Delhi</td>
+                        <td>India</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCosMIFAREM3DelhiApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="04/27/2017">
+                        <td>Thursday, April 27, 2017</td>
+                        <td>MIFARE Plus EV1 Training - Module M2</td>
+                        <td>Mumbai</td>
+                        <td>India</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCosMIFAREM2MumbaiApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="04/28/2017">
+                        <td>Friday, April 28, 2017</td>
+                        <td>MIFARE DESFire EV2 Training - Module M3</td>
+                        <td>Mumbai</td>
+                        <td>India</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCosMIFAREM3MumbaiApr2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="05/04/2017">
+                        <td>Thursday, May 4, 2017</td>
+                        <td>NXP Technology Days - Automotive Solutions Seminar</td>
+                        <td>Xiamen</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://getregisterednow.com/NXP/Event/Register/Register.asp?e=NTDCoSAutoXiamen2017&l=2" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="05/16/2017">
+                        <td>Tuesday, May 16, 2017</td>
+                        <td>Contactless Proximity Reader Training - Module I1</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://getregisterednow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI1SanJoseMay2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="05/17/2017">
+                        <td>Wednesday, May 17, 2017</td>
+                        <td>Contactless Proximity Reader Antenna Training - Module I2</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI2SanJoseMay2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="05/18/2017">
+                        <td>Thursday, May 18, 2017</td>
+                        <td>NFC Reader Library Training - Module I3</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI3SanJoseMay2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="05/31/2017">
+                        <td>Wednesday, May 31, 2017</td>
+                        <td>RFID Technical Training - Module R1</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR1MunichJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/01/2017">
+                        <td>Thursday, June 01, 2017</td>
+                        <td>RFID Technical Training - Module R2</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR2MunichJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/05/2017">
+                        <td>Monday, June 05, 2017</td>
+                        <td>MIFARE Day 1 - Module M1</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM1SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/06/2017">
+                        <td>Tuesday, June 06, 2017</td>
+                        <td>MIFARE Plus EV1 Training - Module M2</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM2SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/07/2017">
+                        <td>Wednesday, June 07, 2017</td>
+                        <td>MIFARE DESFire EV2 Training - Module M3</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM3SingaporeJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/12/2017">
+                        <td>Monday, June 12, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>Beijing</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1BeijingJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/12/2017">
+                        <td>Monday, June 12, 2017</td>
+                        <td>Contactless Proximity Reader Training - Module I1</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI1HamburgJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/13/2017">
+                        <td>Tuesday, June 13, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>Beijing</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2BeijingJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/13/2017">
+                        <td>Tuesday, June 13, 2017</td>
+                        <td>Contactless Proximity Reader Antenna Training - Module I2</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI2HamburgJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/14/2017">
+                        <td>Wednesday, June 14, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>Beijing</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3BeijingJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/14/2017">
+                        <td>Wednesday, June 14, 2017</td>
+                        <td>NFC Reader Library Training - Module I3</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI3HamburgJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/15/2017">
+                        <td>Thursday, June 15, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>Beijing</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4BeijingJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/15/2017">
+                        <td>Thursday, June 15, 2017</td>
+                        <td>RFID Technical Training - Module R1</td>
+                        <td>Shanghai</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR1ShanghaiJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/16/2017">
+                        <td>Friday, June 16, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>Beijing</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5BeijingJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/16/2017">
+                        <td>Friday, June 16, 2017</td>
+                        <td>RFID Technical Training - Module R2</td>
+                        <td>Shanghai</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR2ShanghaiJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/19/2017">
+                        <td>Monday, June 19, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>Budapest</td>
+                        <td>Hungary</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1BudapestJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/20/2017">
+                        <td>Tuesday, June 20, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>Budapest</td>
+                        <td>Hungary</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2BudapestJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/21/2017">
+                        <td>Wednesday, June 21, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>Budapest</td>
+                        <td>Hungary</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3BudapestJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/22/2017">
+                        <td>Thursday, June 22, 2017</td>
+                        <td>RFID Technical Training - Module R1</td>
+                        <td>Shenzhen</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR1ShenzhenJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/22/2017">
+                        <td>Thursday, June 22, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>Budapest</td>
+                        <td>Hungary</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4BudapestJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/23/2017">
+                        <td>Friday, June 23, 2017</td>
+                        <td>RFID Technical Training - Module R2</td>
+                        <td>Shenzhen</td>
+                        <td>China</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR2ShenzhenJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="06/23/2017">
+                        <td>Friday, June 23, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>Budapest</td>
+                        <td>Hungary</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5BudapestJun2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="08/22/2017">
+                        <td>Tuesday, August 22, 2017</td>
+                        <td>MIFARE Day 1 - Module M1</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM1SanJoseAug2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="08/23/2017">
+                        <td>Wednesday, August 23, 2017</td>
+                        <td>MIFARE Plus EV1 Training - Module M2</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFARESM2anJoseAug2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="08/24/2017">
+                        <td>Thursday, August 24, 2017</td>
+                        <td>MIFARE DESFire EV2 Training - Module M3</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFARESM3SanJoseAug2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/11/2017">
+                        <td>Monday, September 11, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1ParisSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/12/2017">
+                        <td>Tuesday, September 12, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2ParisSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/13/2017">
+                        <td>Wednesday, September 13, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3ParisSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/14/2017">
+                        <td>Thursday, September 14, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4ParisSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/15/2017">
+                        <td>Friday, September 15, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5ParisSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/18/2017">
+                        <td>Monday, September 18, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1SanJoseSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/19/2017">
+                        <td>Tuesday, September 19, 2017</td>
+                        <td>Contactless Proximity Reader Training - Module I1</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI1HamburgSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/19/2017">
+                        <td>Tuesday, September 19, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2SanJoseSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/20/2017">
+                        <td>Wednesday, September 20, 2017</td>
+                        <td>Contactless Proximity Reader Antenna Training - Module I2</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI2HamburgSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/20/2017">
+                        <td>Wednesday, September 20, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3SanJoseSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/21/2017">
+                        <td>Thursday, September 21, 2017</td>
+                        <td>NFC Reader Library Training - Module I3</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI3HamburgSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/21/2017">
+                        <td>Thursday, September 21, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4SanJoseSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="09/22/2017">
+                        <td>Friday, September 22, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5SanJoseSept2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/02/2017">
+                        <td>Monday, October 02, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>Bangalore</td>
+                        <td>India</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1BangaloreOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/03/2017">
+                        <td>Tuesday, October 03, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>Bangalore</td>
+                        <td>India</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2BangaloreOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/04/2017">
+                        <td>Wednesday, October 04, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>Bangalore</td>
+                        <td>India</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3BangaloreOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/05/2017">
+                        <td>Thursday, October 05, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>Bangalore</td>
+                        <td>India</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4BangaloreOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/06/2017">
+                        <td>Friday, October 06, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>Bangalore</td>
+                        <td>India</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5BangaloreOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/10/2017">
+                        <td>Tuesday, October 10, 2017</td>
+                        <td>MIFARE Day 1 - Module M1</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM1MunichOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/11/2017">
+                        <td>Wednesday, October 11, 2017</td>
+                        <td>MIFARE Plus EV1 Training - Module M2</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM2MunichOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="10/12/2017">
+                        <td>Thursday, October 12, 2017</td>
+                        <td>MIFARE DESFire EV2 Training - Module M3</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMIFAREM3MunichOct2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/14/2017">
+                        <td>Tuesday, November 14, 2017</td>
+                        <td>RFID Technical Training - Module R1</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR1SingaporeNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/14/2017">
+                        <td>Tuesday, November 14, 2017</td>
+                        <td>Contactless Proximity Reader Training - Module I1</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI1HamburgNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/15/2017">
+                        <td>Wednesday, November 15, 2017</td>
+                        <td>RFID Technical Training - Module R2</td>
+                        <td>Singapore</td>
+                        <td>Singapore</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSRFIDR2SingaporeNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/15/2017">
+                        <td>Wednesday, November 15, 2017</td>
+                        <td>Contactless Proximity Reader Antenna Training - Module I2</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI2HamburgNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/16/2017">
+                        <td>Thursday, November 16, 2017</td>
+                        <td>NFC Reader Library Training - Module I3</td>
+                        <td>Hamburg</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSReaderI3HamburgNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/20/2017">
+                        <td>Monday, November 20, 2017</td>
+                        <td>JCOP Introduction - Module J1</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ1MunichNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/21/2017">
+                        <td>Tuesday, November 21, 2017</td>
+                        <td>JCOP Administration - Module J2</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ2MunichNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/22/2017">
+                        <td>Wednesday, November 22, 2017</td>
+                        <td>JCOP Applet Development - Module J3</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ3MunichNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/23/2017">
+                        <td>Thursday, November 23, 2017</td>
+                        <td>JCOP eGovernment Solutions - Module J4</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ4MunichNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/24/2017">
+                        <td>Friday, November 24, 2017</td>
+                        <td>JCOP Banking Smart Card Solutions - Module J5</td>
+                        <td>Munich</td>
+                        <td>Germany</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSJCOPJ5MunichNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/28/2017">
+                        <td>Tuesday, November 28, 2017</td>
+                        <td>Mobile Wearable Introduction - Module W1</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMobileW1ParisNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/29/2017">
+                        <td>Wednesday, November 29, 2017</td>
+                        <td>Secure Element in Mobile Wearable - Module W2</td>
+                        <td>Paris</td>
+                        <td>France</td>
+                        <td>EMEA</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMobileW2ParisNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="11/30/2017">
+                        <td>Thursday, November 30, 2017</td>
+                        <td>Mobile Wearable Introduction - Module W1</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMobileW1SanJoseNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="12/01/2017">
+                        <td>Friday, December 01, 2017</td>
+                        <td>Secure Element in Mobile Wearable - Module W2</td>
+                        <td>SanJose, CA</td>
+                        <td>US</td>
+                        <td>AMEC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMobileW2SanJoseNov2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="12/06/2017">
+                        <td>Wednesday, December 06, 2017</td>
+                        <td>Mobile Wearable Introduction - Module W1</td>
+                        <td>Taipei</td>
+                        <td>Taiwan</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMobileW1TaipehDec2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                    <tr class="expirable-element" date-expire="12/07/2017">
+                        <td>Thursday, December 07, 2017</td>
+                        <td>Secure Element in Mobile Wearable - Module W2</td>
+                        <td>Taipei</td>
+                        <td>Taiwan</td>
+                        <td>APAC</td>
+                        <td><a href="https://GetRegisteredNow.com/NXP/Event/Register/Register.asp?e=NTDCoSMobileW2TaipehDec2017" target="_blank">Register Now <span class="icon-arrow-right2"></span></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- DataTables -->
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+ 
+ 
+<script>
+  /*
+    Filters definition by column (1 per column) - leave blank in case filter isn't needed:
+    sel = select filter
+    check = checkbox filter
+    txt = input text filter
+  */
+  filter_array = ["", "txt", "sel", "sel", "sel", ""];
+ 
+  //Function to generate the filters of the Table with Extended Functionality
+  function setFilter(column, index) {
+    switch (filter_array[index]) {
+    case "sel": //Select Filter
+ 
+      var select = $('<select></select>').appendTo($("#content-spec").find('.filter-column:eq(' + index + ')')).on('change', function () {
+        var val = $.fn.dataTable.util.escapeRegex($(this).val());
+        column.search(val ? '^' + val + '$' : '', true, false).draw();
+        updateSelects();
+      });
+ 
+      //Fill the first
+      select.append('<option value=""></option>');
+      column.data().unique().sort().each(function (d, j) {
+        select.append('<option value="' + d + '">' + d + '</option>');
+      });
+ 
+      break;
+ 
+    case "txt": //Input Text Filter
+ 
+      var text = $('<input>').attr("type", "text").attr("placeholder", "Filter by...").appendTo($("#content-spec").find('.filter-column:eq(' + index + ')')).on('keyup', function () {
+        column.search($(this).val(), false, true).draw();
+        updateSelects();
+      });
+ 
+      break;
+ 
+    case "check": //Checkbox Filter
+ 
+      //Fill the first
+      column.data().unique().sort().each(function (d, j) {
+        var label = $("<label></label>");
+        var check = $('<input>').attr("type", "checkbox").attr("value", d).appendTo(label).on('click', function () {
+          updateCheckBoxs();
+          updateSelects();
+        });
+ 
+        label.append("<span> " + d + "</span>").appendTo($("#content-spec").find('.filter-column:eq(' + index + ')'));
+      });
+ 
+      break;
+ 
+    default:
+      //No action
+      break;
+    }
+  }
+ 
+  //Function to filter based on all checkboxes selections
+  function updateCheckBoxs() {
+    table.columns().indexes().each(function (index) {
+      var filters = $('#content-spec').find('.filter-column:eq(' + index + ') input[type="checkbox"]'); //Get all checkboxes within the same column
+ 
+      if (filters.length != 0) {
+        var chk_filters = "";
+ 
+        filters.each(function (index2) {
+          if ($(this).is(":checked")) {
+            if (chk_filters != "")
+              chk_filters += "|";
+            chk_filters += $(this).val();
+          }
+        });
+        //alert(chk_filters);
+        table.columns(index).search(chk_filters, true, false).draw();
+      }
+    });
+  }
+ 
+  //Function to update options displayed in Select Filters, displaying available options only
+  function updateSelects() {
+    table.columns().indexes().each(function (index) {
+      var filters = $('#content-spec').find('.filter-column:eq(' + index + ') > select'); //Get all selects
+      if (filters.val() == "") {
+        filters.empty().append('<option value=""></option>'); //Clean select options - need empty one to "restart" filter
+        table.column(index, {
+          search: 'applied'
+        }).data().unique().sort().each(function (value, index2) {
+          filters.append('<option value="' + value + '">' + value + '</option>'); //Generate filter based on available options
+        });
+      }
+    });
+  }
+ 
+  $(document).ready(function () {
+    table = $('#content-spec').DataTable({
+      "bSort": false,
+      initComplete: function () {
+        // - Need validation if there are no filters here -
+        var c = 0;
+        this.api().columns().every(function (index) {
+          var column = this;
+ 
+          if (filter_array[index] != "")
+            setFilter(column, index);
+        });
+      }
+    });
+ 
+ 
+ 
+  }); //end document ready
+</script><!--ls:end[component-1473770942759]--> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<div class="container-fluid iw_section" id="sectionit1h61b0"> 
+ <div class="row iw_row iw_stretch" id="rowit1h61b1"> 
+  <div class="iw_columns col-lg-12" id="colit1h61b2"> 
+   <div class="iw_component" id="iw_comp1473770942747">
+     <footer>
+    <!--  default footer -->
+    <div class="siteMapContainer nxp-nav container" id="footer">
+    <div class="row">
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="ABOUT NXP">
+            <h4>
+                ABOUT NXP
+            </h4>
+            <ul class="list-unstyled">
+                <li >
+                    <a href="http://investors.nxp.com/phoenix.zhtml?c=209114&p=irol-irhome">
+                        Investors
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/webapp/connect/memberDirSearch.sp">
+                        Partners
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/about/careers-at-nxp:CAREERS">
+                        Careers
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-6 col-md-3 dtmFooter" data-dtmname="RESOURCES">
+            <h4>
+                RESOURCES
+            </h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://www.nxp.com/about/nxp-mobile-applications:MOBILE">
+                        Mobile Apps
+                    </a>
+                </li>
+                <li >
+                    <a href="http://media.nxp.com">
+                        Press, News, Blogs
+                    </a>
+                </li>
+                <li >
+                    <a href="http://www.nxp.com/pages/contact-us:CONTACTUS">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-md-3 col-xs-12 dtmFooter" data-dtmname="FOLLOW US">
+            <h4>
+                FOLLOW US
+            </h4>
+            <ul class="list-inline paddingtop5" id="footer-social">
+                <li class="twitter">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://twitter.com/NXP" target="_blank" title="Follow NXP on Twitter">
+                        <span class="icon-twitter22">
+                        </span>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="http://www.linkedin.com/company/nxp-semiconductors" target="_blank" title="Follow NXP on Linked In">
+                        <span class="icon-linkedin">
+                        </span>
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US" href="https://www.facebook.com/NXPsemi" target="_blank" title="Follow NXP on Facebook">
+                        <span class="icon-facebook">
+                        </span>
+                    </a>
+                </li>
+                <!--li class="youtube"><a href="https://www.youtube.com/nxpsemiconductors" title="Follow NXP on Youtube" target="_blank" data-content-finding="Footer" data-content-subfinding="Footer: FOLLOW US"><span class="icon-youtube-square2"></span></a></li-->
+                <li class="email">
+                    <a href="https://contact.nxp.com/Subscription-Center" target="_blank" title="Subscription Center">
+                        <span class="icon-mail2">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 col-xs-12">
+            <div id="newsContainer">
+                <div id="nxp-news-footer">
+                    <div class="newsItem">
+                        <h5>
+                            NEWS
+                        </h5>
+                        <p>
+                            NXP News
+                        </p>
+                        <a class="readmore" href="http://media.nxp.com/phoenix.zhtml?c=254228&p=irol-NewsCorporate" target="_blank">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div id="newsDirection">
+                    <a href="#left" id="newsLeft">
+                        <span class="icon-angle-left">
+                        </span>
+                    </a>
+                    <a href="#right" id="newsRight">
+                        <span class="icon-angle-right">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="legalContainer">
+      <div class="container">
+        <div class="row legal">
+          <div class="col-sm-6 dtmFooter" data-dtmname="Privacy">
+            <ul class="-legalLinks list-inline list-unstyled vertical">
+              <li>
+                <a href="http://www.nxp.com/about/privacy:PRIVACYPRACTICES">
+                        Privacy
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/terms-of-use:TERMSOFUSE">
+                        Terms of Use
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="http://www.nxp.com/about/our-standard-terms-and-conditions-of-sale-counter-offer:TERMSCONDITIONSSALE">
+                        Terms of Sale
+                    </a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="mailto:direct@nxp.com" id="stay_here" name="stay_here" onclick="displayBlock();">
+                        Feedback
+                    </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-copyright col-sm-6">
+                &copy;2006-2017 NXP Semiconductors. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <!-- Google Code for Remarketing Tag -->
+    <!-- ****************************************
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    ****************************************** -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1066477406;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1066477406/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript> 
+   </div> 
+  </div> 
+ </div> 
+</div></div><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/global-nav.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/NewCoShareThis.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/gsa_suggestions.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/webanalytics_download.js" type="text/javascript"></script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/nxp-cms/nxp-web-common.js" type="text/javascript"></script><script type="text/javascript" language="javascript">elqTryI = true;</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqCfg.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqFCS.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/SDC_SMARTSOURCE_TAG.js" type="text/javascript"></script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/elqwebanalytics.js" type="text/javascript"></script><script type="text/javascript">_satellite.pageBottom();</script><script data-tg-desktop_or_tablet_or_phone="show" src="/resources/scripts/analytics/blueconic.js" type="text/javascript"></script>
+</body>
+</html>
