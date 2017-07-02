@@ -6,16 +6,16 @@ load('straight walk, 1000 steps.mat');
 
 %% Settings
 period = 1/256;
-sampleSize = 10000;
+sampleSize = 30000;
+beta = 1;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
 yawCorrection = 0;
 
-% To find the initial quaternion, convert the Euler angles 
-% [0.0875, 0.5790 0] to a rotation matrix and the rotation matrix to a
-% quaternion using the library functions.
-Quaternion = [0.957466321359859 -0.041939572590074 -0.28520737125312 0.012492841766914];
-AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', 1, 'Quaternion', Quaternion);
+rotm = euler2rotMat(pitchCorrection, rollCorrection, yawCorrection);
+Quaternion = rotMat2quatern(rotm);
+...Quaternion = [0.957466321359859 -0.041939572590074 -0.28520737125312 0.012492841766914];
+AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaternion);
 
 %% Function
 quaternion = zeros(sampleSize, 4);
@@ -27,9 +27,11 @@ for t = 1:sampleSize
     % To get the directions to match up on the plots, the new angles need
     % to be multiplied by -1. I don't know why this isn't done somewhere in
     % the filter.
-    euler(t,:) = quatern2euler(quaternion(t,:));
-    ...euler(t,:) = -1*quatern2euler(quaternion(t,:));
+    ...euler(t,:) = quatern2euler(quaternion(t,:));
+    euler(t,:) = -1*quatern2euler(quaternion(t,:));
 end
+
+% AccRotated = Acc*rotm^-1
 
 %% Plot results
 t = [1:sampleSize]' * period;
