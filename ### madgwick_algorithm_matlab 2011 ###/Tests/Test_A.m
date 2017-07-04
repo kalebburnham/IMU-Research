@@ -31,8 +31,6 @@ Quaternion = rotMat2quatern(rotm);
 AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaternion);
 
 quaternion = zeros(length(Acc), 4);
-euler = zeros(length(Acc), 3);
-rotm = zeros(3, 3, length(Acc));
 calculatedDCM = zeros(3, 3, length(Acc));
 
 %% Function
