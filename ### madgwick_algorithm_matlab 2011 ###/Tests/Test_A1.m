@@ -11,8 +11,8 @@ load('../straight walk, 1000 steps.mat');
 
 %% Settings
 period = 1/256;
-beta = 1;
-sampleSize = 2000;
+beta = .5;
+sampleSize = 1500;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
 yawCorrection = 0;
@@ -31,6 +31,9 @@ groundTruthQuat = zeros(length(Acc), 4);
 for t = 1:length(Acc)
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
+    quaternion(t,2) = -1*quaternion(t,2);
+    quaternion(t,3) = -1 * quaternion(t,3);
+    quaternion(t,4) = -1 * quaternion(t,4);
     groundTruthQuat(t,:) = dcm2quat(DCM(:,:,t));
 end
 

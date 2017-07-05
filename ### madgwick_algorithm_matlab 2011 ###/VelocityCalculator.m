@@ -26,15 +26,19 @@ vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
 for t = 1:sampleSize
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
+    quaternion(t,2) = -1 * quaternion(t,2);
+    quaternion(t,3) = -1 * quaternion(t,3);
+    quaternion(t,4) = -1 * quaternion(t,4);
     ...AbsAcc(t,:) = inv(quatern2rotMat(quaternion(t,:))) * Acc(t,:)';
-    AbsAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
+    AbsAcc(t,:) = Acc(t,:) * quatern2rotMat(quaternion(200,:));
+    ...AbsAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
         
     % Subtract Gravity
     AbsAcc(t,3) = AbsAcc(t,3) - gravity;
 end
 
 % Integrate acceleration for velocity
-for t = 2:sampleSize
+for t = 200:sampleSize
     vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period);
 end
 
