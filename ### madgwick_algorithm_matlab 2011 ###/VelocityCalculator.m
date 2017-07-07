@@ -1,6 +1,6 @@
-close all;
 clc;
 clear;
+close all;
 addpath('quaternion_library');
 load('straight walk, 1000 steps.mat');
 
@@ -13,11 +13,12 @@ pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
 yawCorrection = 0;
 
+%% Initialization
+
+% Find initial quaternion and create AHRS
 rotm = euler2rotMat(pitchCorrection, rollCorrection, yawCorrection);
 Quaternion = rotMat2quatern(rotm);
-...Quaternion = [0.957466321359859 -0.041939572590074 -0.28520737125312 0.012492841766914];
 AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaternion);
-
 
 %% Function
 quaternion = zeros(sampleSize, 4);
@@ -25,13 +26,14 @@ AbsAcc = zeros(sampleSize, 3);
 vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
 
 for t = 1:sampleSize
+    % Update quaternion
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
-    quaternion(t,2:4) = -1 * quaternion(t,2:4);
-    %quaternion(t,2) = -1 * quaternion(t,2);
-    %quaternion(t,3) = -1 * quaternion(t,3);
-    %quaternion(t,4) = -1 * quaternion(t,4);
     
+    % Perform weird adjustment
+    quaternion(t,2:4) = -1 * quaternion(t,2:4);
+    
+    % Rotate data to match global reference frame
     AbsAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
         
     % Subtract Gravity
@@ -42,9 +44,6 @@ end
 for t = 1000:sampleSize
     vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period);
 end
-
-
-
 
 %% Plot Results
 
