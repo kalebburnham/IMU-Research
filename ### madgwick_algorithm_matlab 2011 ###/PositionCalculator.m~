@@ -7,7 +7,7 @@ load('straight walk, 1000 steps.mat');
 %% Settings
 period = 1/100;
 sampleSize = 10000;
-beta = .08;
+beta = 0.08;
 gravity = 9.786; % m/s/s
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
@@ -66,6 +66,7 @@ figure;
 hold on;
 plot(1:sampleSize, pos(1:sampleSize,2), 'r');
 plot(1:sampleSize, Pos(1:sampleSize,2), 'g');
+plot(1:sampleSize, Pos(1:sampleSize,1), 'g');
 title('Position Estimate on Y-axis');
 legend('Estimate', 'Ground Truth');
 hold off;
