@@ -11,9 +11,9 @@ load('../straight walk, 1000 steps.mat');
 % dcm2quat function
 
 %% Settings
-period = 1/256;
-beta = 5;
-sampleSize = 100;
+period = 1/100;
+beta = 1;
+sampleSize = 3000;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
 yawCorrection = 0;
@@ -33,6 +33,10 @@ for t = 1:sampleSize
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
     groundTruthQuat(t,:) = dcm2quat(DCM(:,:,t));
+    
+    quaternion(t,2) = -1 * quaternion(t,2);
+    quaternion(t,3) = -1 * quaternion(t,3);
+    quaternion(t,4) = -1 * quaternion(t,4);
 end
 
 %% Plot Results
@@ -55,7 +59,7 @@ hold off;
 
 figure;
 hold on;
-plot(1:t, groundTruthQuat(:,2), 'r');
+plot(1:t, groundTruthQuat(:,3), 'r');
 plot(1:t, quaternion(:,3), 'g');
 title('Y');
 legend('Ground Truth', 'Estimated');
@@ -63,7 +67,7 @@ hold off;
 
 figure;
 hold on;
-plot(1:t, groundTruthQuat(:,2), 'r');
+plot(1:t, groundTruthQuat(:,4), 'r');
 plot(1:t, quaternion(:,4), 'g');
 title('Z');
 legend('Ground Truth', 'Estimated');

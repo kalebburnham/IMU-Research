@@ -10,8 +10,8 @@ load('../straight walk, 1000 steps.mat');
 % ground truth DCMs are different.
 
 %% Settings
-period = 1/256;
-beta = .5;
+period = 1/100;
+beta = 1;
 sampleSize = 1500;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
@@ -28,7 +28,7 @@ groundTruthQuat = zeros(length(Acc), 4);
 
 %% Function
 
-for t = 1:length(Acc)
+for t = 1:sampleSize
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
     quaternion(t,2) = -1*quaternion(t,2);

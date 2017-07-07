@@ -5,9 +5,9 @@ addpath('quaternion_library');
 load('straight walk, 1000 steps.mat');
 
 %% Settings
-period = 1/256;
-sampleSize = 1500;
-beta = 0;
+period = 1/100;
+sampleSize = 20000;
+beta = 1;
 gravity = 9.786; % m/s/s
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
@@ -23,15 +23,15 @@ AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaterni
 quaternion = zeros(sampleSize, 4);
 AbsAcc = zeros(sampleSize, 3);
 vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
+
 for t = 1:sampleSize
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
     quaternion(t,2) = -1 * quaternion(t,2);
     quaternion(t,3) = -1 * quaternion(t,3);
     quaternion(t,4) = -1 * quaternion(t,4);
-    ...AbsAcc(t,:) = inv(quatern2rotMat(quaternion(t,:))) * Acc(t,:)';
-    AbsAcc(t,:) = Acc(t,:) * quatern2rotMat(quaternion(200,:));
-    ...AbsAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
+    
+    AbsAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
         
     % Subtract Gravity
     AbsAcc(t,3) = AbsAcc(t,3) - gravity;
@@ -45,7 +45,7 @@ end
 
 
 
-% Plot Example Results
+%% Plot Results
 
 figure;
 hold on;

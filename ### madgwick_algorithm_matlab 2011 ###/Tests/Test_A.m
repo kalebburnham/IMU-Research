@@ -15,126 +15,129 @@ load('../straight walk, 1000 steps.mat');
 % DCMs are then compared to the ground truth.
 
 %% Settings
-period = 1/256;
-beta = 5;
-sampleSize = 122001;
+period = 1/100;
+beta = 1;
+sampleSize = 1500;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
 yawCorrection = 0;
 
 %% Initialization
-first = length(DCM) - sampleSize;
-last = length(DCM);
 
 rotm = euler2rotMat(pitchCorrection, rollCorrection, yawCorrection);
 Quaternion = rotMat2quatern(rotm);
 AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaternion);
 
-quaternion = zeros(length(Acc), 4);
-calculatedDCM = zeros(3, 3, length(Acc));
+quaternion = zeros(sampleSize, 4);
+calculatedDCM = zeros(3, 3, sampleSize);
 
 %% Function
 
-for t = 1:length(Acc)
+for t = 1:sampleSize
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
+    %quaternion(t,2) = -1 * quaternion(t,2);
+    %quaternion(t,3) = -1 * quaternion(t,3);
+    %quaternion(t,3) = -1 * quaternion(t,3);
     calculatedDCM(:,:,t) = quat2dcm(quaternion(t,:));
+    
+    % (Optional) Transpose calculatedDCM
+    calculatedDCM(:,:,t) = permute(calculatedDCM(:,:,t), [2 1 3]);
 end
 
-%% (Optional) Transpose calculatedDCM
-...calculatedDCM = permute(calculatedDCM, [2 1 3]);
+
 
 %% Plot Results
 
-A = squeeze(DCM(1,1,first:last)); % [1,1]
-B = squeeze(DCM(1,2,first:last)); % [1,2]
-C = squeeze(DCM(1,3,first:last)); % [1,3]
-D = squeeze(DCM(2,1,first:last)); % [2,1]
-E = squeeze(DCM(2,2,first:last)); % [2,2]
-F = squeeze(DCM(2,3,first:last)); % [2,3]
-G = squeeze(DCM(3,1,first:last)); % [3,1]
-H = squeeze(DCM(3,2,first:last)); % [3,2]
-I = squeeze(DCM(3,3,first:last)); % [3,3]
+A = squeeze(DCM(1,1,1:sampleSize)); % [1,1]
+B = squeeze(DCM(1,2,1:sampleSize)); % [1,2]
+C = squeeze(DCM(1,3,1:sampleSize)); % [1,3]
+D = squeeze(DCM(2,1,1:sampleSize)); % [2,1]
+E = squeeze(DCM(2,2,1:sampleSize)); % [2,2]
+F = squeeze(DCM(2,3,1:sampleSize)); % [2,3]
+G = squeeze(DCM(3,1,1:sampleSize)); % [3,1]
+H = squeeze(DCM(3,2,1:sampleSize)); % [3,2]
+I = squeeze(DCM(3,3,1:sampleSize)); % [3,3]
 
-calculatedA = squeeze(calculatedDCM(1,1,:));
-calculatedB = squeeze(calculatedDCM(1,2,:));
-calculatedC = squeeze(calculatedDCM(1,3,:));
-calculatedD = squeeze(calculatedDCM(2,1,:));
-calculatedE = squeeze(calculatedDCM(2,2,:));
-calculatedF = squeeze(calculatedDCM(2,3,:));
-calculatedG = squeeze(calculatedDCM(3,1,:));
-calculatedH = squeeze(calculatedDCM(3,2,:));
-calculatedI = squeeze(calculatedDCM(3,3,:));
+calculatedA = squeeze(calculatedDCM(1,1,1:sampleSize));
+calculatedB = squeeze(calculatedDCM(1,2,1:sampleSize));
+calculatedC = squeeze(calculatedDCM(1,3,1:sampleSize));
+calculatedD = squeeze(calculatedDCM(2,1,1:sampleSize));
+calculatedE = squeeze(calculatedDCM(2,2,1:sampleSize));
+calculatedF = squeeze(calculatedDCM(2,3,1:sampleSize));
+calculatedG = squeeze(calculatedDCM(3,1,1:sampleSize));
+calculatedH = squeeze(calculatedDCM(3,2,1:sampleSize));
+calculatedI = squeeze(calculatedDCM(3,3,1:sampleSize));
 
 figure;
 hold on;
 title('[1,1]');
-plot(first:last, A(:,1), 'r');
-plot(first:last, calculatedA(first:last,1), 'g');
+plot(1:sampleSize, A(:,1), 'r');
+plot(1:sampleSize, calculatedA(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[1,2]');
-plot(first:last, B(:,1), 'r');
-plot(first:last, calculatedB(first:last,1), 'g');
+plot(1:sampleSize, B(:,1), 'r');
+plot(1:sampleSize, calculatedB(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[1,3]');
-plot(first:last, C(:,1), 'r');
-plot(first:last, calculatedC(first:last,1), 'g');
+plot(1:sampleSize, C(:,1), 'r');
+plot(1:sampleSize, calculatedC(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[2,1]');
-plot(first:last, D(:,1), 'r');
-plot(first:last, calculatedD(first:last,1), 'g');
+plot(1:sampleSize, D(:,1), 'r');
+plot(1:sampleSize, calculatedD(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[2,2]');
-plot(first:last, E(:,1), 'r');
-plot(first:last, calculatedE(first:last,1), 'g');
+plot(1:sampleSize, E(:,1), 'r');
+plot(1:sampleSize, calculatedE(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[2,3]');
-plot(first:last, F(:,1), 'r');
-plot(first:last, calculatedF(first:last,1), 'g');
+plot(1:sampleSize, F(:,1), 'r');
+plot(1:sampleSize, calculatedF(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[3,1]');
-plot(first:last, G(:,1), 'r');
-plot(first:last, calculatedG(first:last,1), 'g');
+plot(1:sampleSize, G(:,1), 'r');
+plot(1:sampleSize, calculatedG(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[3,2]');
-plot(first:last, H(:,1), 'r');
-plot(first:last, calculatedH(first:last,1), 'g');
+plot(1:sampleSize, H(:,1), 'r');
+plot(1:sampleSize, calculatedH(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
 figure;
 hold on;
 title('[3,3]');
-plot(first:last, I(:,1), 'r');
-plot(first:last, calculatedI(first:last,1), 'g');
+plot(1:sampleSize, I(:,1), 'r');
+plot(1:sampleSize, calculatedI(:,1), 'g');
 legend('Ground Truth', 'Calculated');
 hold off;
 
