@@ -29,8 +29,8 @@ for t = 1:sampleSize
     quaternion(t,:) = AHRS.Quaternion;
     quaternion(t,2:4) = -1 * quaternion(t,2:4);
     %quaternion(t,2) = -1 * quaternion(t,2);
-    %quaternion(t,3) = -1 * quaternion(t,3);
-    %quaternion(t,4) = -1 * quaternion(t,4);
+    quaternion(t,3) = -1 * quaternion(t,3);
+    quaternion(t,4) = -1 * quaternion(t,4);
     
     AbsAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
         
@@ -39,7 +39,7 @@ for t = 1:sampleSize
 end
 
 % Integrate acceleration for velocity
-for t = 1000:sampleSize
+for t = 800:sampleSize
     vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period);
 end
 
@@ -51,24 +51,11 @@ end
 figure;
 hold on;
 plot(1:sampleSize, AbsAcc(1:sampleSize,1), 'r');
-title('Absolute Acceleration on X-axis');
-legend('X');
+plot(1:sampleSize, AbsAcc(1:sampleSize,2), 'g');
+plot(1:sampleSize, AbsAcc(1:sampleSize,3), 'b');
+title('True Accelerations');
+legend('X', 'Y', 'Z');
 hold off;
-
-figure;
-hold on;
-plot(1:sampleSize, AbsAcc(1:sampleSize,2), 'r');
-title('Absolute Acceleration on Y-axis');
-legend('Y');
-hold off;
-
-figure;
-hold on;
-plot(1:sampleSize, AbsAcc(1:sampleSize,3), 'r');
-title('Absolute Acceleration on Z-axis');
-legend('Z');
-hold off;
-
 figure;
 hold on;
 plot(1:sampleSize, vel(1:sampleSize,1), 'r');
@@ -76,7 +63,6 @@ plot(1:sampleSize, Vel(1:sampleSize,1), 'g');
 title('Velocity (X)');
 legend('Estimated', 'Ground Truth');
 hold off;
-
 figure;
 hold on;
 plot(1:sampleSize, vel(1:sampleSize,2), 'r');
@@ -84,7 +70,6 @@ plot(1:sampleSize, Vel(1:sampleSize,2), 'g');
 title('Velocity (Y)');
 legend('Estimated', 'Ground Truth');
 hold off;
-
 figure;
 hold on;
 plot(1:sampleSize, vel(1:sampleSize,3), 'r');
