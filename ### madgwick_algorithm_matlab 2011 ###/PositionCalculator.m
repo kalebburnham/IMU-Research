@@ -2,11 +2,13 @@ clc;
 clear;
 close all;
 addpath('quaternion_library');
-load('straight walk, 1000 steps.mat');
+...load('straight walk, 1000 steps.mat'); % 122002 samples
+...load('Closed trajectory, 1 loop.mat'); % 11616 samples
+load('Closed trajectory, 10 loops.mat'); % 98160 samples
 
 %% Settings
 period = 1/100;
-sampleSize = 10000;
+sampleSize = 98160;
 beta = .08;
 gravity = 9.786; % m/s/s
 pitchCorrection = 0.0875;
@@ -76,4 +78,9 @@ plot(1:sampleSize, pos(1:sampleSize,3), 'r');
 plot(1:sampleSize, Pos(1:sampleSize,3), 'g');
 title('Position Estimate on Z-axis');
 legend('Estimate', 'Ground Truth');
+hold off;
+
+figure;
+hold on;
+scatter3(pos(1:sampleSize,1), pos(1:sampleSize,2), pos(1:sampleSize,3));
 hold off;
