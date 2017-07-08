@@ -8,8 +8,8 @@ load('Closed trajectory, 10 loops.mat'); % 98160 samples
 
 %% Settings
 period = 1/100;
-sampleSize = 98160;
-beta = .08;
+sampleSize = 10000;
+beta = 0.1;
 gravity = 9.786; % m/s/s
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
@@ -81,6 +81,15 @@ legend('Estimate', 'Ground Truth');
 hold off;
 
 figure;
-hold on;
-scatter3(pos(1:sampleSize,1), pos(1:sampleSize,2), pos(1:sampleSize,3));
-hold off;
+x = pos(1:sampleSize,1);
+y = pos(1:sampleSize,2);
+z = pos(1:sampleSize,3);
+plot3(x,y,z);
+title('Estimate');
+legend('X', 'Y', 'Z');
+
+figure;
+X = Pos(1:sampleSize,1);
+Y = Pos(1:sampleSize,2);
+Z = Pos(1:sampleSize,3);
+plot3(X,Y,Z);

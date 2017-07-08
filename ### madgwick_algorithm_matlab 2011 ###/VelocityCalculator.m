@@ -2,12 +2,12 @@ clc;
 clear;
 close all;
 addpath('quaternion_library');
-load('straight walk, 1000 steps.mat');
-
+%load('straight walk, 1000 steps.mat');
+load('Closed trajectory, 1 loop.mat');
 %% Settings
 period = 1/100;
-sampleSize = 10000;
-beta = 0.08;
+sampleSize = 11616;
+beta = 0.1;
 gravity = 9.786; % m/s/s
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
@@ -91,3 +91,9 @@ plot(1:sampleSize, Vel(1:sampleSize,3), 'g');
 title('Velocity (Z)');
 legend('Estimated', 'Ground Truth');
 hold off;
+
+figure;
+plot3(vel(1:sampleSize,1), vel(1:sampleSize,2), vel(1:sampleSize,3));
+
+figure;
+plot3(Vel(1:sampleSize,1), Vel(1:sampleSize,2), Vel(1:sampleSize,3));
