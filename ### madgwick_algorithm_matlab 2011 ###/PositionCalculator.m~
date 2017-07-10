@@ -26,13 +26,12 @@ AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaterni
 
 % Create variables
 quaternion = zeros(sampleSize, 4);
-AbsAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes - 'Absolute Acceleration'
+AbsAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes
 vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
 pos = zeros(sampleSize, 3);
 
 %% Function
 
-% Find acceleration in global frame
 for t = 1:sampleSize
     % Update quaternion
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
@@ -48,8 +47,6 @@ for t = 1:sampleSize
     AbsAcc(t,3) = AbsAcc(t,3) - gravity;
 end
 
-
-% Integrate for velocity and position
 if strcmp(integrationMethod, 'Midpoint')
     for t = 1000:sampleSize
         vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period); % Acc -> vel
@@ -65,21 +62,22 @@ end
 %% Plot results
 
 figure;
-axis(1) = subplot(3,1,1);
 hold on;
 plot(1:sampleSize, pos(1:sampleSize,1), 'r');
 plot(1:sampleSize, Pos(1:sampleSize,1), 'g');
 title('Position Estimate on X-axis');
 legend('Estimate', 'Ground Truth');
 hold off;
-axis(2) = subplot(3,1,2);
+
+figure;
 hold on;
 plot(1:sampleSize, pos(1:sampleSize,2), 'r');
 plot(1:sampleSize, Pos(1:sampleSize,2), 'g');
 title('Position Estimate on Y-axis');
 legend('Estimate', 'Ground Truth');
 hold off;
-axis(3) = subplot(3,1,3);
+
+figure;
 hold on;
 plot(1:sampleSize, pos(1:sampleSize,3), 'r');
 plot(1:sampleSize, Pos(1:sampleSize,3), 'g');
@@ -88,13 +86,13 @@ legend('Estimate', 'Ground Truth');
 hold off;
 
 figure;
-axis(1) = subplot(2,1,1);
 x = pos(1:sampleSize,1);
 y = pos(1:sampleSize,2);
 z = pos(1:sampleSize,3);
 plot3(x,y,z);
 title('Position Estimate');
-axis(2) = subplot(2,1,2);
+
+figure;
 X = Pos(1:sampleSize,1);
 Y = Pos(1:sampleSize,2);
 Z = Pos(1:sampleSize,3);
