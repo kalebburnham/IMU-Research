@@ -2,20 +2,22 @@ clc;
 clear;
 close all;
 addpath('quaternion_library');
+
 load('straight walk, 1000 steps.mat'); % 122002 samples
 ...load('Closed trajectory, 1 loop.mat'); % 11616 samples
 ...load('Closed trajectory, 10 loops.mat'); % 98160 samples
 
 %% Settings
 period = 1/100;
-sampleSize = 5000;
+sampleSize = 10000; % Must be greater than 1000
 beta = 0.08;
 gravity = 9.786;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
 yawCorrection = 0;
+first = 1000;
 
-integrationMethod = 'Midpoint'; % Midpoint or Trapezoidal
+integrationMethod = 'Simpsons'; % Rectangular or Trapezoidal
 
 %% Initialization
 
@@ -50,20 +52,63 @@ end
 
 
 % Integrate for velocity and position
-if strcmp(integrationMethod, 'Midpoint')
-    for t = 1000:sampleSize
+if strcmp(integrationMethod, 'Rectangular')
+    for t = first:sampleSize
         vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period); % Acc -> vel
         pos(t,:) = pos(t-1,:) + (vel(t,:) * period);    % vel -> pos
     end
 elseif strcmp(integrationMethod, 'Trapezoidal')
-    for t = 1000:sampleSize
-        vel(t,:) = vel(t-1,:) + [AbsAcc(t-1,:) + AbsAcc(t,:)] * 0.5 * period; % Acc -> vel
-        pos(t,:) = pos(t-1,:) + [vel(t-1,:) + vel(t,:)] * 0.5 * period;       % vel -> pos
+    for t = first:sampleSize
+        vel(t,:) = vel(t-1,:) + (AbsAcc(t-1,:) + AbsAcc(t,:)) * 0.5 * period; % Acc -> vel
+        pos(t,:) = pos(t-1,:) + (vel(t-1,:) + vel(t,:)) * 0.5 * period;       % vel -> pos
     end
+elseif strcmp(integrationMethod, 'Simpsons')
+    last = sampleSize;
+    
+    for len = 2:2:last-first
+        velocity = vel(first + len - 2);
+        %velocity = [0 0 0];
+        velocity = velocity + AbsAcc(first + 1,:);
+        
+        velocity = velocity + 4*AbsAcc(first + len - 1,:); % Even index
+        velocity = velocity + 2*AbsAcc(first + s + 1,:); % Odd index
+                
+        velocity = velocity + AbsAcc(last,:);
+        
+        vel(first + len,:) = velocity;
+        
+        % Since only every other value is assigned using Simpson's
+        % rule, I assigned value+1 as the same to make the graphs look
+        % nicer.
+        vel(first + len + 1,:) = velocity;
+    end
+    
+    vel = vel*(1/300);
+    
 end
 
 %% Plot results
 
+
+%Velocity
+figure;
+axis(1) = subplot(3,1,1);
+hold on;
+plot(1:sampleSize, vel(1:sampleSize,1), 'r');
+plot(1:sampleSize, Vel(1:sampleSize,1), 'g');
+hold off;
+axis(2) = subplot(3,1,2);
+hold on;
+plot(1:sampleSize, vel(1:sampleSize,2), 'r');
+plot(1:sampleSize, Vel(1:sampleSize,2), 'g');
+hold off;
+axis(3) = subplot(3,1,3);
+hold on;
+plot(1:sampleSize, vel(1:sampleSize,3), 'r');
+plot(1:sampleSize, Vel(1:sampleSize,3), 'g');
+hold off;
+
+% 2D results
 figure;
 axis(1) = subplot(3,1,1);
 hold on;
@@ -87,16 +132,11 @@ title('Position Estimate on Z-axis');
 legend('Estimate', 'Ground Truth');
 hold off;
 
+% 3D Position
 figure;
 axis(1) = subplot(2,1,1);
-x = pos(1:sampleSize,1);
-y = pos(1:sampleSize,2);
-z = pos(1:sampleSize,3);
-plot3(x,y,z);
+plot3(pos(1:sampleSize,1), pos(1:sampleSize,2), pos(1:sampleSize,3), 'r');
 title('Position Estimate');
 axis(2) = subplot(2,1,2);
-X = Pos(1:sampleSize,1);
-Y = Pos(1:sampleSize,2);
-Z = Pos(1:sampleSize,3);
-plot3(X,Y,Z);
+plot3(Pos(1:sampleSize,1), Pos(1:sampleSize,2), Pos(1:sampleSize,3), 'r');
 title('Position Ground Truth');
