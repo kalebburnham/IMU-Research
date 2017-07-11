@@ -9,7 +9,7 @@ load('straight walk, 1000 steps.mat'); % 122002 samples
 
 %% Settings
 period = 1/100;
-sampleSize = 5000; % Must be greater than 1000
+sampleSize = 10000; % Must be greater than 1000
 beta = 0.08;
 gravity = [0 0 -9.786];
 pitchCorrection = 0.0875;
@@ -25,10 +25,12 @@ Quaternion = rotMat2quatern(rotm);
 AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', Quaternion);
 
 % Create variables
-quaternion = zeros(sampleSize, 4);
 AbsAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes - 'Absolute Acceleration'
 vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
 pos = zeros(sampleSize, 3);
+
+q = zeros(sampleSize, 4);
+grav = zeros(sampleSize,3);
 
 %% Function
 
@@ -36,16 +38,20 @@ pos = zeros(sampleSize, 3);
 for t = 1:sampleSize
     % Update quaternion
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
-    quaternion(t,:) = AHRS.Quaternion;
+    q(t,:) = AHRS.Quaternion;
     
-    % Perform weird adjustment
-    quaternion(t,2:4) = -1 * quaternion(t,2:4);
+    grav(t,1) = 2*(q(t,2)*q(t,4) - q(t,1)*q(t,3));
+    grav(t,2) = 2*(q(t,1)*q(t,2) + q(t,3)*q(t,4));
+    grav(t,3) = q(t,1)*q(t,1) - q(t,2)*q(t,2) - q(t,3)*q(t,3) + q(t,4)*q(t,4);
     
-    % Rotate acceleration to Earth's frame and compensate for gravity
-    AbsAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)) + gravity;
+    AbsAcc(t,1) = Acc(t,1) + gravity(3)*grav(t,1);
+    AbsAcc(t,2) = Acc(t,2) + gravity(3)*grav(t,2);
+    AbsAcc(t,3) = Acc(t,3) + gravity(3)*grav(t,3);
 end
 
+
 % Integrate for velocity and position
+
 for t = first:sampleSize
     vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period); % Acc -> vel
     pos(t,:) = pos(t-1,:) + (vel(t,:) * period);    % vel -> pos
@@ -53,7 +59,8 @@ end
 
 %% Plot results
 
-% Velocity
+
+%Velocity
 figure;
 axis(1) = subplot(3,1,1);
 hold on;
