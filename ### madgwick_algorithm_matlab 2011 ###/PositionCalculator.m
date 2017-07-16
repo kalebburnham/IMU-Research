@@ -3,20 +3,41 @@ clear;
 close all;
 addpath('quaternion_library');
 
-load('straight walk, 1000 steps.mat'); % 122002 samples
+file = 'logfile_web_straight.mat';
+...file = 'straight walk, 1000 steps.mat';
+%       straight walk, 1000 steps.mat - 122002 samples
+%       logfile_web_straight.mat      - 22000 samples
+%       Closed trajectory, 1 loop.mat - 11616 samples
+%       Closed trajectory, 10.mat     - 98160 samples
+
+load(file);
+...load('straight walk, 1000 steps.mat'); % 122002 samples
+...load('logfile_web_straight.mat');
 ...load('Closed trajectory, 1 loop.mat'); % 11616 samples
 ...load('Closed trajectory, 10 loops.mat'); % 98160 samples
 
 %% Settings
-period = 1/100;
-sampleSize = 5000; % Must be greater than 1000
-beta = 0.08;
-gravity = [0 0 -9.786];
-pitchCorrection = 0.0875;
-rollCorrection = 0.5790;
-yawCorrection = 0;
-first = 1000;
+period = 1/fs;
+sampleSize = 22000; % Must be greater than 1000
+first = 2;
 
+if strcmp(file,'straight walk, 1000 steps.mat') ...
+        || strcmp(file, 'Closed trajectory, 1 loop.mat') ...
+        || strcmp(file, 'Closed trajectory, 10 loops.mat')
+    
+    beta = 0.08;
+    gravity = [0 0 -9.786];
+    pitchCorrection = 0.0875; % radians
+    rollCorrection = 0.5790;
+    yawCorrection = 0;
+    
+elseif strcmp(file, 'logfile_web_straight.mat')
+    beta = 0.01;
+    gravity = [0 0 -9.8];
+    pitchCorrection = 0.261799;
+    rollCorrection = 0.0872665;
+    yawCorrection = 0;
+end
 %% Initialization
 
 % Find initial quaternion and create AHRS
@@ -39,7 +60,7 @@ for t = 1:sampleSize
     quaternion(t,:) = AHRS.Quaternion;
     
     % Perform weird adjustment
-    quaternion(t,2:4) = -1 * quaternion(t,2:4);
+    quaternion(t,2:4) = -1*quaternion(t,2:4);
     
     % Rotate acceleration to Earth's frame and compensate for gravity
     AbsAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)) + gravity;
@@ -55,6 +76,7 @@ end
 
 % Velocity
 figure;
+title('Velocity');
 axis(1) = subplot(3,1,1);
 hold on;
 plot(1:sampleSize, vel(1:sampleSize,1), 'r');
