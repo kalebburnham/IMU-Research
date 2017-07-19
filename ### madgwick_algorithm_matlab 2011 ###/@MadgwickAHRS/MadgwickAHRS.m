@@ -8,8 +8,6 @@ classdef MadgwickAHRS < handle
 %   28/09/2011    SOH Madgwick    Initial release
 
 
-% INVSQRT MAY CAUSE ISSUES
-
     %% Public properties
     properties (Access = public)
         SamplePeriod = 1/256;
@@ -32,6 +30,7 @@ classdef MadgwickAHRS < handle
             
         end
         function obj = Update(obj, Gyroscope, Accelerometer, Magnetometer)
+            
             q = obj.Quaternion; % short name local variable for readability
 
             % Normalise accelerometer measurement
