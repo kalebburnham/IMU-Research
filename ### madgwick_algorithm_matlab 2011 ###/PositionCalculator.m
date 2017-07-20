@@ -58,23 +58,26 @@ for t = 1:sampleSize
     % "use conjugate for sensor frame relative to Earth" - Madgwick
     quaternion(t,:) = quaternConj(quaternion(t,:));
     
+    [Acc(t,:) Gyr(t,:)] = addNoise(Acc(t,:), Gyr(t,:)); % Add noise
+     
     % Rotate acceleration to Earth's frame and compensate for gravity
     AbsAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)) + gravity;
     
-    cap = 0.1;
-    if abs(AbsAcc(t,1)) < cap
-        AbsAcc(t,1) = 0;
-    end
-    
-    if abs(AbsAcc(t,2)) < cap
-        AbsAcc(t,2) = 0;
-    end
-    
-    if abs(AbsAcc(t,3)) < cap
-        AbsAcc(t,3) = 0;
-    end
-    
+%     cap = 0.1;
+%     if abs(AbsAcc(t,1)) < cap
+%         AbsAcc(t,1) = 0;
+%     end
+%     
+%     if abs(AbsAcc(t,2)) < cap
+%         AbsAcc(t,2) = 0;
+%     end
+%     
+%     if abs(AbsAcc(t,3)) < cap
+%         AbsAcc(t,3) = 0;
+%     end
 end
+
+
 
 % Integrate for velocity and position
 for t = first+1:sampleSize
@@ -140,3 +143,15 @@ hold on;
 scatter(Mag(1:sampleSize,1), Mag(1:sampleSize,2));
 scatter(Mag(1:sampleSize,1), Mag(1:sampleSize,3));
 scatter(Mag(1:sampleSize,2), Mag(1:sampleSize,3));
+
+function [Acc,Gyr] = addNoise(Acc, Gyr)
+    % Add white noise. Acc = 0.012 m/s/s, Gyr = 0.0087 rad/s
+    mean = 0;
+    AccSigma = 0.012;
+    GyrSigma = 0.0087;
+    
+    n = normrnd(mean, AccSigma, [1,3]); % Acceleration noise
+    Acc = Acc + n;
+    n = normrnd(mean, GyrSigma, [1,3]); % Gyrometer noise
+    Gyr = Gyr + n;
+end
