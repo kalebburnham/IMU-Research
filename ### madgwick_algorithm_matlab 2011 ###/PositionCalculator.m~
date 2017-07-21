@@ -4,7 +4,7 @@ close all;
 addpath('quaternion_library');
 
 ...file = 'logfile_web_straight.mat';
-file = 'Closed trajectory, 10 loops.mat';
+file = 'straight walk, 1000 steps.mat';
 %       straight walk, 1000 steps.mat - 122002 samples
 %       logfile_web_straight.mat      - 22000 samples
 %       Closed trajectory, 1 loop.mat - 11616 samples
@@ -14,7 +14,7 @@ load(file);
 
 %% Settings
 period = 1/fs;
-sampleSize = 22000; % Must be greater than 1000
+sampleSize = 10000; % Must be greater than 1000
 first = 1000;
 
 if strcmp(file,'straight walk, 1000 steps.mat') ...
@@ -28,7 +28,7 @@ if strcmp(file,'straight walk, 1000 steps.mat') ...
     yawCorrection = 0;
     
 elseif strcmp(file, 'logfile_web_straight.mat')
-    beta = 0.075;
+    beta = 0.08;
     gravity = [0 0 -9.8];
     pitchCorrection = 0.261799;
     rollCorrection = 0.0872665;
@@ -43,47 +43,67 @@ AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', InitialQ
 
 % Create variables
 quaternion = zeros(sampleSize, 4);
-AbsAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes - 'Absolute Acceleration'
+GlobalAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes
 vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
 pos = zeros(sampleSize, 3);
 
 %% Function
 
+[Acc, Gyr] = addNoise(sampleSize, Acc, Gyr);
+[Acc, Gyr] = addBias(sampleSize, Acc, Gyr);
+
 % Find acceleration in global frame
 for t = 1:sampleSize
+    
+    
     % Update quaternion
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
     quaternion(t,:) = AHRS.Quaternion;
     
     % "use conjugate for sensor frame relative to Earth" - Madgwick
     quaternion(t,:) = quaternConj(quaternion(t,:));
-    
-    [Acc(t,:) Gyr(t,:)] = addNoise(Acc(t,:), Gyr(t,:)); % Add noise
      
     % Rotate acceleration to Earth's frame and compensate for gravity
-    AbsAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)) + gravity;
+    GlobalAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)) + gravity;
     
-%     cap = 0.1;
-%     if abs(AbsAcc(t,1)) < cap
-%         AbsAcc(t,1) = 0;
+%     cap = 0.2;
+%     if abs(GlobalAcc(t,1)) < cap
+%         GlobalAcc(t,1) = 0;
 %     end
 %     
-%     if abs(AbsAcc(t,2)) < cap
-%         AbsAcc(t,2) = 0;
+%     if abs(GlobalAcc(t,2)) < cap
+%         GlobalAcc(t,2) = 0;
 %     end
 %     
-%     if abs(AbsAcc(t,3)) < cap
-%         AbsAcc(t,3) = 0;
+%     if abs(GlobalAcc(t,3)) < cap
+%         GlobalAcc(t,3) = 0;
 %     end
+        
 end
-
-
 
 % Integrate for velocity and position
 for t = first+1:sampleSize
-    vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period); % Acc -> vel
-    pos(t,:) = pos(t-1,:) + (vel(t,:) * period);    % vel -> pos
+%     if norm(AbsAcc(t,:)) == 0
+%         vel(t,:) = [0 0 0];
+%     else
+%         vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period); % Acc -> vel
+%     end
+    
+    vel(t,:) = vel(t-1,:) + (GlobalAcc(t-1,:) * period); % Acc -> vel
+    pos(t,:) = pos(t-1,:) + (vel(t-1,:) * period);    % vel -> pos
 end
+
+GroundTruthAcceleration = zeros(sampleSize,3);
+for t = first:sampleSize-1
+    GroundTruthAcceleration(t,:) = (Vel(t+1,:) - Vel(t,:)) * 1/period;
+end
+
+figure;
+hold on;
+plot(1024:1105, GlobalAcc(1024:1105,3), 'r');
+plot(1024:1105, GroundTruthAcceleration(1024:1105,3), 'g');
+hold off;
+
 
 %% Plot results
 
@@ -91,17 +111,17 @@ end
 figure;
 axis(1) = subplot(3,1,1);
 hold on;
-plot(1:sampleSize, AbsAcc(1:sampleSize,1), 'r');
+plot(1:sampleSize, GlobalAcc(1:sampleSize,1), 'r');
 title('Acceleration in Earths frame. X-Axis');
 hold off;
 axis(2) = subplot(3,1,2);
 hold on;
-plot(1:sampleSize, AbsAcc(1:sampleSize,2), 'r');
+plot(1:sampleSize, GlobalAcc(1:sampleSize,2), 'r');
 title('Acceleration in Earths frame. Y-Axis');
 hold off;
 axis(3) = subplot(3,1,3);
 hold on;
-plot(1:sampleSize, AbsAcc(1:sampleSize,3), 'r');
+plot(1:sampleSize, GlobalAcc(1:sampleSize,3), 'r');
 title('Acceleration in Earths frame. Z-Axis');
 hold off;
 
@@ -129,29 +149,42 @@ title('Position Estimate on Z-axis');
 legend('Estimate', 'Ground Truth');
 hold off;
 
-% 3D Position
+%3D Position
 figure;
+hold on;
 axis(1) = subplot(2,1,1);
 plot3(pos(1:sampleSize,1), pos(1:sampleSize,2), pos(1:sampleSize,3), 'r');
 title('Position Estimate');
 axis(2) = subplot(2,1,2);
 plot3(Pos(1:sampleSize,1), Pos(1:sampleSize,2), Pos(1:sampleSize,3), 'r');
 title('Position Ground Truth');
+hold off;
 
 figure;
-hold on;
-scatter(Mag(1:sampleSize,1), Mag(1:sampleSize,2));
-scatter(Mag(1:sampleSize,1), Mag(1:sampleSize,3));
-scatter(Mag(1:sampleSize,2), Mag(1:sampleSize,3));
+scatter(1:100, GlobalAcc(1024:1123,3))
 
-function [Acc,Gyr] = addNoise(Acc, Gyr)
+
+
+function [Acc,Gyr] = addNoise(sampleSize, Acc, Gyr)
     % Add white noise. Acc = 0.012 m/s/s, Gyr = 0.0087 rad/s
     mean = 0;
-    AccSigma = 0.012;
+    AccSigma = 0.012; % Std Dev.
     GyrSigma = 0.0087;
+    AccRandomWalk = zeros(size(Acc));
+    GyrRandomWalk = zeros(size(Gyr));
     
-    n = normrnd(mean, AccSigma, [1,3]); % Acceleration noise
-    Acc = Acc + n;
-    n = normrnd(mean, GyrSigma, [1,3]); % Gyrometer noise
-    Gyr = Gyr + n;
+    AccRandomWalk(1,:) = normrnd(mean,AccSigma,[1 3]);
+    GyrRandomWalk(1,:) = normrnd(mean,GyrSigma,[1 3]);
+    
+    for t = 2:sampleSize
+        AccRandomWalk(t,:) = AccRandomWalk(t-1,:) + normrnd(mean,AccSigma,[1,3]);
+        GyrRandomWalk(t,:) = GyrRandomWalk(t-1,:) + normrnd(mean,GyrSigma,[1,3]);
+    end
+    
+    Acc = Acc + AccRandomWalk;
+    Gyr = Gyr + GyrRandomWalk;
+end
+
+function [Acc,Gyr] = addBias(sampleSize, Acc,Gyr)
+    AccBias = 
 end
