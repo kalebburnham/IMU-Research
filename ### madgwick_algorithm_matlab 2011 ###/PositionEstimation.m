@@ -3,15 +3,13 @@
 %% Start of script
 
 addpath('quaternion_library');      % include quaternion library
+addpath('Error');
 close all;                          % close all figures
 clear;                              % clear all variables
 clc;                                % clear the command terminal
 
 %% Plots
-plot_1 = 'yes'; % Sensor data
-
-%% Other settings
-removeTrivialValues = false;
+plot_1 = 'no'; % Sensor data
 
 %% Import and plot sensor data
 load('logfile_web_straight.mat');
@@ -78,17 +76,18 @@ if strcmp(plot_1, 'yes')
     linkaxes(axis, 'x');
 end
 
+[Acc, Gyr] = addNoise(Acc, Gyr);
 
 %% Process sensor data via Madgwick AHRS
 if strcmp(INS_Method, 'Madgwick')
-    AHRS = MadgwickAHRS('SamplePeriod', 1/fs, 'Beta', 0.08); % 1/256, 'Beta', 0.1);
+    AHRS = MadgwickAHRS('SamplePeriod', 1/fs, 'Beta', 1); % 1/256, 'Beta', 0.1);
     quaternion1 = zeros(sampleSize, 4);
     for t = 1:sampleSize
         AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:)); % It's already in radians??
         %AHRS.Update(Gyr(t,:) * (pi/180), Acc(t,:), Mag(t,:));	% gyroscope units must be radians
         quaternion1(t,:) = AHRS.Quaternion;
 
-        DCM_est(:,:,t)=quatern2rotMat(quaternion1(t,:))';  % always invert rotation matrix when using rotMat2quatern
+        DCM_est(:,:,t)=quatern2rotMat(quaternion1(t,:));  % always invert rotation matrix when using rotMat2quatern
 
         % Register Euler estimations
         euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
@@ -163,22 +162,6 @@ if strcmp(INS_Method, 'Basic')
         AbsAcc(t,3) = AbsAcc(t,3) - gravity;
     end
 end
-
-% Remove trivial values
-if removeTrivialValues
-    for t = 1:sampleSize
-        if AbsAcc(t,1) < 0.1
-            AbsAcc(t,1) = 0;
-        end
-        if AbsAcc(t,2) < 0.1
-            AbsAcc(t,2) = 0;
-        end
-        if AbsAcc(t,3) < 0.1
-            AbsAcc(t,3) = 0;
-        end
-    end
-end
-
 
 start=1000; %1000;
 % Integrate for velocity and position

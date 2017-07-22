@@ -30,7 +30,7 @@ classdef MahonyAHRS < handle
                 elseif  strcmp(varargin{i}, 'Ki'), obj.Ki = varargin{i+1};
                 else error('Invalid argument');
                 end
-            end;
+            end
         end
         function obj = Update(obj, Gyroscope, Accelerometer, Magnetometer)
             q = obj.Quaternion; % short name local variable for readability
@@ -49,7 +49,7 @@ classdef MahonyAHRS < handle
             
             % Estimated direction of gravity and magnetic field
             v = [2*(q(2)*q(4) - q(1)*q(3))
-                 2*(q(1)*q(2) + q(3)*q(4))
+                 2*(q(1)*q(2) + q(3)*q(4));
                  q(1)^2 - q(2)^2 - q(3)^2 + q(4)^2];
             w = [2*b(2)*(0.5 - q(3)^2 - q(4)^2) + 2*b(4)*(q(2)*q(4) - q(1)*q(3))
                  2*b(2)*(q(2)*q(3) - q(1)*q(4)) + 2*b(4)*(q(1)*q(2) + q(3)*q(4))
