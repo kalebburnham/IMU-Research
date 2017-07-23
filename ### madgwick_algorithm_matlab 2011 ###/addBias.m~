@@ -1,0 +1,12 @@
+function [Acc,Gyr] = addBias(Acc,Gyr)
+
+
+
+
+
+
+
+
+    Acc = 
+end
+
