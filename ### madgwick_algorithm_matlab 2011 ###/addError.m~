@@ -13,24 +13,32 @@ function [Acc,Gyr] = addError(Acc,Gyr)
     BiasNoiseSigma = sqrt(BiasNoiseVariance);
     BiasNoiseMean = 0;                                  % 
     
-    bias = zeros(length(Acc), 1); % b sub k
-    for t = 2:length(Acc)
+    bias = zeros(length(Acc), 3); % b sub k
+    
+    for t = 1:length(Acc)
+        BiasNoise = [normrnd(BiasNoiseMean,BiasNoiseSigma)
+                     normrnd(BiasNoiseMean,BiasNoiseSigma)
+                     normrnd(BiasNoiseMean,BiasNoiseSigma)];
+        SensorNoise = [normrnd(SensorNoiseMean,SensorNoiseSigma)
+                       normrnd(SensorNoiseMean,SensorNoiseSigma)
+                       normrnd(SensorNoiseMean,SensorNoiseSigma)];
+        
         if t > 1
-            % Calculate bias noise - n sub k
-            BiasNoise1 = normrnd(BiasNoiseMean,BiasNoiseSigma);
-            BiasNoise2 = normrnd(BiasNoiseMean,BiasNoiseSigma);
-            BiasNoise3 = normrnd(BiasNoiseMean,BiasNoiseSigma);
-            bias1(t,:) = c * bias1(t-1,:) + BiasNoise1;
-            bias2(t,:) = c * bias2(t-1,:) + BiasNoise2;
-            bias3(t,:) = c * bias3(t-1,:) + BiasNoise3;
+            % Calculate bias, b sub k
+            bias(t,:) = c * bias(t-1,:) + BiasNoise;
+        else
+            bias(t,:) = BiasNoise;
         end
         
-        sensorNoise = normrnd(sensorNoiseMean,sensorNoiseSigma);
-        Acc(
+        Acc(t,:) = Acc(t,:) + bias(t,:) + SensorNoise(t,:);
+        
+        Acc(t,1) = Acc(t,1) + bias1(t,:) + sensorNoise1;
+        Acc(t,2) = Acc(t,2) + bias2(t,:) + sensorNoise2;
+        Acc(t,3) = Acc(t,3) + bias3(t,:) + sensorNoise3;
         
     end
     
-    disp(bias(1:100,:));
+    disp(bias1(1:100,:));
 
 
     %measurementError = bias + SensorNoise;

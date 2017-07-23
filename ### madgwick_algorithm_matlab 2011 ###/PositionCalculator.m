@@ -50,7 +50,7 @@ euler_est = zeros(size(Euler));
 
 %% Function
 
-%[Acc,Gyr] = addError(Acc,Gyr);
+[Acc,Gyr] = addError(Acc,Gyr);
 
 % Find acceleration in global frame
 for t = 1:sampleSize
