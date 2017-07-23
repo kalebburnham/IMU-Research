@@ -1,47 +1,53 @@
 function [Acc,Gyr] = addError(Acc,Gyr)
-    % Acceleration First
+    %% Acceleration First
     
-    % Global variables
-    SensorNoiseSigma = 0.012;
-    SensorNoiseMean = 0;
-    tau = 1;            % Correlation Coefficient
-    c = exp(-1/tau);    % constant defined by Gauss-Markov model
-    BiasStability = 0.04;
-    BiasSigma = BiasStability/sqrt(tau);                % Sigma sub bias
-    BiasVariance = BiasSigma^2;                         % Variance sub bias
-    BiasNoiseVariance = BiasVariance * (1-exp(-2/tau)); % Variance sub nk
-    BiasNoiseSigma = sqrt(BiasNoiseVariance);
-    BiasNoiseMean = 0;                                  % 
-    
-    bias = zeros(length(Acc), 3); % b sub k
-    
-    for t = 1:length(Acc)
-        BiasNoise = [normrnd(BiasNoiseMean,BiasNoiseSigma)
-                     normrnd(BiasNoiseMean,BiasNoiseSigma)
-                     normrnd(BiasNoiseMean,BiasNoiseSigma)];
-        SensorNoise = [normrnd(SensorNoiseMean,SensorNoiseSigma)
-                       normrnd(SensorNoiseMean,SensorNoiseSigma)
-                       normrnd(SensorNoiseMean,SensorNoiseSigma)];
-        
-        if t > 1
-            % Calculate bias, b sub k
-            bias(t,:) = c * bias(t-1,:) + BiasNoise;
-        else
-            bias(t,:) = BiasNoise;
+    for t = 1:2
+        if t == 1 % Acceleration Parameters
+            tau = 1;    % Correlation Coefficient
+            SensorNoiseStdDev = 0.012;
+            SensorNoiseMean = 0;
+            BiasStability = 0.04;
+            BiasNoiseMean = 0;
+        else % Gyroscope Parameters
+            tau = 1;    % Correlation Coefficient
+            SensorNoiseMean = 0;
+            SensorNoiseStdDev = 0.0087;
+            BiasNoiseMean = 0;
+            BiasStability = 0.015;
         end
         
-        Acc(t,:) = Acc(t,:) + bias(t,:) + SensorNoise(t,:);
+        c = exp(-1/tau);                                    % constant defined by Gauss-Markov model
+        BiasStdDev = BiasStability/sqrt(tau);               % Sigma sub bias
+        BiasVariance = BiasStdDev^2;                        % Variance sub bias
+        BiasNoiseVariance = BiasVariance * (1-exp(-2/tau)); % Variance sub nk
+        BiasNoiseStdDev = sqrt(BiasNoiseVariance);
+
+        % Compute bias and sensor noise as a random walk
+        bias = zeros(length(Acc), 3); % b sub k
+        SensorNoise = zeros(length(Acc), 3);
+        for t = 1:length(Acc)
+            BiasNoise = normrnd(BiasNoiseMean, BiasNoiseStdDev, [1 3]);
+            SensorNoise(t,:) = normrnd(SensorNoiseMean, SensorNoiseStdDev, [1 3]);
+
+            if t > 1
+                bias(t,:) = c * bias(t-1,:) + BiasNoise;
+            else
+                bias(t,:) = BiasNoise; % Only on first iteration
+            end
+
+        end
         
-        Acc(t,1) = Acc(t,1) + bias1(t,:) + sensorNoise1;
-        Acc(t,2) = Acc(t,2) + bias2(t,:) + sensorNoise2;
-        Acc(t,3) = Acc(t,3) + bias3(t,:) + sensorNoise3;
+        measurementError = bias + SensorNoise;
+        
+        if t == 1
+            Acc = Acc + measurementError;
+        else
+            Gyr = Gyr + measurementError;
+        end
         
     end
     
-    disp(bias1(1:100,:));
-
-
-    %measurementError = bias + SensorNoise;
-   % Acc = Acc + measurementError;
+    
+    
 end
 

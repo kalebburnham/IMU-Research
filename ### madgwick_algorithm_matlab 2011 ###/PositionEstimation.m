@@ -19,7 +19,7 @@ rowsDeleteEnd=0; %16000; %16000; %20000; %1000;
 Acc=Acc(1:end-rowsDeleteEnd,:);
 Mag=Mag(1:end-rowsDeleteEnd,:);
 Gyr=Gyr(1:end-rowsDeleteEnd,:);
-sampleSize = 10000;
+sampleSize = 20000;
 Pos=Pos(1:end-rowsDeleteEnd,:);
 Vel=Vel(1:end-rowsDeleteEnd,:);
 DCM=DCM(1:end-rowsDeleteEnd,:);
@@ -35,7 +35,7 @@ AbsAcc = zeros(sampleSize, 3); % Absolute Acceleration - acceleration with respe
 DCM_est = zeros(3,3,sampleSize); % Direction Cosine Matrix
 
 rollCorrection = 5*pi/180;      % in radians
-pitchCorrection = 15*pi/180;    % in radians
+pitchCorrection = 30*pi/180;    % in radians
 yawCorrection = 0;              % in radians
 gravity = 9.786;
 INS_Method = 'Madgwick'; % Choose one: 'Madgwick', 'Mahony', 'Basic'
@@ -84,7 +84,7 @@ if strcmp(INS_Method, 'Madgwick')
     AHRS = MadgwickAHRS('SamplePeriod', 1/fs, 'Beta', .08);
     quaternion1 = zeros(sampleSize, 4);
     for t = 1:sampleSize
-        AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));            % Gyro data already in radians
+        AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));            % Update quaternion
         quaternion1(t,:) = AHRS.Quaternion;
         quaternion1(t,:) = quaternConj(quaternion1(t,:));     % "use conjugate for sensor frame relative to Earth" - Madgwick
         AbsAcc(t,:) = quatrotate(quaternion1(t,:), Acc(t,:)); % Rotate data to match global reference frame

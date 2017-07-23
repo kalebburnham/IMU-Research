@@ -12,16 +12,16 @@ file = 'straight walk, 1000 steps.mat';
 
 load(file);
 
-%% Settings
+%% Parameters
 period = 1/fs;
-sampleSize = 10000; % Must be greater than 1000
+sampleSize = 20000; % Must be greater than 1000
 first = 1000;
 
 if strcmp(file,'straight walk, 1000 steps.mat') ...
         || strcmp(file, 'Closed trajectory, 1 loop.mat') ...
         || strcmp(file, 'Closed trajectory, 10 loops.mat')
     
-    beta = 0.08;
+    beta = .06;
     gravity = [0 0 -9.786];
     pitchCorrection = 0.5790; % radians
     rollCorrection = 0.0875;
@@ -46,53 +46,29 @@ quaternion = zeros(sampleSize, 4);
 GlobalAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes
 vel = zeros(sampleSize, 3); % lower case = test results, not ground truth
 pos = zeros(sampleSize, 3);
+euler_est = zeros(size(Euler));
 
 %% Function
 
-%[Acc, Gyr] = addNoise(sampleSize, Acc, Gyr);
-%[Acc, Gyr] = addBias(sampleSize, Acc, Gyr);
 [Acc,Gyr] = addError(Acc,Gyr);
 
 % Find acceleration in global frame
 for t = 1:sampleSize
-    
-    
-    % Update quaternion
-    AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
+    AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));      % Update quaternion
     quaternion(t,:) = AHRS.Quaternion;
+    quaternion(t,:) = quaternConj(quaternion(t,:)); % "use conjugate for sensor frame relative to Earth" - Madgwick
+    GlobalAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)); % Rotate acceleration to Earth's frame
+    GlobalAcc(t,:) = GlobalAcc(t,:) + gravity; % Compensate for gravity
     
-    % "use conjugate for sensor frame relative to Earth" - Madgwick
-    quaternion(t,:) = quaternConj(quaternion(t,:));
-     
-    % Rotate acceleration to Earth's frame and compensate for gravity
-    GlobalAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)) + gravity;
-    
-%     cap = 0.2;
-%     if abs(GlobalAcc(t,1)) < cap
-%         GlobalAcc(t,1) = 0;
-%     end
-%     
-%     if abs(GlobalAcc(t,2)) < cap
-%         GlobalAcc(t,2) = 0;
-%     end
-%     
-%     if abs(GlobalAcc(t,3)) < cap
-%         GlobalAcc(t,3) = 0;
-%     end
-        
+    euler_est(t,:) = quatern2euler(quaternion(t,:));
 end
 
 % Integrate for velocity and position
-for t = first+1:sampleSize
-%     if norm(AbsAcc(t,:)) == 0
-%         vel(t,:) = [0 0 0];
-%     else
-%         vel(t,:) = vel(t-1,:) + (AbsAcc(t,:) * period); % Acc -> vel
-%     end
-    
-    vel(t,:) = vel(t-1,:) + (GlobalAcc(t-1,:) * period); % Acc -> vel
-    pos(t,:) = pos(t-1,:) + (vel(t-1,:) * period);    % vel -> pos
+for t = first:sampleSize
+    vel(t,:) = vel(t-1,:) + (GlobalAcc(t,:) * period); % Acc -> vel
+    pos(t,:) = pos(t-1,:) + (vel(t,:) * period);    % vel -> pos
 end
+
 
 GroundTruthAcceleration = zeros(sampleSize,3);
 for t = first:sampleSize-1
@@ -101,12 +77,44 @@ end
 
 figure;
 hold on;
-plot(1024:1105, GlobalAcc(1024:1105,3), 'r');
-plot(1024:1105, GroundTruthAcceleration(1024:1105,3), 'g');
+plot(1024:2000, GlobalAcc(1024:2000,1), 'r');
+plot(1024:2000, GroundTruthAcceleration(1024:2000,1), 'g');
+hold off;
+
+figure;
+hold on;
+plot(1024:2000, GlobalAcc(1024:2000,2), 'r');
+plot(1024:2000, GroundTruthAcceleration(1024:2000,2), 'g');
+hold off;
+
+figure;
+hold on;
+plot(1024:2000, GlobalAcc(1024:2000,3), 'r');
+plot(1024:2000, GroundTruthAcceleration(1024:2000,3), 'g');
 hold off;
 
 
 %% Plot results
+% Euler
+figure;
+axis(1) = subplot(3,1,1);
+hold on;
+plot(1:sampleSize, euler_est(1:sampleSize,1), 'r');
+plot(1:sampleSize, Euler(1:sampleSize,1), 'g');
+title('Roll');
+hold off;
+axis(2) = subplot(3,1,2);
+hold on;
+plot(1:sampleSize, euler_est(1:sampleSize,2), 'r');
+plot(1:sampleSize, Euler(1:sampleSize,2), 'g');
+title('Pitch');
+hold off;
+axis(3) = subplot(3,1,3);
+hold on;
+plot(1:sampleSize, euler_est(1:sampleSize,3), 'r');
+plot(1:sampleSize, Euler(1:sampleSize,3), 'g');
+title('Yaw');
+hold off;
 
 % Velocity
 figure;
@@ -161,7 +169,3 @@ plot3(Pos(1:sampleSize,1), Pos(1:sampleSize,2), Pos(1:sampleSize,3), 'r');
 title('Position Ground Truth');
 hold off;
 
-figure;
-scatter(1:100, GlobalAcc(1024:1123,3))
-
-figure
