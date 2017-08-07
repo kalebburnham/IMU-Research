@@ -11,7 +11,7 @@ load('../straight walk, 1000 steps.mat');
 
 %% Settings
 period = 1/100;
-beta = 1;
+beta = 0.9;
 sampleSize = 1500;
 pitchCorrection = 0.0875;
 rollCorrection = 0.5790;
