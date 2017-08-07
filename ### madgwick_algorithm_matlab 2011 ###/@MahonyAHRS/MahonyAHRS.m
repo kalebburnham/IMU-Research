@@ -68,7 +68,7 @@ classdef MahonyAHRS < handle
             
             % Compute rate of change of quaternion
             qDot = 0.5 * quaternProd(q, [0 Gyroscope(1) Gyroscope(2) Gyroscope(3)]);
-            disp(qDot);
+            %disp(qDot);
  
             % Integrate to yield quaternion
             q = q + qDot * obj.SamplePeriod;

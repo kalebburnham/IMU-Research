@@ -3,8 +3,8 @@ clear;
 close all;
 addpath('quaternion_library');
 
-...file = 'logfile_web_straight.mat';
-file = 'straight walk, 1000 steps.mat';
+file = 'logfile_web_straight.mat';
+...file = 'straight walk, 1000 steps.mat';
 %       straight walk, 1000 steps.mat - 122002 samples
 %       logfile_web_straight.mat      - 22000 samples
 %       Closed trajectory, 1 loop.mat - 11616 samples
@@ -14,14 +14,14 @@ load(file);
 
 %% Parameters
 period = 1/fs;
-sampleSize = 20000; % Must be greater than 1000
-first = 1000;
+sampleSize = 10000; % Must be greater than 1000
+first = 1001;
 
 if strcmp(file,'straight walk, 1000 steps.mat') ...
         || strcmp(file, 'Closed trajectory, 1 loop.mat') ...
         || strcmp(file, 'Closed trajectory, 10 loops.mat')
     
-    beta = .06;
+    beta = 0.08;
     gravity = [0 0 -9.786];
     pitchCorrection = 0.5790; % radians
     rollCorrection = 0.0875;
@@ -39,7 +39,8 @@ end
 % Find initial quaternion and create AHRS
 rotm = euler2rotMat(rollCorrection, pitchCorrection, yawCorrection);
 InitialQuaternion = rotMat2quatern(rotm);
-AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', InitialQuaternion);
+AHRS = BasicAHRS('SamplePeriod', 1/100, 'Quaternion', InitialQuaternion, 'Gamma', beta);
+...AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', beta, 'Quaternion', InitialQuaternion);
 
 % Create variables
 quaternion = zeros(sampleSize, 4);
@@ -47,20 +48,24 @@ GlobalAcc = zeros(sampleSize, 3); % Acceleration with respect to global axes
 vel_est = zeros(sampleSize, 3); % lower case = test results, not ground truth
 pos_est = zeros(sampleSize, 3);
 euler_est = zeros(size(Euler));
+rotm = zeros(size(DCM));
 
 %% Function
+%[Acc,Gyr] = addError(Acc,Gyr);
 
-[Acc,Gyr] = addError(Acc,Gyr);
+
 
 % Find acceleration in global frame
 for t = 1:sampleSize
     AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));      % Update quaternion
     quaternion(t,:) = AHRS.Quaternion;
+    
     quaternion(t,:) = quaternConj(quaternion(t,:)); % "use conjugate for sensor frame relative to Earth" - Madgwick
-    GlobalAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)); % Rotate acceleration to Earth's frame
+    euler_est(t,:) = quatern2euler(quaternion(t,:));
+    GlobalAcc(t,:) = Acc(t,:) * inv(quatern2rotMat(quaternion(t,:)));
+    ...GlobalAcc(t,:) = quatrotate(quaternion(t,:), Acc(t,:)); % Rotate acceleration to Earth's frame
     GlobalAcc(t,:) = GlobalAcc(t,:) + gravity; % Compensate for gravity
     
-    euler_est(t,:) = quatern2euler(quaternion(t,:));
 end
 
 % Integrate for velocity and position

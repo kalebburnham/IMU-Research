@@ -3,8 +3,8 @@ function [Acc,Gyr] = addError(Acc,Gyr)
     % Sensor 1 = Accelerometer
     % Sensor 2 = Gyroscope
 
-    for sensor = 1:2
-        if sensor == 1 % Acceleration Parameters
+    for Sensor = 1:2
+        if Sensor == 1 % Acceleration Parameters
             tau = 1;    % Correlation Coefficient
             SensorNoiseStdDev = 0.012;
             SensorNoiseMean = 0;
@@ -18,7 +18,7 @@ function [Acc,Gyr] = addError(Acc,Gyr)
             BiasStability = 0.015;
         end
         
-        % Set variables from the formulas
+        % Variables from the formulas
         c = exp(-1/tau);                                    % constant defined by Gauss-Markov model
         BiasStdDev = BiasStability/sqrt(tau);               % Sigma sub bias
         BiasVariance = BiasStdDev^2;                        % Variance sub bias
@@ -44,14 +44,11 @@ function [Acc,Gyr] = addError(Acc,Gyr)
         measurementError = bias + SensorNoise;
         
         % Add error to sensor
-        if sensor == 1
+        if Sensor == 1
             Acc = Acc + measurementError;
         else
             Gyr = Gyr + measurementError;
         end
     end
-    
-    
-    
 end
 
