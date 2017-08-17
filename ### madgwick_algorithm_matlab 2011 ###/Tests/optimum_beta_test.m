@@ -16,7 +16,6 @@ rollCorrection = 0.0875;
 yawCorrection = 0;
 
 
-
 smallestError = 100000000;
 optimalBeta = 2;
 for beta = 0:0.01:1

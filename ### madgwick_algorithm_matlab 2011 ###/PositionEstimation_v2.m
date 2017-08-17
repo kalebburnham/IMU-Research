@@ -5,7 +5,11 @@
 addpath('quaternion_library');      % include quaternion library
 close all;                          % close all figures
 clear;                              % clear all variables
-clc;                                % clear the command terminal
+...clc;                                % clear the command terminal
+
+% Choose options:
+INS_Method = 'Mahony'; % Choose one: 'Madgwick', 'Mahony', 'Gyro', 'BasicAHRS'
+noise=0;    % 1: noise  0: noiseless
 
 %% Plots
 plot_1 = 'no'; % Sensor data
@@ -15,15 +19,13 @@ plot_4 = 'yes'; % Euler estimation correctness
 
 tic
 %% Import and plot sensor data
-load('data/logfile_web_straight.mat');
+load('data/logfile_web_straight.mat');  % Units are in meters, seconds and radians. Sampling frequency: 100 Hz
 %load('logfile_web_3loops.mat');
 
-...[Acc, Gyr] = addError(Acc,Gyr);
-
-rowsDeleteEnd=0; %16000; %16000; %20000; %1000;
-Acc=Acc(1:end-rowsDeleteEnd,:);
+rowsDeleteEnd=0; 16000; %16000; %20000; %1000;
+Acc=Acc(1:end-rowsDeleteEnd,:);   % in meter/second^2
 Mag=Mag(1:end-rowsDeleteEnd,:);
-Gyr=Gyr(1:end-rowsDeleteEnd,:);
+Gyr=Gyr(1:end-rowsDeleteEnd,:);  % in radiants/second
 sampleSize = length(Acc);
 Pos=Pos(1:end-rowsDeleteEnd,:);
 Vel=Vel(1:end-rowsDeleteEnd,:);
@@ -43,113 +45,103 @@ rollCorrection = 5*pi/180;      % in radians
 pitchCorrection = 15*pi/180;    % in radians
 yawCorrection = 0;              % in radians
 integrationMethod = 'Rectangular'; % Rectangular or Trapezoidal
-INS_Method = 'Madgwick'; % Choose one: 'Madgwick', 'Mahony', 'Gyro','BasicAHRS'
 
-%% Process sensor data via Madgwick AHRS
+if noise
+    load('data/IMU_Xsens_noise.mat');
+    Acc(:,1:3)=Acc(:,1:3)+Acc_noise(1:length(Acc),1:3);
+    Gyr(:,1:3)=Gyr(:,1:3)+Gyr_noise(1:length(Gyr),1:3);
+    Mag(:,1:3)=Mag(:,1:3)+Mag_noise(1:length(Mag),1:3);
+end
+
+%% Process sensor data via Basic AHRS
 if strcmp(INS_Method, 'BasicAHRS')
     
-   ... for gamma = 0:0.1:1
-    
-        rotm = euler2rotMat(rollCorrection, pitchCorrection, yawCorrection);
-        InitialQuaternion = rotMat2quatern(rotm');
-        gamma=.995;
-        AHRS = BasicAHRS('SamplePeriod', period, 'Quaternion', InitialQuaternion, 'Gamma', gamma);
-        quat_est = zeros(sampleSize, 4);
-        euler_est = zeros(sampleSize,3);
+    rotm = euler2rotMat(rollCorrection, pitchCorrection, yawCorrection);
+    InitialQuaternion = rotMat2quatern(rotm');
+    gamma=1; %[0-1]  0: only Acc-Mag       1: only Gyro  0.5: in between
+    AHRS = BasicAHRS('SamplePeriod', period, 'Quaternion', InitialQuaternion, 'Gamma', gamma);
+    quat_est = zeros(sampleSize, 4);
+    euler_est = zeros(sampleSize,3);
+    for t = 1:sampleSize
+        AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));      % Update quaternion
+        quat_est(t,:) = AHRS.Quaternion;
+
+        DCM_est(:,:,t) = quatern2rotMat(quat_est(t,:))';  % always invert rotation matrix when using rotMat2quatern
+
+        % Register Euler estimations
+        euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
+        euler_est(t,2)=(-asin(DCM_est(3,1,t)));  % Pitch
+        euler_est(t,3)=(atan2(DCM_est(2,1,t),DCM_est(1,1,t)));  %Yaw
+
+        % Rotate data to match global reference frame
+        AbsAcc(t,:) = (DCM_est(:,:,t)* Acc(t,:)')';
+
+        % Subtract Gravity
+        AbsAcc(t,3) = AbsAcc(t,3) - gravity;
+    end
+    % Calculate Root Mean Square Error (Euler angles)
+    RMSEBasicAHRSEuler = sqrt(mean((Euler - euler_est).^2))
         
-        for t = 1:sampleSize
-            AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));      % Update quaternion
-            quat_est(t,:) = AHRS.Quaternion;
-
-            DCM_est(:,:,t) = quatern2rotMat(quat_est(t,:))';  % always invert rotation matrix when using rotMat2quatern
-
-            % Register Euler estimations
-            euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
-            euler_est(t,2)=(-asin(DCM_est(3,1,t)));  % Pitch
-            euler_est(t,3)=(atan2(DCM_est(2,1,t),DCM_est(1,1,t)));  %Yaw
-
-            % Rotate data to match global reference frame
-            AbsAcc(t,:) = (DCM_est(:,:,t)* Acc(t,:)')';
-
-            % Subtract Gravity
-            AbsAcc(t,3) = AbsAcc(t,3) - gravity;
-        end
-        % Calculate Root Mean Square Error (Euler angles)
-        RMSEBasicAHRSEuler = sqrt(mean((Euler - euler_est).^2));
-    
-        disp(gamma + "    " + RMSEBasicAHRSEuler(1) + " " + RMSEBasicAHRSEuler(2) + " " + RMSEBasicAHRSEuler(3));
-        
-    ...end
 end
 
 
 %% Process sensor data via Madgwick AHRS
 if strcmp(INS_Method, 'Madgwick')
     
-    ...for beta = 0:0.1:2.5 % For loop for testing beta values
-    
-        AHRS = MadgwickAHRS('SamplePeriod', period, 'Beta', 0.995); % 1/256, 'Beta', 0.1);
-        quaternion1 = zeros(sampleSize, 4);
-        for t = 1:sampleSize
-            AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
-            ...AHRS.Update(Gyr(t,:) * (pi/180), Acc(t,:), Mag(t,:));	% gyroscope units must be radians
-            quaternion1(t,:) = AHRS.Quaternion;
+    rotm = euler2rotMat(rollCorrection, pitchCorrection, yawCorrection);
+    InitialQuaternion = rotMat2quatern(rotm');
+    AHRS = MadgwickAHRS('SamplePeriod', period,'Quaternion', InitialQuaternion, 'Beta', 0.3); % 1/256, 'Beta', 0.1);
+    quaternion1 = zeros(sampleSize, 4);
+    for t = 1:sampleSize
+        AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));	% gyroscope units must be radians
+        quaternion1(t,:) = AHRS.Quaternion;
 
-            DCM_est(:,:,t)=quatern2rotMat(quaternion1(t,:))';  % always invert rotation matrix when using rotMat2quatern
+        DCM_est(:,:,t)=quatern2rotMat(quaternion1(t,:))';  % always invert rotation matrix when using rotMat2quatern
 
-            % Register Euler estimations
-            euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
-            euler_est(t,2)=(-asin(DCM_est(3,1,t)));  % Pitch
-            euler_est(t,3)=(atan2(DCM_est(2,1,t),DCM_est(1,1,t)));  %Yaw
+        % Register Euler estimations
+        euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
+        euler_est(t,2)=(-asin(DCM_est(3,1,t)));  % Pitch
+        euler_est(t,3)=(atan2(DCM_est(2,1,t),DCM_est(1,1,t)));  %Yaw
 
-            % Rotate data to match global reference frame
-            AbsAcc(t,:) = (DCM_est(:,:,t)* Acc(t,:)')';
+        % Rotate data to match global reference frame
+        AbsAcc(t,:) = (DCM_est(:,:,t)* Acc(t,:)')';
 
-            % Subtract Gravity
-            AbsAcc(t,3) = AbsAcc(t,3) - gravity;
-        end
-        % Calculate Root Mean Square Error (Euler angles)
+        % Subtract Gravity
+        AbsAcc(t,3) = AbsAcc(t,3) - gravity;
+    end
+    % Calculate Root Mean Square Error (Euler angles)
+    RMSEMadgwickEuler = sqrt(mean((Euler - euler_est).^2))
         
-        ...RMSEMadgwickEuler = sqrt(mean((Euler - euler_est).^2));
-        
-       ... disp(beta + "    " + RMSEMadgwickEuler(1) + " " + RMSEMadgwickEuler(2) + " " + RMSEMadgwickEuler(3));
-    
-    ...end
-    
 end
 
 
 %% Process sensor data via Mahony AHRS
 if strcmp(INS_Method, 'Mahony')
-    
-    ...for Kp = 0:0.1:2.5 % For testing Kp values
-    
-        AHRS = MahonyAHRS('SamplePeriod', period, 'Kp', 0.3); %'Kp', 0.8 0.5);
-        quaternion2 = zeros(sampleSize, 4);
-        for t = 1:sampleSize
-            AHRS.Update(Gyr(t,:), Acc(t,:), Mag(t,:));
-            ...AHRS.Update(Gyr(t,:) * (pi/180), Acc(t,:), Mag(t,:));	% gyroscope units must be radians
-            quaternion2(t, :) = AHRS.Quaternion;
-            DCM_est(:,:,t)=quatern2rotMat(quaternion2(t,:))';  % always invert rotation matrix when using rotMat2quatern
+    Kp = 0;
+    rotm = euler2rotMat(rollCorrection, pitchCorrection, yawCorrection);
+    InitialQuaternion = rotMat2quatern(rotm');
+    AHRS = MahonyAHRS('SamplePeriod', period, 'Quaternion', InitialQuaternion,'Kp', Kp); %'Kp', 0.5);
+    quaternion2 = zeros(sampleSize, 4);
+    for t = 1:sampleSize
+        AHRS.Update(Gyr(t,:) , Acc(t,:), Mag(t,:));	% gyroscope units must be radians
+        quaternion2(t, :) = AHRS.Quaternion;
+        DCM_est(:,:,t)=quatern2rotMat(quaternion2(t,:))';  % always invert rotation matrix when using rotMat2quatern
 
-            % Register Euler estimations
-            euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
-            euler_est(t,2)=(-asin(DCM_est(3,1,t)));  % Pitch
-            euler_est(t,3)=(atan2(DCM_est(2,1,t),DCM_est(1,1,t)));  %Yaw
+        % Register Euler estimations
+        euler_est(t,1)=(atan2(DCM_est(3,2,t),DCM_est(3,3,t)));  % Roll
+        euler_est(t,2)=(-asin(DCM_est(3,1,t)));  % Pitch
+        euler_est(t,3)=(atan2(DCM_est(2,1,t),DCM_est(1,1,t)));  %Yaw
 
-            % Rotate data to match global reference frame
-            AbsAcc(t,:) = (DCM_est(:,:,t)* Acc(t,:)')';
+        % Rotate data to match global reference frame
+        AbsAcc(t,:) = (DCM_est(:,:,t)* Acc(t,:)')';
 
-            % Subtract Gravity
-            AbsAcc(t,3) = AbsAcc(t,3) - gravity;
-        end
-        % Calculate Root Mean Square Error (Euler angles)
-        RMSEMahonyEuler = sqrt(mean((Euler - euler_est).^2));
-        
-        ...disp(Kp + "    " + RMSEMahonyEuler(1) + " " + RMSEMahonyEuler(2) + " " + RMSEMahonyEuler(3));
-    
-    ...end
+        % Subtract Gravity
+        AbsAcc(t,3) = AbsAcc(t,3) - gravity;
+    end
+    % Calculate Root Mean Square Error (Euler angles)
+    RMSEMahonyEuler = sqrt(mean((Euler - euler_est).^2))
 end
+
 
 %% Process sensor data through basic method using only Gyro data
 if strcmp(INS_Method, 'Gyro')
@@ -186,8 +178,9 @@ if strcmp(INS_Method, 'Gyro')
         AbsAcc(t,3) = AbsAcc(t,3) - gravity;
     end
     % Calculate Root Mean Square Error (Euler angles)
-    RMSEGyroEuler = sqrt(mean((Euler - euler_est).^2));
+    RMSEGyroEuler = sqrt(mean((Euler - euler_est).^2)) % *180/pi
 end
+
 
 % Integrate for velocity and position
 if strcmp(integrationMethod, 'Rectangular')
@@ -204,9 +197,8 @@ end
 
 
 %% Plot results
-
-start=1; %1000;
-finish=0;
+start=1000; %1000;
+finish=20000;  %3000;
 sampleSize = sampleSize - finish;
 
 % Plot sensor data
@@ -217,9 +209,11 @@ if strcmp(plot_1, 'yes')
     plot(start:sampleSize, Gyr(start:sampleSize,1), 'r');
     plot(start:sampleSize, Gyr(start:sampleSize,2), 'g');
     plot(start:sampleSize, Gyr(start:sampleSize,3), 'b');
-    legend('X', 'Y', 'Z');
+    for ii=start:sampleSize, norm_Gyr(ii-start+1)=norm(Gyr(ii,1:3)); end
+    plot(start:sampleSize, norm_Gyr, 'k:');
+    legend('X', 'Y', 'Z','norm');
     xlabel('Time (s)');
-    ylabel('Angular rate (deg/s)');
+    ylabel('Angular rate (rad/s)');
     title('Gyroscope');
     hold off;
     axis(2) = subplot(3,1,2);
@@ -227,9 +221,11 @@ if strcmp(plot_1, 'yes')
     plot(start:sampleSize, Acc(start:sampleSize,1), 'r');
     plot(start:sampleSize, Acc(start:sampleSize,2), 'g');
     plot(start:sampleSize, Acc(start:sampleSize,3), 'b');
-    legend('X', 'Y', 'Z');
+    for ii=start:sampleSize, norm_Acc(ii-start+1)=norm(Acc(ii,1:3)); end
+    plot(start:sampleSize, norm_Acc, 'k:');
+    legend('X', 'Y', 'Z','norm');
     xlabel('Time (s)');
-    ylabel('Acceleration (g)');
+    ylabel('Acceleration (m/s2)');
     title('Accelerometer');
     hold off;
     axis(3) = subplot(3,1,3);
@@ -237,14 +233,15 @@ if strcmp(plot_1, 'yes')
     plot(start:sampleSize, Mag(start:sampleSize,1), 'r');
     plot(start:sampleSize, Mag(start:sampleSize,2), 'g');
     plot(start:sampleSize, Mag(start:sampleSize,3), 'b');
-    legend('X', 'Y', 'Z');
+    for ii=start:sampleSize, norm_Mag(ii-start+1)=norm(Mag(ii,1:3)); end
+    plot(start:sampleSize, norm_Mag, 'k:');
+    legend('X', 'Y', 'Z','norm');
     xlabel('Time (s)');
     ylabel('Flux (G)');
     title('Magnetometer');
     hold off;
     linkaxes(axis, 'x');
 end
-
 
 % Plot 2D position
 if strcmp(plot_2, 'yes')
@@ -297,26 +294,17 @@ end
 if strcmp(plot_4, 'yes')
     figure; hold off; 
     % Fit Euler to +/- 180 degrees
-    %Euler(:,1)=atan2(sin(Euler(:,1)),cos(Euler(:,1)));
-    %Euler(:,2)=atan2(sin(Euler(:,2)),cos(Euler(:,2)));
-    %Euler(:,3)=atan2(sin(Euler(:,3)),cos(Euler(:,3)));
+    Euler(:,1)=atan2(sin(Euler(:,1)),cos(Euler(:,1)));
+    Euler(:,2)=atan2(sin(Euler(:,2)),cos(Euler(:,2)));
+    Euler(:,3)=atan2(sin(Euler(:,3)),cos(Euler(:,3)));
     subplot(3,1,1);
-    ax=1; 
-    plot(start:sampleSize,euler_est(start:sampleSize,ax),'r-'); 
-    hold on; 
-    plot(start:sampleSize,Euler(start:sampleSize,ax),'b-');
+    ax=1; plot(start:sampleSize,euler_est(start:sampleSize,ax)*180/pi,'r-'); hold on; plot(start:sampleSize,Euler(start:sampleSize,ax)*180/pi,'b-');
     title(strcat('Euler estimate correctness - ', {' '}, INS_Method)); ylabel('Roll (degrees)');
     subplot(3,1,2);
-    ax=2; 
-    plot(start:sampleSize,euler_est(start:sampleSize,ax)*180/pi,'r-'); 
-    hold on; 
-    plot(start:sampleSize,Euler(start:sampleSize,ax)*180/pi,'b-');
+    ax=2; plot(start:sampleSize,euler_est(start:sampleSize,ax)*180/pi,'r-'); hold on; plot(start:sampleSize,Euler(start:sampleSize,ax)*180/pi,'b-');
     ylabel('Pitch (degrees)');
     subplot(3,1,3);
-    ax=3; 
-    plot(start:sampleSize,euler_est(start:sampleSize,ax)*180/pi,'r-'); 
-    hold on; 
-    plot(start:sampleSize,Euler(start:sampleSize,ax)*180/pi,'b-');
+    ax=3; plot(start:sampleSize,euler_est(start:sampleSize,ax)*180/pi,'r-'); hold on; plot(start:sampleSize,Euler(start:sampleSize,ax)*180/pi,'b-');
     ylabel('Yaw (degrees)');
     xlabel('samples');
     legend({'Estimate','Real'});  
@@ -324,4 +312,5 @@ if strcmp(plot_4, 'yes')
 end
 
 execTime = toc
+
 %% End of script
