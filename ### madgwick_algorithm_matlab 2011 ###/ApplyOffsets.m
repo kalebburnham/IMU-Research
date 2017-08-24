@@ -1,22 +1,25 @@
-function [Acc,Gyr,Mag] = Offset(Position, DCM, Rot, Acc, Gyr, Mag)
+function [Acc,Gyr,Mag] = ApplyOffsets(Position, DCM, Rot, Acc, Gyr, Mag)
 % Simulates an IMU at a specified position relative to the origin and an
 % orientation specified by DCM. Rot is the derivative of
 % Gyr and must be in radians.
 
-% TODO: Test with orientation unchanged.
+
 
 % (1) Check that all the inputs and sizes of inputs are proper.
 % use isequal - size is a vector
-if size(Position) ~= [1 3] || size(Position) ~= [3 1]
-    error('Position should be a 1x3 or 3x1 vector');
-end
 
-if ~isequal(Gyr,Rot)
+if ~isequal(size(Gyr),size(Rot))
     error('Gyr and Rot are not the same length');
 end
 
 % (2) Normalize position vector
-Position = Position / norm(Position);
+% Put in conditional so this function can be tested with no position
+% changes
+% Puts position at a distance of 1. I think the unit is 1 radian, but not
+% sure. Acceleration would change based on the distance of a radian??
+if norm(Position) > 0
+    Position = Position / norm(Position);
+end
 
 % (3) Alter accelerations based on acceleration in each axis based on
 % rotations around global axes.

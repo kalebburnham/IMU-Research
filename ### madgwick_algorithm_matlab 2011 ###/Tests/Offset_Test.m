@@ -33,32 +33,19 @@ yawCorrection = 0;
 
 %% Function
 
-% (1) Calculate Gyr Acceleration
-for t = 2:sampleSize
-    GyrAccel(t,:) = Gyr(t,:) - Gyr(t-1,:);
+% Set offset parameters
+Position = [1 0 0];
+
+%DCM = [1 0 0; 0 1 0; 0 0 1]; % No change
+DCM = euler2rotMat(pi, 0, pi/2); % Flipped upside down
+
+% Get d/dx of Gyr
+Rot = zeros(size(Gyr));
+for t = 2:length(Gyr)
+    Rot(t,:) = (Gyr(t,:) - Gyr(t-1)) * period;
 end
 
-% (2) Add GyrAccel to Acc
-OffsetAcc(:,1) = Acc(1:sampleSize,1);
-OffsetAcc(:,2) = Acc(1:sampleSize,2) + GyrAccel(:,3);
-OffsetAcc(:,3) = Acc(1:sampleSize,3) - GyrAccel(:,2);
-
-
-% (3) Add Noise
-...[OffsetAcc, Gyr(1:sampleSize,:)] = addError(OffsetAcc, Gyr(1:sampleSize,:));
-    
-% (4) Remove Gravity
-OffsetAccNoGrav = zeros(size(OffsetAcc));
-for t = 1:sampleSize
-    OffsetAccNoGrav(t,:) = (DCM(:,:,t) * OffsetAcc(t,:)')';
-    OffsetAccNoGrav(t,:) = OffsetAccNoGrav(t,:) - [0 0 9.8];
-end
-
-% (6) Remove GyrAccel from OffsetAcc
-OffsetAcc(:,2) = OffsetAcc(:,2) - GyrAccel(:,3);
-OffsetAcc(:,3) = OffsetAcc(:,3) + GyrAccel(:,2);
-
-
+[Acc2,Gyr2,Mag2] = ApplyOffsets(Position, DCM, Rot, Acc, Gyr, Mag);
 
 for t = 2:sampleSize
     vel_est(t,:) = vel_est(t-1,:) + (Acc(t,:) * period); % Acc -> vel
