@@ -8,7 +8,7 @@ clear;                              % clear all variables
 ...clc;                                % clear the command terminal
 
 % Choose options:
-INS_Method = 'Mahony'; % Choose one: 'Madgwick', 'Mahony', 'Gyro', 'BasicAHRS'
+INS_Method = 'BasicAHRS'; % Choose one: 'Madgwick', 'Mahony', 'Gyro', 'BasicAHRS'
 noise=0;    % 1: noise  0: noiseless
 
 %% Plots
