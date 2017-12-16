@@ -1,12 +1,12 @@
-function [Acc,Gyr,Mag] = ApplyOffsets(Position, DCM, Rot, Acc, Gyr, Mag)
 % Simulates an IMU at a specified position relative to the origin and an
 % orientation specified by DCM. Rot is the derivative of
 % Gyr and must be in radians.
 
-
+function [Acc,Gyr,Mag] = ApplyOffsets(Position, DCM, Rot, Acc, Gyr, Mag)
 
 % (1) Check that all the inputs and sizes of inputs are proper.
 % use isequal - size is a vector
+% TODO
 
 if ~isequal(size(Gyr),size(Rot))
     error('Gyr and Rot are not the same length');
@@ -30,13 +30,14 @@ for t = 1:length(Acc)
     magnitude = sqrt(y^2 + z^2);
     rot = Rot(t,1);
     
-    if (norm(z) > 0) % Prevents divide by zero
-        Acc(t,2) = Acc(t,2) + sqrt(magnitude - y^2) * (z/norm(z)) * rot;
-    end
     if (norm(y) > 0)
         Acc(t,3) = Acc(t,3) + sqrt(magnitude - z^2) * (y/norm(y)) * rot;
     end
+    if (norm(z) > 0) % Prevents divide by zero
+        Acc(t,2) = Acc(t,2) + sqrt(magnitude - y^2) * (z/norm(z)) * rot;
+    end
 end
+    
 
 % (b) Rotation around global y axis
 for t = 1:length(Acc)

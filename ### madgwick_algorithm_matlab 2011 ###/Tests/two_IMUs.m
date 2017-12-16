@@ -1,9 +1,9 @@
-addpath('quaternion_library');      % include quaternion library
+addpath('../quaternion_library');      % include quaternion library
 close all;                          % close all figures
 clear;                              % clear all variables
 clc;                                % clear the command terminal
 
-load('data/logfile_web_straight.mat');
+load('../data/logfile_web_straight.mat');
 
 period = 1/fs;
 sampleSize = length(Acc);

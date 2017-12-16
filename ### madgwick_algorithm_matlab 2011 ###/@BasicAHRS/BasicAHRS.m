@@ -60,7 +60,7 @@ classdef BasicAHRS < handle
                 q_w = [cos(w_norm/2*obj.SamplePeriod), sin(w_norm/2*obj.SamplePeriod)*Gyroscope(1)/w_norm, sin(w_norm/2*obj.SamplePeriod)*Gyroscope(2)/w_norm, sin(w_norm/2*obj.SamplePeriod)*Gyroscope(3)/w_norm];
                 obj.Quaternion = quaternProd(obj.Quaternion,q_w);
             else
-                obj.Quaternion = obj.Quaternion; % There was no change so quit
+                %obj.Quaternion = obj.Quaternion; % There was no change so quit
             end
             obj.Quaternion=obj.Quaternion/norm(obj.Quaternion); % normalize
             
